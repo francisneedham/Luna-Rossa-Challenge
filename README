@@ -1,0 +1,9 @@
+python -m SimpleHTTPServer
+
+npm install -g smoosh
+
+#INTRO
+rm -rf dist/intro && cake -e 'intro' build && smoosh ./config_intro.json && cp dist/intro/base-1.0.0.min.js javascript/intro.min.js
+
+#SITE
+rm -rf dist/site && cake -e 'site' build && smoosh ./config_site.json && cp dist/site/base-1.0.0.min.js javascript/site.min.js
