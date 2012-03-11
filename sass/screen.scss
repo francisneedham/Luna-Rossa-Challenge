@@ -5,24 +5,66 @@
 
 @import "compass/reset";
 @import "compass/layout.scss";
+@import "compass/css3";
 @import "compass/utilities/general/";
 @import "compass/utilities/sprites";
 @import "sprite/*.png";
 
 
-body{background:#fff;}
+// include fonteface
+@include font-face("ProximaNovaRegular", font-files("/lib/proximaRegular/proximanova-regular-webfont.woff", woff,"/lib/proximaRegular/proximanova-regular-webfont.eot?#iefix", embedded-opentype, "/lib/proximaRegular/proximanova-regular-webfont.ttf", truetype, "/lib/proximaRegular/proximanova-regular-webfont.svg#ProximaNovaRegular", svg ), "/lib/proximaRegular/proximanova-regular-webfont.eot");
+
+
+
+body{background:#fff;font:{family:'ProximaNovaRegular';size:10px;}}
 a{text-decoration:none;}
 #wrapper{overflow:hidden;width:100%;height:100%;position:relative;}
 
 
 .single-year .step{
-  width:100%;
   height:100%;
+  width:1440px; //da impostare dinamicamente
   background-position:center center;
   background-size: cover;
+  float:left;
 }
-.single-year, #years-list{
-  width:100%;
+#years-list{
+  overflow:hidden;
+  .single-year{
+    position:absolute;
+    width:999999px;//da impostare dinamicamente
+    top:0;
+    left:0;
+  }
+}
+// white-element
+.white{
+  #navbar a{
+    color:#fff;
+  }
+  .next-page{
+    @include sprite-sprite(a-white-next); 
+  }
+  .prev-page{
+    @include sprite-sprite(a-white-prev); 
+  }
+}
+
+// grey-element
+.grey{
+  #navbar a{
+    color:#333;
+  }
+  .next-page{
+    @include sprite-sprite(a-grey-next); 
+  }
+  .prev-page{
+    @include sprite-sprite(a-grey-prev); 
+  }
+}
+
+.bollettini{
+  background:#000!important;//provvisorio
 }
 // esempio fullscreen
 #y-2010 .hp{
@@ -30,10 +72,11 @@ a{text-decoration:none;}
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pl-hp.jpg', sizingMethod='scale')"; 
 }
-
+// header
 #header{
   position:absolute;
   width:100%;
+  z-index:999;
   h1{
     position:absolute;
     top:44px;
@@ -54,14 +97,80 @@ a{text-decoration:none;}
       li{
         float:left;
         margin-right:35px;
-        a{
-          color:#fff;
+      }
+    }
+  }
+}
+// navigator element
+.next-page, .prev-page{
+  width:30px; 
+  height:31px;
+  display:block;
+  text-indent:-5000px;
+  text-align:left;
+}
+
+.hp{
+  .text-intro{
+    position:absolute;
+    right:45px;
+    top:40%;
+    text-align:right;
+    h1{
+      color:#fff;
+      text-transform:uppercase;
+      font:{
+        size:7em;
+      }
+    }
+    .year{
+      display:block;
+      color:#fff;
+      font:{
+        size:6em;
+      }
+    }
+    .next-page{
+      float:right;
+    }
+  }
+}
+
+// contenuto condiviso tra le sezioni
+.step{
+  position:relative;
+  background:#ddd;
+  .content{
+    position:absolute;
+    top:35%;
+    right:45px;
+    text-align:right;
+    header{
+      margin-bottom:20px;
+      .title{
+        line-height:1em;
+        text-transform:uppercase;
+        font:{
+          size:5em;
+        }
+      }
+      .subtitle{
+        line-height:1em;
+        text-transform:uppercase;
+        font:{
+          size:3em;
         }
       }
     }
   }
 }
 
+// contenuto relativo alla sezione intro
+.intro{
+  
+}
+
+// footer
 @include sticky-footer(30px, "#wrapper", "#wrapper_footer", "#footer");
 
 #footer{
@@ -69,7 +178,8 @@ a{text-decoration:none;}
   background:#000;
   padding: 0 35px;
   p{
-    color:#fff;
+    color:#ddd;
+    line-height:30px;
     float:left;
     font:{
       size:1em;
@@ -78,6 +188,8 @@ a{text-decoration:none;}
   .logo-prada{
     float:right;
     position:relative;
+    line-height:30px;
+    color:#ddd;
     span{
       @include sprite-sprite(logo-prada);
       position:absolute;
@@ -85,7 +197,7 @@ a{text-decoration:none;}
       height:13px;
       display:block;
       right:0;
-      top:5px;
+      top:8px;
     }
     padding-right:80px;
   }

@@ -12,29 +12,60 @@
   <script src="/javascript/intro.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-  <div id="wrapper">
+  <div class="grey" id="wrapper">
     <header id="header"> 
       <h1>
         <a href="/" class="logo">Luna Rossa</a>
       </h1>
       <nav id="navbar">
         <ul>
-          <li><a href="#2013">2013</a></li>
-          <li><a href="#2013">2012</a></li>
-          <li><a class"active" href="#2013">2011</a></li>
-          <li><a href="#2013">2007</a></li>
-          <li><a href="#2013">2006</a></li>
+          <li><a href="#">2013</a></li>
+          <li><a href="#">2012</a></li>
+          <li><a class"active" href="#">2011</a></li>
+          <li><a href="#">2007</a></li>
+          <li><a href="#">2006</a></li>
         </ul>
       </nav>
     </header>
-    <ul id="years-list">
-      <li class="single-year" id="y-2010">
-        <section class="full-screen step hp"></section>
-        <section class="step intro"></section>
-        <section class="step bollettini"></section>
-        <section class="step team"></section>
-        <section class="step gallery"></section>
-        <section class="step adv"></section>
+    <ul class="full-screen" id="years-list">
+      <li class="single-year" id="y-2010" style="height:332px;">
+        <section style="display:none;" class="full-screen step hp">
+          <hgroup class="text-intro">
+            <h1>Sailing season</h1>
+            <span class="year">2011</span>
+            <a href="#" class="next-page">next page</a>
+          </hgroup>
+        </section>
+        <section class="full-screen step intro">
+          <article class="content challenge">
+            <header>
+              <hgroup>
+                <h1 class="title">Sailing season</h1>
+                <h2 class="subtitle">the challenge</h2>
+              </hgroup>
+            </header>
+            <div class="content">
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <nav class="wrap-sharing">
+              <span class="title">share this</span>
+              <ul>
+                <li class="tw"><a href="#">twitter</a></li>
+                <li class="fb"><a href="#">facebook</a></li>
+              </ul>
+            </nav>
+            <menu>
+              <li><a href="#" class="next-page">previous page</a></li>
+              <li><a href="#" class="next-page">next page</a></li>
+            </menu>
+          </article>
+        </section>
+        <section class="full-screen step bollettini"></section>
+        <section class="full-screen step team"></section>
+        <section class="full-screen step gallery"></section>
+        <section class="full-screen step adv"></section>
       </li>
       <li class="single-year" id="y-2011"></li>
       <li class="single-year" id="y-2012"></li>

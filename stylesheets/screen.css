@@ -68,21 +68,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 69, sprite */
-.sprite-sprite, #header h1 a.logo, #footer .logo-prada span {
-  background: url('/images/sprite-sf049d1c4a9.png') no-repeat;
+.sprite-sprite, .white .next-page, .white .prev-page, .grey .next-page, .grey .prev-page, #header h1 a.logo, #footer .logo-prada span {
+  background: url('/images/sprite-s56c535c8d0.png') no-repeat;
 }
 
-/* line 13, ../sass/screen.scss */
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url(/lib/proximaRegular/proximanova-regular-webfont.eot);
+  src: url(/lib/proximaRegular/proximanova-regular-webfont.eot?iefix) format('eot'), url(/lib/proximaRegular/proximanova-regular-webfont.woff) format('woff'), url(/lib/proximaRegular/proximanova-regular-webfont.eot?#iefix) format('embedded-opentype'), url(/lib/proximaRegular/proximanova-regular-webfont.ttf) format('truetype'), url(/lib/proximaRegular/proximanova-regular-webfont.svg#ProximaNovaRegular) format('svg');
+}
+
+/* line 19, ../sass/screen.scss */
 body {
   background: #fff;
+  font-family: 'ProximaNovaRegular';
+  font-size: 10px;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 #wrapper {
   overflow: hidden;
   width: 100%;
@@ -90,38 +98,78 @@ a {
   position: relative;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 .single-year .step {
-  width: 100%;
   height: 100%;
+  width: 1440px;
   background-position: center center;
   background-size: cover;
+  float: left;
 }
 
-/* line 24, ../sass/screen.scss */
-.single-year, #years-list {
-  width: 100%;
+/* line 31, ../sass/screen.scss */
+#years-list {
+  overflow: hidden;
+}
+/* line 33, ../sass/screen.scss */
+#years-list .single-year {
+  position: absolute;
+  width: 999999px;
+  top: 0;
+  left: 0;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
+.white #navbar a {
+  color: #fff;
+}
+/* line 45, ../sass/screen.scss */
+.white .next-page {
+  background-position: 0 -62px;
+}
+/* line 48, ../sass/screen.scss */
+.white .prev-page {
+  background-position: 0 -93px;
+}
+
+/* line 55, ../sass/screen.scss */
+.grey #navbar a {
+  color: #333;
+}
+/* line 58, ../sass/screen.scss */
+.grey .next-page {
+  background-position: 0 0;
+}
+/* line 61, ../sass/screen.scss */
+.grey .prev-page {
+  background-position: 0 -31px;
+}
+
+/* line 66, ../sass/screen.scss */
+.bollettini {
+  background: #000!important;
+}
+
+/* line 70, ../sass/screen.scss */
 #y-2010 .hp {
   background: url("/images/pl-hp.jpg") center top no-repeat;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pl-hp.jpg', sizingMethod='scale')";
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 #header {
   position: absolute;
   width: 100%;
+  z-index: 999;
 }
-/* line 37, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #header h1 {
   position: absolute;
   top: 44px;
   left: 0;
 }
-/* line 41, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 #header h1 a.logo {
   display: block;
   width: 392px;
@@ -129,20 +177,78 @@ a {
   text-indent: -5000px;
   background-position: 0 -148px;
 }
-/* line 49, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #header #navbar {
   position: absolute;
   right: 25px;
   top: 50px;
 }
-/* line 54, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #header #navbar ul li {
   float: left;
   margin-right: 35px;
 }
-/* line 57, ../sass/screen.scss */
-#header #navbar ul li a {
+
+/* line 105, ../sass/screen.scss */
+.next-page, .prev-page {
+  width: 30px;
+  height: 31px;
+  display: block;
+  text-indent: -5000px;
+  text-align: left;
+}
+
+/* line 114, ../sass/screen.scss */
+.hp .text-intro {
+  position: absolute;
+  right: 45px;
+  top: 40%;
+  text-align: right;
+}
+/* line 119, ../sass/screen.scss */
+.hp .text-intro h1 {
   color: #fff;
+  text-transform: uppercase;
+  font-size: 7em;
+}
+/* line 126, ../sass/screen.scss */
+.hp .text-intro .year {
+  display: block;
+  color: #fff;
+  font-size: 6em;
+}
+/* line 133, ../sass/screen.scss */
+.hp .text-intro .next-page {
+  float: right;
+}
+
+/* line 140, ../sass/screen.scss */
+.step {
+  position: relative;
+  background: #ddd;
+}
+/* line 143, ../sass/screen.scss */
+.step .content {
+  position: absolute;
+  top: 35%;
+  right: 45px;
+  text-align: right;
+}
+/* line 148, ../sass/screen.scss */
+.step .content header {
+  margin-bottom: 20px;
+}
+/* line 150, ../sass/screen.scss */
+.step .content header .title {
+  line-height: 1em;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+/* line 157, ../sass/screen.scss */
+.step .content header .subtitle {
+  line-height: 1em;
+  text-transform: uppercase;
+  font-size: 3em;
 }
 
 /* line 10, ../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -170,26 +276,29 @@ html, body {
   height: 30px;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #footer {
   overflow: hidden;
   *zoom: 1;
   background: #000;
   padding: 0 35px;
 }
-/* line 71, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #footer p {
-  color: #fff;
+  color: #ddd;
+  line-height: 30px;
   float: left;
   font-size: 1em;
 }
-/* line 78, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 #footer .logo-prada {
   float: right;
   position: relative;
+  line-height: 30px;
+  color: #ddd;
   padding-right: 80px;
 }
-/* line 81, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #footer .logo-prada span {
   background-position: 0 -135px;
   position: absolute;
@@ -197,5 +306,5 @@ html, body {
   height: 13px;
   display: block;
   right: 0;
-  top: 5px;
+  top: 8px;
 }
