@@ -315,6 +315,39 @@ a{text-decoration:none;}
   }
 }
 
+
+.team{
+  .aux{
+    background:url(/public/images/bg-team.jpg) center center no-repeat;
+  }
+  .player{
+    a{
+      color:#fff;
+    }
+    figure{
+      padding:0 0 12px 0;
+      img{
+        border:3px solid #c0c0c0;
+      }
+    }
+    figcaption{
+      text-transform:uppercase;
+      text-align:left;
+      line-height:1.3em;
+      .name{
+        font:{
+          size:1.4em;
+        }
+      }
+      .role{
+        font:{
+          size:1.3em;
+        }
+        color:#e52b38;
+      }
+    }
+  } 
+}
 .wrap-oriz-scroll{
   clear:both;
   padding-left:45px;
@@ -334,6 +367,19 @@ a{text-decoration:none;}
         border-left:1px solid #c0c0c0;
         float:left;
         height:315px;
+        position:relative;
+        .close{
+          position:absolute;
+          top:0;
+          left:215px;
+          text-transform:uppercase;
+          color:#fff;
+          background:#686868;
+          padding:2px 5px;
+          font:{
+            size:1em;
+          }
+        }
         article{
           width:270px;
           float:left;
@@ -341,10 +387,37 @@ a{text-decoration:none;}
         }
         .detail{
           float:left;
+          padding:25px 0 0 12px;
           li{
-            width:270px;
+            width:269px;
+            height:290px;
             padding:0 12px;
             float:left;
+            border-left:1px solid #f3f3f3;
+            text-align:left;
+            h3{
+              color:#e52b38;
+              line-height:1.2em;
+              text-transform:uppercase;
+              font:{
+                size:1.4em;
+              }
+            }
+            h4{
+              color:#686868;
+              font:{
+                size:1.3em;
+              }
+              margin-bottom:25px;
+            }
+            p{
+              color:#686868;
+              line-height:1.5em;
+              margin-bottom:25px;
+              font:{
+                size:1.2em;
+              }
+            }
           }
         }
       }
