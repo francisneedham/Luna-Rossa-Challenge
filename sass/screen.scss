@@ -21,7 +21,8 @@ a{text-decoration:none;}
 #wrapper{overflow:hidden;width:100%;height:100%;position:relative;}
 
 
-.single-year .step{
+.single-year .step .aux{
+  position:relative;
   height:100%;
   width:1440px; //da impostare dinamicamente
   background-position:center center;
@@ -48,6 +49,27 @@ a{text-decoration:none;}
   .prev-page{
     @include sprite-sprite(a-white-prev); 
   }
+  .intro .text-content .description{
+    color:#fff;
+  }
+  .step .content header{
+    .title{
+      border-bottom:1px solid #fff;
+    }
+    .title, .subtitle {
+      color:#fff;
+    }
+  }
+  .wrap-sharing .fb a{
+    @include sprite-sprite(facebook-white); 
+  }
+  .wrap-sharing .tw a{
+    @include sprite-sprite(twitter-white); 
+  }
+  .wrap-sharing .title{
+    border-right:1px solid #fff;
+    color:#fff;
+  }
 }
 
 // grey-element
@@ -61,13 +83,34 @@ a{text-decoration:none;}
   .prev-page{
     @include sprite-sprite(a-grey-prev); 
   }
+  .intro .text-content .description{
+    color:#686868;
+  }
+  .step .content header{
+    .title{
+      border-bottom:1px solid #686868;
+    }
+    .title, .subtitle {
+      color:#686868;
+    }
+  }
+  .wrap-sharing .fb a{
+    @include sprite-sprite(facebook); 
+  }
+  .wrap-sharing .tw a{
+    @include sprite-sprite(twitter); 
+  }
+  .wrap-sharing .title{
+    border-right:1px solid #686868;
+    color:#686868;
+  }
 }
 
 .bollettini{
   background:#000!important;//provvisorio
 }
 // esempio fullscreen
-#y-2010 .hp{
+#y-2010 .hp .aux{
   background:url('/images/pl-hp.jpg') center top no-repeat;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/pl-hp.jpg', sizingMethod='scale')"; 
@@ -151,15 +194,52 @@ a{text-decoration:none;}
         line-height:1em;
         text-transform:uppercase;
         font:{
-          size:5em;
+          size:3.7em;
         }
       }
       .subtitle{
+        padding-top:10px;
         line-height:1em;
         text-transform:uppercase;
         font:{
-          size:3em;
+          size:1.8em;
         }
+      }
+    }
+  }
+  .wrap-sharing{
+    width:120px;
+    padding:30px 0 0 0;
+    float:right;
+    .title{
+      float:left;
+      padding-right:10px;
+      margin-right:10px;
+      text-transform:uppercase;
+      font:{
+        size:1.2em;
+      }
+    }
+    ul li{
+      float:left;
+      a{
+        display:block;
+        text-indent:-99999px;
+        text-align:left;
+      }
+      &.tw{margin-right:10px;}
+      &.fb a{ width:5px; height:11px;}
+      &.tw a{ width:14px; height:10px;}
+    }
+  }
+  menu{
+    padding-top:30px;
+    clear:both;
+    float:right;
+    li{
+      float:left;
+      .prev-page{
+       margin-right:10px; 
       }
     }
   }
@@ -167,7 +247,15 @@ a{text-decoration:none;}
 
 // contenuto relativo alla sezione intro
 .intro{
-  
+  .text-content{
+    width:520px;
+    .description{
+      line-height:1.5em;
+      font:{
+        size:1.4em;
+      }
+    }
+  }
 }
 
 // footer
