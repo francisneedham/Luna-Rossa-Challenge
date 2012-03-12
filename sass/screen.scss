@@ -75,7 +75,7 @@ a{text-decoration:none;}
 // grey-element
 .grey{
   #navbar a{
-    color:#333;
+    color:#686868;
   }
   .next-page{
     @include sprite-sprite(a-grey-next); 
@@ -104,10 +104,6 @@ a{text-decoration:none;}
     border-right:1px solid #686868;
     color:#686868;
   }
-}
-
-.bollettini{
-  background:#000!important;//provvisorio
 }
 // esempio fullscreen
 #y-2010 .hp .aux{
@@ -140,6 +136,15 @@ a{text-decoration:none;}
       li{
         float:left;
         margin-right:35px;
+        a{
+          padding:0 3px 1px;
+          font:{
+            size:1.4em;
+          }
+        }
+        &.active a, & a:hover{
+          border-bottom:3px solid red;
+        }
       }
     }
   }
@@ -178,6 +183,7 @@ a{text-decoration:none;}
     }
   }
 }
+
 
 // contenuto condiviso tra le sezioni
 .step{
@@ -257,6 +263,12 @@ a{text-decoration:none;}
     }
   }
 }
+
+// contenuto relativo alla sezione bollettini
+.bollettini{
+  background:#fff;
+}
+
 
 // footer
 @include sticky-footer(30px, "#wrapper", "#wrapper_footer", "#footer");
