@@ -202,10 +202,11 @@ a{text-decoration:none;}
   background:#ddd;
   .content{
     position:absolute;
-    top:35%;
+    top:20%;
     right:45px;
     text-align:right;
     header{
+      float:right;
       margin-bottom:20px;
       .title{
         line-height:1em;
@@ -278,8 +279,105 @@ a{text-decoration:none;}
 // contenuto relativo alla sezione bollettini
 .bollettini{
   background:#fff;
+  .bollettino{
+    a{
+      color:#686868;
+    }
+    .number{
+      font:{
+        size:1.4em;
+        color:#686868;
+      }
+    }
+    figure{
+      padding:12px 0;
+      img{
+        border:1px solid #c0c0c0;
+      }
+    }
+    figcaption{
+      text-transform:uppercase;
+      line-height:1.3em;
+      font:{
+        size:1.4em;
+      }
+    }
+    &:hover figcaption{
+      color:#e52b38;
+    }
+    date{
+      position:absolute;
+      bottom:0;
+      font:{
+        size:1.3em;
+      }
+    }
+  }
 }
 
+.wrap-oriz-scroll{
+  clear:both;
+  padding-left:45px;
+  .oriz-scroll{
+    width:1350px;
+    height:315px;
+    overflow:hidden;
+    position:relative;
+    ul.wrap-items{
+      width:999999px;
+      position:absolute;
+      left:0;
+      height:315px;
+      li.item{
+        width:270px;
+        padding:0 12px;
+        border-left:1px solid #c0c0c0;
+        float:left;
+        height:315px;
+        article{
+          width:270px;
+          float:left;
+          height:315px;
+        }
+        .detail{
+          float:left;
+          li{
+            width:270px;
+            padding:0 12px;
+            float:left;
+          }
+        }
+      }
+    }
+  }
+}
+
+.wrap-scroll{
+  clear:both;
+  height:17px;
+  padding-top:30px;
+  .scroll{
+    width:100%;
+    background:url(/public/images/sprite/bg-scroll.png) 0 0 repeat-x;
+    height:17px;
+    position:relative;
+    .scroller{
+      background:url(/public/images/sprite/bg-scroller.png) left top repeat-x;
+      position:absolute;
+      height:40px;
+      border-right:1px solid #d7d7d7;
+      cursor:pointer;
+      span{
+        text-transform:uppercase;
+        color:#d7d7d7;
+        position:absolute;
+        bottom:0;
+        display:block;
+        right:5px;
+      }
+    }
+  }
+}
 
 // footer
 @include sticky-footer(30px, "#wrapper", "#wrapper_footer", "#footer");
