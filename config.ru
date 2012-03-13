@@ -76,6 +76,7 @@ class RedMoon
       template = default_template
     end
 
+    Mustache.template_path = 'public/templaxtes/'
     Mustache.render(template, content)
   end
 
@@ -109,7 +110,7 @@ class RedMoon
     unless content.nil?
       [200,
         {'Content-Type' => 'text/html'},
-        [mustache(content['template'], content)]
+        [mustache('index', data[locale || 'it'][2010])]
       ]
     else
       render_404
