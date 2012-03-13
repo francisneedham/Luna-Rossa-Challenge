@@ -46,6 +46,14 @@ a{
   position:relative;
 }
 
+#years-list {
+  overflow:hidden;
+
+  .single-year {
+    overflow: hidden;
+  }
+}
+
 
 .single-year .step .aux{
   position:relative;
@@ -55,15 +63,8 @@ a{
   background-size: cover;
   float:left;
 }
-#years-list{
-  overflow:hidden;
-  .single-year{
-    position:absolute;
-    width:999999px;//da impostare dinamicamente
-    top:0;
-    left:0;
-  }
-}
+
+
 // white-element
 .white{
   #navbar a{
