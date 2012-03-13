@@ -27,9 +27,24 @@
 
 
 
-body{background:#fff;font:{family:'ProximaNovaRegular';size:10px;}}
-a{text-decoration:none;}
-#wrapper{overflow:hidden;width:100%;height:100%;position:relative;}
+body{
+  background:#fff;
+  font:{
+    family:'ProximaNovaRegular';
+    size:10px;
+  }
+}
+
+a{
+  text-decoration:none;
+}
+
+#wrapper{
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  position:relative;
+}
 
 
 .single-year .step .aux{
@@ -346,7 +361,7 @@ a{text-decoration:none;}
         color:#e52b38;
       }
     }
-  } 
+  }
 }
 .wrap-oriz-scroll{
   clear:both;
