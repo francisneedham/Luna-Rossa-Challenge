@@ -1,0 +1,47 @@
+<section class="step team">
+  <div class="aux">
+    <div class="content challenge">
+       <header>
+         <hgroup>
+           <h1 class="title">{{title}}</h1>
+           <h2 class="subtitle">{{subtitle}}</h2>
+         </hgroup>
+       </header>
+       <div class="wrap-oriz-scroll">
+          <div class="oriz-scroll">
+            <ul class="wrap-items">
+              {{#members}}
+              <li class="item">
+                <article class="player">
+                  <a href="#">
+                    <h2>
+                      <figure>
+                        <img src="{{image}}" alt="{{team}}">
+                      </figure>
+                      <figcaption>
+                        <span class="name">{{name}}</span>
+                        <span class="role">{{role}}</span>
+                      </figcaption>
+                    </h2>
+                  </a>
+                </article>
+              </li>
+              {{/members}}
+            </ul>
+          </div>
+        <div class="wrap-scroll">
+          <div class="scroll">
+            <div class="scroller" style="width:105px;">
+              <span>drag<br /> for more</span>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!-- fine bollettini -->
+       <menu>
+         <li><a href="#" class="prev-page">previous page</a></li>
+         <li><a href="#" class="next-page">next page</a></li>
+       </menu>
+     </div>
+  </div>
+</section>

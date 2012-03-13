@@ -1,0 +1,50 @@
+<section class="step bollettini">
+  <div class="aux">
+    <div class="content challenge">
+       <header>
+         <hgroup>
+           <h1 class="title">{{tittle}}</h1>
+           <h2 class="subtitle">{{subtitle}}</h2>
+         </hgroup>
+       </header>
+       <div class="wrap-oriz-scroll">
+          <div class="oriz-scroll">
+            <ul class="wrap-items">
+              {{#items}}
+              <li class="item" style="width:870px;">
+                <a href="#" class="close">close</a>
+                <article class="bollettino">
+                  <a href="#">
+                    <span class="number">{{number}}</span>
+                    <h2>
+                      <figure>
+                        <img src="{{image}}" alt="{{alt}}">
+                      </figure>
+                      <figcaption>{{caption}}</figcaption>
+                    </h2>
+                    <date>{{date}}</date>
+                  </a>
+                </article>
+                <ul class="detail">
+                  {{details}}
+                </ul>
+              </li>
+              {{/items}}
+            </ul>
+          </div>
+        <div class="wrap-scroll">
+          <div class="scroll">
+            <div class="scroller" style="width:105px;">
+              <span>drag<br /> for more</span>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!-- fine bollettini -->
+       <menu>
+         <li><a href="#" class="prev-page">previous page</a></li>
+         <li><a href="#" class="next-page">next page</a></li>
+       </menu>
+     </div>
+  </div>
+</section>

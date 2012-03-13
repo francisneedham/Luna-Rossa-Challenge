@@ -1,3 +1,87 @@
 2010:
   home:
-    template: 'index'
+    template: 'home'
+    title: 'Sailing Season'
+    year: '2010'
+  intro:
+    template: 'intro'
+    title: 'Sailing season<span>2011</span>'
+    subtitle: 'the challenge'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  bullettins:
+    template: 'bullettins'
+    title: 'Sailing season<span>2011</span>'
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: '/public/images/placeholder/bollettini.jpg'
+        alt: 'bollettini'
+        caption: "Luna Rossa vince l'extreme sailing series 2011"
+        date: '11/12/2011'
+        details: '''
+          <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
+          <li>
+            <h3>Extreme Sailing Series 2011</h3>
+            <h4>Classifica generale</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+          </li>
+          '''
+      - number: '.02'
+        image: '/public/images/placeholder/bollettini.jpg'
+        alt: 'bollettini'
+        caption: "Luna Rossa vince l'extreme sailing series 2011"
+        date: '11/12/2011'
+        details: '''
+          <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
+          <li>
+            <h3>Extreme Sailing Series 2011</h3>
+            <h4>Classifica generale</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+          </li>
+          '''
+      - number: '.03'
+        image: '/public/images/placeholder/bollettini.jpg'
+        alt: 'bollettini'
+        caption: "Luna Rossa vince l'extreme sailing series 2011"
+        date: '11/12/2011'
+        details: '''
+          <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
+          <li>
+            <h3>Extreme Sailing Series 2011</h3>
+            <h4>Classifica generale</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+          </li>
+          '''
+  team:
+    template: 'team'
+    title: 'Sailing season<span>2011</span>'
+    subtitle: 'Team'
+    members:
+      - name: 'Max Sirena'
+        role: 'Pitman/skipper'
+        image: '/public/images/placeholder/team.jpg'
+        alt: 'Team'
+      - name: 'Max Sirena'
+        role: 'Pitman/skipper'
+        image: '/public/images/placeholder/team.jpg'
+        alt: 'Team'
+      - name: 'Max Sirena'
+        role: 'Pitman/skipper'
+        image: '/public/images/placeholder/team.jpg'
+        alt: 'Team'
+      - name: 'Max Sirena'
+        role: 'Pitman/skipper'
+        image: '/public/images/placeholder/team.jpg'
+        alt: 'Team'
+      - name: 'Max Sirena'
+        role: 'Pitman/skipper'
+        image: '/public/images/placeholder/team.jpg'
+        alt: 'Team'
+      - name: 'Max Sirena'
+        role: 'Pitman/skipper'
+        image: '/public/images/placeholder/team.jpg'
+        alt: 'Team'
+  gallery:
+    template: 'gallery'
+  adv:
+    template: 'adv'
