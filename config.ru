@@ -76,7 +76,7 @@ class RedMoon
       template = default_template
     end
 
-    Mustache.template_path = 'public/templaxtes/'
+    Mustache.template_path = 'public/templates/'
     Mustache.render(template, content)
   end
 

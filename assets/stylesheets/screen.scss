@@ -486,6 +486,52 @@ a{
     padding:14px;
     .photo{
       float:left;
+      margin-right:14px;
+    }
+    .player-detail{
+      width:377px;
+      height:452px;
+      overflow:hidden;
+      float:left;
+      border-left:1px dashed #8f8f8f;
+      border-right:1px dashed #8f8f8f;  
+      padding:0 14px;
+      .aux-detail{
+        .name{
+          line-height:1em;
+          margin-bottom:20px;
+          color:#e52b38;
+          text-transform:uppercase;
+          font:{
+            size:2em;
+          }
+        }
+        h3{
+          font-weight:bold;
+          line-height:1.3em;
+          color:#686868;
+          font:{
+            size:1.4em;
+          }
+        }
+        p{
+          line-height:1.3em;
+          margin-bottom:20px;
+          color:#686868;
+          font:{
+            size:1.4em;
+          }
+        }
+      }
+    }
+    .close{
+      @include sprite-sprite(close);
+      width:30px;
+      height:31px;
+      position:absolute;
+      right:17px;
+      top:14px;
+      text-indent:-5000px;
     }
   }
 }
