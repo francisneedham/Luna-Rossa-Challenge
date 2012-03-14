@@ -77,5 +77,7 @@
         alt: 'Team'
   gallery:
     template: 'gallery'
+    title: 'Sailing season<span>2011</span>'
+    subtitle: 'Gallery'
   adv:
     template: 'adv'
