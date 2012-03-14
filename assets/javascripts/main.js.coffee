@@ -1,6 +1,9 @@
 ($ document).ready ->
+  w = window
 
-  window.manager = new SiteManager($ '#wrapper')
+  w.manager = new SiteManager($ '#wrapper')
 
-  window.manager.resize()
-  window.manager.position(true)
+  w.manager.resize()
+  w.manager.position(true)
+
+  ($ w).bind 'resize', w.manager.resize

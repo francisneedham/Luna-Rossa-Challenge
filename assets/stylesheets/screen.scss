@@ -227,6 +227,7 @@ a{
   position:relative;
   background:#ddd;
   float: left;
+  overflow: hidden;
 
   .content{
     position:absolute;

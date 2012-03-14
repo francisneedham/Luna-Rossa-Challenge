@@ -78,6 +78,8 @@ window.SiteManager = class
       width: @width
       height: @height
 
+    @position(true)
+
   position: (skipAnimation) =>
     top = _.indexOf(@yearsList, @currentYear) * @height
     pagesList = _.map @data[@currentYear], (discard, page) -> page
@@ -91,21 +93,23 @@ window.SiteManager = class
       ($ "#y-#{@currentYear}").animate(scrollLeft: left)
 
   gotoYear: (year) =>
-    @currentYear = year.toString()
-    pagesList = _.map @data[@currentYear], (discard, page) -> page
-    @currentPage = pagesList[0]
+    year = year.toString()
+    if year != @currentYear
+      @currentYear = year
+      pagesList = _.map @data[@currentYear], (discard, page) -> page
+      @currentPage = pagesList[0]
 
-    @position()
+      @position()
 
   gotoPage: (page) =>
-    @currentPage = page
-
-    @position()
+    if page != @currentPapge
+      @currentPage = page
+      @position()
 
   goto: (year, page) =>
     year = year.toString()
     if year != @currentYear
       @gotoYear(year)
-    else
+    else if page != @currentPage
       @gotoPage(page)
 
