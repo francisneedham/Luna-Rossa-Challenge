@@ -134,9 +134,15 @@ a{
 }
 // esempio fullscreen
 #y-2010 .hp .aux{
-  background:url('/public/images/pl-hp.jpg') center top no-repeat;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/pl-hp.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/pl-hp.jpg', sizingMethod='scale')";
+  background:url('/public/images/placeholder/pl-hp.jpg') center top no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale')";
+}
+
+#y-2010 .gallery .aux{
+  background:url('/public/images/placeholder/bg-gallery.jpg') center top no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale')";
 }
 // header
 #header{
@@ -535,7 +541,38 @@ a{
     }
   }
 }
+// carousel gallery
+.wrap-gallery-carousel{
+  position:absolute;
+  width:1440px;//da rendere dinamico
+  left:0;
+  top:60%;
+  margin-top:-90px;
+  height:181px;
+  overflow:hidden;
+  .gallery-carousel{
+    width:99999999px;
+    position:absolute;
+    top:0;
+    left:0;
+    height:181px;
+    .item{
+      float:left;
+      width:249px;
+      height:177px;
+      border:2px solid #fff;
+      margin-left:-2px;
+    }
+  }
+}
 
+.gallery{
+  menu{
+    position:absolute;
+    bottom:40px;
+    right:45px;
+  }
+}
 // footer
 @include sticky-footer(30px, "#wrapper", "#wrapper_footer", "#footer");
 

@@ -78,6 +78,6 @@
   gallery:
     template: 'gallery'
     title: 'Sailing season<span>2011</span>'
-    subtitle: 'Gallery'
+    subtitle: 'photo gallery'
   adv:
     template: 'adv'
