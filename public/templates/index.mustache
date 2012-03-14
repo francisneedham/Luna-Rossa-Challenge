@@ -22,85 +22,8 @@
       </nav>
     </header>
     <ul id="years-list">
-      <li class="single-year" id="y-2010">
-        {{#home}}
-          {{> home }}
-        {{/home}}
-        {{#intro}}
-          {{> intro }}
-        {{/intro}}
-        {{#bullettins}}
-          {{> bullettins }}
-        {{/bullettins}}
-        {{#team}}
-          {{> team }}
-        {{/team}}
-        {{#gallery}}
-          {{> gallery }}
-        {{/gallery}}
-        {{#adv}}
-          {{> adv }}
-        {{/adv}}
-      </li>
-      <li class="single-year" id="y-2011">
-        {{#home}}
-          {{> home }}
-        {{/home}}
-        {{#intro}}
-          {{> intro }}
-        {{/intro}}
-        {{#bullettins}}
-          {{> bullettins }}
-        {{/bullettins}}
-        {{#team}}
-          {{> team }}
-        {{/team}}
-        {{#gallery}}
-          {{> gallery }}
-        {{/gallery}}
-        {{#adv}}
-          {{> adv }}
-        {{/adv}}
-      </li>
-      <li class="single-year" id="y-2012">
-        {{#home}}
-          {{> home }}
-        {{/home}}
-        {{#intro}}
-          {{> intro }}
-        {{/intro}}
-        {{#bullettins}}
-          {{> bullettins }}
-        {{/bullettins}}
-        {{#team}}
-          {{> team }}
-        {{/team}}
-        {{#gallery}}
-          {{> gallery }}
-        {{/gallery}}
-        {{#adv}}
-          {{> adv }}
-        {{/adv}}
-      </li>
-      <li class="single-year" id="y-2013">
-        {{#home}}
-          {{> home }}
-        {{/home}}
-        {{#intro}}
-          {{> intro }}
-        {{/intro}}
-        {{#bullettins}}
-          {{> bullettins }}
-        {{/bullettins}}
-        {{#team}}
-          {{> team }}
-        {{/team}}
-        {{#gallery}}
-          {{> gallery }}
-        {{/gallery}}
-        {{#adv}}
-          {{> adv }}
-        {{/adv}}
+      <li class="single-year" id="y-{{year}}">
+        <div class="container">{{{content}}}</div>
       </li>
     </ul>
     <!-- div per sticky-footer -->
@@ -110,6 +33,10 @@
     <p>© Copyright Luna Rossa Trademark Sarl - P. IVA 10115350158 - Company info and Legal Terms</p>
     <a href="#" class="logo-prada">sponsored by<span></span></a>
   </footer>
+  <script id="site-data" type="text/javascript">/*{{{ json}}}*/</script>
+  {{#templates}}
+  <script id="tpl-{{name}}" type="text/javascript">/*{{{ content}}}*/</script>
+  {{/templates}}
   <script src="/assets/javascripts/application.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

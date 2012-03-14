@@ -90,7 +90,7 @@ class RedMoon
 
       if data[locale].key?(year)
 
-        page = data[locale][year].keys.first
+        page = data[locale][year].keys.first if page.nil?
 
         if data[locale][year].key?(page)
 
@@ -107,10 +107,30 @@ class RedMoon
   def render_page(locale = nil, year = nil, page = nil)
     content = find_content(locale, year, page)
 
+    master_data = {}
+    master_data['content'] = mustache(content['template'], content)
+    master_data['json'] = data[locale || data.keys.first].to_json
+    master_data['year'] = year || data[locale || data.keys.first].keys.first
+    master_data['templates'] = Dir.glob(project_root + '/public/templates/*.mustache').map do |name|
+      name = name.gsub(/^.*\/(.+)\.mustache$/){$1}
+
+      unless %{ 404 500 index }.include? name
+        {
+          'name' => name,
+          'content' => File.read(project_root + "/public/templates/#{name}.mustache")
+        }
+      else
+        nil
+      end
+
+    end
+
+    master_data['templates'].compact!
+
     unless content.nil?
       [200,
         {'Content-Type' => 'text/html'},
-        [mustache('index', data[locale || 'it'][2010])]
+        [mustache('index', master_data)]
       ]
     else
       render_404
