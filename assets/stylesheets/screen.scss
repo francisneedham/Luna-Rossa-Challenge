@@ -174,7 +174,7 @@ a{
       border-right:1px solid #686868;
       color:#686868;
     }
-  }  
+  }
 }
 // esempio fullscreen
 #y-2010 .hp .aux{
@@ -274,7 +274,6 @@ a{
 // contenuto condiviso tra le sezioni
 .step{
   position:relative;
-  // background:#ddd;
   float: left;
   overflow: hidden;
   .section-title{
@@ -284,6 +283,7 @@ a{
     margin-top:-45px;
     height:70px;
     text-align:right;
+    z-index: 9999;
     .title{
       line-height:1em;
       text-transform:uppercase;
@@ -307,7 +307,6 @@ a{
     }
     &.fixed-header{
       position:fixed;
-      // margin-top:-51px;
     }
   }
   .content{

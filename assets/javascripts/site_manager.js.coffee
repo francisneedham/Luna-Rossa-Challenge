@@ -1,4 +1,7 @@
 window.SiteManager = class
+  animationOptions:
+    duration: 500
+    easing: 'easeInOutSine'
 
   constructor: (@el) ->
     @getData()
@@ -70,7 +73,7 @@ window.SiteManager = class
       if _.indexOf(@pagesList, page) > _.indexOf(@pagesList, @currentPage)
         parent.append @mustache(content['template'], content)
       else
-        parent.find(".#{@data[@currentYear][@currentPage]['css_class']}").before(@mustache(content['template'], content))
+        parent.find(".#{@currentContent()['css_class']}").before(@mustache(content['template'], content))
 
   resize: =>
     $w = ($ window)
@@ -81,9 +84,12 @@ window.SiteManager = class
       width: @width
       height: @height
 
+    ($ '.section-title').css
+      top: (@height * 0.23)
+
     @position(true)
 
-  position: (skipAnimation) =>
+  position: (skipAnimation, callback) =>
     top = _.indexOf(@yearsList, @currentYear) * @height
     pagesList = _.map @data[@currentYear], (discard, page) -> page
     left = _.indexOf(pagesList, @currentPage) * @width
@@ -92,8 +98,11 @@ window.SiteManager = class
       ($ '#years-list').scrollTop(top)
       ($ "#y-#{@currentYear}").scrollLeft(left)
     else
-      ($ '#years-list').animate(scrollTop: top)
-      ($ "#y-#{@currentYear}").animate(scrollLeft: left)
+      animationOptions = _.clone(@animationOptions)
+      animationOptions.complete = callback
+
+      ($ '#years-list').animate(scrollTop: top, animationOptions)
+      ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
 
   gotoYear: (year) =>
     year = year.toString()
@@ -102,12 +111,21 @@ window.SiteManager = class
       pagesList = _.map @data[@currentYear], (discard, page) -> page
       @currentPage = pagesList[0]
 
-      @position()
+      @position(false)
 
   gotoPage: (page) =>
-    if page != @currentPapge
+    if page != @currentPage
+      begin = @currentEl().find('.section-title')
+      target = @currentEl(page).find('.section-title')
+
+      begin.toggleClass('fixed-header', true)
+      target.css(opacity: 0).toggleClass('fixed-header', true)
+
+      begin.animate(opacity: 0, @animationOptions)
+      target.animate(opacity: 1, @animationOptions)
+
       @currentPage = page
-      @position()
+      @position(false, @pageScrolled)
 
   goto: (year, page) =>
     year = year.toString()
@@ -116,3 +134,11 @@ window.SiteManager = class
     else if page != @currentPage
       @gotoPage(page)
 
+  currentEl: (page = @currentPage, year = @currentYear) =>
+    ($ "#y-#{year} .#{@currentContent(page, year)['css_class']}")
+
+  currentContent: (page = @currentPage, year = @currentYear) =>
+    @data[year][page]
+
+  pageScrolled: =>
+    ($ '.fixed-header').toggleClass('fixed-header', false)
