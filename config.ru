@@ -174,11 +174,11 @@ class RedMoon
 
 end
 
-if %{ staging production }.include? RACK_ENV
-  use Rack::Auth::Basic do |username, password|
-    username == 'lunarossa' && password == 'challange'
-  end
+#if %{ staging production }.include? RACK_ENV
+use Rack::Auth::Basic do |username, password|
+  username == 'lunarossa' && password == 'challange'
 end
+#end
 
 use Rack::Static, :urls => ["/public"]
 
