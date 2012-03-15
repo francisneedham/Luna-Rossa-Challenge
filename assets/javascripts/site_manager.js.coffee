@@ -60,7 +60,10 @@ window.SiteManager = class
 
   buildPage: (parent, content, page) =>
     if content?
-      parent.append @mustache(content['template'], content)
+      el = @mustache(content.template, content)
+      parent.append el
+      view = new window[capitalize(content.template) + 'Page'](el, content)
+      content.view = view
 
   buildPageCurrentYear: (parent, content, page) =>
     if page != @currentPage
