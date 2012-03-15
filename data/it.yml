@@ -2,20 +2,20 @@
   home:
     template: 'home'
     css_class: 'hp'
-    page_mood:'white'
+    page_mood: 'white'
     title: 'Sailing Season'
     year: '2010'
   intro:
     template: 'intro'
     css_class: 'intro'
-    page_mood:'grey'
+    page_mood: 'grey'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'the challenge'
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   bullettins:
     template: 'bullettins'
     css_class: 'bollettini'
-    page_mood:'grey'
+    page_mood: 'grey'
     title: "Sailing season<span> 2011</span>"
     subtitle: 'bollettini'
     items:
@@ -55,7 +55,7 @@
   team:
     template: 'team'
     css_class: 'team'
-    page_mood:'white'
+    page_mood: 'white'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Team'
     members:
@@ -84,7 +84,7 @@
         image: '/public/images/placeholder/team.jpg'
         alt: 'Team'
   gallery:
-    page_mood:'white'
+    page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
     title: 'Sailing season<span> 2011</span>'
@@ -92,23 +92,26 @@
   adv:
     template: 'adv'
     css_class: 'adv'
-    page_mood:'white'
+    page_mood: 'white'
 2011:
   home:
     template: 'home'
     css_class: 'hp'
+    page_mood: 'white'
     title: 'Sailing Season'
     year: '2010'
   intro:
     template: 'intro'
     css_class: 'intro'
+    page_mood: 'grey'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'the challenge'
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   bullettins:
     template: 'bullettins'
     css_class: 'bollettini'
-    title: 'Sailing season<span>2011</span>'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2011</span>"
     subtitle: 'bollettini'
     items:
       - number: '.01'
@@ -147,6 +150,7 @@
   team:
     template: 'team'
     css_class: 'team'
+    page_mood: 'white'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Team'
     members:
@@ -175,6 +179,7 @@
         image: '/public/images/placeholder/team.jpg'
         alt: 'Team'
   gallery:
+    page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
     title: 'Sailing season<span> 2011</span>'
@@ -182,3 +187,4 @@
   adv:
     template: 'adv'
     css_class: 'adv'
+    page_mood: 'white'
