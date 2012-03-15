@@ -25,6 +25,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ProximaNovaBoldItalic';
+    src: url('/public/lib/proximanova-bold-it/proximanova-boldit-webfont.eot');
+    src: url('/public/lib/proximanova-bold-it/proximanova-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/lib/proximanova-bold-it/proximanova-boldit-webfont.woff') format('woff'),
+         url('/public/lib/proximanova-bold-it/proximanova-boldit-webfont.ttf') format('truetype'),
+         url('/public/lib/proximanova-bold-it/proximanova-boldit-webfont.svg#ProximaNovaBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'ITCAvantGardeGothicStdMdOb';
@@ -108,7 +120,7 @@ a{
     color:#fff;
   }
   &.step{
-    .content header{
+    header{
       .title{
         border-bottom:1px solid #fff;
       }
@@ -144,7 +156,7 @@ a{
     color:#686868;
   }
   &.step{
-    .content header{
+    header{
       .title{
         border-bottom:1px solid #686868;
       }
@@ -241,6 +253,7 @@ a{
       text-transform:uppercase;
       font:{
         size:7em;
+        family:'ProximaNovaBoldItalic';
       }
     }
     .year{
@@ -264,36 +277,52 @@ a{
   // background:#ddd;
   float: left;
   overflow: hidden;
+  .section-title{
+    position:absolute;
+    top:23%;
+    right:45px;
+    margin-top:-45px;
+    height:70px;
+    text-align:right;
+    .title{
+      line-height:1em;
+      text-transform:uppercase;
+      font:{
+        size:3.7em;
+        family:'ProximaNovaBoldItalic';
+      }
+      span{
+        font:{
+          family:'ITCAvantGardeGothicStdXLtOb'
+        }
+      }
+    }
+    .subtitle{
+      padding-top:10px;
+      line-height:1em;
+      text-transform:uppercase;
+      font:{
+        size:1.8em;
+      }
+    }
+    &.fixed-header{
+      position:fixed;
+      // margin-top:-51px;
+    }
+  }
   .content{
     position:absolute;
     right:45px;
     text-align:right;
-    top:60%;
-    height:544px;
-    margin-top:-272px;
-    header{
-      float:right;
-      margin-bottom:20px;
-      .title{
-        line-height:1em;
-        text-transform:uppercase;
-        font:{
-          size:3.7em;
-        }
-        span{
-          font:{
-            family:'ITCAvantGardeGothicStdXLtOb'
-          }
-        }
-      }
-      .subtitle{
-        padding-top:10px;
-        line-height:1em;
-        text-transform:uppercase;
-        font:{
-          size:1.8em;
-        }
-      }
+    top:65%;
+    height:474px;
+    margin-top:-237px;
+    @media screen and (max-width: 1024px){
+        // If screen res is 1024 or lower, then set grid width to 46px
+        top:70%;
+    }
+    @media screen and (max-width: 1024px) and (orientation:portrait){
+       top:50%;
     }
   }
   .wrap-sharing{
@@ -321,17 +350,25 @@ a{
       &.tw a{ width:14px; height:10px;}
     }
   }
-  menu{
+  .section-arrow{
     padding-top:30px;
     clear:both;
     position:absolute;
-    bottom:30px;
-    right:0;
+    bottom:11%;
+    margin-bottom:-15px;
+    right:45px;
     li{
       float:left;
       .prev-page{
        margin-right:10px;
       }
+    }
+    &.fixed-menu{
+      position:fixed;
+    }
+    @media screen and (max-width: 1024px){
+        // If screen res is 1024 or lower, then set grid width to 46px
+        bottom:20%;
     }
   }
 }
@@ -340,6 +377,9 @@ a{
 .intro{
   .text-content{
     width:520px;
+    @media screen and (max-width: 1024px) and (orientation:portrait){
+        width:300px;
+    }
     clear:both;
     .description{
       line-height:1.5em;
@@ -421,10 +461,6 @@ a{
       }
     }
   }
-}
-
-
-.gallery{
 }
 
 .wrap-oriz-scroll{
@@ -603,7 +639,7 @@ a{
   position:absolute;
   width:1440px;//da rendere dinamico
   left:0;
-  top:60%;
+  top:55%;
   margin-top:-90px;
   height:181px;
   overflow:hidden;

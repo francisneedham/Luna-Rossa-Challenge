@@ -1,12 +1,12 @@
 <section class="step team white">
   <div class="aux">
+    <header class="section-title">
+      <hgroup>
+        <h1 class="title">{{{title}}}</h1>
+        <h2 class="subtitle">{{subtitle}}</h2>
+      </hgroup>
+    </header>
     <div class="content challenge">
-       <header>
-         <hgroup>
-           <h1 class="title">{{{title}}}</h1>
-           <h2 class="subtitle">{{subtitle}}</h2>
-         </hgroup>
-       </header>
        <div class="wrap-oriz-scroll">
           <div class="oriz-scroll">
             <ul class="wrap-items">
@@ -38,12 +38,12 @@
         </div>
        </div>
        <!-- fine bollettini -->
-       <menu>
-         <li><a href="{{prev}}" class="prev-page">previous page</a></li>
-         <li><a href="{{next}}" class="next-page">next page</a></li>
-       </menu>
      </div>
-     <div class="wrap-overlay full-screen" style="display:none">
+    <menu class="section-arrow">
+      <li><a href="{{prev}}" class="prev-page">previous page</a></li>
+      <li><a href="{{next}}" class="next-page">next page</a></li>
+    </menu>
+    <div class="wrap-overlay full-screen" style="display:none">
        <div class="wrap-detail-player">
          <img class="photo" src="/public/images/placeholder/team-detail.jpg" width="300" height="450" alt="Team Detail">
          <article class="player-detail">
@@ -61,6 +61,6 @@
          </article>
          <a href="#" class="close">x</a>
        </div>
-      </div>
+     </div>
   </div>
 </section>

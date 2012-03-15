@@ -1,14 +1,12 @@
 <section class="step gallery">
   <div class="aux">
-    <article class="content challenge">
-      <header>
-        <hgroup>
-          <h1 class="title">{{{title}}}</h1>
-          <h2 class="subtitle">{{subtitle}}</h2>
-        </hgroup>
-      </header>
-    </article>
-    <div class="wrap-gallery-carousel">
+    <header class="section-title">
+      <hgroup>
+        <h1 class="title">{{{title}}}</h1>
+        <h2 class="subtitle">{{subtitle}}</h2>
+      </hgroup>
+    </header>
+    <article class="wrap-gallery-carousel challenge gallery">
       <ul class="gallery-carousel">
         <li class="item"><a href="#"><img src="/public/images/placeholder/thumb-gallery.jpg" width="249" height="177" alt="Thumb Gallery"></a></li>
         <li class="item"><a href="#"><img src="/public/images/placeholder/thumb-gallery.jpg" width="249" height="177" alt="Thumb Gallery"></a></li>
@@ -17,8 +15,8 @@
         <li class="item"><a href="#"><img src="/public/images/placeholder/thumb-gallery.jpg" width="249" height="177" alt="Thumb Gallery"></a></li>
         <li class="item"><a href="#"><img src="/public/images/placeholder/thumb-gallery.jpg" width="249" height="177" alt="Thumb Gallery"></a></li>
       </ul>
-    </div>
-    <menu>
+    </article>
+    <menu class="section-arrow">
       <li><a href="{{prev}}" class="prev-page">previous page</a></li>
       <li><a href="{{next}}" class="next-page">next page</a></li>
     </menu>

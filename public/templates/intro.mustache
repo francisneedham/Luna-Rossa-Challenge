@@ -1,12 +1,12 @@
 <section class="step intro grey">
   <div class="aux">
+    <header class="section-title">
+      <hgroup>
+        <h1 class="title">{{{title}}}</h1>
+        <h2 class="subtitle">{{subtitle}}</h2>
+      </hgroup>
+    </header>
     <article class="content challenge">
-      <header>
-        <hgroup>
-          <h1 class="title">{{{title}}}</h1>
-          <h2 class="subtitle">{{subtitle}}</h2>
-        </hgroup>
-      </header>
       <div class="text-content">
         <p class="description">
           {{{description}}}
@@ -19,10 +19,10 @@
           <li class="fb"><a href="#">facebook</a></li>
         </ul>
       </nav>
-      <menu>
-        <li><a href="{{prev}}" class="prev-page">previous page</a></li>
-        <li><a href="{{next}}" class="next-page">next page</a></li>
-      </menu>
     </article>
+    <menu class="section-arrow">
+      <li><a href="{{prev}}" class="prev-page">previous page</a></li>
+      <li><a href="{{next}}" class="next-page">next page</a></li>
+    </menu>
   </div>
 </section>
