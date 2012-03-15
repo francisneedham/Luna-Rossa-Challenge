@@ -178,21 +178,27 @@ a{
 }
 // esempio fullscreen
 #y-2010 .hp .aux{
-  background:url('/public/images/placeholder/pl-hp.jpg') center top no-repeat;
+  background:url('/public/images/placeholder/pl-hp.jpg') center center no-repeat;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .intro .aux{
-  background:url('/public/images/placeholder/bg-intro.jpg') center top no-repeat;
+  background:url('/public/images/placeholder/bg-intro.jpg') center center no-repeat;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .gallery .aux{
-  background:url('/public/images/placeholder/bg-gallery.jpg') center top no-repeat;
+  background:url('/public/images/placeholder/bg-gallery.jpg') center center no-repeat;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale')";
+}
+
+#y-2010 .adv .aux{
+  background:url('/public/images/placeholder/bg-adv.jpg') center center no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale')";
 }
 // header
 #header{
@@ -665,6 +671,16 @@ a{
     right:45px;
   }
 }
+.adv{
+  .link-adv{
+    position:absolute;
+    top:60%;
+    height:223px;
+    margin-top:-110px;
+    right:45px;
+  }
+}
+
 // footer
 @include sticky-footer(30px, "#wrapper", "#wrapper_footer", "#footer");
 

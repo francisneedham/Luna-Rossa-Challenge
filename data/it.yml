@@ -188,3 +188,7 @@
     template: 'adv'
     css_class: 'adv'
     page_mood: 'white'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ggogle.com'
+    alt_img: 'yacht club'
+    
