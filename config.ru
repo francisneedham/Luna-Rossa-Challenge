@@ -34,6 +34,31 @@ class RedMoon
       name = name.gsub(/^.*\/(.+)\.yml$/){$1}
       @data[name] = YAML.load_file(File.expand_path(project_root + "/data/#{name}.yml"))
     end
+
+    @data.each do |locale, years|
+      years.each do |year, pages|
+        year_index = years.keys.index(year)
+
+        pages.each do |page, content|
+          page_index = pages.keys.index(page)
+
+          if page_index < pages.keys.length - 1
+            content[:next] = "/#{year}/#{pages.keys[page_index+1]}/"
+          elsif year_index < years.keys.length - 1
+            next_year = years.keys[year_index - 1]
+            content[:next] = "/#{next_year}/#{years[next_year].keys.first}/"
+          end
+
+          if page_index > 0
+            content[:prev] = "/#{year}/#{pages.keys[page_index-1]}/"
+          elsif year_index > 0
+            prev_year = years.keys[year_index - 1]
+            content[:prev] = "/#{prev_year}/#{years[prev_year].keys.first}/"
+          end
+
+        end
+      end
+    end
   end
 
   def call(env)
@@ -90,7 +115,7 @@ class RedMoon
 
       if data[locale].key?(year)
 
-        page = data[locale][year].keys.first
+        page = data[locale][year].keys.first if page.nil?
 
         if data[locale][year].key?(page)
 
@@ -107,10 +132,31 @@ class RedMoon
   def render_page(locale = nil, year = nil, page = nil)
     content = find_content(locale, year, page)
 
+    master_data = {}
+    master_data['content'] = mustache(content['template'], content)
+    master_data['json'] = data[locale || data.keys.first].to_json
+    master_data['years'] = data[locale || data.keys.first].keys
+    master_data['year'] = year || master_data['years'].first
+    master_data['templates'] = Dir.glob(project_root + '/public/templates/*.mustache').map do |name|
+      name = name.gsub(/^.*\/(.+)\.mustache$/){$1}
+
+      unless %{ 404 500 index }.include? name
+        {
+          'name' => name,
+          'content' => File.read(project_root + "/public/templates/#{name}.mustache")
+        }
+      else
+        nil
+      end
+
+    end
+
+    master_data['templates'].compact!
+
     unless content.nil?
       [200,
         {'Content-Type' => 'text/html'},
-        [mustache('index', data[locale || 'it'][2010])]
+        [mustache('index', master_data)]
       ]
     else
       render_404

@@ -52,6 +52,10 @@ a{
   .single-year {
     overflow: hidden;
   }
+
+  .container {
+    width: 999999px
+  }
 }
 
 
@@ -222,6 +226,9 @@ a{
 .step{
   position:relative;
   background:#ddd;
+  float: left;
+  overflow: hidden;
+
   .content{
     position:absolute;
     top:20%;
@@ -500,7 +507,7 @@ a{
       overflow:hidden;
       float:left;
       border-left:1px dashed #8f8f8f;
-      border-right:1px dashed #8f8f8f;  
+      border-right:1px dashed #8f8f8f;
       padding:0 14px;
       .aux-detail{
         .name{
