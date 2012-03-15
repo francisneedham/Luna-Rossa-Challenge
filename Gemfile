@@ -7,3 +7,7 @@ gem "sprockets-sass"
 gem 'compass'
 gem 'mustache'
 gem 'json'
+
+group :test do
+  gem 'heroku'
+end

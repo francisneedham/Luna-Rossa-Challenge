@@ -9,5 +9,7 @@
 //
 //= require mustache
 //= require utilities
+//
+//= require_tree ./pages
 //= require site_manager
 //= require main
