@@ -26,6 +26,30 @@
 }
 
 
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdMdOb';
+    src: url('/public/lib/avant-garde/itcavantgardestd-mdobl-webfont.eot');
+    src: url('/public/lib/avant-garde/itcavantgardestd-mdobl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/lib/avant-garde/itcavantgardestd-mdobl-webfont.woff') format('woff'),
+         url('/public/lib/avant-garde/itcavantgardestd-mdobl-webfont.ttf') format('truetype'),
+         url('/public/lib/avant-garde/itcavantgardestd-mdobl-webfont.svg#ITCAvantGardeGothicStdMdOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ITCAvantGardeGothicStdXLtOb';
+    src: url('/public/lib/avant-garde/itcavantgardestd-xltobl-webfont.eot');
+    src: url('/public/lib/avant-garde/itcavantgardestd-xltobl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/lib/avant-garde/itcavantgardestd-xltobl-webfont.woff') format('woff'),
+         url('/public/lib/avant-garde/itcavantgardestd-xltobl-webfont.ttf') format('truetype'),
+         url('/public/lib/avant-garde/itcavantgardestd-xltobl-webfont.svg#ITCAvantGardeGothicStdXLtOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 body{
   background:#fff;
@@ -80,26 +104,28 @@ a{
   .prev-page{
     @include sprite-sprite(a-white-prev);
   }
-  .intro .text-content .description{
+  &.intro .text-content .description{
     color:#fff;
   }
-  .step .content header{
-    .title{
-      border-bottom:1px solid #fff;
+  &.step{
+    .content header{
+      .title{
+        border-bottom:1px solid #fff;
+      }
+      .title, .subtitle {
+        color:#fff;
+      }
     }
-    .title, .subtitle {
+    .wrap-sharing .fb a{
+      @include sprite-sprite(facebook-white);
+    }
+    .wrap-sharing .tw a{
+      @include sprite-sprite(twitter-white);
+    }
+    .wrap-sharing .title{
+      border-right:1px solid #fff;
       color:#fff;
     }
-  }
-  .wrap-sharing .fb a{
-    @include sprite-sprite(facebook-white);
-  }
-  .wrap-sharing .tw a{
-    @include sprite-sprite(twitter-white);
-  }
-  .wrap-sharing .title{
-    border-right:1px solid #fff;
-    color:#fff;
   }
 }
 
@@ -114,33 +140,41 @@ a{
   .prev-page{
     @include sprite-sprite(a-grey-prev);
   }
-  .intro .text-content .description{
+  &.intro .text-content .description{
     color:#686868;
   }
-  .step .content header{
-    .title{
-      border-bottom:1px solid #686868;
+  &.step{
+    .content header{
+      .title{
+        border-bottom:1px solid #686868;
+      }
+      .title, .subtitle {
+        color:#686868;
+      }
     }
-    .title, .subtitle {
+    .wrap-sharing .fb a{
+      @include sprite-sprite(facebook);
+    }
+    .wrap-sharing .tw a{
+      @include sprite-sprite(twitter);
+    }
+    .wrap-sharing .title{
+      border-right:1px solid #686868;
       color:#686868;
     }
-  }
-  .wrap-sharing .fb a{
-    @include sprite-sprite(facebook);
-  }
-  .wrap-sharing .tw a{
-    @include sprite-sprite(twitter);
-  }
-  .wrap-sharing .title{
-    border-right:1px solid #686868;
-    color:#686868;
-  }
+  }  
 }
 // esempio fullscreen
 #y-2010 .hp .aux{
   background:url('/public/images/placeholder/pl-hp.jpg') center top no-repeat;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale')";
+}
+
+#y-2010 .intro .aux{
+  background:url('/public/images/placeholder/bg-intro.jpg') center top no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .gallery .aux{
@@ -176,7 +210,8 @@ a{
         a{
           padding:0 3px 1px;
           font:{
-            size:1.4em;
+            size:1.3em;
+            family:'ITCAvantGardeGothicStdMdOb';
           }
         }
         &.active a, & a:hover{
@@ -213,6 +248,7 @@ a{
       color:#fff;
       font:{
         size:6em;
+        family:'ITCAvantGardeGothicStdXLtOb';
       }
     }
     .next-page{
@@ -225,15 +261,16 @@ a{
 // contenuto condiviso tra le sezioni
 .step{
   position:relative;
-  background:#ddd;
+  // background:#ddd;
   float: left;
   overflow: hidden;
-
   .content{
     position:absolute;
-    top:20%;
     right:45px;
     text-align:right;
+    top:60%;
+    height:544px;
+    margin-top:-272px;
     header{
       float:right;
       margin-bottom:20px;
@@ -242,6 +279,11 @@ a{
         text-transform:uppercase;
         font:{
           size:3.7em;
+        }
+        span{
+          font:{
+            family:'ITCAvantGardeGothicStdXLtOb'
+          }
         }
       }
       .subtitle{
@@ -282,7 +324,9 @@ a{
   menu{
     padding-top:30px;
     clear:both;
-    float:right;
+    position:absolute;
+    bottom:30px;
+    right:0;
     li{
       float:left;
       .prev-page{
@@ -296,6 +340,7 @@ a{
 .intro{
   .text-content{
     width:520px;
+    clear:both;
     .description{
       line-height:1.5em;
       font:{
@@ -377,6 +422,11 @@ a{
     }
   }
 }
+
+
+.gallery{
+}
+
 .wrap-oriz-scroll{
   clear:both;
   padding-left:45px;
