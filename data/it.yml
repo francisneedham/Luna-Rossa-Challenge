@@ -97,7 +97,7 @@
   home:
     template: 'home'
     css_class: 'hp'
-    page_mood: 'white'
+    page_mood: 'grey'
     title: 'Sailing Season'
     year: '2010'
   intro:

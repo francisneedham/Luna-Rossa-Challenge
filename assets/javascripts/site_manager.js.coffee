@@ -14,12 +14,12 @@ window.SiteManager = class
     @templates = {}
 
   detectCurrentPage: ->
-    pathParts = window.location.pathname.replace(/^\//, '').split('/')
+    pathParts = window.location.pathname.replace(/^\/.{2}\//, '').split('/')
 
-    @currentYear = pathParts[1]
+    @currentYear = pathParts[0]
     @currentYear = @yearsList[0] unless @currentYear?
 
-    @currentPage = pathParts[2]
+    @currentPage = pathParts[1]
     unless @currentPage?
       @pagesList = _.map @data[@currentYear], (discard, page) -> page
       @currentPage = @pagesList[0]

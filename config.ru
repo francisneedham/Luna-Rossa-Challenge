@@ -43,17 +43,17 @@ class RedMoon
           page_index = pages.keys.index(page)
 
           if page_index < pages.keys.length - 1
-            content[:next] = "/#{year}/#{pages.keys[page_index+1]}/"
+            content[:next] = "/#{locale}/#{year}/#{pages.keys[page_index+1]}/"
           elsif year_index < years.keys.length - 1
             next_year = years.keys[year_index - 1]
-            content[:next] = "/#{next_year}/#{years[next_year].keys.first}/"
+            content[:next] = "/#{locale}/#{next_year}/#{years[next_year].keys.first}/"
           end
 
           if page_index > 0
-            content[:prev] = "/#{year}/#{pages.keys[page_index-1]}/"
+            content[:prev] = "/#{locale}/#{year}/#{pages.keys[page_index-1]}/"
           elsif year_index > 0
             prev_year = years.keys[year_index - 1]
-            content[:prev] = "/#{prev_year}/#{years[prev_year].keys.first}/"
+            content[:prev] = "/#{locale}/#{prev_year}/#{years[prev_year].keys.first}/"
           end
 
         end
@@ -134,8 +134,9 @@ class RedMoon
 
     master_data = {}
     master_data['content'] = mustache(content['template'], content)
-    master_data['json'] = data[locale || data.keys.first].to_json
-    master_data['years'] = data[locale || data.keys.first].keys
+    master_data['locale'] = locale || data.keys.first
+    master_data['json'] = data[master_data['locale']].to_json
+    master_data['years'] = data[master_data['locale']].keys
     master_data['year'] = year || master_data['years'].first
     master_data['templates'] = Dir.glob(project_root + '/public/templates/*.mustache').map do |name|
       name = name.gsub(/^.*\/(.+)\.mustache$/){$1}

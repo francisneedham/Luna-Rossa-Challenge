@@ -11,7 +11,7 @@
   History.Adapter.bind w, 'statechange', ->
     State = History.getState()
 
-    urlParts = State.url.replace(/^(https?:\/\/.+?)?\//, '').split('/')
+    urlParts = State.url.replace(/^(https?:\/\/.+?)?\/.{2}\//, '').split('/')
 
     w.manager.goto urlParts[0], urlParts[1]
 
