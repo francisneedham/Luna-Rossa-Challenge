@@ -34,6 +34,31 @@ class RedMoon
       name = name.gsub(/^.*\/(.+)\.yml$/){$1}
       @data[name] = YAML.load_file(File.expand_path(project_root + "/data/#{name}.yml"))
     end
+
+    @data.each do |locale, years|
+      years.each do |year, pages|
+        year_index = years.keys.index(year)
+
+        pages.each do |page, content|
+          page_index = pages.keys.index(page)
+
+          if page_index < pages.keys.length - 1
+            content[:next] = "/#{year}/#{pages.keys[page_index+1]}/"
+          elsif year_index < years.keys.length - 1
+            next_year = years.keys[year_index - 1]
+            content[:next] = "/#{next_year}/#{years[next_year].keys.first}/"
+          end
+
+          if page_index > 0
+            content[:prev] = "/#{year}/#{pages.keys[page_index-1]}/"
+          elsif year_index > 0
+            prev_year = years.keys[year_index - 1]
+            content[:prev] = "/#{prev_year}/#{years[prev_year].keys.first}/"
+          end
+
+        end
+      end
+    end
   end
 
   def call(env)
@@ -110,7 +135,8 @@ class RedMoon
     master_data = {}
     master_data['content'] = mustache(content['template'], content)
     master_data['json'] = data[locale || data.keys.first].to_json
-    master_data['year'] = year || data[locale || data.keys.first].keys.first
+    master_data['years'] = data[locale || data.keys.first].keys
+    master_data['year'] = year || master_data['years'].first
     master_data['templates'] = Dir.glob(project_root + '/public/templates/*.mustache').map do |name|
       name = name.gsub(/^.*\/(.+)\.mustache$/){$1}
 

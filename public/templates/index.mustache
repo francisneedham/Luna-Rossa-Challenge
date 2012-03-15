@@ -13,11 +13,9 @@
       </h1>
       <nav id="navbar">
         <ul>
-          <li><a href="/2013/home/">2013</a></li>
-          <li><a href="/2012/home/">2012</a></li>
-          <li><a href="/2011/home/" class"active">2011</a></li>
-          <li><a href="/2007/home/">2007</a></li>
-          <li><a href="/2006/home/">2006</a></li>
+          {{#years}}
+          <li><a href="/{{.}}/home/">{{.}}</a></li>
+          {{/years}}
         </ul>
       </nav>
     </header>
