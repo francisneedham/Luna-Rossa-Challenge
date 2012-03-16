@@ -89,6 +89,9 @@ window.SiteManager = class
     ($ '.section-title').css
       top: (@height * 0.23)
 
+    ($ '.section-arrow').css
+      bottom: (@height * 0.11)
+
     @position(true)
 
   position: (skipAnimation, callback) =>
@@ -120,11 +123,22 @@ window.SiteManager = class
       # unless moving from home to first page or vice versa
       unless (page == @pagesList()[0] and @currentPage == @pagesList()[1]) or (page == @pagesList()[1] and @currentPage == @pagesList()[0])
 
+        # animate title
         begin = @currentEl().find('.section-title')
         target = @currentEl(page).find('.section-title')
 
         begin.toggleClass('fixed-header', true)
         target.css(opacity: 0).toggleClass('fixed-header', true)
+
+        begin.animate(opacity: 0, @animationOptions)
+        target.animate(opacity: 1, @animationOptions)
+
+        #animate arrows
+        begin = @currentEl().find('.section-arrow')
+        target = @currentEl(page).find('.section-arrow')
+
+        begin.toggleClass('fixed-menu', true)
+        target.css(opacity: 0).toggleClass('fixed-menu', true)
 
         begin.animate(opacity: 0, @animationOptions)
         target.animate(opacity: 1, @animationOptions)
@@ -147,6 +161,7 @@ window.SiteManager = class
 
   pageScrolled: =>
     ($ '.fixed-header').toggleClass('fixed-header', false)
+    ($ '.fixed-menu').toggleClass('fixed-menu', false)
 
   prevPage: =>
     nextPath = @currentContent()['prev']
