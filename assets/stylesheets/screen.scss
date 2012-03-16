@@ -99,7 +99,7 @@ a{
   position:relative;
   height:100%;
   width:1440px; //da impostare dinamicamente
-  background-position:center center;
+  background: center center no-repeat;
   background-size: cover;
   float:left;
 }
@@ -181,25 +181,25 @@ a{
 }
 // esempio fullscreen
 #y-2010 .hp .aux{
-  background:url('/public/images/placeholder/pl-hp.jpg') center center no-repeat;
+  background-image: url('/public/images/placeholder/pl-hp.jpg');
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .intro .aux{
-  background:url('/public/images/placeholder/bg-intro.jpg') center center no-repeat;
+  background-image: url('/public/images/placeholder/bg-intro.jpg');
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .gallery .aux{
-  background:url('/public/images/placeholder/bg-gallery.jpg') center center no-repeat;
+  background-image: url('/public/images/placeholder/bg-gallery.jpg') ;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .adv .aux{
-  background:url('/public/images/placeholder/bg-adv.jpg') center center no-repeat;
+  background-image: url('/public/images/placeholder/bg-adv.jpg');
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale')";
 }
