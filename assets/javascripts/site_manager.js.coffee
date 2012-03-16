@@ -30,7 +30,7 @@ window.SiteManager = class
     unless @currentPage
       @currentPage = @pagesList()[0]
 
-    ($ "#link-#{@currentYear}").addClass('active')
+    @activeYear(@currentYear)
 
   getTemplate: (template) ->
     if template in @templates
@@ -112,11 +112,14 @@ window.SiteManager = class
       ($ '#years-list').animate(scrollTop: top, animationOptions)
       ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
 
+  activeYear: (year) =>
+    ($ "#navbar .active").removeClass('active')
+    ($ "#link-#{year}").addClass('active')
+
   gotoYear: (year) =>
     year = year.toString()
     if year != @currentYear
-      ($ "#link-#{@currentYear}").removeClass('active')
-      ($ "#link-#{year}").addClass('active')
+      @activeYear(year)
 
       @currentYear = year
       @currentPage = @pagesList()[0]
