@@ -117,14 +117,17 @@ window.SiteManager = class
 
   gotoPage: (page) =>
     if page != @currentPage
-      begin = @currentEl().find('.section-title')
-      target = @currentEl(page).find('.section-title')
+      # unless moving from home to first page or vice versa
+      unless (page == @pagesList()[0] and @currentPage == @pagesList()[1]) or (page == @pagesList()[1] and @currentPage == @pagesList()[0])
 
-      begin.toggleClass('fixed-header', true)
-      target.css(opacity: 0).toggleClass('fixed-header', true)
+        begin = @currentEl().find('.section-title')
+        target = @currentEl(page).find('.section-title')
 
-      begin.animate(opacity: 0, @animationOptions)
-      target.animate(opacity: 1, @animationOptions)
+        begin.toggleClass('fixed-header', true)
+        target.css(opacity: 0).toggleClass('fixed-header', true)
+
+        begin.animate(opacity: 0, @animationOptions)
+        target.animate(opacity: 1, @animationOptions)
 
       @currentPage = page
       @position(false, @pageScrolled)
