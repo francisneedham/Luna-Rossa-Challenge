@@ -30,6 +30,8 @@ window.SiteManager = class
     unless @currentPage
       @currentPage = @pagesList()[0]
 
+    ($ "#link-#{@currentYear}").addClass('active')
+
   getTemplate: (template) ->
     if template in @templates
       @templates[template]
@@ -113,6 +115,9 @@ window.SiteManager = class
   gotoYear: (year) =>
     year = year.toString()
     if year != @currentYear
+      ($ "#link-#{@currentYear}").removeClass('active')
+      ($ "#link-#{year}").addClass('active')
+
       @currentYear = year
       @currentPage = @pagesList()[0]
 
