@@ -148,6 +148,9 @@ window.SiteManager = class
         begin = @currentEl().find('.section-title')
         target = @currentEl(page).find('.section-title')
 
+        begin.stop(true)
+        target.stop(true)
+
         begin.toggleClass('fixed-header', true)
         target.css(opacity: 0).toggleClass('fixed-header', true)
 
@@ -157,6 +160,9 @@ window.SiteManager = class
         #animate arrows
         begin = @currentEl().find('.section-arrow')
         target = @currentEl(page).find('.section-arrow')
+
+        begin.stop(true)
+        target.stop(true)
 
         begin.toggleClass('fixed-menu', true)
         target.css(opacity: 0).toggleClass('fixed-menu', true)
@@ -181,8 +187,8 @@ window.SiteManager = class
     @data[year][page]
 
   pageScrolled: =>
-    ($ '.fixed-header').toggleClass('fixed-header', false)
-    ($ '.fixed-menu').toggleClass('fixed-menu', false)
+    ($ '.fixed-header').toggleClass('fixed-header', false).css(opacity: 1)
+    ($ '.fixed-menu').toggleClass('fixed-menu', false).css(opacity: 1)
 
   yearScrolled: =>
     ($ '.moved').toggleClass('moved', false).css(left: '')
