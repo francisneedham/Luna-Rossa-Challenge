@@ -93,6 +93,9 @@
     template: 'adv'
     css_class: 'adv'
     page_mood: 'white'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ycpa.it'
+    alt_img: 'yacht club'
 2011:
   home:
     template: 'home'
@@ -189,6 +192,5 @@
     css_class: 'adv'
     page_mood: 'white'
     link_img: '/public/images/placeholder/link_adv.png'
-    link_href: 'http://www.ggogle.com'
+    link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
-    
