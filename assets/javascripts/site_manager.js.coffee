@@ -20,10 +20,10 @@ window.SiteManager = class
     pathParts = window.location.pathname.replace(/^\/.{2}\//, '').split('/')
 
     @currentYear = pathParts[0]
-    @currentYear = @yearsList[0] unless @currentYear?
+    @currentYear = @yearsList[0] unless @currentYear
 
     @currentPage = pathParts[1]
-    unless @currentPage?
+    unless @currentPage
       @pagesList = _.map @data[@currentYear], (discard, page) -> page
       @currentPage = @pagesList[0]
 
