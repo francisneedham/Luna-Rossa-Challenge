@@ -104,6 +104,9 @@ a{
   float:left;
 }
 
+#navbar a {
+  @include single-transition(color, 1s, ease-in-out, 0)
+}
 
 // white-element
 .white{

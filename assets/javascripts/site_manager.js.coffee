@@ -94,6 +94,8 @@ window.SiteManager = class
     pagesList = _.map @data[@currentYear], (discard, page) -> page
     left = _.indexOf(pagesList, @currentPage) * @width
 
+    ($ '#wrapper').removeClass().addClass(@currentContent()['page_mood'])
+
     if skipAnimation
       ($ '#years-list').scrollTop(top)
       ($ "#y-#{@currentYear}").scrollLeft(left)
