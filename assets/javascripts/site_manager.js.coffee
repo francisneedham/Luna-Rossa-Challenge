@@ -109,8 +109,11 @@ window.SiteManager = class
       animationOptions = _.clone(@animationOptions)
       animationOptions.complete = callback
 
-      ($ '#years-list').animate(scrollTop: top, animationOptions)
-      ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
+      if top != ($ '#years-list').scrollTop()
+        ($ '#years-list').animate({scrollTop: top}, animationOptions)
+
+      if left != ($ "#y-#{@currentYear}").scrollLeft()
+        ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
 
   activeYear: (year) =>
     ($ "#navbar .active").removeClass('active')
@@ -121,10 +124,20 @@ window.SiteManager = class
     if year != @currentYear
       @activeYear(year)
 
+      if @currentPage != @pagesList()[0]
+        left = (_.indexOf(@pagesList(), @currentPage) - 1) * @width
+
+        if @currentPage != @pagesList()[1]
+          home = @currentEl(@pagesList()[0])
+          home.toggleClass('moved', true).css(left: left)
+
+        ($ "#y-#{@currentYear}").animate({scrollLeft: left}, @animationOptions)
+
+
       @currentYear = year
       @currentPage = @pagesList()[0]
 
-      @position(false)
+      @position(false, @yearScrolled)
 
   gotoPage: (page) =>
     if page != @currentPage
@@ -170,6 +183,10 @@ window.SiteManager = class
   pageScrolled: =>
     ($ '.fixed-header').toggleClass('fixed-header', false)
     ($ '.fixed-menu').toggleClass('fixed-menu', false)
+
+  yearScrolled: =>
+    ($ '.moved').toggleClass('moved', false).css(left: '')
+    ($ '.single-year').stop(true).scrollLeft(0)
 
   prevPage: =>
     nextPath = @currentContent()['prev']
