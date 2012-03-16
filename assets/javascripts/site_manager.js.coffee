@@ -16,6 +16,10 @@ window.SiteManager = class
 
     @templates = {}
 
+  pagesList: (year = @currentYear) =>
+    @pagesLists = [] unless @pagesLists
+    @pagesLists[year] or (@pagesLists[year] = _.map(@data[year], (discard, page) -> page))
+
   detectCurrentPage: ->
     pathParts = window.location.pathname.replace(/^\/.{2}\//, '').split('/')
 
@@ -24,8 +28,7 @@ window.SiteManager = class
 
     @currentPage = pathParts[1]
     unless @currentPage
-      @pagesList = _.map @data[@currentYear], (discard, page) -> page
-      @currentPage = @pagesList[0]
+      @currentPage = @pagesList()[0]
 
   getTemplate: (template) ->
     if template in @templates
@@ -57,7 +60,6 @@ window.SiteManager = class
 
       else
         el = ($ "#y-#{year}").find('.container')
-        @pagesList = _.map content, (discard, page) -> page
         _.each content, (content, page) =>
           @buildPageCurrentYear(el, content, page)
 
@@ -70,7 +72,7 @@ window.SiteManager = class
 
   buildPageCurrentYear: (parent, content, page) =>
     if page != @currentPage
-      if _.indexOf(@pagesList, page) > _.indexOf(@pagesList, @currentPage)
+      if _.indexOf(@pagesList(), page) > _.indexOf(@pagesList(), @currentPage)
         parent.append @mustache(content['template'], content)
       else
         parent.find(".#{@currentContent()['css_class']}").before(@mustache(content['template'], content))
@@ -91,8 +93,7 @@ window.SiteManager = class
 
   position: (skipAnimation, callback) =>
     top = _.indexOf(@yearsList, @currentYear) * @height
-    pagesList = _.map @data[@currentYear], (discard, page) -> page
-    left = _.indexOf(pagesList, @currentPage) * @width
+    left = _.indexOf(@pagesList(), @currentPage) * @width
 
     ($ '#wrapper').removeClass().addClass(@currentContent()['page_mood'])
 
@@ -110,8 +111,7 @@ window.SiteManager = class
     year = year.toString()
     if year != @currentYear
       @currentYear = year
-      pagesList = _.map @data[@currentYear], (discard, page) -> page
-      @currentPage = pagesList[0]
+      @currentPage = @pagesList()[0]
 
       @position(false)
 
@@ -144,3 +144,28 @@ window.SiteManager = class
 
   pageScrolled: =>
     ($ '.fixed-header').toggleClass('fixed-header', false)
+
+  prevPage: =>
+    nextPath = @currentContent()['prev']
+
+    if nextPath
+      History.pushState({}, null, nextPath)
+
+  nextPage: =>
+    nextPath = @currentContent()['next']
+
+    if nextPath
+      History.pushState({}, null, nextPath)
+
+  prevYear: =>
+    nextPath = @currentContent(@pagesList()[0])['prev']
+
+    if nextPath
+      History.pushState({}, null, nextPath)
+
+  nextYear: =>
+    pagesList = @pagesList()
+    nextPath = @currentContent(pagesList[pagesList.length - 1])['next']
+
+    if nextPath
+      History.pushState({}, null, nextPath)

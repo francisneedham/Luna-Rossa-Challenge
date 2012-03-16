@@ -7,6 +7,8 @@
 //= require history/history.html4
 //= require history/history.adapter.jquery
 //
+//= require lib/keymaster
+//
 //= require mustache
 //= require utilities
 //
