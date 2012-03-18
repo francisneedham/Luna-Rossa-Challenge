@@ -102,13 +102,13 @@ Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt 
   home:
     template: 'home'
     css_class: 'hp'
-    page_mood: 'grey'
+    page_mood: 'white'
     title: 'Sailing Season'
     year: '2011'
   intro:
     template: 'intro'
     css_class: 'intro'
-    page_mood: 'grey'
+    page_mood: 'white'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Extreme sailing series'
     description: 'EXTREME SAILING SERIES
@@ -127,23 +127,35 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         alt: 'bollettini'
         caption: "Luna Rossa vince l'extreme sailing series 2011"
         date: '11/12/2011'
-        details: "<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
-          <li>
-            <h3>Extreme Sailing Series 2011</h3>
-            <h4>Classifica generale</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          </li>"
+        details: "<li>
+                <p>Il Team Luna Rossa ha vinto oggi a Singapore il circuito Extreme Sailing Series 2011.</p>
+                <p>L’equipaggio composto da Max Sirena (skipper), Paul Campbell-James (timoniere), Alister Richardson (tattico) e Manuel Modena (crew) ha conquistato in acque asiatiche anche l’ultima tappa della stagione.</p>
+                <p>Le Extreme Sailing Series, riservate alla classe di catamarano Extreme 40′, si sono svolte, da Febbraio a Dicembre, su un calendario internazionale di 9 prove, rappresentando uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.</p>
+                </li>
+                <li><p>Giunto a Singapore in vetta alla classifica mondiale, il Team Luna Rossa, ha mantenuto la leadership sul resto della flotta, aumentando – con la vittoria dell’ultimo atto – il vantaggio di punti acquisito nel corso dell’anno.</p>
+                <h3>Extreme Sailing Series 2011</h3>
+                <h4>Classifica generale</h4>
+                1 Luna Rossa (80 punti)<br>
+                2 Groupe Edmond de Rotschild (73 punti)<br>
+                3 Emirates Team New Zealand (69 punti)<br>
+                4 The Wave, Muscat (67 punti)<br>
+                5 Alinghi (66 punti)<br>
+                6 Red Bull Extreme Sailing (61 punti)<br>
+                7 Oman Air (53 punti)<br>
+                8 Artemis Racing (48 punti)<br>
+                9 Team Gac Pinder (33 punti)<br>
+                10 Team Extreme (21 punti)<br>
+                11 Niceforyou (18 punti)</p>          </li>"
       - number: '.02'
-        image: '/public/images/placeholder/bollettini.jpg'
+        image: '/public/images/2011/bollettini_es_2.jpg'
         alt: 'bollettini'
-        caption: "Luna Rossa vince l'extreme sailing series 2011"
-        date: '11/12/2011'
-        details: "<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
-          <li>
-            <h3>Extreme Sailing Series 2011</h3>
-            <h4>Classifica generale</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          </li>"
+        caption: "EXTREME SAILING SERIES ACT 9, A DOMANI…"
+        date: '10/12/2011'
+        details: "<li><p>Dopo 25 regate in totale, oggi a Singapore Luna Rossa ha fatto sua la leadership della classifica provvisoria totalizzando i seguenti risultati parziali: 2 – 7 – 2 – 2 – 1 –  1 – 3 –  4 – 3 –  1 –  2.</p>
+                <p>Una giornata più che positiva per Luna Rossa che si porta a 56 punti di distacco dal diretto avversario per il titolo di circuito, Groupe Edmond de Rothschild, attualmente in settima posizione con 128 punti totali.</p>
+                <p>La giornata è stata caratterizzata da brezze rafficate di vento che hanno reso le regate ancor più sorprendenti; da segnalare, nell’ottava prova di oggi, la collisione tra Team GAC Pindar e Red Bull Extreme Sailing, quest’ultimo a mure a dritta ha colpito lo spigolo di poppa dell’avversario, sbalzando in acqua il prodiere Craig Monk.</p>
+                <p>Per l’ultimo giorno sono in programma 10 o più regate, in termini di punteggio significa che 110 punti o più sono ancora da distribuire, dunque…a domani. Stay tuned!</p>
+                </li>"
       - number: '.03'
         image: '/public/images/placeholder/bollettini.jpg'
         alt: 'bollettini'
@@ -162,25 +174,25 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Team'
     members:
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
+      - name: 'Lorenzo Bressani'
+        role: 'Helmsman (Marsiglia-Barcellona-Cartagena)'
+        image: '/public/images/team/bress.jpg'
         alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
+      - name: 'Alberto Bolzan'
+        role: 'Helmsman (Cagliari)'
+        image: '/public/images/team/bolzan.jpg'
         alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
+      - name: 'Robert Scheidt'
+        role: 'Helmsman (Cascais)'
+        image: '/public/images/team/robert.jpg'
         alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
+      - name: 'Matteo Plazzi'
+        role: 'Navigator'
+        image: '/public/images/team/matteo.JPG'
         alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
+      - name: 'Torben Grael'
+        role: 'Tactician (Cascais-Marsiglia)'
+        image: '/public/images/team/torben.JPG'
         alt: 'Team'
       - name: 'Max Sirena'
         role: 'Pitman/skipper'

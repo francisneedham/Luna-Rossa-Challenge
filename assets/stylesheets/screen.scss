@@ -189,8 +189,8 @@ a{
 
 #y-2010 .intro .aux{
   background-image: url('/public/images/2010/intro.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/intro.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/intro.jpg', sizingMethod='scale')";
 }
 
 #y-2010 .gallery .aux{
@@ -201,36 +201,37 @@ a{
 
 #y-2010 .adv .aux{
   background-image: url('/public/images/2010/bg-adv.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg-adv.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg-adv.jpg', sizingMethod='scale')";
 }
 
 
 
 
 #y-2011 .hp .aux{
-  background-image: url('/public/images/placeholder/pl-hp.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/placeholder/images/pl-hp.jpg', sizingMethod='scale')";
+  background-image: url('/public/images/2011/bg.jpg');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale')";
 }
 
 #y-2011 .intro .aux{
-  background-image: url('/public/images/placeholder/bg-intro.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/bg-intro.jpg', sizingMethod='scale')";
+  background-image: url('/public/images/2011/intro.jpg');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/intro.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/intro.jpg', sizingMethod='scale')";
 }
 
 #y-2011 .gallery .aux{
-  background-image: url('/public/images/placeholder/bg-gallery.jpg') ;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-hp.jpg', sizingMethod='scale')";
+  background-image: url('/public/images/2011/gall.jpg') ;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale')";
 }
 
 #y-2011 .adv .aux{
-  background-image: url('/public/images/placeholder/bg-adv.jpg');
+  background-image: url('/public/images/2010/bg-adv.jpg');
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale')";
 }
+
 // header
 #header{
   position:absolute;
@@ -260,7 +261,6 @@ a{
           padding:0 3px 1px;
           font:{
             size:1.3em;
-            family:'ITCAvantGardeGothicStdMdOb';
           }
         }
         &.active a, & a:hover{
@@ -292,7 +292,6 @@ a{
       text-transform:uppercase;
       font:{
         size:7em;
-        family:'ProximaNovaBoldItalic';
       }
     }
     .year{
@@ -300,7 +299,6 @@ a{
       color:#fff;
       font:{
         size:6em;
-        family:'ITCAvantGardeGothicStdXLtOb';
       }
     }
     .next-page{
@@ -328,12 +326,6 @@ a{
       text-transform:uppercase;
       font:{
         size:3.7em;
-        family:'ProximaNovaBoldItalic';
-      }
-      span{
-        font:{
-          family:'ITCAvantGardeGothicStdXLtOb'
-        }
       }
     }
     .subtitle{
@@ -495,7 +487,7 @@ a{
       }
       .role{
         font:{
-          size:1.3em;
+          size:1.1em;
         }
         color:#e52b38;
       }
