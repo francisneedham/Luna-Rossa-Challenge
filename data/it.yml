@@ -8,39 +8,41 @@
   intro:
     template: 'intro'
     css_class: 'intro'
-    page_mood: 'grey'
-    title: 'Sailing season<span> 2011</span>'
-    subtitle: 'the challenge'
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    page_mood: 'white'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'LOUIS VUITTON TROPHY WSTA'
+    description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series. Dieci teams hanno gareggiato per 15 giorni nel Waitemata Harbour di Auckland in duelli match races vinti da Emirates Team New Zealand.
+
+Il Team Luna Rossa partecipa alle regate del Louis Vuitton Trophy WSTA che si terranno a La Maddalena dal 22 Maggio al 6 Giugno 2010.
+
+Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt in qualità di stratega.'
   bullettins:
     template: 'bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
-    title: "Sailing season<span> 2011</span>"
+    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
     subtitle: 'bollettini'
     items:
       - number: '.01'
-        image: '/public/images/placeholder/bollettini.jpg'
+        image: '/public/images/2010/bollettini_lv_1.jpg'
         alt: 'bollettini'
-        caption: "Luna Rossa vince l'extreme sailing series 2011"
-        date: '11/12/2011'
-        details: "<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
-          <li>
-            <h3>Extreme Sailing Series 2011</h3>
-            <h4>Classifica generale</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          </li>"
+        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
+        date: '05/06/2010'
+        details: "<li>
+        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
+        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
+        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
+        </li>"
       - number: '.02'
-        image: '/public/images/placeholder/bollettini.jpg'
+        image: '/public/images/2010/bollettini_lv_2.jpg'
         alt: 'bollettini'
-        caption: "Luna Rossa vince l'extreme sailing series 2011"
+        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS BMW ORACLE RACING (USA)"
         date: '11/12/2011'
-        details: "<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p></li>
-          <li>
-            <h3>Extreme Sailing Series 2011</h3>
-            <h4>Classifica generale</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          </li>"
+        details: "<li><p><strong>Vento:</strong> 12/15 nodi<br>
+        <strong>Percorso:</strong> a bastone di 1.1 miglia (2 giri) – partenza ore 17:05<br>
+        Luna Rossa regata su ITA 90, Bmw Oracle Racing su ITA 99</p>
+        <p>Un match vinto in partenza. Luna Rossa parte sopravento all’avversario e si impone sin dal primo lato di bolina, il distacco dall’imbarcazione americana aumenta con l’avvicinarsi alla prima boa, Luna Rossa gira 41” in vantaggio. Durante la poppa Bmw Oracle Racing riesce a recuperare una lunghezza girando il cancello 34″ dopo Luna Rossa che anche nella seconda bolina mantiene il controllo. All’arrivo l’imbarcazione italiana è prima, conquista così il secondo punto nel round robin.</p>
+        </li>"
       - number: '.03'
         image: '/public/images/placeholder/bollettini.jpg'
         alt: 'bollettini'
@@ -56,27 +58,27 @@
     template: 'team'
     css_class: 'team'
     page_mood: 'white'
-    title: 'Sailing season<span> 2011</span>'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
     subtitle: 'Team'
     members:
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
+      - name: 'Ed Baird'
+        role: 'Skipper and Helmsman'
+        image: '/public/images/team/ed.jpg'
+        alt: 'Team'
+      - name: 'Torben Grael'
+        role: 'Tactician'
+        image: '/public/images/team/torben.JPG'
+        alt: 'Team'
+      - name: 'Robert Scheidt'
+        role: 'Strategist'
+        image: '/public/images/team/robert.jpg'
+        alt: 'Team'
+      - name: 'Matteo Plazzi'
+        role: 'Navigator'
+        image: '/public/images/team/matteo.JPG'
         alt: 'Team'
       - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
-        alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
-        alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
-        image: '/public/images/placeholder/team.jpg'
-        alt: 'Team'
-      - name: 'Max Sirena'
-        role: 'Pitman/skipper'
+        role: 'Runners and Head of the Technical and Sailing Programme'
         image: '/public/images/placeholder/team.jpg'
         alt: 'Team'
       - name: 'Max Sirena'
@@ -87,7 +89,7 @@
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: 'Sailing season<span> 2011</span>'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
     subtitle: 'photo gallery'
   adv:
     template: 'adv'
@@ -102,14 +104,17 @@
     css_class: 'hp'
     page_mood: 'grey'
     title: 'Sailing Season'
-    year: '2010'
+    year: '2011'
   intro:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'grey'
     title: 'Sailing season<span> 2011</span>'
-    subtitle: 'the challenge'
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    subtitle: 'Extreme sailing series'
+    description: 'EXTREME SAILING SERIES
+Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.
+L’equipaggio è composto da 4 persone e le imbarcazioni – catamarani di 40′ (circa 12 m) ultraleggeri – sono capaci di sviluppare velocità di oltre 25 nodi, dando vita a regate di flotta spettacolari, con duelli che spesso si risolvono a pochi metri dalla linea d’arrivo.
+Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht Club Punta Ala'
   bullettins:
     template: 'bullettins'
     css_class: 'bollettini'
