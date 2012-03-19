@@ -8,13 +8,9 @@
     </header>
     <article class="wrap-gallery-carousel challenge gallery">
       <ul class="gallery-carousel">
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/01.jpg" height="177" alt="Thumb Gallery"></a></li>
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/02.jpg" height="177" alt="Thumb Gallery"></a></li>
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/03.jpg" height="177" alt="Thumb Gallery"></a></li>
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/04.jpg" height="177" alt="Thumb Gallery"></a></li>
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/05.jpg" height="177" alt="Thumb Gallery"></a></li>
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/06.jpg" height="177" alt="Thumb Gallery"></a></li>
-        <li class="item"><a href="#"><img src="/public/images/2010/gallery/07.jpg" height="177" alt="Thumb Gallery"></a></li>
+      {{#images}}
+        <li class="item"><a href="#"><img src="{{src}}" height="177" alt="{{alt}}"></a></li>
+      {{/images}}
       </ul>
     </article>
     <menu class="section-arrow">
