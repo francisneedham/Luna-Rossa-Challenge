@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-  <link href="/assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <script src="/public/javascripts/modernizr.js" type="text/javascript" charset="utf-8"></script>
-  <title>Luna Rossa Challenge</title>
-</head>
-<body>
-  <div class="" id="wrapper">
-    <header id="header">
-      <h1>
-        <a href="/" class="logo">Luna Rossa</a>
-      </h1>
-      <nav id="navbar">
-        <ul>
-          {{#years}}
-          <li id="link-{{.}}"><a href="/{{locale}}/{{.}}/home/">{{.}}</a></li>
-          {{/years}}
-        </ul>
-      </nav>
-    </header>
-    <ul id="years-list">
-      <li class="single-year" id="y-{{year}}">
-        <div class="container">{{{content}}}</div>
-      </li>
-    </ul>
-    <!-- div per sticky-footer -->
-    <div id="wrapper_footer"></div>
-  </div>
-  <footer id="footer">
-    <p>&#169; Copyright Luna Rossa Trademark Sarl - P. IVA 10115350158 - Company info and Legal Terms</p>
-    <a href="#" class="logo-prada"><span></span></a>
-  </footer>
-  <script id="site-data" type="text/javascript">/*{{{ json}}}*/</script>
-  {{#templates}}
-  <script id="tpl-{{name}}" type="text/javascript">/*{{{ content}}}*/</script>
-  {{/templates}}
-  <script src="/assets/javascripts/application.js" type="text/javascript" charset="utf-8"></script>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="/assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <title>Luna Rossa Challenge</title>
+    <script src="/public/javascripts/modernizr.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <h1>
+          <a href="/" class="logo">Luna Rossa</a>
+        </h1>
+        <nav id="navbar">
+          <ul>
+            {{#years}}
+            <li id="link-{{.}}"><a href="/{{locale}}/{{.}}/home/">{{.}}</a></li>
+            {{/years}}
+          </ul>
+        </nav>
+      </header>
+      <ul id="years-list">
+        <li class="single-year" id="y-{{year}}">
+          <div class="container">{{{content}}}</div>
+        </li>
+      </ul>
+      <!-- div per sticky-footer -->
+      <div id="wrapper_footer"></div>
+    </div>
+    <footer id="footer">
+      <p>&#169; Copyright Luna Rossa Trademark Sarl - P. IVA 10115350158 - Company info and Legal Terms</p>
+      <a href="#" class="logo-prada"><span></span></a>
+    </footer>
+    <script id="site-data" type="text/javascript">/*{{{ json}}}*/</script>
+    {{#templates}}
+    <script id="tpl-{{name}}" type="text/javascript">/*{{{ content}}}*/</script>
+    {{/templates}}
+    <script src="/assets/javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+  </body>
 </html>
