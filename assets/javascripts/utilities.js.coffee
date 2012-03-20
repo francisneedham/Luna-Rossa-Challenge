@@ -2,7 +2,7 @@
 w = window
 
 w.extract = (query) ->
-  content = ($ query).text()
+  content = ($ query).html()
   content = $.trim(content)
   content = content.replace(/^\/\*/, '').replace(/\*\/$/, '')
   $.trim(content)

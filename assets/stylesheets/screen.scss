@@ -180,56 +180,80 @@ a{
     }
   }
 }
+
 // esempio fullscreen
-#y-2010 .hp .aux{
-  background-image: url('/public/images/2010/bg.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale')";
+#y-2010 {
+
+  .hp .aux{
+    background-image: url('/public/images/2010/bg.jpg');
+
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale')";
+    }
+  }
+
+  .intro .aux{
+    background-image: url('/public/images/2010/intro.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/intro.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/intro.jpg', sizingMethod='scale')";
+    }
+  }
+
+  .gallery .aux{
+    background-image: url('/public/images/2010/gallery.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/gallery.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/gallery.jpg', sizingMethod='scale')";
+    }
+  }
+
+  .adv .aux{
+    background-image: url('/public/images/2010/bg-adv.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg-adv.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg-adv.jpg', sizingMethod='scale')";
+    }
+  }
+
 }
 
-#y-2010 .intro .aux{
-  background-image: url('/public/images/2010/intro.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/intro.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/intro.jpg', sizingMethod='scale')";
-}
 
-#y-2010 .gallery .aux{
-  background-image: url('/public/images/2010/gallery.jpg') ;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/gallery.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/gallery.jpg', sizingMethod='scale')";
-}
+#y-2011 {
 
-#y-2010 .adv .aux{
-  background-image: url('/public/images/2010/bg-adv.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg-adv.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg-adv.jpg', sizingMethod='scale')";
-}
+  .hp .aux{
+    background-image: url('/public/images/2011/bg.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale')";
+    }
+  }
 
+  .intro .aux{
+    background-image: url('/public/images/2011/intro.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/intro.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/intro.jpg', sizingMethod='scale')";
+    }
+  }
 
+  .gallery .aux{
+    background-image: url('/public/images/2011/gall.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale')";
+    }
+  }
 
+  .adv .aux{
+    background-image: url('/public/images/2010/bg-adv.jpg');
+    .no-backgroundsize & {
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale')";
+    }
+  }
 
-#y-2011 .hp .aux{
-  background-image: url('/public/images/2011/bg.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale')";
-}
-
-#y-2011 .intro .aux{
-  background-image: url('/public/images/2011/intro.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/intro.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/intro.jpg', sizingMethod='scale')";
-}
-
-#y-2011 .gallery .aux{
-  background-image: url('/public/images/2011/gall.jpg') ;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale')";
-}
-
-#y-2011 .adv .aux{
-  background-image: url('/public/images/2010/bg-adv.jpg');
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/placeholder/pl-adv.jpg', sizingMethod='scale')";
 }
 
 // header
