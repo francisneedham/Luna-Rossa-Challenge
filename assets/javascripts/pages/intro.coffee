@@ -1,3 +1,1 @@
- class window.IntroPage
-
-  constructor: (@el, @data) ->
+ class window.IntroPage extends window.Page

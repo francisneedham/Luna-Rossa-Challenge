@@ -1,3 +1,1 @@
- class window.AdvPage
-
-  constructor: (@el, @data) ->
+ class window.AdvPage extends window.Page

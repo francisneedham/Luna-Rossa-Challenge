@@ -1,3 +1,1 @@
- class window.HomePage
-
-  constructor: (@el, @data) ->
+ class window.HomePage extends window.Page

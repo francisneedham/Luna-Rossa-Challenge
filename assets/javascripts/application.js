@@ -12,6 +12,7 @@
 //= require mustache
 //= require utilities
 //
+//= require pages/page
 //= require_tree ./pages
 //= require site_manager
 //= require main

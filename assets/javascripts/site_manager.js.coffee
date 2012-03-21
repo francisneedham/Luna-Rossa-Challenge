@@ -67,24 +67,30 @@ window.SiteManager = class
 
   buildPage: (parent, content, page) =>
     if content?
-      el = @mustache(content.template, content)
+      el = ($ @mustache(content.template, content))
       parent.append el
       view = new window[capitalize(content.template) + 'Page'](el, content)
       content.view = view
 
   buildPageCurrentYear: (parent, content, page) =>
     if page != @currentPage
+      el = ($ @mustache(content['template'], content))
       if _.indexOf(@pagesList(), page) > _.indexOf(@pagesList(), @currentPage)
-        parent.append @mustache(content['template'], content)
+        parent.append el
       else
-        parent.find(".#{@currentContent()['css_class']}").before(@mustache(content['template'], content))
+        parent.find(".#{@currentContent()['css_class']}").before(el)
+    else
+      el = parent.find(".#{@currentContent()['css_class']}")
+
+    view = new window[capitalize(content.template) + 'Page'](el, content)
+    content.view = view
 
   resize: =>
     $w = ($ window)
     @width = $w.width()
     @height = $w.height() - ($ '#footer').height()
 
-    ($ '#years-list, .step, .aux, .single-year').css
+    ($ '#years-list, .step, .single-year').css
       width: @width
       height: @height
 

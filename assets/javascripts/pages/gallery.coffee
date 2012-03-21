@@ -1,3 +1,1 @@
- class window.GalleryPage
-
-  constructor: (@el, @data) ->
+ class window.GalleryPage extends window.Page

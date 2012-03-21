@@ -63,8 +63,10 @@
 }
 
 
-body{
+body {
   background:#fff;
+  overflow:hidden;
+
   font:{
     family:'ProximaNovaRegular';
     size:10px;
@@ -96,7 +98,6 @@ a{
 
 
 .single-year .step .aux{
-  position:relative;
   height:100%;
   width:1440px; //da impostare dinamicamente
   background-position: center center;
@@ -225,8 +226,8 @@ a{
   .hp .aux{
     background-image: url('/public/images/2011/bg.jpg');
     .no-backgroundsize & {
-      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale');
-      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/bg.jpg', sizingMethod='scale')";
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/bg.jpg', sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/bg.jpg', sizingMethod='scale')";
     }
   }
 

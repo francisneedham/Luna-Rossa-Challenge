@@ -1,3 +1,1 @@
- class window.BullettinsPage
-
-  constructor: (@el, @data) ->
+ class window.BullettinsPage extends window.Page

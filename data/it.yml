@@ -5,10 +5,12 @@
     page_mood: 'white'
     title: 'Sailing Season'
     year: '2010'
+    image: '/public/images/2010/bg.jpg'
   intro:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
+    image: '/public/images/2010/intro.jpg'
     title: 'Sailing season<span> 2010</span>'
     subtitle: 'LOUIS VUITTON TROPHY WSTA'
     description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series. Dieci teams hanno gareggiato per 15 giorni nel Waitemata Harbour di Auckland in duelli match races vinti da Emirates Team New Zealand.
@@ -87,6 +89,7 @@ Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt 
         alt: 'Team'
   gallery:
     page_mood: 'white'
+    image: '/public/images/2010/gallery.jpg'
     template: 'gallery'
     css_class: 'gallery'
     title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
@@ -110,6 +113,7 @@ Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt 
     template: 'adv'
     css_class: 'adv'
     page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
@@ -118,12 +122,14 @@ Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt 
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
+    image: '/public/images/2011/bg.jpg'
     title: 'Sailing Season'
     year: '2011'
   intro:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
+    image: '/public/images/2011/intro.jpg'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Extreme sailing series'
     description: 'EXTREME SAILING SERIES
@@ -215,6 +221,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         alt: 'Team'
   gallery:
     page_mood: 'white'
+    image: '/public/images/2011/gall.jpg'
     template: 'gallery'
     css_class: 'gallery'
     title: 'Sailing season<span> 2011</span>'
@@ -238,6 +245,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     template: 'adv'
     css_class: 'adv'
     page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'

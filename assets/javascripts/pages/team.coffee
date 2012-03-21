@@ -1,3 +1,1 @@
- class window.TeamPage
-
-  constructor: (@el, @data) ->
+ class window.TeamPage extends window.Page
