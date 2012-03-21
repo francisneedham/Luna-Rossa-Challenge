@@ -106,14 +106,31 @@ window.SiteManager = class
     top = _.indexOf(@yearsList, @currentYear) * @height
     left = _.indexOf(@pagesList(), @currentPage) * @width
 
-    ($ '#wrapper').removeClass().addClass(@currentContent()['page_mood'])
+    content = @currentContent()
+    ($ '#wrapper').removeClass().addClass(content['page_mood'])
+
+    if not @previousContent? or content != @previousContent
+      @previousContent?.view?.leaving?()
+      content.view?.entering?()
 
     if skipAnimation
       ($ '#years-list').scrollTop(top)
       ($ "#y-#{@currentYear}").scrollLeft(left)
+
+      if not @previousContent? or content != @previousContent
+        @previousContent?.view?.left?()
+        content.view?.entered?()
+
+      @previousContent = content
     else
       animationOptions = _.clone(@animationOptions)
-      animationOptions.complete = callback
+      animationOptions.complete = =>
+        if not @previousContent? or content != @previousContent
+          @previousContent?.view?.left?()
+          content.view?.entered?()
+
+        @previousContent = content
+        callback()
 
       if top != ($ '#years-list').scrollTop()
         ($ '#years-list').animate({scrollTop: top}, animationOptions)
@@ -138,7 +155,6 @@ window.SiteManager = class
           home.toggleClass('moved', true).css(left: left)
 
         ($ "#y-#{@currentYear}").animate({scrollLeft: left}, @animationOptions)
-
 
       @currentYear = year
       @currentPage = @pagesList()[0]
@@ -175,6 +191,8 @@ window.SiteManager = class
 
         begin.animate(opacity: 0, @animationOptions)
         target.animate(opacity: 1, @animationOptions)
+
+      @previousContent = @currentContent()
 
       @currentPage = page
       @position(false, @pageScrolled)
