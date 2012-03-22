@@ -154,11 +154,14 @@ class RedMoon
   end
 
   def minify_html(html)
-    # stdin, stdout, stderr = Open3.popen3('java -jar htmlcompressor.jar --remove-quotes --remove-intertag-spaces')
-    # stdin.write(html)
-    # stdin.close
-    # stdout.readlines.join('')
-    html
+    if File.exists? File.join(project_root, 'htmlcompressor.jar')
+      stdin, stdout, stderr = Open3.popen3('java -jar htmlcompressor.jar --remove-link-attr --remove-script-attr --remove-input-attr --simple-bool-attr --remove-style-attr --remove-quotes --remove-intertag-spaces')
+      stdin.write(html)
+      stdin.close
+      stdout.readlines.join('')
+    else
+      html
+    end
   end
 
   def compile
