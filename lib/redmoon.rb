@@ -1,4 +1,6 @@
 require 'open3'
+require 'yui/compressor'
+require 'uglifier'
 
 class RedMoon
   attr_reader :data
@@ -241,6 +243,9 @@ class RedMoon
       @sprockets.append_path(File.join(project_root, 'assets', 'javascripts'))
       @sprockets.append_path(File.join(project_root, 'assets', 'stylesheets'))
       @sprockets.append_path(File.join(project_root, 'public','images'))
+
+      @sprockets.css_compressor = YUI::CssCompressor.new
+      @sprockets.js_compressor = ::Uglifier.new
 
       Compass.configuration do |config|
         config.images_dir = 'public/images'

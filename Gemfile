@@ -11,4 +11,6 @@ gem 'json'
 group :develpment, :test do
   gem 'heroku'
   gem 'rake'
+  gem 'uglifier'
+  gem 'yui-compressor'
 end
