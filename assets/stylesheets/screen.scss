@@ -711,7 +711,10 @@ a{
       width:249px;
       height:177px;
       border:2px solid #fff;
-      margin-left:-2px;
+      border-right:0;
+      img{
+        width:249px;
+      }
     }
   }
 }
