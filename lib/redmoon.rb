@@ -1,3 +1,5 @@
+require 'open3'
+
 class RedMoon
   attr_reader :data
 
@@ -135,7 +137,7 @@ class RedMoon
     unless content.nil?
       [200,
         {'Content-Type' => 'text/html'},
-        [mustache('index', master_data)]
+        [minify_html(mustache('index', master_data))]
       ]
     else
       render_404
@@ -149,6 +151,116 @@ class RedMoon
   def render_500
     puts $!
     [500, {'Content-Type' => 'text/plain'}, [Mustache.render(File.read(project_root + '/public/templates/500.mustache'), {})]]
+  end
+
+  def minify_html(html)
+    # stdin, stdout, stderr = Open3.popen3('java -jar htmlcompressor.jar --remove-quotes --remove-intertag-spaces')
+    # stdin.write(html)
+    # stdin.close
+    # stdout.readlines.join('')
+    html
+  end
+
+  def compile
+    build_data
+
+    FileUtils.rm_rf(project_root + '/static')
+
+    compile_pages
+    compile_assets
+    compile_images
+  end
+
+  def compile_pages
+
+    first_locale = @data.keys.first
+    first_year = @data[first_locale].keys.first
+    first_page = @data[first_locale][first_year].keys.first
+
+    FileUtils.mkdir_p(project_root + "/static/")
+    File.open(project_root + "/static/index.html", 'w') do |f|
+      f.write render_page(first_locale, first_year, first_page)[2].join('')
+    end
+
+    @data.each do |locale, content|
+
+      first_year = @data[locale].keys.first
+      first_page = @data[locale][first_year].keys.first
+
+      FileUtils.mkdir_p(project_root + "/static/#{locale}/")
+      File.open(project_root + "/static/#{locale}/index.html", 'w') do |f|
+        f.write render_page(locale, first_year, first_page)[2].join('')
+      end
+
+      content.each do |year, content|
+
+        first_page = @data[locale][first_year].keys.first
+
+        FileUtils.mkdir_p(project_root + "/static/#{locale}/#{year}/")
+        File.open(project_root + "/static/#{locale}/#{year}/index.html", 'w') do |f|
+          f.write render_page(locale, year, first_page)[2].join('')
+        end
+
+        content.each do |page, content|
+          FileUtils.mkdir_p(project_root + "/static/#{locale}/#{year}/#{page}/")
+          File.open(project_root + "/static/#{locale}/#{year}/#{page}/index.html", 'w') do |f|
+            f.write render_page(locale, year, page)[2].join('')
+          end
+        end
+      end
+    end
+
+  end
+
+  def sprockets
+    unless @sprockets
+      @sprockets = Sprockets::Environment.new(project_root) do |env|
+        env.logger = Logger.new(STDOUT)
+      end
+
+      compass_gem_root = Gem.loaded_specs['compass'].full_gem_path
+
+      @sprockets.append_path(File.join(project_root, 'assets'))
+      @sprockets.append_path(File.join(project_root, 'assets', 'javascripts'))
+      @sprockets.append_path(File.join(project_root, 'assets', 'stylesheets'))
+      @sprockets.append_path(File.join(project_root, 'public','images'))
+
+      Compass.configuration do |config|
+        config.images_dir = 'public/images'
+        config.sprite_engine = :chunky_png
+      end
+    end
+
+    @sprockets
+  end
+
+  def compile_assets
+    compile_javascripts
+    compile_stylesheets
+  end
+
+  def compile_javascripts
+    asset     = sprockets['application.js']
+    outpath   = File.join(project_root, 'static', 'assets','javascripts')
+    outfile   = Pathname.new(outpath).join('application.js') # may want to use the digest in the future?
+
+    FileUtils.mkdir_p outfile.dirname
+
+    asset.write_to(outfile)
+  end
+
+  def compile_stylesheets
+    asset     = sprockets['application.css']
+    outpath   = File.join(project_root, 'static', 'assets','stylesheets')
+    outfile   = Pathname.new(outpath).join('application.css') # may want to use the digest in the future?
+
+    FileUtils.mkdir_p outfile.dirname
+
+    asset.write_to(outfile)
+  end
+
+  def compile_images
+    FileUtils.cp_r(File.join(project_root, 'public'), File.join(project_root, 'static'))
   end
 
 end

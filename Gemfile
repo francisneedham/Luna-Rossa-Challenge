@@ -8,6 +8,7 @@ gem 'compass'
 gem 'mustache'
 gem 'json'
 
-group :test do
+group :develpment, :test do
   gem 'heroku'
+  gem 'rake'
 end

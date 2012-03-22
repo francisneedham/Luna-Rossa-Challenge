@@ -1,3 +1,14 @@
+
+run in development
+====
+
 bundle install
 
 rackup
+
+compile for production
+====
+
+rake static:compile
+
+files are found in static/
