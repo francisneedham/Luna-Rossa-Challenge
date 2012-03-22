@@ -13,6 +13,8 @@ rake static:compile
 
 files are found in static/
 
+if you want to minify html download htmlcompressor from google code and place it in project folder
+
 clear compilet site
 ====
 

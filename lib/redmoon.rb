@@ -124,7 +124,7 @@ class RedMoon
       unless %{ 404 500 index }.include? name
         {
           'name' => name,
-          'content' => File.read(project_root + "/public/templates/#{name}.mustache")
+          'content' => minify_mustache(File.read(project_root + "/public/templates/#{name}.mustache"))
         }
       else
         nil
@@ -156,6 +156,17 @@ class RedMoon
   def minify_html(html)
     if File.exists? File.join(project_root, 'htmlcompressor.jar')
       stdin, stdout, stderr = Open3.popen3('java -jar htmlcompressor.jar --remove-link-attr --remove-script-attr --remove-input-attr --simple-bool-attr --remove-style-attr --remove-quotes --remove-intertag-spaces')
+      stdin.write(html)
+      stdin.close
+      stdout.readlines.join('')
+    else
+      html
+    end
+  end
+
+  def minify_mustache(html)
+    if File.exists? File.join(project_root, 'htmlcompressor.jar')
+      stdin, stdout, stderr = Open3.popen3('java -jar htmlcompressor.jar --remove-link-attr --remove-script-attr --remove-input-attr --simple-bool-attr --remove-style-attr --remove-intertag-spaces')
       stdin.write(html)
       stdin.close
       stdout.readlines.join('')
@@ -216,7 +227,6 @@ class RedMoon
         end
       end
     end
-
   end
 
   def sprockets
