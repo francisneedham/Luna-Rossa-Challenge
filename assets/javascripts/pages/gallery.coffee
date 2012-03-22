@@ -83,7 +83,8 @@ class window.GalleryPage extends window.Page
     current_left = @gc.position().left
     current_amp = parseInt @gc_width - @w.width()
     current_vel = @vel_min + (1 - Math.abs(2 * ((Math.abs(current_left) / current_amp) - .5))) * @vel_max
-    updated_left = Math.round(current_left - posX * current_vel)
+    updated_left = current_left - posX * current_vel
+    #updated_left = Math.round(current_left - posX * current_vel)
     bounded_left = Math.max(- current_amp, Math.min(0, updated_left))
     @gc.css {left: bounded_left}
 
