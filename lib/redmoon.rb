@@ -164,11 +164,15 @@ class RedMoon
   def compile
     build_data
 
-    FileUtils.rm_rf(project_root + '/static')
+    clear_static
 
     compile_pages
     compile_assets
     compile_images
+  end
+
+  def clear_static
+    FileUtils.rm_rf(project_root + '/static')
   end
 
   def compile_pages

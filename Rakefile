@@ -11,4 +11,10 @@ namespace :static do
     app.compile
   end
 
+  desc 'remove compiled site'
+  task :clear do
+    app = RedMoon.new
+    app.clear_static
+  end
+
 end

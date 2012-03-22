@@ -12,3 +12,8 @@ compile for production
 rake static:compile
 
 files are found in static/
+
+clear compilet site
+====
+
+rake static:clear
