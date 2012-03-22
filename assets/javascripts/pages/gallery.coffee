@@ -10,15 +10,15 @@ class window.GalleryPage extends window.Page
     @w = $ window
     @h = $ '#header'
     @f = $ '#footer'
-    @wrap = $ '.wrap-gallery-carousel'
-    @gc = $ '.gallery-carousel'
+    @wrap = @$ '.wrap-gallery-carousel'
+    @gc = @$ '.gallery-carousel'
     @items = @gc.find '.item'
 
     @fps = 30
     @w_width = 0
     @gc_width = 0
     @vel_min = 2
-    @vel_max = 20
+    @vel_max = 30
     @is_updating = false
 
     @addRightBorder()
@@ -28,16 +28,19 @@ class window.GalleryPage extends window.Page
 
     if @is_ios
       @wrap.css {overflow: 'scroll'}
+    
     else
       @w.bind 'mousemove', @onMouseMove
       @is_updating = true
+      
     @setUpdateTimeout()
 
   leaving: ->
 
     unless @is_ios
       @w.unbind 'mousemove'
-      @is_updating = false
+    
+    @is_updating = false
 
   addRightBorder: ->
 
@@ -69,19 +72,19 @@ class window.GalleryPage extends window.Page
 
   updatePosition: =>
 
-    @clearUpdateTimeout()
+   @clearUpdateTimeout()
 
-    if @is_ios
-      if @w.width() isnt @w_width
-        @w_width = @w.width()
-        @wrap.css {width: "#{@w_width}px"}
-    else
-      posX = 2 * ((@mouseX / @w.width()) - .5)
-      current_left = @gc.position().left
-      current_amp = parseInt @gc_width - @w.width()
-      current_vel = @vel_min + (1 - Math.abs(2 * ((Math.abs(current_left) / current_amp) - .5))) * @vel_max
-      updated_left = Math.round(current_left - posX * current_vel)
-      bounded_left = Math.max(- current_amp, Math.min(0, updated_left))
-      @gc.css {left: bounded_left}
+   if @w.width() isnt @w_width
+     @w_width = @w.width()
+     @wrap.css {width: "#{@w_width}px"}
+     
+   unless @is_ios
+    posX = 2 * ((@mouseX / @w.width()) - .5)
+    current_left = @gc.position().left
+    current_amp = parseInt @gc_width - @w.width()
+    current_vel = @vel_min + (1 - Math.abs(2 * ((Math.abs(current_left) / current_amp) - .5))) * @vel_max
+    updated_left = Math.round(current_left - posX * current_vel)
+    bounded_left = Math.max(- current_amp, Math.min(0, updated_left))
+    @gc.css {left: bounded_left}
 
-    if @is_updating then @setUpdateTimeout()
+   if @is_updating then @setUpdateTimeout()
