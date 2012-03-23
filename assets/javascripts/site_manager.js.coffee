@@ -78,9 +78,9 @@ window.SiteManager = class
       if _.indexOf(@pagesList(), page) > _.indexOf(@pagesList(), @currentPage)
         parent.append el
       else
-        parent.find(".#{@currentContent()['css_class']}").before(el)
+        parent.find(".step.#{@currentContent()['css_class']}").before(el)
     else
-      el = parent.find(".#{@currentContent()['css_class']}")
+      el = parent.find(".step.#{@currentContent()['css_class']}")
 
     view = new window[capitalize(content.template) + 'Page'](el, content)
     content.view = view
