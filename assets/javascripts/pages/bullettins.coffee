@@ -1,13 +1,18 @@
  class window.BullettinsPage extends window.Page
 
-  init: ->
+  init: =>
     @content_width = (@$ '.item').outerWidth() * (@$ '.item').length
     (@$ '.wrap-items').css width: @content_width
 
-  entered: ->
+  entered: =>
     @bind()
 
-  left: ->
+
+  leaving: =>
+    @closeAllItems()
+    @reset()
+
+  left: =>
     @unbind()
     @stopMoving()
 
@@ -18,14 +23,13 @@
 
   unbind: =>
     (@$ '.scroller').unbind('mousedown', @scrollerMouseDown)
+    (@$ '.item>article>a').bind('click', @clickItem)
+    (@$ '.item .close').bind('click', @clickCloseItem)
 
   startMoving: (ev) =>
-    container = (@$ '.scroll')
-    scroller = (@$ '.scroller')
-    @scrollbar_left = container.offset().left
-    @scrollbar_width = container.width() - scroller.width()
+    @setupValues()
 
-    scroll_position = scroller.offset().left
+    scroll_position = (@$ '.scroller').offset().left
     @moving_offset = scroll_position - ev.clientX
 
     ($ 'body').bind('mousemove.bulletins', @mouseMove)
@@ -53,12 +57,16 @@
   getPositionFromMouse: (left) ->
     ((left - @scrollbar_left + @moving_offset) / @scrollbar_width) * 100
 
-  render: =>
+  render: (callback) =>
     scroll_position = @position * @scrollbar_width / 100
     content_position = @position * (@content_width - ($ '.oriz-scroll').width()) / 100
 
     (@$ '.scroller').stop().animate({left: scroll_position}, { duration: 30, easing: 'easeInOutSine' })
-    (@$ '.oriz-scroll').stop().animate({scrollLeft: content_position}, { duration: 400, easing: 'easeInOutSine'})
+    (@$ '.oriz-scroll').stop().animate({scrollLeft: content_position}, {
+      duration: 400,
+      easing: 'easeInOutSine',
+      complete: callback
+    })
 
   resize: (width, height) ->
     item_width = 295
@@ -67,25 +75,23 @@
     total_width = item_width * available_items
     (@$ '.oriz-scroll').css(width: total_width)
 
+    @setupValues()
+
   clickItem: (ev) =>
     ev.preventDefault()
     @openItem ($ ev.currentTarget).parents('.item')
 
   openItem: (item) =>
     unless item.hasClass('open')
-      @closeAllItem => @centerItem(item, @openSubitem)
+      @closeAllItems => @centerItem(item, @openSubitem)
 
   centerItem: (item, callback) =>
+    @setupValues()
+
     ($ '.wrap-items').css(width: '+=600')
-    content_position = item.position().left
-
-    console.log('content_position', content_position)
-
-    (@$ '.oriz-scroll').stop().animate({scrollLeft: "+=#{content_position}"}, {
-      duration: 400,
-      easing: 'easeInOutSine',
-      complete: -> callback?(item)
-    })
+    scroll = ($ '.oriz-scroll')
+    @position = (scroll.scrollLeft() + item.position().left) / (@content_width - scroll.width()) * 100
+    @render( -> callback?(item))
 
   openSubitem: (item) =>
     unless item.hasClass('open')
@@ -93,7 +99,7 @@
       item.find('.close').show()
       item.stop().animate { width: 870 }, {duration: 600, easing: 'easeInOutSine'}
 
-  closeAllItem: (callback) =>
+  closeAllItems: (callback) =>
     items = (@$ '.item.open')
     if items.length
       items.removeClass('open')
@@ -110,4 +116,14 @@
 
   clickCloseItem: (ev) =>
     ev.preventDefault()
-    @closeAllItem()
+    @closeAllItems()
+
+  setupValues: =>
+    container = (@$ '.scroll')
+    scroller = (@$ '.scroller')
+    @scrollbar_left = container.offset().left
+    @scrollbar_width = container.width() - scroller.width()
+
+  reset: =>
+    @position = 0
+    @render()
