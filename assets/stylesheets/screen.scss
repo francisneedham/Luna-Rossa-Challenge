@@ -34,7 +34,6 @@
          url('/public/lib/proximanova-bold-it/proximanova-boldit-webfont.svg#ProximaNovaBoldItalic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -413,6 +412,7 @@ a{
     margin-bottom:-15px;
     right:45px;
     li{
+      list-style:none;
       float:left;
       .prev-page{
        margin-right:10px;

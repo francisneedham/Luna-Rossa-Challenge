@@ -1,6 +1,10 @@
 //= require lib/underscore
 //= require lib/jquery
 //= require lib/easing
+//= require lib/Raf
+//= require lib/Animate
+//= require lib/Scroller
+//= require lib/EasyScroller
 //
 //= require history/json2
 //= require history/history
