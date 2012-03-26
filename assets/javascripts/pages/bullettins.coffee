@@ -19,7 +19,7 @@
   startMoving: (ev) =>
     container = (@$ '.scroll')
     scroller = (@$ '.scroller')
-    @scrollbar_left = container.position().left
+    @scrollbar_left = container.offset().left
     @scrollbar_width = container.width() - scroller.width()
 
     scroll_position = scroller.offset().left
