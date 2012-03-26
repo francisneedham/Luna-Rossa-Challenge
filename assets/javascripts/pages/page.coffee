@@ -2,8 +2,8 @@ class window.Page
   constructor: (@el, @data) ->
     @$ = (query) => ($ query, @el)
 
-    @resize()
-    ($ window).bind('resize', @resize)
+    @windowResize()
+    ($ window).bind('resize', @windowResize)
 
     @preloadBackground()
 
@@ -19,9 +19,9 @@ class window.Page
     @height = image.height
     @width = image.width
 
-    @resize()
+    @windowResize()
 
-  resize: =>
+  windowResize: =>
     $w = ($ window)
     width = $w.width()
     height = $w.height() - ($ '#footer').height()
@@ -59,3 +59,5 @@ class window.Page
           paddingRight: -left
           marginTop: top
           marginLeft: left
+
+    @resize?(width, height)

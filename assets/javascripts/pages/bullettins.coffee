@@ -28,7 +28,6 @@
     ($ 'body').bind('mousemove.bulletins', @mouseMove)
     ($ 'body').bind('mouseup.bulletins', @scrollerMouseUp)
 
-
   stopMoving: =>
     @moving_offset = 0
     ($ 'body').unbind('.bulletins')
@@ -58,3 +57,9 @@
     (@$ '.scroller').stop().animate({left: scroll_position}, { duration: 30, easing: 'easeInOutSine' })
     (@$ '.oriz-scroll').stop().animate({scrollLeft: content_position}, { duration: 400, easing: 'easeInOutSine'})
 
+  resize: (width, height) ->
+    item_width = 295
+    available_width = width - 90
+    available_items = Math.floor(available_width / item_width)
+    total_width = item_width * available_items
+    (@$ '.oriz-scroll').css(width: total_width)
