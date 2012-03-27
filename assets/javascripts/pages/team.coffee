@@ -1,1 +1,1 @@
- class window.TeamPage extends window.Page
+ class window.TeamPage extends window.ScrollPage
