@@ -29,8 +29,10 @@ class window.ScrollPage extends Page
     scroll_position = (@$ '.scroller').offset().left
     @moving_offset = scroll_position - ev.clientX
 
-    ($ 'body').bind('mousemove.bulletins', @mouseMove)
-    ($ 'body').bind('mouseup.bulletins', @scrollerMouseUp)
+    ($ 'body')
+      .bind('mousemove.bulletins', @mouseMove)
+      .bind('mouseup.bulletins', @scrollerMouseUp)
+      .bind('mouseleave.bulletins', @scrollerMouseUp)
 
   stopMoving: =>
     @moving_offset = 0
