@@ -2,7 +2,7 @@
 
   init: =>
     @content_width = (@$ '.item').outerWidth() * (@$ '.item').length
-    (@$ '.wrap-items').css width: @content_width
+    (@$ '.wrap-items').css width: (@content_width + 600)
 
   entered: =>
     @bind()
@@ -28,6 +28,7 @@
 
   startMoving: (ev) =>
     @setupValues()
+    @closeAllItems()
 
     scroll_position = (@$ '.scroller').offset().left
     @moving_offset = scroll_position - ev.clientX
@@ -88,7 +89,6 @@
   centerItem: (item, callback) =>
     @setupValues()
 
-    ($ '.wrap-items').css(width: '+=600')
     scroll = ($ '.oriz-scroll')
     @position = (scroll.scrollLeft() + item.position().left) / (@content_width - scroll.width()) * 100
     @render( -> callback?(item))
@@ -97,7 +97,8 @@
     unless item.hasClass('open')
       item.addClass('open')
       item.find('.close').show()
-      item.stop().animate { width: 870 }, {duration: 600, easing: 'easeInOutSine'}
+      li = item.find('.detail li')
+      item.stop().animate { width: 270 + (li.length * li.outerWidth()) + 12 }, {duration: 600, easing: 'easeInOutSine'}
 
   closeAllItems: (callback) =>
     items = (@$ '.item.open')
@@ -107,8 +108,11 @@
         duration: 600,
         easing: 'easeInOutSine',
         complete: =>
-          ($ '.wrap-items').css(width: '-=600')
-          callback?()
+          if @position > 100
+            @position = 100
+            @render(callback)
+          else
+            callback?()
       }
       items.find('.close').hide()
     else
