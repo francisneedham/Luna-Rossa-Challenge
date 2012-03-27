@@ -1,7 +1,7 @@
 class window.ScrollPage extends Page
 
   init: =>
-    @content_width = (@$ '.item').outerWidth() * (@$ '.item').length
+    @content_width = 294 * (@$ '.item').length
     (@$ '.wrap-items').css width: (@content_width + 600)
 
   entered: =>

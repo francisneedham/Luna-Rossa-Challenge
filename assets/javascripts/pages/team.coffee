@@ -10,7 +10,7 @@
     (@$ 'li>article>a').unbind('click', @clickItem)
     ($ @el).undelegate('.close', 'click', @clickClose)
 
-  closeAllItem: =>
+  closeAllItems: =>
     ($ '.wrap-overlay').hide()
 
   openItem: (item) =>
@@ -22,4 +22,4 @@
 
   clickClose: (ev) =>
     ev.preventDefault()
-    @closeAllItem()
+    @closeAllItems()
