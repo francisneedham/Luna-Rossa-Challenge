@@ -17,6 +17,8 @@
 //= require utilities
 //
 //= require pages/page
+//= require pages/scroll
 //= require_tree ./pages
+//
 //= require site_manager
 //= require main

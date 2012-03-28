@@ -530,8 +530,6 @@ a{
     position:relative;
     ul.wrap-items{
       width:999999px;
-      position:absolute;
-      left:0;
       height:315px;
       li.item{
         width:270px;
@@ -541,6 +539,7 @@ a{
         height:315px;
         position:relative;
         .close{
+          display: none;
           position:absolute;
           top:0;
           left:215px;
@@ -631,6 +630,7 @@ a{
   position:absolute;
   width:100%;
   height:100%;
+  z-index: 9999;
   .wrap-detail-player{
     position:absolute;
     top:50%;

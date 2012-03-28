@@ -1,4 +1,4 @@
-($ document).ready ->
+$ ->
   w = window
 
   w.manager = manager = new SiteManager($ '#wrapper')
