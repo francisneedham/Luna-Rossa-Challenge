@@ -38,5 +38,24 @@
     <script id="tpl-{{name}}" type="text/javascript">/*{{{ content}}}*/</script>
     {{/templates}}
     <script src="/assets/javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    $('.wrap-sharing').sharrre({
+      share: {
+        twitter: true,
+        facebook: true
+      },
+      template: '<span class="title">share this</span><ul><li class="tw"><a class="twitter" href="#">twitter</a></li><li class="fb"><a class="facebook" href="#">facebook</a></li></ul>',
+      enableHover: false,
+      enableTracking: true,
+      render: function(api, options){
+      $(api.element).on('click', '.twitter', function() {
+        api.openPopup('twitter');
+      });
+      $(api.element).on('click', '.facebook', function() {
+        api.openPopup('facebook');
+      });
+    }
+    });
+    </script>
   </body>
 </html>
