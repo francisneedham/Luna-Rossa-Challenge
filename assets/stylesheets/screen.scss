@@ -768,3 +768,27 @@ a{
     padding-right:80px;
   }
 }
+
+
+// loader
+
+.loader{
+  z-index:9999;
+  @include sprite-sprite(loader);
+  width:143px;
+  height:141px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-71px 0 0-71px;
+  animation: loader 3s ease;
+  -moz-animation: loader 3s; /* Firefox */
+  -webkit-animation: loader 3s linear infinite; /* Safari and Chrome */
+  rotation-point:50% 50%;
+}
+
+@-webkit-keyframes loader /* Safari and Chrome */
+{
+  0% { -webkit-transform: rotate(0);}
+  100% { -webkit-transform: rotate(360deg);}
+}
