@@ -773,6 +773,7 @@ a{
 // loader
 
 .loader{
+  display:none;
   z-index:9999;
   @include sprite-sprite(loader);
   width:143px;

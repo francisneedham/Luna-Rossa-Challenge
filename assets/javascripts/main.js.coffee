@@ -3,9 +3,6 @@ $ ->
 
   w.manager = manager = new SiteManager($ '#wrapper')
 
-  manager.resize()
-  manager.position(true)
-
   ($ w).bind 'resize', manager.resize
 
   History.Adapter.bind w, 'statechange', ->
