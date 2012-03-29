@@ -235,11 +235,13 @@ a{
   }
 
   .gallery .aux{
-    background-image: url('/public/images/2011/gall.jpg');
+    background:#fff;
+    /*background-image: url('/public/images/2011/gall.jpg');
     .no-backgroundsize & {
       filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale');
       -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2011/gall.jpg', sizingMethod='scale')";
     }
+    */
   }
 
   .adv .aux{
@@ -772,23 +774,47 @@ a{
   .full-detail{
     position:absolute;
   }
+  
+  .detail-arrow{
+    @include opacity(0);
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+    height: 30px;
+    > li{
+      float: none;
+      .next-page {
+        position: absolute;
+        right: 45px;
+      }
+      .prev-page {
+        position: absolute;
+        left: 45px;
+      }
+    }
+  }
 }
 
 .gallery-close{
   background:#000;
-  width:20px;
-  height:20px;
-  line-height:20px;
+  width:23px;
+  height:23px;
+  line-height:23px;
   text-align:center;
   color:#fff;
   position:absolute;
-  top:90px;
+  top:43px;
   right:45px;
+  text-transform: uppercase;
   font:{
     family:"ProximaNovaRegular";
-    size:1.1em;
+    size:1.3em;
   };
-  display:none
+  display:none;
+  border: 1px solid #666;
 }
 
 .adv{
