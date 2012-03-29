@@ -258,3 +258,6 @@ window.SiteManager = class
 
   hideLoader: ->
     ($ '.loader').hide()
+
+  isTouch: ->
+    @touch ||= ($ 'html').hasClass('touch')
