@@ -22,6 +22,7 @@ class window.Page
     @windowResize()
 
   windowResize: =>
+    
     $w = ($ window)
     width = $w.width()
     height = $w.height() - ($ '#footer').height()
@@ -60,4 +61,6 @@ class window.Page
           marginTop: top
           marginLeft: left
 
+    @localResize?()
+    
     @resize?(width, height)

@@ -5,6 +5,7 @@
 //= require lib/Animate
 //= require lib/Scroller
 //= require lib/EasyScroller
+//= require lib/StackBlur
 //
 //= require history/json2
 //= require history/history

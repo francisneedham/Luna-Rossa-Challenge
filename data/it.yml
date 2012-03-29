@@ -155,7 +155,6 @@ Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt 
         alt: 'Team'
   gallery:
     page_mood: 'white'
-    image: '/public/images/2010/gallery.jpg'
     template: 'gallery'
     css_class: 'gallery'
     title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
