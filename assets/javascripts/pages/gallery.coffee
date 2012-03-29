@@ -40,12 +40,12 @@ class window.GalleryPage extends window.Page
     @is_updating = false
     @current_detail_index = 0
 
-    ###@setWrapperWidth()
+    @setWrapperWidth()
     @addRightBorder()
-    @setGalleryWidth()###
+    @setGalleryWidth()
     
     if @is_mobi
-      @setWrapperWidth()
+      
       #@gc.attr('data-scrollable', 'x')
       new EasyScroller @gc[0], {
         scrollingX: true,
