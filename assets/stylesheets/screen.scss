@@ -383,7 +383,6 @@ a{
     right:45px;
     text-align:right;
     top:65%;
-    height:474px;
     margin-top:-237px;
     @media screen and (max-width: 1024px){
         // If screen res is 1024 or lower, then set grid width to 46px
@@ -461,6 +460,7 @@ a{
 // contenuto relativo alla sezione intro
 .intro{
   .text-content{
+    margin-top:40px;
     width:520px;
     @media screen and (max-width: 1024px) and (orientation:portrait){
         width:300px;
@@ -551,17 +551,19 @@ a{
       }
     }
   }
+  .challenge{
+    left:0;
+    right:none;
+  }
 }
 
 .wrap-oriz-scroll {
   clear: both;
   padding-left: 45px;
-
   .oriz-scroll {
-    width: 1350px;
+    width: 100%!important;
     height: 315px;
     overflow: hidden;
-
     ul.wrap-items {
       width: 999999px;
       height: 315px;
