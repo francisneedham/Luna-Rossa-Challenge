@@ -11,14 +11,18 @@
     ($ @el).undelegate('.close', 'click', @clickClose)
 
   closeAllItems: =>
-    ($ '.wrap-overlay').hide()
+    ($ '.wrap-overlay').hide().remove()
 
   openItem: (item) =>
-    ($ '.wrap-overlay').show()
+    member_data = @data.members[(@$ '.item').index(item)]
+
+    if member_data and member_data.popup_image
+      (@$ '.aux').append(manager.mustache('team_popup', member_data))
+      (@$ '.wrap-overlay').show()
 
   clickItem: (ev) =>
     ev.preventDefault()
-    @openItem ($ ev.currentTarget)
+    @openItem ($ ev.currentTarget).parents('.item')
 
   clickClose: (ev) =>
     ev.preventDefault()

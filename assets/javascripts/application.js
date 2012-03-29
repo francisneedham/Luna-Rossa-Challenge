@@ -6,6 +6,7 @@
 //= require lib/Scroller
 //= require lib/EasyScroller
 //= require lib/StackBlur
+//= require lib/jquery.sharrre-1.3.1.min
 //
 //= require history/json2
 //= require history/history

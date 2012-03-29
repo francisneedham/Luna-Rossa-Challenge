@@ -2,11 +2,15 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <script src="/public/javascripts/modernizr.js" type="text/javascript" charset="utf-8"></script>
+    <meta property="og:title" content="{{seo_title}}">
+    <meta property="og:image" content="{{seo_img}}">
+    <meta property="og:description" content="{{seo_desciprition}}">
+    <script src="/public/javascripts/modernizr.js" async="true" defer></script>
     <link href="/assets/stylesheets/application.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <title>Luna Rossa Challenge</title>
   </head>
   <body>
+    <div class="loader"></div>
     <div id="wrapper">
       <header id="header">
         <h1>
@@ -32,10 +36,10 @@
       <p>&#169; Copyright Luna Rossa Trademark Sarl - P. IVA 10115350158 - Company info and Legal Terms</p>
       <a href="#" class="logo-prada"><span></span></a>
     </footer>
-    <script id="site-data" type="text/javascript">/*{{{ json}}}*/</script>
+    <script id="site-data" async="true" defer>/*{{{ json}}}*/</script>
     {{#templates}}
-    <script id="tpl-{{name}}" type="text/javascript">/*{{{ content}}}*/</script>
+    <script id="tpl-{{name}}" async="true" defer>/*{{{ content}}}*/</script>
     {{/templates}}
-    <script src="/assets/javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/javascripts/application.js" async="true" defer></script>
   </body>
 </html>

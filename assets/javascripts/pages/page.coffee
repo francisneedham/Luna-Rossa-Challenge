@@ -52,8 +52,8 @@ class window.Page
           top = (width - new_width) / 2
 
         (@$ '.aux').css
-          width: width
-          height: height
+          width: new_width
+          height: new_height
           paddingTop: -top
           paddingLeft: -left
           paddingBottom: -top
@@ -62,5 +62,5 @@ class window.Page
           marginLeft: left
 
     @localResize?()
-    
-    @resize?(width, height)
+
+    @resize?(new_width, new_height)

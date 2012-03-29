@@ -2,7 +2,7 @@ class window.ScrollPage extends Page
 
   init: =>
     @content_width = 294 * (@$ '.item').length
-    (@$ '.wrap-items').css width: (@content_width + 600)
+    (@$ '.wrap-items').css width: (@content_width + 650)
 
   entered: =>
     @bind()
@@ -16,36 +16,36 @@ class window.ScrollPage extends Page
     @stopMoving()
 
   bind: =>
-    (@$ '.scroller').bind('mousedown', @scrollerMouseDown)
     (@$ '.item .close').bind('click', @clickCloseItem)
+
+    if manager.isTouch()
+      (@$ '.scroller').bind('touchstart.scroll', @scrollerTouchStart)
+    else
+      (@$ '.scroller').bind('mousedown.scroll', @scrollerMouseDown)
 
   unbind: =>
-    (@$ '.scroller').unbind('mousedown', @scrollerMouseDown)
-    (@$ '.item .close').bind('click', @clickCloseItem)
+    (@$ '.item .close').unbind('click', @clickCloseItem)
+    (@$ '.scroller').unbind('.scroll', @scrollerMouseDown)
 
-  startMoving: (ev) =>
+  startMoving: (clientX) =>
     @setupValues()
 
     scroll_position = (@$ '.scroller').offset().left
-    @moving_offset = scroll_position - ev.clientX
+    @moving_offset = scroll_position - clientX
 
-    ($ 'body').bind('mousemove.bulletins', @mouseMove)
-    ($ 'body').bind('mouseup.bulletins', @scrollerMouseUp)
+    if manager.isTouch()
+      ($ 'body')
+        .bind('touchmove.bulletins', @touchMove)
+        .bind('touchend.bulletins', @scrollerTouchEnd)
+    else
+      ($ 'body')
+        .bind('mousemove.bulletins', @mouseMove)
+        .bind('mouseup.bulletins', @scrollerMouseUp)
+        .bind('mouseleave.bulletins', @scrollerMouseUp)
 
   stopMoving: =>
     @moving_offset = 0
     ($ 'body').unbind('.bulletins')
-
-  scrollerMouseUp: (ev) =>
-    ev.preventDefault()
-    @stopMoving()
-
-  scrollerMouseDown: (ev) =>
-    ev.preventDefault()
-    @startMoving(ev)
-
-  mouseMove: (ev) =>
-    @moving(ev.pageX)
 
   moving: (pageX) =>
     @position = Math.max(0, Math.min(@getPositionFromMouse(pageX), 100))
@@ -65,7 +65,6 @@ class window.ScrollPage extends Page
       complete: callback
     })
 
-
   resize: (width, height) ->
     item_width = 295
     available_width = width - 90
@@ -74,10 +73,6 @@ class window.ScrollPage extends Page
     (@$ '.oriz-scroll').css(width: total_width)
 
     @setupValues()
-
-  clickCloseItem: (ev) =>
-    ev.preventDefault()
-    @closeAllItems()
 
   setupValues: =>
     container = (@$ '.scroll')
@@ -88,3 +83,32 @@ class window.ScrollPage extends Page
   reset: =>
     @position = 0
     @render()
+
+  # EVENTS
+
+  scrollerMouseUp: (ev) =>
+    ev.preventDefault()
+    @stopMoving()
+
+  scrollerMouseDown: (ev) =>
+    ev.preventDefault()
+    @startMoving(ev.clientX)
+
+  mouseMove: (ev) =>
+    @moving(ev.pageX)
+
+  scrollerTouchEnd: (ev) =>
+    ev.preventDefault()
+    @stopMoving()
+
+  scrollerTouchStart: (ev) =>
+    ev.preventDefault()
+    @startMoving(ev.originalEvent.touches[0].clientX)
+
+  touchMove: (ev) =>
+    ev.preventDefault()
+    @moving(ev.originalEvent.touches[0].pageX)
+
+  clickCloseItem: (ev) =>
+    ev.preventDefault()
+    @closeAllItems()

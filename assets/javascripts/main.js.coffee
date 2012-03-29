@@ -1,10 +1,7 @@
-($ document).ready ->
+$ ->
   w = window
 
   w.manager = manager = new SiteManager($ '#wrapper')
-
-  manager.resize()
-  manager.position(true)
 
   ($ w).bind 'resize', manager.resize
 
@@ -15,7 +12,7 @@
 
     manager.goto urlParts[0], urlParts[1]
 
-  ($ '#navbar a, .next-page, .prev-page').click (ev) ->
+  ($ '#navbar a, .next-page, .prev-page').live 'click', (ev) ->
     ev.preventDefault()
     url = ($ this).attr('href')
     History.pushState({}, null, url)

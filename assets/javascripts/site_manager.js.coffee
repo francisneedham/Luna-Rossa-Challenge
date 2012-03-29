@@ -4,8 +4,11 @@ window.SiteManager = class
     easing: 'easeInOutSine'
 
   constructor: (@el) ->
+    @resize()
+
     @getData()
     @detectCurrentPage()
+
     @buildSite()
 
   getData: ->
@@ -42,7 +45,14 @@ window.SiteManager = class
     Mustache.render(@getTemplate(template), content)
 
   buildSite: ->
+    @showLoader()
+    window.setTimeout(@buildSiteCallback, 50)
+
+  buildSiteCallback: =>
     _.each @data, @buildYear
+    @createSharrre()
+    @hideLoader()
+    @resize()
 
   buildYear: (content, year) =>
     if content?
@@ -85,6 +95,22 @@ window.SiteManager = class
     view = new window[capitalize(content.template) + 'Page'](el, content)
     content.view = view
 
+  createSharrre: ->
+    ($ '.wrap-sharing').sharrre
+      share: {
+        twitter: true
+        facebook: true
+      }
+      template: '<span class="title">share this</span><ul><li class="tw"><a class="twitter" href="#">twitter</a></li><li class="fb"><a class="facebook" href="#">facebook</a></li></ul>'
+      enableHover: false
+      enableTracking: true
+      render: (api, options) ->
+        ($ api.element).on 'click', '.twitter', ->
+          api.openPopup('twitter')
+
+        ($ api.element).on 'click', '.facebook', ->
+          api.openPopup('facebook')
+
   resize: =>
     $w = ($ window)
     @width = $w.width()
@@ -103,40 +129,41 @@ window.SiteManager = class
     @position(true)
 
   position: (skipAnimation, callback) =>
-    top = _.indexOf(@yearsList, @currentYear) * @height
-    left = _.indexOf(@pagesList(), @currentPage) * @width
+    if @yearsList
+      top = _.indexOf(@yearsList, @currentYear) * @height
+      left = _.indexOf(@pagesList(), @currentPage) * @width
 
-    content = @currentContent()
-    ($ '#wrapper').removeClass().addClass(content['page_mood'])
-
-    if not @previousContent? or content != @previousContent
-      @previousContent?.view?.leaving?()
-      content.view?.entering?()
-
-    if skipAnimation
-      ($ '#years-list').scrollTop(top)
-      ($ "#y-#{@currentYear}").scrollLeft(left)
+      content = @currentContent()
+      ($ '#wrapper').removeClass().addClass(content['page_mood'])
 
       if not @previousContent? or content != @previousContent
-        @previousContent?.view?.left?()
-        content.view?.entered?()
+        @previousContent?.view?.leaving?()
+        content.view?.entering?()
 
-      @previousContent = content
-    else
-      animationOptions = _.clone(@animationOptions)
-      animationOptions.complete = =>
+      if skipAnimation
+        ($ '#years-list').scrollTop(top)
+        ($ "#y-#{@currentYear}").scrollLeft(left)
+
         if not @previousContent? or content != @previousContent
           @previousContent?.view?.left?()
           content.view?.entered?()
 
         @previousContent = content
-        callback()
+      else
+        animationOptions = _.clone(@animationOptions)
+        animationOptions.complete = =>
+          if not @previousContent? or content != @previousContent
+            @previousContent?.view?.left?()
+            content.view?.entered?()
 
-      if top != ($ '#years-list').scrollTop()
-        ($ '#years-list').animate({scrollTop: top}, animationOptions)
+          @previousContent = content
+          callback()
 
-      if left != ($ "#y-#{@currentYear}").scrollLeft()
-        ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
+        if top != ($ '#years-list').scrollTop()
+          ($ '#years-list').animate({scrollTop: top}, animationOptions)
+
+        if left != ($ "#y-#{@currentYear}").scrollLeft()
+          ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
 
   activeYear: (year) =>
     ($ "#navbar .active").removeClass('active')
@@ -242,3 +269,12 @@ window.SiteManager = class
 
     if nextPath
       History.pushState({}, null, nextPath)
+
+  showLoader: ->
+    ($ '.loader').show()
+
+  hideLoader: ->
+    ($ '.loader').hide()
+
+  isTouch: ->
+    @touch ||= ($ 'html').hasClass('touch')

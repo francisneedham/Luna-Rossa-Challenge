@@ -299,6 +299,20 @@ a{
   text-align:left;
 }
 
+.next-page{
+  &:hover{
+    @include sprite-sprite(a-hover-next);
+  }
+}
+
+.prev-page{
+  &:hover{
+    @include sprite-sprite(a-hover-prev);
+  }
+}
+
+
+
 .hp{
   z-index: 99;
 
@@ -395,9 +409,23 @@ a{
         text-indent:-99999px;
         text-align:left;
       }
-      &.tw{margin-right:10px;}
-      &.fb a{ width:5px; height:11px;}
-      &.tw a{ width:14px; height:10px;}
+      &.tw{
+        margin-right:10px;
+      }
+      &.fb a{ 
+        width:5px; 
+        height:11px;
+        &:hover{
+          @include sprite-sprite(facebook-hover);
+        }
+      }
+      &.tw a{ 
+        width:14px; 
+        height:10px;
+        &:hover{
+          @include sprite-sprite(twitter-hover);
+        }
+      }
     }
   }
   .section-arrow{
@@ -475,10 +503,15 @@ a{
     date{
       position:absolute;
       bottom:0;
+      right:0;
       font:{
         size:1.3em;
       }
     }
+  }
+  .challenge{
+    left:0;
+    right:none;
   }
 }
 
@@ -516,18 +549,19 @@ a{
   }
 }
 
-.wrap-oriz-scroll{
-  clear:both;
-  padding-left:45px;
-  .oriz-scroll{
-    width:1350px;
-    height:315px;
-    overflow:hidden;
-    position:relative;
-    ul.wrap-items{
-      width:999999px;
-      height:315px;
-      li.item{
+.wrap-oriz-scroll {
+  clear: both;
+  padding-left: 45px;
+
+  .oriz-scroll {
+    width: 1350px;
+    height: 315px;
+    overflow: hidden;
+
+    ul.wrap-items {
+      width: 999999px;
+      height: 315px;
+      li.item {
         width:270px;
         padding:0 12px;
         border-left:1px solid #c0c0c0;
@@ -543,14 +577,19 @@ a{
           color:#fff;
           background:#686868;
           padding:2px 5px;
+          z-index:999;
           font:{
             size:1em;
+          }
+          &:hover{
+            background:#e62d3a;
           }
         }
         article{
           width:270px;
           float:left;
           height:315px;
+          position:relative;
         }
         .detail{
           float:left;
@@ -598,15 +637,21 @@ a{
   padding-top:30px;
   .scroll{
     width:100%;
-    background:url(/public/images/sprite/bg-scroll.png) 0 0 repeat-x;
+    background:url(/public/images/bg-scroll.png) 0 0 repeat-x;
     height:17px;
     position:relative;
     .scroller{
-      background:url(/public/images/sprite/bg-scroller.png) left top repeat-x;
+      background:url(/public/images/bg-scroller.png) left top repeat-x;
       position:absolute;
       height:40px;
       border-right:1px solid #d7d7d7;
       cursor:pointer;
+      &:hover{
+        background:url(/public/images/bg-scroller-hover.png) left top repeat-x;
+        span{
+          color:#e52b38;
+        }
+      }
       span{
         text-transform:uppercase;
         color:#d7d7d7;
@@ -747,7 +792,7 @@ a{
 .adv{
   .link-adv{
     position:absolute;
-    top:60%;
+    top:50%;
     height:223px;
     margin-top:-110px;
     right:45px;
@@ -785,4 +830,29 @@ a{
     }
     padding-right:80px;
   }
+}
+
+
+// loader
+
+.loader{
+  display:none;
+  z-index:9999;
+  @include sprite-sprite(loader);
+  width:143px;
+  height:141px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-71px 0 0-71px;
+  animation: loader 3s ease;
+  -moz-animation: loader 3s; /* Firefox */
+  -webkit-animation: loader 3s linear infinite; /* Safari and Chrome */
+  rotation-point:50% 50%;
+}
+
+@-webkit-keyframes loader /* Safari and Chrome */
+{
+  0% { -webkit-transform: rotate(0);}
+  100% { -webkit-transform: rotate(360deg);}
 }
