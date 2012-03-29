@@ -520,18 +520,19 @@ a{
   }
 }
 
-.wrap-oriz-scroll{
-  clear:both;
-  padding-left:45px;
-  .oriz-scroll{
-    width:1350px;
-    height:315px;
-    overflow:hidden;
-    position:relative;
-    ul.wrap-items{
-      width:999999px;
-      height:315px;
-      li.item{
+.wrap-oriz-scroll {
+  clear: both;
+  padding-left: 45px;
+
+  .oriz-scroll {
+    width: 1350px;
+    height: 315px;
+    overflow: hidden;
+
+    ul.wrap-items {
+      width: 999999px;
+      height: 315px;
+      li.item {
         width:270px;
         padding:0 12px;
         border-left:1px solid #c0c0c0;

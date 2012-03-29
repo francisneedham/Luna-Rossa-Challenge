@@ -6,7 +6,7 @@
 
   unbind: =>
     super()
-    (@$ '.item>article>a').bind('click', @clickItem)
+    (@$ '.item>article>a').unbind('click', @clickItem)
 
   startMoving: (ev) =>
     @closeAllItems()
@@ -14,6 +14,7 @@
 
   clickItem: (ev) =>
     ev.preventDefault()
+    ev.stopPropagation()
     @openItem ($ ev.currentTarget).parents('.item')
 
   openItem: (item) =>
@@ -24,8 +25,9 @@
     @setupValues()
 
     scroll = ($ '.oriz-scroll')
-    @position = (scroll.scrollLeft() + item.position().left) / (@content_width - scroll.width()) * 100
+    @position = (($ '.item').index(item) * item.outerWidth(true)) / (@content_width - scroll.width()) * 100
     @render( -> callback?(item))
+
 
   openSubitem: (item) =>
     unless item.hasClass('open')
