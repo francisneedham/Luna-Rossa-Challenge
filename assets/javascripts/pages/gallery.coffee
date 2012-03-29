@@ -3,6 +3,7 @@ class window.GalleryPage extends window.Page
   ###
   TODO:
   - performance ipad al close
+  - non funziona quando cambio anno?
   ###
   
   ######################
@@ -19,6 +20,7 @@ class window.GalleryPage extends window.Page
     @w = $ window
     @h = $ '#header'
     @f = $ '#footer'
+    @loader = $ '.loader'
     @img = @$ '#detail-img'
     @canvas = @$ '#detail-canvas'
     @title = @$ '.section-title'
@@ -46,17 +48,17 @@ class window.GalleryPage extends window.Page
         scrollingY: false,
         zooming: false
       }
-      
-    @loadFirstBigImage()
 
   entered: ->
     
     @startUpdating()
     @setInteractions()
+    @gc.css {top: @gc.height()}
+    @loadFirstBigImage()
 
   leaving: ->
 
-    @showGallery()
+    @showGallery(false)
     @stopUpdating()
     @resetInteractions()
       
@@ -128,7 +130,7 @@ class window.GalleryPage extends window.Page
   onCloseTouchOrClick: (e) =>
 
     #e.preventDefault()
-    @showGallery()
+    @showGallery(true)
     
   #####################
   # SWAP GALLERY/DETAIL
@@ -141,35 +143,50 @@ class window.GalleryPage extends window.Page
     @close.show()
     @title.hide()
     
-  showGallery: ->
+  showGallery: (is_animated)->
 
     unless @is_mobi 
       @startUpdating()
     @canvas.show()
-    @gc.stop().animate {top: 0}, {duration: 600, easing: 'easeInOutCubic'}
-    @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
+    if(is_animated)
+      @gc.stop().animate {top: 0}, {duration: 600, easing: 'easeInOutCubic'}
+      @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
+    else
+      @gc.css {top: @gc.height()}
+      @img.css {opacity: 0}
     @close.hide()
     @title.show()
     
   loadFirstBigImage: ->
     
-    big_url = (@data.images[0].src).replace /.jpg/, "_big.jpg"
+    @loader.show()
     
     @img.css {opacity: "0"}
-    @canvas.css {opacity: "0"}
     
-    @img.load @onFirstBigImageLoaded
-    #@img.error @onBigImageLoadingError
-    @img.attr 'src', big_url
+    big_url = (@data.images[0].src).replace /.jpg/, "_big.jpg"
+    
+    current_url = @img.attr 'src'
+    if current_url? and current_url is big_url
+      @onFirstBigImageLoaded()
+    else
+      @img.load @onFirstBigImageLoaded
+      #@img.error @onBigImageLoadingError
+      @img.attr 'src', big_url
     
   onFirstBigImageLoaded : =>
   
-    @createBlurCanvas()
-    @canvas.show()
-    @canvas.stop().animate {opacity: 1}, {duration: 600, easing: 'easeInOutCubic'}
+    @img.stop().animate {opacity: 1}, {duration: 600, easing: 'easeInOutCubic', complete: @onFirstBigImageEntered}
     @localResize()
+    @loader.hide()
+    
+  onFirstBigImageEntered: =>
+    
+    @createBlurCanvas()
+    @showGallery(true)
   
   loadBigImage: (big_url) ->
+    
+    @loader.show()
     
     unless @is_mobi 
       @stopUpdating()
@@ -180,15 +197,16 @@ class window.GalleryPage extends window.Page
       #@img.error @onBigImageLoadingError
       @img.attr 'src', big_url
     
-  onBigImageLoaded : =>
+  onBigImageLoaded: =>
     
     @img.stop().animate {opacity: 1}, {duration: 600, easing: 'easeInOutCubic', complete: @createBlurCanvas}
     @localResize()
+    @loader.hide()
     
-  createBlurCanvas : =>
+  createBlurCanvas: =>
     
     # stackBlurImage( sourceImageID, targetCanvasID, radius, blurAlphaChannel );
-    stackBlurImage 'detail-img', 'detail-canvas', 10, 1
+    stackBlurImage 'detail-img', 'detail-canvas', 10
     @localResize()
     @canvas.hide()
     
