@@ -50,6 +50,7 @@ window.SiteManager = class
 
   buildSiteCallback: =>
     _.each @data, @buildYear
+    @createSharrre()
     @hideLoader()
     @resize()
 
@@ -93,6 +94,22 @@ window.SiteManager = class
 
     view = new window[capitalize(content.template) + 'Page'](el, content)
     content.view = view
+
+  createSharrre: ->
+    ($ '.wrap-sharing').sharrre
+      share: {
+        twitter: true
+        facebook: true
+      }
+      template: '<span class="title">share this</span><ul><li class="tw"><a class="twitter" href="#">twitter</a></li><li class="fb"><a class="facebook" href="#">facebook</a></li></ul>'
+      enableHover: false
+      enableTracking: true
+      render: (api, options) ->
+        ($ api.element).on 'click', '.twitter', ->
+          api.openPopup('twitter')
+
+        ($ api.element).on 'click', '.facebook', ->
+          api.openPopup('facebook')
 
   resize: =>
     $w = ($ window)
