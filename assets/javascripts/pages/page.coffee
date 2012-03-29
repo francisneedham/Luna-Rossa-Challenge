@@ -22,6 +22,7 @@ class window.Page
     @windowResize()
 
   windowResize: =>
+    
     $w = ($ window)
     width = $w.width()
     height = $w.height() - ($ '#footer').height()
@@ -59,5 +60,7 @@ class window.Page
           paddingRight: -left
           marginTop: top
           marginLeft: left
+
+    @localResize?()
 
     @resize?(new_width, new_height)

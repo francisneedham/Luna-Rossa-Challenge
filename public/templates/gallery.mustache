@@ -1,5 +1,11 @@
 <section class="step gallery {{page_mood}}">
   <div class="aux">
+    <div class="wrap-detail-canvas">
+      <canvas class="full-detail" id="detail-canvas"/>
+    </div>
+    <div class="wrap-detail-img">
+      <img class="full-detail" id="detail-img"/>
+    </div>
     <header class="section-title">
       <hgroup>
         <h1 class="title">{{{title}}}</h1>
@@ -13,6 +19,7 @@
       {{/images}}
       </ul>
     </article>
+    <a href="#" class="gallery-close">x</a>
     <menu class="section-arrow">
       <li><a href="{{prev}}" class="prev-page">previous page</a></li>
       <li><a href="{{next}}" class="next-page">next page</a></li>

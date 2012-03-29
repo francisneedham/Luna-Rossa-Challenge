@@ -202,11 +202,7 @@ a{
   }
 
   .gallery .aux{
-    background-image: url('/public/images/2010/gallery.jpg');
-    .no-backgroundsize & {
-      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/gallery.jpg', sizingMethod='scale');
-      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/public/images/2010/gallery.jpg', sizingMethod='scale')";
-    }
+    background:#fff;
   }
 
   .adv .aux{
@@ -772,7 +768,29 @@ a{
     bottom:40px;
     right:45px;
   }
+  
+  .full-detail{
+    position:absolute;
+  }
 }
+
+.gallery-close{
+  background:#000;
+  width:20px;
+  height:20px;
+  line-height:20px;
+  text-align:center;
+  color:#fff;
+  position:absolute;
+  top:90px;
+  right:45px;
+  font:{
+    family:"ProximaNovaRegular";
+    size:1.1em;
+  };
+  display:none
+}
+
 .adv{
   .link-adv{
     position:absolute;
