@@ -399,6 +399,7 @@ a{
       padding-right:10px;
       margin-right:10px;
       text-transform:uppercase;
+      border-bottom:0!important;
       font:{
         size:1.2em;
       }
@@ -413,15 +414,15 @@ a{
       &.tw{
         margin-right:10px;
       }
-      &.fb a{ 
-        width:5px; 
+      &.fb a{
+        width:5px;
         height:11px;
         &:hover{
           @include sprite-sprite(facebook-hover);
         }
       }
-      &.tw a{ 
-        width:14px; 
+      &.tw a{
+        width:14px;
         height:10px;
         &:hover{
           @include sprite-sprite(twitter-hover);
@@ -652,6 +653,7 @@ a{
       cursor:pointer;
       &:hover{
         background:url(/public/images/bg-scroller-hover.png) left top repeat-x;
+        border-right:1px solid #e52b38;
         span{
           color:#e52b38;
         }
@@ -663,6 +665,15 @@ a{
         bottom:0;
         display:block;
         right:5px;
+      }
+    }
+  }
+  &.focus{
+    .scroller{
+      background:url(/public/images/bg-scroller-hover.png) left top repeat-x;
+      border-right:1px solid #e52b38;
+      span{
+        color:#e52b38;
       }
     }
   }
@@ -770,11 +781,11 @@ a{
     bottom:40px;
     right:45px;
   }
-  
+
   .full-detail{
     position:absolute;
   }
-  
+
   .detail-arrow{
     @include opacity(0);
     display: none;
