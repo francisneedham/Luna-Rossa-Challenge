@@ -46,11 +46,17 @@ class window.GalleryPage extends window.Page
     @addRightBorder()
     @setGalleryWidth()
 
+    @img.attr 'id', "#{@img.attr 'id'}_#{scopes}"
+    @img_id = @img.attr 'id'
+    @canvas.attr 'id', "#{@canvas.attr 'id'}_#{scopes}"
+    @canvas_id = @canvas.attr 'id'
+    
     @keymasterScope = "gallery_#{scopes++}"
     @addKeyControl()
 
     if @is_mobi
 
+      @gc.show()
       #@gc.attr('data-scrollable', 'x')
       new EasyScroller @gc[0], {
         scrollingX: true,
@@ -170,17 +176,20 @@ class window.GalleryPage extends window.Page
     
   addKeyControl: ->
     
-    key('right', @keymasterScope, (=> @changeDetail 1))
-    key('left', @keymasterScope, (=> @changeDetail -1))
-    key('esc', @keymasterScope, (=> @showGallery true))
+    unless @is_mobi
+      key('right', @keymasterScope, (=> @changeDetail 1))
+      key('left', @keymasterScope, (=> @changeDetail -1))
+      key('esc', @keymasterScope, (=> @showGallery true))
   
   setKeyControl: ->
   
-    key.setScope(@keymasterScope)
+    unless @is_mobi
+      key.setScope(@keymasterScope)
   
   resetKeyControl: ->
   
-    key.setScope('navigation')  
+    unless @is_mobi
+      key.setScope('navigation')  
 
   #####################
   # SWAP GALLERY/DETAIL
@@ -208,6 +217,7 @@ class window.GalleryPage extends window.Page
       @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
     else
       @gc.css {top: @gc.height()}
+      @gc.css {left: 0}
       @img.css {opacity: 0}
     @close.hide()
     @title.show()
@@ -278,7 +288,7 @@ class window.GalleryPage extends window.Page
   createBlurCanvas: =>
 
     # stackBlurImage( sourceImageID, targetCanvasID, radius, blurAlphaChannel );
-    stackBlurImage 'detail-img', 'detail-canvas', 10
+    stackBlurImage @img_id, @canvas_id, 10
     @localResize()
     @canvas.hide()
 
