@@ -3,6 +3,7 @@ POPUP_SCOPE = 'popup'
 class window.TeamPage extends window.ScrollPage
 
   init: =>
+    super()
     key('esc', POPUP_SCOPE, @closeAllItems)
 
   bind: =>

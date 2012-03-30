@@ -1,7 +1,7 @@
 window.SiteManager = class
   animationOptions:
     duration: 500
-    easing: 'easeInOutSine'
+    easing: 'easeOutSine'
 
   constructor: (@el) ->
     @resize()
