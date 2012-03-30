@@ -1,4 +1,9 @@
- class window.TeamPage extends window.ScrollPage
+POPUP_SCOPE = 'popup'
+
+class window.TeamPage extends window.ScrollPage
+
+  init: =>
+    key('esc', POPUP_SCOPE, @closeAllItems)
 
   bind: =>
     super()
@@ -11,12 +16,14 @@
     ($ @el).undelegate('.close', 'click', @clickClose)
 
   closeAllItems: =>
+    key.setScope('navigation')
     ($ '.wrap-overlay').hide().remove()
 
   openItem: (item) =>
     member_data = @data.members[(@$ '.item').index(item)]
 
     if member_data and member_data.popup_image
+      key.setScope(POPUP_SCOPE)
       (@$ '.aux').append(manager.mustache('team_popup', member_data))
       (@$ '.wrap-overlay').show()
 
