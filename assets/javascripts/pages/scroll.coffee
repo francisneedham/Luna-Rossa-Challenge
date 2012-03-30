@@ -66,11 +66,11 @@ class window.ScrollPage extends Page
     })
 
   resize: (width, height) ->
-    item_width = 295
-    available_width = width - 90
-    available_items = Math.floor(available_width / item_width)
-    total_width = item_width * available_items
-    (@$ '.oriz-scroll').css(width: total_width)
+    # item_width = 295
+    # available_width = width - 90
+    # available_items = Math.floor(available_width / item_width)
+    # total_width = item_width * available_items
+    # (@$ '.oriz-scroll').css(width: total_width)
 
     @setupValues()
 
