@@ -413,15 +413,15 @@ a{
       &.tw{
         margin-right:10px;
       }
-      &.fb a{ 
-        width:5px; 
+      &.fb a{
+        width:5px;
         height:11px;
         &:hover{
           @include sprite-sprite(facebook-hover);
         }
       }
-      &.tw a{ 
-        width:14px; 
+      &.tw a{
+        width:14px;
         height:10px;
         &:hover{
           @include sprite-sprite(twitter-hover);
@@ -770,11 +770,11 @@ a{
     bottom:40px;
     right:45px;
   }
-  
+
   .full-detail{
     position:absolute;
   }
-  
+
   .detail-arrow{
     @include opacity(0);
     display: none;

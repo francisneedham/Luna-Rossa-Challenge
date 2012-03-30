@@ -30,6 +30,8 @@ class window.ScrollPage extends Page
   startMoving: (clientX) =>
     @setupValues()
 
+    (@$ '.wrap-scroll').addClass('focus')
+
     scroll_position = (@$ '.scroller').offset().left
     @moving_offset = scroll_position - clientX
 
@@ -44,6 +46,7 @@ class window.ScrollPage extends Page
         .bind('mouseleave.bulletins', @scrollerMouseUp)
 
   stopMoving: =>
+    (@$ '.wrap-scroll').removeClass('focus')
     @moving_offset = 0
     ($ 'body').unbind('.bulletins')
 
