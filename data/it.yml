@@ -316,7 +316,6 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         alt: 'Team'
   gallery:
     page_mood: 'white'
-    image: '/public/images/2011/gall.jpg'
     template: 'gallery'
     css_class: 'gallery'
     title: 'Sailing season<span> 2011</span>'

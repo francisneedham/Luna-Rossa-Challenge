@@ -30,6 +30,8 @@ class window.ScrollPage extends Page
   startMoving: (clientX) =>
     @setupValues()
 
+    (@$ '.wrap-scroll').addClass('focus')
+
     scroll_position = (@$ '.scroller').offset().left
     @moving_offset = scroll_position - clientX
 
@@ -44,6 +46,7 @@ class window.ScrollPage extends Page
         .bind('mouseleave.bulletins', @scrollerMouseUp)
 
   stopMoving: =>
+    (@$ '.wrap-scroll').removeClass('focus')
     @moving_offset = 0
     ($ 'body').unbind('.bulletins')
 
@@ -66,11 +69,11 @@ class window.ScrollPage extends Page
     })
 
   resize: (width, height) ->
-    item_width = 295
-    available_width = width - 90
-    available_items = Math.floor(available_width / item_width)
-    total_width = item_width * available_items
-    (@$ '.oriz-scroll').css(width: total_width)
+    # item_width = 295
+    # available_width = width - 90
+    # available_items = Math.floor(available_width / item_width)
+    # total_width = item_width * available_items
+    # (@$ '.oriz-scroll').css(width: total_width)
 
     @setupValues()
 

@@ -1,5 +1,5 @@
 var EasyScroller = function(content, options) {
-	
+
 	this.content = content;
 	this.container = content.parentNode;
 	this.options = options || {};
@@ -22,9 +22,9 @@ var EasyScroller = function(content, options) {
 };
 
 EasyScroller.prototype.render = (function() {
-	
+
 	var docStyle = document.documentElement.style;
-	
+
 	var engine;
 	if (window.opera && Object.prototype.toString.call(opera) === '[object Opera]') {
 		engine = 'presto';
@@ -35,40 +35,40 @@ EasyScroller.prototype.render = (function() {
 	} else if (typeof navigator.cpuClass === 'string') {
 		engine = 'trident';
 	}
-	
+
 	var vendorPrefix = EasyScroller.vendorPrefix = {
 		trident: 'ms',
 		gecko: 'Moz',
 		webkit: 'Webkit',
 		presto: 'O'
 	}[engine];
-	
+
 	var helperElem = document.createElement("div");
 	var undef;
-	
+
 	var perspectiveProperty = vendorPrefix + "Perspective";
 	var transformProperty = vendorPrefix + "Transform";
-	
+
 	if (helperElem.style[perspectiveProperty] !== undef) {
-		
+
 		return function(left, top, zoom) {
 			this.content.style[transformProperty] = 'translate3d(' + (-left) + 'px,' + (-top) + 'px,0) scale(' + zoom + ')';
-		};	
-		
+		};
+
 	} else if (helperElem.style[transformProperty] !== undef) {
-		
+
 		return function(left, top, zoom) {
 			this.content.style[transformProperty] = 'translate(' + (-left) + 'px,' + (-top) + 'px) scale(' + zoom + ')';
 		};
-		
+
 	} else {
-		
+
 		return function(left, top, zoom) {
 			this.content.style.marginLeft = left ? (-left/zoom) + 'px' : '';
 			this.content.style.marginTop = top ? (-top/zoom) + 'px' : '';
 			this.content.style.zoom = zoom || '';
 		};
-		
+
 	}
 })();
 
@@ -80,7 +80,7 @@ EasyScroller.prototype.reflow = function() {
 	// refresh the position for zooming purposes
 	var rect = this.container.getBoundingClientRect();
 	this.scroller.setPosition(rect.left + this.container.clientLeft, rect.top + this.container.clientTop);
-	
+
 };
 
 EasyScroller.prototype.bindEvents = function() {
@@ -121,7 +121,7 @@ EasyScroller.prototype.bindEvents = function() {
 
 	// non-touch bind mouse events
 	} else {
-		
+
 		var mousedown = false;
 
 		this.container.addEventListener("mousedown", function(e) {
@@ -129,7 +129,7 @@ EasyScroller.prototype.bindEvents = function() {
 			if (e.target.tagName.match(/input|textarea|select/i)) {
 				return;
 			}
-		
+
 			that.scroller.doTouchStart([{
 				pageX: e.pageX,
 				pageY: e.pageY
@@ -145,7 +145,7 @@ EasyScroller.prototype.bindEvents = function() {
 			if (!mousedown) {
 				return;
 			}
-			
+
 			that.scroller.doTouchMove([{
 				pageX: e.pageX,
 				pageY: e.pageY
@@ -160,7 +160,7 @@ EasyScroller.prototype.bindEvents = function() {
 			if (!mousedown) {
 				return;
 			}
-			
+
 			that.scroller.doTouchEnd(e.timeStamp);
 
 			mousedown = false;
@@ -169,7 +169,7 @@ EasyScroller.prototype.bindEvents = function() {
 
 		this.container.addEventListener("mousewheel", function(e) {
 			if(that.options.zooming) {
-				that.scroller.doMouseZoom(e.wheelDelta, e.timeStamp, e.pageX, e.pageY);	
+				that.scroller.doMouseZoom(e.wheelDelta, e.timeStamp, e.pageX, e.pageY);
 				e.preventDefault();
 			}
 		}, false);
@@ -179,26 +179,26 @@ EasyScroller.prototype.bindEvents = function() {
 };
 
 // automatically attach an EasyScroller to elements found with the right data attributes
-document.addEventListener("DOMContentLoaded", function() {
-	
-	var elements = document.querySelectorAll('[data-scrollable],[data-zoomable]'), element;
-	for (var i = 0; i < elements.length; i++) {
+// document.addEventListener("DOMContentLoaded", function() {
 
-		element = elements[i];
-		var scrollable = element.dataset.scrollable;
-		var zoomable = element.dataset.zoomable || '';
-		var zoomOptions = zoomable.split('-');
-		var minZoom = zoomOptions.length > 1 && parseFloat(zoomOptions[0]);
-		var maxZoom = zoomOptions.length > 1 && parseFloat(zoomOptions[1]);
+// 	var elements = document.querySelectorAll('[data-scrollable],[data-zoomable]'), element;
+// 	for (var i = 0; i < elements.length; i++) {
 
-		new EasyScroller(element, {
-			scrollingX: scrollable === 'true' || scrollable === 'x',
-			scrollingY: scrollable === 'true' || scrollable === 'y',
-			zooming: zoomable === 'true' || zoomOptions.length > 1,
-			minZoom: minZoom,
-			maxZoom: maxZoom
-		});
+// 		element = elements[i];
+// 		var scrollable = element.dataset.scrollable;
+// 		var zoomable = element.dataset.zoomable || '';
+// 		var zoomOptions = zoomable.split('-');
+// 		var minZoom = zoomOptions.length > 1 && parseFloat(zoomOptions[0]);
+// 		var maxZoom = zoomOptions.length > 1 && parseFloat(zoomOptions[1]);
 
-	};
+// 		new EasyScroller(element, {
+// 			scrollingX: scrollable === 'true' || scrollable === 'x',
+// 			scrollingY: scrollable === 'true' || scrollable === 'y',
+// 			zooming: zoomable === 'true' || zoomOptions.length > 1,
+// 			minZoom: minZoom,
+// 			maxZoom: maxZoom
+// 		});
 
-}, false);
+// 	};
+
+// }, false);

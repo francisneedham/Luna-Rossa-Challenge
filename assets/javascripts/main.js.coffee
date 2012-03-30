@@ -1,4 +1,5 @@
 $ ->
+  NAVIGATION_SCOPE = 'navigation'
   w = window
 
   w.manager = manager = new SiteManager($ '#wrapper')
@@ -17,7 +18,8 @@ $ ->
     url = ($ this).attr('href')
     History.pushState({}, null, url)
 
-  key('right', manager.nextPage)
-  key('left', manager.prevPage)
-  key('down', manager.nextYear)
-  key('up', manager.prevYear)
+  key('right', NAVIGATION_SCOPE, manager.nextPage)
+  key('left', NAVIGATION_SCOPE, manager.prevPage)
+  key('down', NAVIGATION_SCOPE, manager.nextYear)
+  key('up', NAVIGATION_SCOPE, manager.prevYear)
+  key.setScope(NAVIGATION_SCOPE)
