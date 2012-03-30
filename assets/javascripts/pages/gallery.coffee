@@ -8,9 +8,9 @@ class window.GalleryPage extends window.Page
   - non funziona quando cambio anno?
   ###
 
-  ######################
-  # INIT/ENTERED/LEAVING
-  ######################
+  ########
+  # STATES
+  ########
 
   init: ->
 
@@ -46,10 +46,17 @@ class window.GalleryPage extends window.Page
     @addRightBorder()
     @setGalleryWidth()
 
+    @img.attr 'id', "#{@img.attr 'id'}_#{scopes}"
+    @img_id = @img.attr 'id'
+    @canvas.attr 'id', "#{@canvas.attr 'id'}_#{scopes}"
+    @canvas_id = @canvas.attr 'id'
+    
     @keymasterScope = "gallery_#{scopes++}"
+    @addKeyControl()
 
     if @is_mobi
 
+      @gc.show()
       #@gc.attr('data-scrollable', 'x')
       new EasyScroller @gc[0], {
         scrollingX: true,
@@ -57,8 +64,8 @@ class window.GalleryPage extends window.Page
         zooming: false
       }
 
-  entered: ->
-
+  entering: ->
+    
     @setWrapperWidth()
     @addRightBorder()
     @setGalleryWidth()
@@ -67,13 +74,30 @@ class window.GalleryPage extends window.Page
     @setInteractions()
     @gc.css {top: @gc.height()}
     @loadFirstBigImage()
+  
+  entered: ->
+    
+    ###
+    @setWrapperWidth()
+    @addRightBorder()
+    @setGalleryWidth()
+
+    @startUpdating()
+    @setInteractions()
+    @gc.css {top: @gc.height()}
+    @loadFirstBigImage()
+    ###
 
   leaving: ->
 
-    @showGallery(false)
+    #@showGallery false
     @stopUpdating()
     @resetInteractions()
-
+    
+  left: ->
+  
+    @showGallery false
+  
   ########
   # LAYOUT
   ########
@@ -142,20 +166,30 @@ class window.GalleryPage extends window.Page
   onCloseTouchOrClick: (e) =>
 
     e.preventDefault()
-    @showGallery(true)
+    @showGallery true
 
   onDetailArrowTouchOrClick: (e) =>
 
     e.preventDefault()
     dir = parseInt(@$(e.target).attr 'data-dir')
-
-    new_index =  @current_detail_index + dir
-    if new_index < 0 then new_index = @data.images.length - 1
-    else if new_index is @data.images.length then new_index = 0
-    @img.stop().css {opacity: "0"}
-    @canvas.show()
-    big_url = (@data.images[new_index].src).replace /.jpg/, "_big.jpg"
-    @loadBigImage (big_url)
+    @changeDetail dir
+    
+  addKeyControl: ->
+    
+    unless @is_mobi
+      key('right', @keymasterScope, (=> @changeDetail 1))
+      key('left', @keymasterScope, (=> @changeDetail -1))
+      key('esc', @keymasterScope, (=> @showGallery true))
+  
+  setKeyControl: ->
+  
+    unless @is_mobi
+      key.setScope(@keymasterScope)
+  
+  resetKeyControl: ->
+  
+    unless @is_mobi
+      key.setScope('navigation')  
 
   #####################
   # SWAP GALLERY/DETAIL
@@ -170,24 +204,38 @@ class window.GalleryPage extends window.Page
     @navbar.hide()
     @section_arrows.hide()
     @detail_arrows.show().animate {opacity: 1}, {duration: 600, easing: 'easeInCubic'}
+    @setKeyControl()
 
   showGallery: (is_animated)->
 
     unless @is_mobi
       @startUpdating()
     @canvas.show()
+    @gc.show()
     if(is_animated)
       @gc.stop().animate {top: 0}, {duration: 600, easing: 'easeInOutCubic'}
       @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
     else
       @gc.css {top: @gc.height()}
+      @gc.css {left: 0}
       @img.css {opacity: 0}
     @close.hide()
     @title.show()
     @navbar.show()
     @section_arrows.show()
     @detail_arrows.hide().css {opacity: 0}
-
+    @resetKeyControl()
+    
+  changeDetail: (dir) ->
+  
+    new_index =  @current_detail_index + dir
+    if new_index < 0 then new_index = @data.images.length - 1
+    else if new_index is @data.images.length then new_index = 0
+    @img.stop().css {opacity: "0"}
+    @canvas.show()
+    big_url = (@data.images[new_index].src).replace /.jpg/, "_big.jpg"
+    @loadBigImage (big_url)
+  
   loadFirstBigImage: ->
 
     @loader.show()
@@ -214,7 +262,7 @@ class window.GalleryPage extends window.Page
   onFirstBigImageEntered: =>
 
     @createBlurCanvas()
-    @showGallery(true)
+    @showGallery true
 
   loadBigImage: (big_url) ->
 
@@ -240,7 +288,7 @@ class window.GalleryPage extends window.Page
   createBlurCanvas: =>
 
     # stackBlurImage( sourceImageID, targetCanvasID, radius, blurAlphaChannel );
-    stackBlurImage 'detail-img', 'detail-canvas', 10
+    stackBlurImage @img_id, @canvas_id, 10
     @localResize()
     @canvas.hide()
 
