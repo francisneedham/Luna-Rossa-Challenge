@@ -25,7 +25,7 @@ class window.TeamPage extends window.ScrollPage
     if member_data and member_data.popup_image
       key.setScope(POPUP_SCOPE)
       (@$ '.aux').append(manager.mustache('team_popup', member_data))
-      (@$ '.wrap-overlay').show()
+      (@$ '.wrap-overlay').fadeIn()
 
   clickItem: (ev) =>
     ev.preventDefault()
