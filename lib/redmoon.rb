@@ -114,7 +114,14 @@ class RedMoon
   def render_page(locale = nil, year = nil, page = nil)
     content = find_content(locale, year, page)
 
+    intro_content = page == 'intro' ? content : find_content(locale, year, 'intro')
+
     master_data = {}
+    unless intro_content.nil?
+      master_data['seo_title'] = intro_content['seo_title']
+      master_data['seo_image'] = intro_content['seo_image']
+      master_data['seo_description'] = intro_content['seo_description']
+    end
     master_data['content'] = mustache(content['template'], content)
     master_data['locale'] = locale || data.keys.first
     master_data['json'] = data[master_data['locale']].to_json

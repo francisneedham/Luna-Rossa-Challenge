@@ -22,7 +22,7 @@ class window.Page
     @windowResize()
 
   windowResize: =>
-    
+
     $w = ($ window)
     width = $w.width()
     height = $w.height() - ($ '#footer').height()
@@ -52,8 +52,8 @@ class window.Page
           top = (width - new_width) / 2
 
         (@$ '.aux').css
-          width: new_width
-          height: new_height
+          width: width
+          height: height
           paddingTop: -top
           paddingLeft: -left
           paddingBottom: -top

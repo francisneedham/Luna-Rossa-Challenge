@@ -61,10 +61,10 @@ class window.ScrollPage extends Page
     scroll_position = @position * @scrollbar_width / 100
     content_position = @position * (@content_width - ($ '.oriz-scroll').width()) / 100
 
-    (@$ '.scroller').stop().animate({left: scroll_position}, { duration: 30, easing: 'easeInOutSine' })
+    (@$ '.scroller').stop().animate({left: scroll_position}, { duration: 30, easing: 'easeOutSine' })
     (@$ '.oriz-scroll').stop().animate({scrollLeft: content_position}, {
       duration: 400,
-      easing: 'easeInOutSine',
+      easing: 'easeOutSine',
       complete: callback
     })
 
