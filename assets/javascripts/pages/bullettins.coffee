@@ -34,7 +34,7 @@
       item.addClass('open')
       item.find('.close').show()
       li = item.find('.detail li')
-      item.stop().animate { width: 270 + (li.length * li.outerWidth()) + 12 }, {duration: 600, easing: 'easeInOutSine'}
+      item.stop().animate { width: 270 + (li.length * li.outerWidth()) + 12 }, {duration: 600, easing: 'easeOutSine'}
 
   closeAllItems: (callback) =>
     items = (@$ '.item.open')
@@ -42,7 +42,7 @@
       items.removeClass('open')
       items.stop().animate { width: 270 }, {
         duration: 600,
-        easing: 'easeInOutSine',
+        easing: 'easeOutSine',
         complete: =>
           if @position > 100
             @position = 100
