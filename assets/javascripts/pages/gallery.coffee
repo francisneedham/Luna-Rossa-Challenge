@@ -16,9 +16,10 @@ class window.GalleryPage extends window.Page
 
     #console.log @el
     #console.log @data
-
+    
+    @is_ie = $.browser.msie
     @is_mobi = if navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) then true else false
-
+    
     @w = $ window
     @h = $ '#header'
     @f = $ '#footer'
@@ -210,15 +211,18 @@ class window.GalleryPage extends window.Page
 
     unless @is_mobi
       @startUpdating()
-    @canvas.show()
+    unless @is_ie or @is_mobi
+      @canvas.show()
     @gc.show()
     if(is_animated)
       @gc.stop().animate {top: 0}, {duration: 600, easing: 'easeInOutCubic'}
-      @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
+      unless @is_ie or @is_mobi
+        @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
     else
       @gc.css {top: @gc.height()}
       @gc.css {left: 0}
-      @img.css {opacity: 0}
+      unless @is_ie or @is_mobi
+        @img.css {opacity: 0}
     @close.hide()
     @title.show()
     @navbar.show()
@@ -232,14 +236,14 @@ class window.GalleryPage extends window.Page
     if new_index < 0 then new_index = @data.images.length - 1
     else if new_index is @data.images.length then new_index = 0
     @img.stop().css {opacity: "0"}
-    @canvas.show()
+    unless @is_ie or @is_mobi
+      @canvas.show()
     big_url = (@data.images[new_index].src).replace /.jpg/, "_big.jpg"
     @loadBigImage (big_url)
   
   loadFirstBigImage: ->
 
     @loader.show()
-
     @img.css {opacity: "0"}
 
     big_url = (@data.images[0].src).replace /.jpg/, "_big.jpg"
@@ -261,13 +265,15 @@ class window.GalleryPage extends window.Page
 
   onFirstBigImageEntered: =>
 
-    @createBlurCanvas()
+    unless @is_ie or @is_mobi
+      @createBlurCanvas()
     @showGallery true
 
   loadBigImage: (big_url) ->
 
     @loader.show()
-
+    if @is_ie or @is_mobi
+      @img.css {opacity: "0"}
     @current_detail_index = (@getCurrentDetailIndex big_url)[0]
 
     unless @is_mobi
