@@ -1,11 +1,13 @@
-<section class="step hp {{page_mood}} hp-home">
+<section class="step hp  hp-double-intro {{page_mood}}">
   <div class="aux" style="background-image:url({{image}});background-position:{{crop}}; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{{image}}', sizingMethod='scale');
   -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{{image}}', sizingMethod='scale')';">
     <hgroup class="text-intro">
-      <h1>{{title}}</h1>
+      <h1>{{title}}</h1>      
       <span class="year">{{year}}</span>
-      <div class="wrap-link-ac"><h2>America's Cup</h2><a target="_blank" href="http://www.americascup.com/it/Teams/Luna-Rossa-Challenge-2013/ultime/">www.americascup.com</a></div>
-      <a href="{{next}}" class="next-page">next page</a>
+      <ul class="link-intro">
+        <li><a class="next-page" href="{{intro1}}">{{intro1_testo}}</a></li>
+        <li><a class="next-page" href="{{intro2}}">{{intro2_testo}}</a></li>
+      </ul>
     </hgroup>
   </div>
 </section>
