@@ -38,7 +38,7 @@ class window.GalleryPage extends window.Page
     @fps = 30
     @w_width = 0
     @gc_width = 0
-    @vel_min = 2
+    @vel_min = 3
     @vel_max = 30
     @is_updating = false
     @current_detail_index = 0
@@ -373,7 +373,7 @@ class window.GalleryPage extends window.Page
    @setWrapperWidth()
    posX = 2 * ((@mouseX / @w.width()) - .5)
    current_left = @gc.position().left
-   current_amp = parseInt @gc_width - @w.width()
+   current_amp = Math.max(0, parseInt @gc_width - @w.width())
    current_vel = @vel_min + (1 - Math.abs(2 * ((Math.abs(current_left) / current_amp) - .5))) * @vel_max
    updated_left = current_left - posX * current_vel
    bounded_left = Math.max(- current_amp, Math.min(0, updated_left))
