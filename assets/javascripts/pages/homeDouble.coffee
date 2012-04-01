@@ -1,0 +1,1 @@
+  class window.HomeDoublePage extends window.Page

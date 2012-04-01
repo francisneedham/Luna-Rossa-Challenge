@@ -504,14 +504,31 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
 
 2009:
   home:
-    template: 'home'
+    template: 'homeDouble'
     css_class: 'hp'
     page_mood: 'white'
     title: 'Sailing Season'
     year: '2009'
     image: '/public/images/gallery/2009_lvps/02_big.jpg'
     crop: 'bottom center'
-  intro:
+    intro1_testo: 'louis vuitton pacific series'
+    intro1: '/it/2009/intro-louis-vuitton-pacific-series'
+    intro2_testo: 'regate stp 65'
+    intro2: '/it/2009/stp-65-2009'
+  intro-louis-vuitton-pacific-series:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
+    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel
+     2009 dal Louis Vuitton Pacific Series.'
+    seo_image: '/public/images/2009/intro.jpg'
+    image: '/public/images/2009/intro.jpg'
+    crop: 'bottom center'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'Louis Vuitton Pacific Series'
+    description: 'Louis Vuitton Pacific Series'
+  stp-65-2009:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
@@ -521,8 +538,8 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     image: '/public/images/2009/intro.jpg'
     crop: 'bottom center'
     title: 'Sailing season<span> 2010</span>'
-    subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'
+    subtitle: 'Regate stp 65'
+    description: 'Louis Vuitton Pacific Series'
   bullettins:
     template: 'bullettins'
     css_class: 'bollettini'
@@ -588,14 +605,30 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     alt_img: 'yacht club'
 2010:
   home:
-    template: 'home'
+    template: 'homeDouble'
     css_class: 'hp'
     page_mood: 'white'
     title: 'Sailing Season'
     year: '2010'
     image: '/public/images/covers/2010.jpg'
     crop: 'center center'
-  intro:
+    intro1_testo: 'louis vuitton Trophy Wsta'
+    intro1: '/it/2010/intro-louis-vuitton-trophy-wsta'
+    intro2_testo: 'Audi Med Cup'
+    intro2: '/it/2010/adui-med-cup'
+  intro-louis-vuitton-trophy-wsta:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
+    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
+    seo_image: '/public/images/2010/intro.jpg'
+    image: '/public/images/2010/intro.jpg'
+    crop: 'top center'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'LOUIS VUITTON TROPHY WSTA'
+    description: 'Louis Vuitton Trophy WSTA è'
+  adui-med-cup:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
@@ -761,4 +794,5 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     page_mood: 'white'
     title: 'Sailing Season'
     year: '2000'
-    image: '/public/images/covers/2000.jpg'
+    image: '/public/images/covers/2013.jpg'
+    crop: 'bottom center'
