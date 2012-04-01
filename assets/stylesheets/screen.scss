@@ -99,7 +99,7 @@ a{
 .single-year .step .aux{
   height:100%;
   width:1440px; //da impostare dinamicamente
-  background-position: center center;
+  background-position: center left;
   background-repeat:no-repeat;
   background-size: cover;
   float:left;
@@ -302,6 +302,31 @@ a{
     }
     .next-page{
       float:right;
+    }
+  }
+  &.hp-double-intro{
+    .link-intro{
+      clear:both;
+      > li{
+        @include clearfix;
+        padding:10px 0 0;
+        display:block;
+        > a{
+          width:100%;
+          line-height:1em;
+          text-indent:0;
+          line-height:30px;
+          padding-right:35px;
+          text-transform:uppercase;
+          text-align:right;
+          background:url(/public/images/sprite/a-white-next.png) right center no-repeat!important;
+          color:#fff;
+          font:{
+            family:"ProximaNovaSemiBold";
+            size:2.5em;
+          }
+        }
+      }
     }
   }
   &.hp-home{

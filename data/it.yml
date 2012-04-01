@@ -1,12 +1,32 @@
 2000:
   home:
+    # template: 'home-double'
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
     title: 'Sailing Season'
     year: '2000'
     image: '/public/images/covers/2000.jpg'
+    crop: 'bottom center'
+    # intro1_testo: 'Louis Vuitton cup'
+    # intro2_testo: 'intro2'
+    # intro1: '/it/2000/intro/'
+    # intro2: '/it/2000/intro2/'
   intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "Sailing season 2000 - 30^ America's cup"
+    seo_description: "Sailing season 2000 - 30^ America's cup"
+    seo_image: '/public/images/2000/intro.jpg'
+    image: '/public/images/gallery/2000/04_big.jpg'
+    crop: 'center center'
+    title: 'Sailing season<span> 2000</span>'
+    subtitle: "30^ America's cup"
+    description: 'Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
+L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia; ci vogliono tutte le 9 regate previste dal regolamento per vincere la Louis Vuitton Cup ed avere così il diritto di affrontare i neozelandesi nel Match finale.
+È la prima volta che uno skipper italiano partecipa al Match finale della Coppa America, ed è la prima volta che questa si disputa senza una barca americana.'
+  intro2:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
@@ -108,13 +128,15 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     title: 'Sailing Season'
     year: '2003'
     image: '/public/images/covers/2003.jpg'
+    crop: bottom center
   intro:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
     seo_title: "Sailing season 2003 - 31^ America's cup"
     seo_description: "Sailing season 2003 - 31^ America's cup"
-    seo_image: '/public/images/2010/intro.jpg'
+    seo_image: '/public/images/2003/intro.jpg'
+    cover: top center
     image: '/public/images/gallery/2003/06_big.jpg'
     title: 'Sailing season<span> 2003</span>'
     subtitle: "31^ America's cup"
@@ -297,14 +319,16 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     title: 'Sailing Season'
     year: '2007'
     image: '/public/images/covers/2007.jpg'
+    crop: center center
   intro:
     template: 'intro'
     css_class: 'intro'
-    page_mood: 'grey'
+    page_mood: 'white'
     seo_title: 'Sailing season 2007'
     seo_description: 'Sailing season 2007'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/gallery/2007/02_big.jpg'
+    seo_image: '/public/images/2007/intro.jpg'
+    image: '/public/images/2007/intro.jpg'
+    crop: 'center right'
     title: 'Sailing season<span> 2007</span>'
     subtitle: "32^ America's cup"
     description: 'Viene lanciata ufficialmente la sfida attraverso lo Yacht Club Italiano, il più antico club velico del Mediterraneo, fondato nel 1879 a Genova.
@@ -486,25 +510,16 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     title: 'Sailing Season'
     year: '2009'
     image: '/public/images/gallery/2009_lvps/02_big.jpg'
+    crop: 'bottom center'
   intro:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
     seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
     seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/gallery/2009_lvps/14_big.jpg'
-    title: 'Sailing season<span> 2010</span>'
-    subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'
-  intro:
-    template: 'intro'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/gallery/2009_lvps/14_big.jpg'
+    seo_image: '/public/images/2009/intro.jpg'
+    image: '/public/images/2009/intro.jpg'
+    crop: 'bottom center'
     title: 'Sailing season<span> 2010</span>'
     subtitle: 'LOUIS VUITTON TROPHY WSTA'
     description: 'Louis Vuitton Trophy WSTA è'
@@ -579,6 +594,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     title: 'Sailing Season'
     year: '2010'
     image: '/public/images/covers/2010.jpg'
+    crop: 'center center'
   intro:
     template: 'intro'
     css_class: 'intro'
@@ -587,6 +603,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
     seo_image: '/public/images/2010/intro.jpg'
     image: '/public/images/2010/intro.jpg'
+    crop: 'top center'
     title: 'Sailing season<span> 2010</span>'
     subtitle: 'LOUIS VUITTON TROPHY WSTA'
     description: 'Louis Vuitton Trophy WSTA è'
@@ -659,7 +676,8 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    image: '/public/images/2011/bg.jpg'
+    image: '/public/images/covers/2011.jpg'
+    crop: 'top center'
     title: 'Sailing Season'
     year: '2011'
   intro:
