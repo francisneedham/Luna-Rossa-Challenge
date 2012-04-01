@@ -265,8 +265,7 @@ class window.GalleryPage extends window.Page
 
   onFirstBigImageEntered: =>
 
-    unless @is_ie or @is_mobi
-      @createBlurCanvas()
+    @createBlurCanvas()
     @showGallery true
 
   loadBigImage: (big_url) ->
@@ -293,10 +292,11 @@ class window.GalleryPage extends window.Page
 
   createBlurCanvas: =>
 
-    # stackBlurImage( sourceImageID, targetCanvasID, radius, blurAlphaChannel );
-    stackBlurImage @img_id, @canvas_id, 10
-    @localResize()
-    @canvas.hide()
+    unless @is_ie or @is_mobi
+      # stackBlurImage( sourceImageID, targetCanvasID, radius, blurAlphaChannel );
+      stackBlurImage @img_id, @canvas_id, 10
+      @localResize()
+      @canvas.hide()
 
   getCurrentDetailIndex: (big_url) ->
 
@@ -354,9 +354,13 @@ class window.GalleryPage extends window.Page
       @is_updating = false
 
   onMouseMove: (e) =>
-
-    @mouseX = e.pageX
-    @mouseY = e.pageY
+    
+    if @is_ie
+      @mouseX = e.clientX
+      @mouseY = e.clientY
+    else      
+      @mouseX = e.pageX
+      @mouseY = e.pageY
 
   setUpdateTimeout: ->
 
