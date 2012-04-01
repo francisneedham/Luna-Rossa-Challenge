@@ -432,183 +432,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
         alt: AMERICA'S CUP
         caption: AMERICA'S CUP
         date: 04/07/07
-        details: <li><p><img src=/public/images/archive/2007_19.gif></p></li>      
-  team:
-    template: 'team'
-    css_class: 'team'
-    page_mood: 'white'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
-    subtitle: 'Team'
-    members:
-      - name: 'Ed Baird'
-        role: 'Skipper and Helmsman'
-        image: '/public/images/team/ed.jpg'
-        alt: 'Team'
-        popup_image: '/public/images/team/ed.jpg'
-        popup_alt: 'Ed Baird'
-        popup_title: 'Ed<br>Baird'
-        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
-  gallery:
-    page_mood: 'white'
-    template: 'gallery'
-    css_class: 'gallery'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
-    subtitle: 'photo gallery'
-    images:
-      - src: '/public/images/2010/gallery/01.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/02.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/03.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/04.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/05.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/06.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/07.jpg'
-        alt: 'Thumb Gallery'
-  adv:
-    template: 'adv'
-    css_class: 'adv'
-    page_mood: 'white'
-    image: '/public/images/2010/bg-adv.jpg'
-    link_img: '/public/images/placeholder/link_adv.png'
-    link_href: 'http://www.ycpa.it'
-    alt_img: 'yacht club'   
-
-2009:
-  home:
-    template: 'home'
-    css_class: 'hp'
-    page_mood: 'white'
-    title: 'Sailing Season'
-    year: '2009'
-    image: '/public/images/gallery/2009_lvps/02_big.jpg'
-  intro:
-    template: 'intro'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/gallery/2009_lvps/14_big.jpg'
-    title: 'Sailing season<span> 2010</span>'
-    subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'
-  intro:
-    template: 'intro'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/gallery/2009_lvps/14_big.jpg'
-    title: 'Sailing season<span> 2010</span>'
-    subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'    
-  bullettins:
-    template: 'bullettins'
-    css_class: 'bollettini'
-    page_mood: 'grey'
-    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
-    subtitle: 'bollettini'
-    items:
-      - number: '.01'
-        image: '/public/images/2010/bollettini_lv_1.jpg'
-        alt: 'bollettini'
-        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
-        date: '05/06/2010'
-        details: "<li>
-        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
-        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
-        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
-        </li>"
-      
-  team:
-    template: 'team'
-    css_class: 'team'
-    page_mood: 'white'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
-    subtitle: 'Team'
-    members:
-      - name: 'Ed Baird'
-        role: 'Skipper and Helmsman'
-        image: '/public/images/team/ed.jpg'
-        alt: 'Team'
-        popup_image: '/public/images/team/ed.jpg'
-        popup_alt: 'Ed Baird'
-        popup_title: 'Ed<br>Baird'
-        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
-  gallery:
-    page_mood: 'white'
-    template: 'gallery'
-    css_class: 'gallery'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
-    subtitle: 'photo gallery'
-    images:
-      - src: '/public/images/2010/gallery/01.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/02.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/03.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/04.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/05.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/06.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/07.jpg'
-        alt: 'Thumb Gallery'
-
-  adv:
-    template: 'adv'
-    css_class: 'adv'
-    page_mood: 'white'
-    image: '/public/images/2010/bg-adv.jpg'
-    link_img: '/public/images/placeholder/link_adv.png'
-    link_href: 'http://www.ycpa.it'
-    alt_img: 'yacht club'                
-2010:
-  home:
-    template: 'home'
-    css_class: 'hp'
-    page_mood: 'white'
-    title: 'Sailing Season'
-    year: '2010'
-    image: '/public/images/covers/2010.jpg'
-  intro:
-    template: 'intro'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/2010/intro.jpg'
-    title: 'Sailing season<span> 2010</span>'
-    subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'
-          
-  bullettins:
-    template: 'bullettins'
-    css_class: 'bollettini'
-    page_mood: 'grey'
-    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
-    subtitle: 'bollettini'
-    items:
-      - number: '.01'
-        image: '/public/images/2010/bollettini_lv_1.jpg'
-        alt: 'bollettini'
-        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
-        date: '05/06/2010'
-        details: "<li>
-        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
-        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
-        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
-        </li>"
-      
+        details: <li><p><img src=/public/images/archive/2007_19.gif></p></li>
   team:
     template: 'team'
     css_class: 'team'
@@ -653,7 +477,183 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
-    
+
+2009:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: 'Sailing Season'
+    year: '2009'
+    image: '/public/images/gallery/2009_lvps/02_big.jpg'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
+    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
+    seo_image: '/public/images/2010/intro.jpg'
+    image: '/public/images/gallery/2009_lvps/14_big.jpg'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'LOUIS VUITTON TROPHY WSTA'
+    description: 'Louis Vuitton Trophy WSTA è'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
+    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
+    seo_image: '/public/images/2010/intro.jpg'
+    image: '/public/images/gallery/2009_lvps/14_big.jpg'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'LOUIS VUITTON TROPHY WSTA'
+    description: 'Louis Vuitton Trophy WSTA è'
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: '/public/images/2010/bollettini_lv_1.jpg'
+        alt: 'bollettini'
+        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
+        date: '05/06/2010'
+        details: "<li>
+        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
+        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
+        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
+        </li>"
+
+  team:
+    template: 'team'
+    css_class: 'team'
+    page_mood: 'white'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'Team'
+    members:
+      - name: 'Ed Baird'
+        role: 'Skipper and Helmsman'
+        image: '/public/images/team/ed.jpg'
+        alt: 'Team'
+        popup_image: '/public/images/team/ed.jpg'
+        popup_alt: 'Ed Baird'
+        popup_title: 'Ed<br>Baird'
+        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/2010/gallery/01.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/02.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/03.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/04.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/05.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/06.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/07.jpg'
+        alt: 'Thumb Gallery'
+
+  adv:
+    template: 'adv'
+    css_class: 'adv'
+    page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ycpa.it'
+    alt_img: 'yacht club'
+2010:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: 'Sailing Season'
+    year: '2010'
+    image: '/public/images/covers/2010.jpg'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
+    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
+    seo_image: '/public/images/2010/intro.jpg'
+    image: '/public/images/2010/intro.jpg'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'LOUIS VUITTON TROPHY WSTA'
+    description: 'Louis Vuitton Trophy WSTA è'
+
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: '/public/images/2010/bollettini_lv_1.jpg'
+        alt: 'bollettini'
+        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
+        date: '05/06/2010'
+        details: "<li>
+        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
+        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
+        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
+        </li>"
+
+  team:
+    template: 'team'
+    css_class: 'team'
+    page_mood: 'white'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'Team'
+    members:
+      - name: 'Ed Baird'
+        role: 'Skipper and Helmsman'
+        image: '/public/images/team/ed.jpg'
+        alt: 'Team'
+        popup_image: '/public/images/team/ed.jpg'
+        popup_alt: 'Ed Baird'
+        popup_title: 'Ed<br>Baird'
+        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/2010/gallery/01.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/02.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/03.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/04.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/05.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/06.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/07.jpg'
+        alt: 'Thumb Gallery'
+  adv:
+    template: 'adv'
+    css_class: 'adv'
+    page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ycpa.it'
+    alt_img: 'yacht club'
+
 2011:
   home:
     template: 'home'
@@ -736,4 +736,11 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
-    
+2013:
+  home:
+    template: 'home2013'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: 'Sailing Season'
+    year: '2000'
+    image: '/public/images/covers/2000.jpg'
