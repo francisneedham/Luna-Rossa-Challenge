@@ -477,7 +477,6 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'   
-
 2009:
   home:
     template: 'home'
