@@ -21,13 +21,6 @@ Compass.configuration do |config|
   config.sprite_engine = :chunky_png
 end
 
-
-if %{ staging production }.include? ENV['RACK_ENV']
-  use Rack::Auth::Basic do |username, password|
-    username == 'lunarossa' && password == 'challange'
-  end
-end
-
 use Rack::Static, :urls => ["/public"]
 
 map "/assets" do
