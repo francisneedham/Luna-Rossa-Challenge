@@ -317,9 +317,9 @@ class window.GalleryPage extends window.Page
      (@$ '.full-detail').css
        width: new_width
        height: new_height
-       paddingTop: 0
+       paddingTop: -top
        paddingLeft: -left
-       paddingBottom: 0
+       paddingBottom: -top
        paddingRight: -left
        marginTop: top
        marginLeft: left
