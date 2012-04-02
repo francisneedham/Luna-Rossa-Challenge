@@ -163,6 +163,7 @@ a{
     header{
       .title{
         border-bottom:1px solid #fff;
+        display:inline;
       }
       .title, .subtitle {
         color:#fff;
@@ -330,6 +331,35 @@ a{
     }
   }
   &.hp-home{
+    .blake{
+      width:450px;
+      float:right;
+      .subtitle{
+      padding-top:10px;
+      line-height:1em;
+      text-transform:uppercase;
+      color:white;
+      font:{
+        size:1.8em;
+      }
+      }
+      p{
+      line-height:1em;
+      color:white;
+      font:{
+        size:1.4em;
+      }
+      }
+      > a{
+          line-height:2em;
+          text-transform:uppercase;
+          color:#fff;
+          font:{
+            family:"ProximaNovaSemiBold";
+            size:1.5em;
+          }
+        }
+      }
     .text-intro{
       > h1{
         border-bottom:1px solid #fff;
@@ -340,6 +370,7 @@ a{
             family:"ProximaNovaRegular";
           }
         }
+
       }
       .wrap-link-ac{
         color:#fff;
@@ -885,6 +916,7 @@ a{
     .press{
       float:left;
       line-height:30px;
+      font-size:1.2em;
       span{
         color:#bebebe;
         padding-right:10px;

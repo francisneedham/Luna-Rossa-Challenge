@@ -26,7 +26,49 @@
     description: 'Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
 L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia; ci vogliono tutte le 9 regate previste dal regolamento per vincere la Louis Vuitton Cup ed avere così il diritto di affrontare i neozelandesi nel Match finale.
 È la prima volta che uno skipper italiano partecipa al Match finale della Coppa America, ed è la prima volta che questa si disputa senza una barca americana.'
-
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2000</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 1
+        caption: Round Robin 1
+        date: 28/10/1999
+        details: <li><p><img src=/public/images/archive/2000_1.gif></p></li><li style=border-left:none;></li>
+      - number: '.02'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 2
+        caption: Round Robin 2
+        date: 20/11/99
+        details: <li><p><img src=/public/images/archive/2000_2.gif></p></li><li style=border-left:none;></li>
+      - number: '.03'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 3
+        caption: Round Robin 3
+        date: 15/12/99
+        details: <li><p><img src=/public/images/archive/2000_3.gif></p></li><li style=border-left:none;></li>
+      - number: '.04'
+        image: /public/images/placeholder/bollettini.png
+        alt: Semifinali
+        caption: Semifinali
+        date: 14/01/00
+        details: <li><p><img src=/public/images/archive/2000_4.gif></p></li><li style=border-left:none;></li>
+      - number: '.05'
+        image: /public/images/placeholder/bollettini.png
+        alt: Finali
+        caption: Finali
+        date: 25/02/00
+        details: <li><p><img src=/public/images/archive/2000_5.gif></p></li><li style=border-left:none;></li>
+      - number: '.06'
+        image: /public/images/placeholder/bollettini.png
+        alt: Coppa America
+        caption: Coppa America
+        date: 02/03/00
+        details: <li><p><img src=/public/images/archive/2000_6.gif></p></li><li style=border-left:none;></li>
   gallery:
     page_mood: 'grey'
     template: 'gallery'
@@ -85,6 +127,61 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     title: 'Sailing season<span> 2003</span>'
     subtitle: "31^ America's cup"
     description: '"Another beautiful day in the Hauraki Gulf". Ancora qui. Di nuovo qui. Tre barche in acqua: due Luna Rossa e Young America. Tre mesi a disposizione per riprendere confidenza con il Golfo di Hauraki. A fine estate (australe) si torna in Italia per continuare il lungo processo di apprendimento e miglioramento in mare e a terra.'
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2003</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 1
+        caption:  Round Robin 1
+        date: 23/10/2002
+        details: <li><p><img src=/public/images/archive/2003_1.gif></p></li><li style=border-left:none;></li>
+      - number: '.02'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 2
+        caption: Round Robin 2
+        date: 03/11/02
+        details: <li><p><img src=/public/images/archive/2003_2.gif></p></li><li style=border-left:none;></li>
+      - number: '.03'
+        image: /public/images/placeholder/bollettini.png
+        alt: Quarti di finale
+        caption: Quarti di finale
+        date: 18/11/02
+        details: <li><p><img src=/public/images/archive/2003_3.gif></p></li><li style=border-left:none;></li>
+      - number: '.04'
+        image: /public/images/placeholder/bollettini.png
+        alt: Repechage quarti
+        caption: Repechage quarti
+        date: 30/11/02
+        details: <li><p><img src=/public/images/archive/2003_4.gif></p></li><li style=border-left:none;></li>
+      - number: '.05'
+        image: /public/images/placeholder/bollettini.png
+        alt: Semifinali
+        caption: Semifinali
+        date: 17/12/02
+        details: <li><p><img src=/public/images/archive/2003_5.gif></p></li><li style=border-left:none;></li>
+      - number: '.06'
+        image: /public/images/placeholder/bollettini.png
+        alt: Repechage semifinali
+        caption: Repechage semifinali
+        date: 23/12/02
+        details: <li><p><img src=/public/images/archive/2003_6.gif></p></li><li style=border-left:none;></li>
+      - number: '.07'
+        image: /public/images/placeholder/bollettini.png
+        alt: Finali
+        caption: Finali
+        date: 19/01/03
+        details: <li><p><img src=/public/images/archive/2003_7.gif></p></li><li style=border-left:none;></li>
+      - number: '.08'
+        image: /public/images/placeholder/bollettini.png
+        alt: Coppa America
+        caption: Coppa America
+        date: 02/03/03
+        details: <li><p><img src=/public/images/archive/2003_8.gif></p></li><li style=border-left:none;></li>
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -225,6 +322,127 @@ I due partner di Luna Rossa Challenge 2007 sono il Gruppo Prada e il Gruppo Tele
 Presente a Valencia gia’ dal febbraio 2004, il Team Luna Rossa è stato il primo consorzio a insediarsi nella sede prescelta per la 32^ America’s Cup, iniziando nel maggio dello stesso anno gli allenamenti in mare con ITA 74 e ITA 80.
 Mantenendo integro lo storico nucleo originario del Team, viene promossa una lunga fase di rinnovamento inserendo in tutti i settori elementi di grande valore e puntando con decisione sulle tecnologie più all’avanguardia.
 Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, shore team, meteo, performance, boat builders, veleria, logistica, amministrazione e management) sono impegnate circa 150 persone in rappresentanza di 18 nazioni.'
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2007</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: /public/images/placeholder/bollettini.png
+        alt: 'ACT 1'
+        caption: 'ACT 1'
+        date: 07/09/2004
+        details: <li><p><img src=/public/images/archive/2007_1.gif></p></li><li style=border-left:none;></li>
+      - number: '.02'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 2
+        caption: ACT 2
+        date: 12/10/04
+        details: <li><p><img src=/public/images/archive/2007_2.gif></p></li><li style=border-left:none;></li>
+      - number: '.03'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 3
+        caption: ACT 3
+        date: 17/10/04
+        details: <li><p><img src=/public/images/archive/2007_3.gif></p></li><li style=border-left:none;></li>
+      - number: '.04'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 4
+        caption: ACT 4
+        date: 21/06/05
+        details: <li><p><img src=/public/images/archive/2007_4.gif></p></li><li style=border-left:none;></li>
+      - number: '.05'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 5
+        caption: ACT 5
+        date: 26/06/05
+        details: <li><p><img src=/public/images/archive/2007_5.gif></p></li><li style=border-left:none;></li>
+      - number: '.06'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 6
+        caption: ACT 6
+        date: 31/08/05
+        details: <li><p><img src=/public/images/archive/2007_6.gif></p></li><li style=border-left:none;></li>
+      - number: '.07'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 7
+        caption: ACT 7
+        date: 04/09/05
+        details: <li><p><img src=/public/images/archive/2007_7.gif></p></li><li style=border-left:none;></li>
+      - number: '.08'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 8
+        caption: ACT 8
+        date: 05/10/05
+        details: <li><p><img src=/public/images/archive/2007_8.gif></p></li><li style=border-left:none;></li>
+      - number: '.09'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 9
+        caption: ACT 9
+        date: 09/10/05
+        details: <li><p><img src=/public/images/archive/2007_9.gif></p></li><li style=border-left:none;></li>
+      - number: '.10'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 10
+        caption: ACT 10
+        date: 18/05/06
+        details: <li><p><img src=/public/images/archive/2007_10.gif></p></li><li style=border-left:none;></li>
+      - number: '.11'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 11
+        caption: ACT 11
+        date: 21/05/06
+        details: <li><p><img src=/public/images/archive/2007_11.gif></p></li><li style=border-left:none;></li>
+      - number: '.12'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 12
+        caption: ACT 12
+        date: 03/07/06
+        details: <li><p><img src=/public/images/archive/2007_12.gif></p></li><li style=border-left:none;></li>
+      - number: '.13'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 13
+        caption: ACT 13
+        date: 03/04/07
+        details: <li><p><img src=/public/images/archive/2007_13.gif></p></li><li style=border-left:none;></li>
+      - number: '.14'
+        image: /public/images/placeholder/bollettini.png
+        alt: LOUIS VUITTON RANKING SUMMARY BOARD
+        caption: LOUIS VUITTON RANKING SUMMARY BOARD
+        date: 07/04/07
+        details: <li><p><img src=/public/images/archive/2007_14.gif></p></li><li style=border-left:none;></li>
+      - number: '.15'
+        image: /public/images/placeholder/bollettini.png
+        alt: ROUND ROBIN 1
+        caption: ROUND ROBIN 1
+        date: 28/04/07
+        details: <li><p><img src=/public/images/archive/2007_15.gif></p></li><li style=border-left:none;></li>
+      - number: '.16'
+        image: /public/images/placeholder/bollettini.png
+        alt: ROUND ROBIN 2
+        caption: ROUND ROBIN 2
+        date: 09/05/07
+        details: <li><p><img src=/public/images/archive/2007_16.gif></p></li><li style=border-left:none;></li>
+      - number: '.17'
+        image: /public/images/placeholder/bollettini.png
+        alt: SEMIFINALI
+        caption: SEMIFINALI
+        date: 24/05/07
+        details: <li><p><img src=/public/images/archive/2007_17.gif></p></li><li style=border-left:none;></li>
+      - number: '.18'
+        image: /public/images/placeholder/bollettini.png
+        alt: FINALE
+        caption: FINALE
+        date: 12/06/07
+        details: <li><p><img src=/public/images/archive/2007_18.gif></p></li><li style=border-left:none;></li>
+      - number: '.19'
+        image: /public/images/placeholder/bollettini.png
+        alt: AMERICA'S CUP
+        caption: AMERICA'S CUP
+        date: 04/07/07
+        details: <li><p><img src=/public/images/archive/2007_19.gif></p></li><li style=border-left:none;></li>
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -264,8 +482,8 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     template: 'adv'
     css_class: 'adv'
     page_mood: 'white'
-    image: '/public/images/placeholder/bg_adv_07.jpg'
-    link_img: '/public/images/placeholder/link_adv_it.png'
+    image: '/public/images/2010/bg-adv.jpg'
+    link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
 
@@ -417,7 +635,21 @@ Il Team Luna Rossa partecipa alle regate del Louis Vuitton Trophy WSTA che si te
 Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt in qualità di stratega.
 
 E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del Louis Vuitton Trophy WSTA che si terranno a Hong Kong (9 – 24 Gennaio 2011).'
-  
+  team-lv:
+    template: 'team'
+    css_class: 'team'
+    page_mood: 'white'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'Team'
+    members:
+      - name: 'Ed Baird'
+        role: 'Skipper and Helmsman'
+        image: '/public/images/team/ed.jpg'
+        alt: 'Team'
+        popup_image: '/public/images/team/ed.jpg'
+        popup_alt: 'Ed Baird'
+        popup_title: 'Ed<br>Baird'
+        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
   gallery-lv:
     page_mood: 'white'
     template: 'gallery'
@@ -463,7 +695,21 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
 L’imbarcazione “Luna Rossa” è un progetto di Rolf Vroljik che aveva già partecipato al circuito lo scorso anno e che durante l’inverno ha subito profonde modifiche , concordate con il progettista e realizzate dai tecnici del Team, al fine di ottimizzarne le performance e aggiornarla al regolamento di stazza 2010.
 
 L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori della 33º edizione dell’America’s Cup con Oracle, che avevano già fatto parte del Team Luna Rossa in precedenti sfide, tra cui il navigatore Matteo Plazzi, il pitman Simone de Mari e il responsabile dello sviluppo del rigging Max Sirena.'
-
+  team-au:
+    template: 'team'
+    css_class: 'team'
+    page_mood: 'white'
+    title: 'Audi med cup<span> 2010</span>'
+    subtitle: 'Team'
+    members:
+      - name: 'Ed Baird'
+        role: 'Skipper and Helmsman'
+        image: '/public/images/team/ed.jpg'
+        alt: 'Team'
+        popup_image: '/public/images/team/ed.jpg'
+        popup_alt: 'Ed Baird'
+        popup_title: 'Ed<br>Baird'
+        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
   gallery-au:
     page_mood: 'white'
     template: 'gallery'
@@ -513,7 +759,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
     subtitle: 'Extreme sailing series'
     description: 'Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.
 L’equipaggio è composto da 4 persone e le imbarcazioni – catamarani di 40′ (circa 12 m) ultraleggeri – sono capaci di sviluppare velocità di oltre 25 nodi, dando vita a regate di flotta spettacolari, con duelli che spesso si risolvono a pochi metri dalla linea d’arrivo.
-Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht Club Punta Ala'  
+Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht Club Punta Ala'
+  
   team:
     template: 'team'
     css_class: 'team'
@@ -521,194 +768,10 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Team'
     members:
-      - name: patrizio bertelli
-        role: TEAM PRINCIPAL / OWNER
-        image: patrizio_bertelli.jpg
-        alt: patrizio bertelli
-        popup_image: big_patrizio_bertelli.jpg
-        popup_alt: patrizio bertelli
-        popup_title: patrizio bertelli
-        popup_description: ! '<p>Patrizio Bertelli, Presidente di Luna Rossa Challenge
-                2013, è nato ad Arezzo nel 1946 da una famiglia di lunghe tradizioni
-                forensi. Studia Ingegneria a Bologna e nel 1968 crea ad Arezzo una
-                piccola società produttrice di cinture e borse che pone le basi per
-                lo sviluppo delle sue future attività imprenditoriali.</p><p></p><p>Nel
-                1977 conosce Miuccia Prada, che successivamente diventerà sua moglie,
-                e con lei stipula un accordo per la produzione e la distribuzione
-                di articoli di pelletteria con marchio “Prada”; è l’inizio di un sodalizio
-                il cui successo è esemplificato dalla storia stessa del Gruppo PRADA.</p><p></p><p>La
-                capacità di Patrizio Bertelli di intuire e anticipare i mutamenti
-                sociali, del costume e del mercato, e di coglierne le aspirazioni,
-                lo spingono sin da questi primi anni a rivisitare l’immagine del brand
-                su basi completamente nuove, senza alterarne il DNA ma coniugando
-                il know-how, la storia e la tradizione quasi centenaria del marchio
-                con un approccio fortemente innovativo, applicato a ogni fase del
-                processo. Viene anche cambiato il metodo di lavoro, reimpostato con
-                un controllo preciso di tutta la filiera, un modello di business successivamente
-                seguito da tutto il settore.</p><p></p><p>Qualità senza compromessi
-                – applicata a ogni fase del processo - e innovazione, nel rispetto
-                di una tradizione centenaria e dell’anima artigianale delle sue produzioni,
-                sono i valori di riferimento che hanno sempre guidato Patrizio Bertelli
-                e Miuccia Prada nello sviluppo.</p><p></p><p>Negli anni ’80 e ‘90
-                Prada conosce una forte crescita con e il lancio di nuove linee di
-                prodotto - abbigliamento Prada donna nel 1988 e della linea Prada
-                Uomo nel 1993 - ,e la creazione di un nuovo marchio, Miu Miu, nel
-                1993. All’inizio del 1997 viene introdotto il naturale complemento
-                della collezione Prada, dedicato al tempo libero e allo sport, contrassegnato
-                con l’ormai inequivocabile “linea rossa”.</p><p></p><p>Parallelamente
-                Prada sviluppa anche un piano di espansione a livello internazionale
-                con l’apertura di negozi diretti nei punti più esclusivi delle principali
-                metropoli mondiali, nonché nelle località turistiche più prestigiose,
-                per giungere, al 31 Gennaio 2012, a gestire direttamente un totale
-                di 388 negozi a livello di Gruppo e una distribuzione in 70 paesi.</p><p></p><p>Prada
-                si svilupperà anche su linee esterne, con l’acquisizione dei marchi
-                di calzature di lusso Church’s e Car Shoe, e in nuovi settori merceologici:
-                eyewear, profumi e anche telefonia mobile, lanciando, nel 2007, in
-                collaborazione con LG Electronics, il primo telefono cellulare “touch
-                screen” della storia.</p><p></p><p>Nell’ottobre del 2000 l’Università
-                degli Studi di Firenze gli conferisce la laurea Honoris Causa in economia
-                aziendale e, nel 2006, la rivista americana Time inserisce Patrizio
-                Bertelli e Miuccia Prada tra le 100 coppie più influenti al mondo.</p><p></p><p>Dal
-                24 Giugno del 2011, il 20% del capitale di Prada SpA è quotato alla
-                borsa di Hong Kong (Hong Kong Stock Exchange), che ha riconosciuto
-                alla società una valutazione iniziale di 9.3 miliardi di Euro.</p><p></p><p>Alla
-                sua attività imprenditoriale Patrizio Bertelli coniuga interessi culturali
-                che condivide con la moglie. Da tali interessi è nata la “Fondazione
-                Prada” che ha la finalità di organizzare e patrocinare mostre di arte
-                contemporanea e altre attività culturali, legate soprattutto al cinema,
-                alla filosofia ed all’architettura, che hanno ricevuto unanimi consensi
-                a livello internazionale.</p><p></p><p>Appassionato velista sin da
-                ragazzo, nel 1997 lancia la sua prima sfida all’ America’s Cup (2000),
-                vincendo la Louis Vuitton Cup. A questa seguiranno le sfide del 2003,
-                del 2007 – in cui sarà finalista della Louis Vuitton Cup - e del 2013,
-                che lo porteranno a essere uno degli europei che maggiormente hanno
-                segnato la storia dell’America’s Cup. </p><p></p><p>Yachtsman completo,
-                e non solo regatante, trascorre le vacanze estive navigando su l’“Ulisse”,
-                la barca di famiglia, ed è anche un appassionato di barche d’epoca.</p>'
-      - name: paul campbell-james
-        role: TIMONIERE/RANDISTA
-        image: paul_campbell-james.jpg
-        alt: paul campbell-james
-        popup_image: big_paul_campbell-james.jpg
-        popup_alt: paul campbell-james
-        popup_title: paul campbell-james
-        popup_description: <p>Nato a Brighton, Inghilterra – 4 Aprile 1983</p><p></p><p>Extreme
-                40:</p><p>1° European Series (2010)</p><p>2° Extreme Sailing Series
-                Asia (2009)</p><p>JPMorgan X40 Cowes (2008)</p><p>Team Blue Cowes
-                (2007)</p><p></p><p>49er:</p><p>ISAF World Cup Series Silver Medal
-                (2009 )</p><p></p><p>Match Racing:</p><p>Student Match Race World
-                Champion</p>
-      - name: alister richardson
-        role: TATTICO
-        image: alister_richardson.jpg
-        alt: alister richardson
-        popup_image: big_alister_richardson.jpg
-        popup_alt: alister richardson
-        popup_title: alister richardson
-        popup_description: <p>Nato a Nottingham, Inghilterra – 7 Maggio 1979</p><p></p><p>Extreme
-                40:</p><p>X40 boat captain Mainsheet trimmer/ Tactician on “Oman Muscat
-                the Wave” (2010)</p><p>X40 Overall series winners (2010)</p><p>1st
-                X40 Round island race Cowes, England (2010)</p><p>2nd Overall X40
-                Asia Extreme Sailing Series (2009)</p><p>Helmsman & boat captain Team
-                Aqua (2008)</p><p>1st Volkswagen King of Cowes (2007)</p><p>Volvo
-                Extreme 40 – Helmsman & boat captain (2006)</p>
-      - name: ! 'manuel modena '
-        role: CREW
-        image: manuel_modena.jpg
-        alt: ! 'manuel modena '
-        popup_image: big_manuel_modena.jpg
-        popup_alt: ! 'manuel modena '
-        popup_title: ! 'manuel modena '
-        popup_description: <p>Nato il 22 novembre 1975 a Rovereto in Italia</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p></p><p>Olimpiadi:</p><p>Team
-                olimpico Atene (2000-2004)</p><p></p><p>Campionati Mondiali:</p><p>1°
-                Melges 24 (2005)</p><p></p><p>Regate Internazionali:</p><p>1° Asso99
-                (2004)</p><p>Luna Rossa, Fastnet (2009)</p><p>Luna Rossa, Middle Sea
-                Race (2009)</p><p>Luna Rossa, Audi Med Cup (2010)</p><p>Louis Vuitton
-                Trophy – La Maddalena (2010)</p>
-      - name: giulio giovanella
-        role: ! ' CREW'
-        image: giulio_giovanella.jpg
-        alt: giulio giovanella
-        popup_image: big_giulio_giovanella.jpg
-        popup_alt: giulio giovanella
-        popup_title: giulio giovanella
-        popup_description: <p>Nato il 16 febbraio 1982 a Trieste (ITA)</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Mascalzone Latino (2007)</p><p></p><p>Match
-                Race:</p><p>1° classificato al Campionato italiano Match race under
-                20 – Salerno 2001</p><p>1° classificato su Mascalzone Latino Youth
-                Team Nation’s Cup 2004</p><p>1° classificato al Campionato italiano
-                match race under 25 San Vito lo Capo 2005</p><p>3° classificato su
-                Mascalzone Latino Nation’s cup 2006</p><p></p><p>RC44:</p><p>1º classificato
-                Dubai RC44 Cup su Hiroshi-Citta’ di Milano 2008</p><p>1º classificato
-                Cagliari RC44 Cup su Hiroshi –Citta’ di Milano 2008</p><p>4º classificato
-                Austria RC44 Cup su Hiroshi –Citta’ di Milano 2008</p><p>2º classificato
-                Giraglia su Esimit Europa 2008</p><p>1º classificato RC44 Malcesine
-                Slam Cup su Hiroshi- Citta’ di Milano 2008</p><p>2°classificato RC44
-                Friuli Venezia Giulia Cup su Hiroshi- Citta’ di Milano 2008</p><p></p><p>Altura:</p><p>2°
-                classificato al Campionato Mondiale IMS (Corinthian) su Cherokee,
-                2004</p><p>2° classificato al Campionato Mondiale IMS (Corinthian)
-                su Cherokee, 2004</p><p>5° Louis Vuitton Pacific Series Auckland (AC)
-                2009</p><p>1° Hublot Palma Vela Palma de Maiorca (stp 65) 2009</p><p>4°
-                Trofeo Pirelli Portofino (stp65) 2009</p><p>3° in tempo reale alla
-                Giraglia Rolex Cup (stp 65) 2009</p><p>2° Cowes Week (stp65) 2009</p><p>2°
-                Rolex Fastnet race (stp65) 2009</p><p>3° Mondiale Maxi Yacht Rolex
-                Cup (stp 65) 2009</p><p>1° Rolex Middle Sea race in classe ORC, 3°
-                in IRC (stp65) 2009</p>
-      - name: antonio marrai
-        role: ! ' TEAM MANAGER'
-        image: antonio_marrai.jpg
-        alt: antonio marrai
-        popup_image: big_antonio_marrai.jpg
-        popup_alt: antonio marrai
-        popup_title: antonio marrai
-        popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
-                Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p></p><p>Campionati
-                mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>
-      - name: benjamin durham
-        role: COACH
-        image: benjamin_durham.jpg
-        alt: benjamin durham
-        popup_image: big_benjamin_durham.jpg
-        popup_alt: benjamin durham
-        popup_title: benjamin durham
-        popup_description: <p>Nato il 26 gennaio 1977 in Australia</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Young Australia (2000)</p><p>One
-                World (2003)</p><p>Luna Rossa Challenge (2007)</p><p></p><p>Luna Rossa</p><p>STP
-                65′ (2009)</p><p>Louis Vuitton Trophy – La Maddalena (2010)</p><p>Audi
-                Med Cup (2010)</p>
-      - name: gianni tognozzi
-        role: ! ' SHORE TEAM'
-        image: gianni_tognozzi.jpg
-        alt: gianni tognozzi
-        popup_image: big_gianni_tognozzi.jpg
-        popup_alt: gianni tognozzi
-        popup_title: gianni tognozzi
-        popup_description: <p>STP 65, Luna Rossa (2009)</p><p></p><p>Partecipazioni
-                in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa
-                Challenge (2003)</p><p>Prada Challenge (2000)</p>
-      - name: massimiliano sirena
-        role: ! ' PITMAN'
-        image: massimiliano_sirena.jpg
-        alt: massimiliano sirena
-        popup_image: big_massimiliano_sirena.jpg
-        popup_alt: massimiliano sirena
-        popup_title: massimiliano sirena
-        popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
-                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
-                Challenge (2000)</p><p></p><p>Campionati mondiali</p><p>Artemis, TP
-                52 (2007)</p>
-      - name: nicola davanzo
-        role: PRESS OFFICER
-        image: nicola_davanzo.jpg
-        alt: nicola davanzo
-        popup_image: big_nicola_davanzo.jpg
-        popup_alt: nicola davanzo
-        popup_title: nicola davanzo
-        popup_description: <p></p>
-
+      - name: 'Lorenzo Bressani'
+        role: 'Helmsman (Marsiglia-Barcellona-Cartagena)'
+        image: '/public/images/team/bress.jpg'
+        alt: 'Team'
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -763,9 +826,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     template: 'home2013'
     css_class: 'hp'
     page_mood: 'white'
-    title: "XXXIV America's Cup"
+    title: 'XXXIV America's Cup'
     year: '2013'
     image: '/public/images/covers/2013.jpg'
     crop: 'bottom center'
-    text: "Prefazione di Sir Peter Blake al libro “Luna Rossa” sulla 30^ America’s Cup (2000)"
-    text2: "La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.Questo non è uno sport per deboli di cuore. Non è impresa da prendere alla leggera o per capriccio..."
