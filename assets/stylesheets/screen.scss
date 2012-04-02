@@ -332,7 +332,7 @@ a{
   }
   &.hp-home{
     .blake{
-      width:450px;
+      width:700px;
       float:right;
       .subtitle{
       padding-top:10px;
@@ -347,8 +347,12 @@ a{
       line-height:1em;
       color:white;
       font:{
-        size:1.4em;
+        size:1.6em;
       }
+      }
+      .prefazione{
+        margin-top:20px;
+      text-transform:uppercase;
       }
       > a{
           line-height:2em;
