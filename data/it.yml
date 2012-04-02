@@ -3268,20 +3268,3 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     year: '2013'
     image: '/public/images/covers/2013.jpg'
     crop: 'bottom center'
-  intro:
-    template: 'intro2013'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: 'Sailing season 2011 - Extreme sailing series'
-    seo_description: 'Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.'
-    seo_image: '/public/images/2011/intro.jpg'
-    image: '/public/images/bg-team.jpg'
-    title: 'Prefazione di Sir Peter Blake'
-    subtitle: 'al libro “Luna Rossa” sulla 30^ America’s Cup (2000)'
-    description: "La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.
-Questo non è uno sport per deboli di cuore. Non è impresa da prendere alla leggera o per capriccio. E’ una lotta tra velisti di Yacht Club sparsi nel mondo che vogliono disperatamente la stessa cosa: mettere le mani sulla Coppa.
-Il prestigio per il vincitore vale più di qualsiasi altro riconoscimento sportivo. E’ proprio vincere l’invincibile e fare l’impossibile che affascina uomini di mare, sognatori e miliardari. Ma la vittoria non arriva facilmente. 
-Anzi, il più delle volte non arriva affatto. L’unico modo per vincere è continuare a partecipare, continuare a tornare, una volta dopo l’altra, con l’intimo convincimento di potercela fare.
-Esitare dopo il primo tentativo non fa parte delle regole del gioco. 
-Ci vogliono persone straordinarie, con una motivazione ferrea, grande esperienza, attenzione per i particolari e dedizione incondizionata. E’ un gioco in cui, per quanto tu ti possa impegnare, per quanto tu possa essere motivato, per quanto tu possa essere disposto a spendere, la vittoria non è mai garantita. 
-Per alcuni diventa una specie di droga."
