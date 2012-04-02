@@ -53,3 +53,4 @@
       items.find('.close').hide()
     else
       callback?()
+
