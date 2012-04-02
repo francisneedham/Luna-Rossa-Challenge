@@ -24,8 +24,8 @@
   centerItem: (item, callback) =>
     @setupValues()
 
-    scroll = ($ '.oriz-scroll')
-    @position = (($ '.item').index(item) * item.outerWidth(true)) / (@content_width - scroll.width()) * 100
+    scroll = (@$ '.oriz-scroll')
+    @position = ((@$ '.item').index(item) * item.outerWidth(true)) / (@content_width - scroll.width()) * 100
     @render( -> callback?(item))
 
 
