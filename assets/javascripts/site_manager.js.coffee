@@ -15,7 +15,8 @@ window.SiteManager = class
     @data = JSON.parse(extract('#site-data'))
     ($ '#site-data').remove()
 
-    @yearsList = _.map @data, (content, year) -> year
+    @yearsList = _.map(@data, (content, year) -> year)
+    @yearsList = @yearsList.sort (a, b) -> parseInt(b, 10) - parseInt(a, 10)
 
     @templates = {}
 
@@ -49,12 +50,13 @@ window.SiteManager = class
     window.setTimeout(@buildSiteCallback, 50)
 
   buildSiteCallback: =>
-    _.each @data, @buildYear
+    _.each @yearsList, @buildYear
     @createSharrre()
     @hideLoader()
     @resize()
 
-  buildYear: (content, year) =>
+  buildYear: (year) =>
+    content = @data[year]
     if content?
       if year != @currentYear
         firstPage = content['home']
