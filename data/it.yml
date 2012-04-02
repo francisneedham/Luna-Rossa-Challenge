@@ -26,63 +26,49 @@
     description: 'Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
 L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia; ci vogliono tutte le 9 regate previste dal regolamento per vincere la Louis Vuitton Cup ed avere così il diritto di affrontare i neozelandesi nel Match finale.
 È la prima volta che uno skipper italiano partecipa al Match finale della Coppa America, ed è la prima volta che questa si disputa senza una barca americana.'
-  intro2:
-    template: 'intro'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: "Sailing season 2000 - 30^ America's cup"
-    seo_description: "Sailing season 2000 - 30^ America's cup"
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/gallery/2000/04_big.jpg'
-    title: 'Sailing season<span> 2000</span>'
-    subtitle: "30^ America's cup"
-    description: 'Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
-L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia; ci vogliono tutte le 9 regate previste dal regolamento per vincere la Louis Vuitton Cup ed avere così il diritto di affrontare i neozelandesi nel Match finale.
-È la prima volta che uno skipper italiano partecipa al Match finale della Coppa America, ed è la prima volta che questa si disputa senza una barca americana.'
   bullettins:
     template: 'bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "Sailing season<span> 2000</span>"
-
     subtitle: 'bollettini'
     items:
       - number: '.01'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Round Robin 1
         caption: Round Robin 1
         date: 28/10/1999
-        details: <li><p><img src=/public/images/archive/2000_1.gif></p></li><li></li>
+        details: <li><p><img src=/public/images/archive/2000_1.gif></p></li><li style=border-left:none;></li>
       - number: '.02'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Round Robin 2
         caption: Round Robin 2
         date: 20/11/99
-        details: <li><p><img src=/public/images/archive/2000_2.gif></p></li><li></li>
+        details: <li><p><img src=/public/images/archive/2000_2.gif></p></li><li style=border-left:none;></li>
       - number: '.03'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Round Robin 3
         caption: Round Robin 3
         date: 15/12/99
-        details: <li><p><img src=/public/images/archive/2000_3.gif></p></li><li></li>
+        details: <li><p><img src=/public/images/archive/2000_3.gif></p></li><li style=border-left:none;></li>
       - number: '.04'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Semifinali
         caption: Semifinali
         date: 14/01/00
-        details: <li><p><img src=/public/images/archive/2000_4.gif></p></li><li></li>
+        details: <li><p><img src=/public/images/archive/2000_4.gif></p></li><li style=border-left:none;></li>
       - number: '.05'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Finali
         caption: Finali
         date: 25/02/00
-        details: <li><p><img src=/public/images/archive/2000_5.gif></p></li><li></li>
+        details: <li><p><img src=/public/images/archive/2000_5.gif></p></li><li style=border-left:none;></li>
       - number: '.06'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Coppa America
         caption: Coppa America
         date: 02/03/00
-        details: <li><p><img src=/public/images/archive/2000_6.gif></p></li><li></li>
+        details: <li><p><img src=/public/images/archive/2000_6.gif></p></li><li style=border-left:none;></li>
   gallery:
     page_mood: 'grey'
     template: 'gallery'
@@ -149,53 +135,53 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     subtitle: 'bollettini'
     items:
       - number: '.01'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Round Robin 1
         caption:  Round Robin 1
         date: 23/10/2002
-        details: <li><p><img src=/public/images/archive/2003_1.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_1.gif></p></li><li style=border-left:none;></li>
       - number: '.02'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Round Robin 2
         caption: Round Robin 2
         date: 03/11/02
-        details: <li><p><img src=/public/images/archive/2003_2.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_2.gif></p></li><li style=border-left:none;></li>
       - number: '.03'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Quarti di finale
         caption: Quarti di finale
         date: 18/11/02
-        details: <li><p><img src=/public/images/archive/2003_3.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_3.gif></p></li><li style=border-left:none;></li>
       - number: '.04'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Repechage quarti
         caption: Repechage quarti
         date: 30/11/02
-        details: <li><p><img src=/public/images/archive/2003_4.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_4.gif></p></li><li style=border-left:none;></li>
       - number: '.05'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Semifinali
         caption: Semifinali
         date: 17/12/02
-        details: <li><p><img src=/public/images/archive/2003_5.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_5.gif></p></li><li style=border-left:none;></li>
       - number: '.06'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Repechage semifinali
         caption: Repechage semifinali
         date: 23/12/02
-        details: <li><p><img src=/public/images/archive/2003_6.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_6.gif></p></li><li style=border-left:none;></li>
       - number: '.07'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Finali
         caption: Finali
         date: 19/01/03
-        details: <li><p><img src=/public/images/archive/2003_7.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_7.gif></p></li><li style=border-left:none;></li>
       - number: '.08'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: Coppa America
         caption: Coppa America
         date: 02/03/03
-        details: <li><p><img src=/public/images/archive/2003_8.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2003_8.gif></p></li><li style=border-left:none;></li>
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -344,155 +330,154 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     subtitle: 'bollettini'
     items:
       - number: '.01'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: 'ACT 1'
         caption: 'ACT 1'
         date: 07/09/2004
-        details: <li><p><img src=/public/images/archive/2007_1.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_1.gif></p></li><li style=border-left:none;></li>
       - number: '.02'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 2
         caption: ACT 2
         date: 12/10/04
-        details: <li><p><img src=/public/images/archive/2007_2.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_2.gif></p></li><li style=border-left:none;></li>
       - number: '.03'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 3
         caption: ACT 3
         date: 17/10/04
-        details: <li><p><img src=/public/images/archive/2007_3.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_3.gif></p></li><li style=border-left:none;></li>
       - number: '.04'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 4
         caption: ACT 4
         date: 21/06/05
-        details: <li><p><img src=/public/images/archive/2007_4.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_4.gif></p></li><li style=border-left:none;></li>
       - number: '.05'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 5
         caption: ACT 5
         date: 26/06/05
-        details: <li><p><img src=/public/images/archive/2007_5.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_5.gif></p></li><li style=border-left:none;></li>
       - number: '.06'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 6
         caption: ACT 6
         date: 31/08/05
-        details: <li><p><img src=/public/images/archive/2007_6.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_6.gif></p></li><li style=border-left:none;></li>
       - number: '.07'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 7
         caption: ACT 7
         date: 04/09/05
-        details: <li><p><img src=/public/images/archive/2007_7.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_7.gif></p></li><li style=border-left:none;></li>
       - number: '.08'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 8
         caption: ACT 8
         date: 05/10/05
-        details: <li><p><img src=/public/images/archive/2007_8.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_8.gif></p></li><li style=border-left:none;></li>
       - number: '.09'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 9
         caption: ACT 9
         date: 09/10/05
-        details: <li><p><img src=/public/images/archive/2007_9.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_9.gif></p></li><li style=border-left:none;></li>
       - number: '.10'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 10
         caption: ACT 10
         date: 18/05/06
-        details: <li><p><img src=/public/images/archive/2007_10.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_10.gif></p></li><li style=border-left:none;></li>
       - number: '.11'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 11
         caption: ACT 11
         date: 21/05/06
-        details: <li><p><img src=/public/images/archive/2007_11.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_11.gif></p></li><li style=border-left:none;></li>
       - number: '.12'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 12
         caption: ACT 12
         date: 03/07/06
-        details: <li><p><img src=/public/images/archive/2007_12.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_12.gif></p></li><li style=border-left:none;></li>
       - number: '.13'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ACT 13
         caption: ACT 13
         date: 03/04/07
-        details: <li><p><img src=/public/images/archive/2007_13.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_13.gif></p></li><li style=border-left:none;></li>
       - number: '.14'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: LOUIS VUITTON RANKING SUMMARY BOARD
         caption: LOUIS VUITTON RANKING SUMMARY BOARD
         date: 07/04/07
-        details: <li><p><img src=/public/images/archive/2007_14.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_14.gif></p></li><li style=border-left:none;></li>
       - number: '.15'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ROUND ROBIN 1
         caption: ROUND ROBIN 1
         date: 28/04/07
-        details: <li><p><img src=/public/images/archive/2007_15.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_15.gif></p></li><li style=border-left:none;></li>
       - number: '.16'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: ROUND ROBIN 2
         caption: ROUND ROBIN 2
         date: 09/05/07
-        details: <li><p><img src=/public/images/archive/2007_16.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_16.gif></p></li><li style=border-left:none;></li>
       - number: '.17'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: SEMIFINALI
         caption: SEMIFINALI
         date: 24/05/07
-        details: <li><p><img src=/public/images/archive/2007_17.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_17.gif></p></li><li style=border-left:none;></li>
       - number: '.18'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: FINALE
         caption: FINALE
         date: 12/06/07
-        details: <li><p><img src=/public/images/archive/2007_18.gif></p></li>
+        details: <li><p><img src=/public/images/archive/2007_18.gif></p></li><li style=border-left:none;></li>
       - number: '.19'
-        image: /public/images/placeholder/bollettini.jpg
+        image: /public/images/placeholder/bollettini.png
         alt: AMERICA'S CUP
         caption: AMERICA'S CUP
         date: 04/07/07
-        details: <li><p><img src=/public/images/archive/2007_19.gif></p></li>
-  team:
-    template: 'team'
-    css_class: 'team'
-    page_mood: 'white'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
-    subtitle: 'Team'
-    members:
-      - name: 'Ed Baird'
-        role: 'Skipper and Helmsman'
-        image: '/public/images/team/ed.jpg'
-        alt: 'Team'
-        popup_image: '/public/images/team/ed.jpg'
-        popup_alt: 'Ed Baird'
-        popup_title: 'Ed<br>Baird'
-        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
+        details: <li><p><img src=/public/images/archive/2007_19.gif></p></li><li style=border-left:none;></li>
   gallery:
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    title: 'Sailing season<span> 2007</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/2010/gallery/01.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/02.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/03.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/04.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/05.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/06.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/07.jpg'
-        alt: 'Thumb Gallery'
+      - src: '/public/images/gallery/2007/01.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/02.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/03.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/04.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/05.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/06.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/07.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/08.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/09.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/10.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/11.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/12.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/13.jpg'
+        alt: 'Sailing Season 2007 '
+      - src: '/public/images/gallery/2007/14.jpg'
+        alt: 'Sailing Season 2007 '
   adv:
     template: 'adv'
     css_class: 'adv'
@@ -519,90 +504,106 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel
-     2009 dal Louis Vuitton Pacific Series.'
+    seo_title: 'Sailing season 2009 - Louis Vuitton Pacific Series'
+    seo_description: 'La  “Louis  Vuitton Pacific Series” è congiuntamente  organizzata dal Governo della Nuova Zelanda,  Emirates  Team  New Zealand'
     seo_image: '/public/images/2009/intro.jpg'
     image: '/public/images/2009/intro.jpg'
     crop: 'bottom center'
-    title: 'Sailing season<span> 2010</span>'
+    title: 'Sailing season<span> 2009</span>'
     subtitle: 'Louis Vuitton Pacific Series'
-    description: 'Louis Vuitton Pacific Series'
+    description: 'La  “Louis  Vuitton Pacific Series” è congiuntamente  organizzata dal Governo della Nuova Zelanda,  Emirates  Team  New Zealand,  il  Royal New Zealand Yacht Squadron (RNZYS)  e la città  di  Auckland.
+
+La  competizione  si  terrà a Auckland, Nuova Zelanda dal 30  Gennaio al  14  Febbraio 2009.
+
+Tutti i team  partecipanti  regateranno a bordo di  quattro imbarcazioni appartenenti rispettivamente ad  Emirates  Team  New Zealand (due) e a BMW Oracle  Racing  (due).'
+  gallery-lvt:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Louis Vuitton Pacific Series<span> 2009</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2009_lvps/01.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/02.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/03.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/04.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/05.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/06.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/07.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/08.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/09.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/10.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/11.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/12.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/13.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/14.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/15.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/16.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/17.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/18.jpg'
+        alt: 'Sailing Season 2009_lvps '
+      - src: '/public/images/gallery/2009_lvps/19.jpg'
+        alt: 'Sailing Season 2009_lvps '
   stp-65-2009:
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
+    seo_title: 'Sailing season 2009 - Regate stp 65'
+    seo_description: 'Nell’ottobre 2009, l’STP65’ Luna Rossa vince la Middle Sea Race'
     seo_image: '/public/images/2009/intro.jpg'
-    image: '/public/images/2009/intro.jpg'
+    image: '/public/images/2009/intro_stp.jpg'
     crop: 'bottom center'
-    title: 'Sailing season<span> 2010</span>'
+    title: 'Sailing season<span> 2009</span>'
     subtitle: 'Regate stp 65'
-    description: 'Louis Vuitton Pacific Series'
-  bullettins:
-    template: 'bullettins'
-    css_class: 'bollettini'
-    page_mood: 'grey'
-    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
-    subtitle: 'bollettini'
-    items:
-      - number: '.01'
-        image: '/public/images/2010/bollettini_lv_1.jpg'
-        alt: 'bollettini'
-        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
-        date: '05/06/2010'
-        details: "<li>
-        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
-        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
-        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
-        </li>"
-
-  team:
-    template: 'team'
-    css_class: 'team'
-    page_mood: 'white'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
-    subtitle: 'Team'
-    members:
-      - name: 'Ed Baird'
-        role: 'Skipper and Helmsman'
-        image: '/public/images/team/ed.jpg'
-        alt: 'Team'
-        popup_image: '/public/images/team/ed.jpg'
-        popup_alt: 'Ed Baird'
-        popup_title: 'Ed<br>Baird'
-        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
-  gallery:
+    description: "Nell’ottobre 2009, l’STP65’ Luna Rossa vince la Middle Sea Race nella classe ORC.Archiviato il secondo posto in classifica generale alla regata del Fastnet, conquistando i trofei Arambalza Cup – al miglior yacht non britannico – e il Kees van Dam Memorial Trophy – assegnato al secondo classificato in IRC –, l’STP 65′ Luna Rossa partecipa al campionato mondiale Maxi, a Porto Cervo, dal 6 al 12 settembre.L’equipaggio vede il ritorno a bordo in qualità di skipper del brasiliano Robert Scheidt, reduce dalla vittoria nel campionato europeo Star."
+  gallery-stp:
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    title: 'Regate stp 65<span> 2009</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/2010/gallery/01.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/02.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/03.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/04.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/05.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/06.jpg'
-        alt: 'Thumb Gallery'
-      - src: '/public/images/2010/gallery/07.jpg'
-        alt: 'Thumb Gallery'
-
-  adv:
-    template: 'adv'
-    css_class: 'adv'
-    page_mood: 'white'
-    image: '/public/images/2010/bg-adv.jpg'
-    link_img: '/public/images/placeholder/link_adv.png'
-    link_href: 'http://www.ycpa.it'
-    alt_img: 'yacht club'
+      - src: '/public/images/gallery/2009_stp65/01.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/02.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/03.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/04.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/05.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/06.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/07.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/08.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/09.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/10.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/11.jpg'
+        alt: 'Sailing Season 2009_stp65 '
+      - src: '/public/images/gallery/2009_stp65/12.jpg'
+        alt: 'Sailing Season 2009_stp65 '
 2010:
   home:
     template: 'homeDouble'
@@ -615,7 +616,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     intro1_testo: 'louis vuitton Trophy Wsta'
     intro1: '/it/2010/intro-louis-vuitton-trophy-wsta'
     intro2_testo: 'Audi Med Cup'
-    intro2: '/it/2010/adui-med-cup'
+    intro2: '/it/2010/audi-med-cup'
   intro-louis-vuitton-trophy-wsta:
     template: 'intro'
     css_class: 'intro'
@@ -627,21 +628,14 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     crop: 'top center'
     title: 'Sailing season<span> 2010</span>'
     subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'
-  adui-med-cup:
-    template: 'intro'
-    css_class: 'intro'
-    page_mood: 'white'
-    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
-    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
-    image: '/public/images/2010/intro.jpg'
-    crop: 'top center'
-    title: 'Sailing season<span> 2010</span>'
-    subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è'
+    description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series. Dieci teams hanno gareggiato per 15 giorni nel Waitemata Harbour di Auckland in duelli match races vinti da Emirates Team New Zealand.
 
-  bullettins:
+Il Team Luna Rossa partecipa alle regate del Louis Vuitton Trophy WSTA che si terranno a La Maddalena dal 22 Maggio al 6 Giugno 2010.
+
+Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt in qualità di stratega.
+
+E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del Louis Vuitton Trophy WSTA che si terranno a Hong Kong (9 – 24 Gennaio 2011).'
+  bullettins-lv:
     template: 'bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
@@ -649,17 +643,168 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     subtitle: 'bollettini'
     items:
       - number: '.01'
-        image: '/public/images/2010/bollettini_lv_1.jpg'
-        alt: 'bollettini'
-        caption: "LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA CONCLUDE ALL’OTTAVO POSTO"
-        date: '05/06/2010'
-        details: "<li>
-        <p>Il team Luna Rossa, al termine del primo Round Robin, si è qualificato per i quarti di finale, superando Bmw Oracle Racing e Team Aleph, esclusi dalla classifica. Purtroppo, a causa delle condizioni di vento sfavorevoli allo svolgimento delle regate del secondo girone di scontri non si è disputata la regata tra il 1° e l’8° classificato, All4One e Luna Rossa, valida per il passaggio alle semifinali. </p>
-        <p>Il formato di selezione, modificato in corso di svolgimento, ha portato Team New Zealand, Artemis, All4One e Synergy al girone di semifinale. Il Team Luna Rossa ha concluso quindi, con tre vittorie, all’ottavo posto del Louis Vuitton Trophy de La Maddalena.</p></li>
-        <li><p>Il prossimo appuntamento per Luna Rossa è il Trofeo di Marsiglia, dal 15 al 20 giugno, nel Circuito Audi Med Cup TP 52′.</p>
-        </li>"
+        image: '/public/images/2010/b1.jpg'
+        alt: LOUIS VUITTON TROPHY WSTALA MADDALENA, PRIMI ALLENAMENTI PER IL TEAM LUNA ROSSA
+        caption: LOUIS VUITTON TROPHY WSTALA MADDALENA, PRIMI ALLENAMENTI PER IL TEAM LUNA ROSSA
+        date: 18/05/10
+        details: ! '<li><p>Sono iniziati oggi i primi allenamenti del Team Luna Rossa
+                a bordo delle imbarcazioni classe Coppa America messe a disposizione
+                dall''organizzazione del Louis Vuitton Trophy.
 
-  team:
+
+                “Abbiamo navigato con dieci-dodici nodi nel corso della mattinata,
+                poi con quasi venti nodi – ha dichiarato Max Sirena - Siamo soddisfatti
+                perché ci siamo potuti allenare con un range di condizioni piuttosto
+                vario, anche se abbiamo perso un po’ di tempo a causa di qualche piccolo
+                problema a bordo delle barche”. Per Sirena, reduce dalla vittoria
+                nella 34ma Coppa America, quello sugli ACC è stato un ritorno alle
+                origini: “Gli ACC sono barche lente, ma navigarci è sempre emozionante:
+                sono barche belle, ideali per il match race”.</li><li><p>
+
+
+                Gli allenamenti riprenderanno domani mentre la conferenza stampa di
+                presentazione è in programma per venerdi. Le regate del Round Robin,
+                invece, avranno inizio sabato.
+
+
+                photo credit | <a href="http://www.OUTSIDEIMAGES.CO.NZ" target="_blank">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a></p></li>'
+      - number: '.02'
+        image: '/public/images/2010/b2.jpg'
+        alt: LOUIS VUITTON TROPHY WSTALA MADDALENA, SECONDA GIORNATA DI ALLENAMENTO
+        caption: LOUIS VUITTON TROPHY WSTALA MADDALENA, SECONDA GIORNATA DI ALLENAMENTO
+        date: 19/05/10
+        details: ! "<li><p>Nonostante le condizioni meteo continuino a non essere
+                delle migliori, oggi è arrivata anche la pioggia, a La Maddalena il
+                Team Luna Rossa ha completato la seconda giornata di allenamento.\n\nL'equipaggio
+                di Patrizio Bertelli si è scontrato in alcune regate di prova a bordo
+                delle imbarcazione USA 87 messa a disposizione del Louis Vuitton Trophy
+                da BMW Oracle Racing. \n\nDomani il Team affronterà un'altra sessione
+                di allenamento, le regate inizieranno sabato.\n\n<strong>Torben Grael,
+                tattico di Luna Rossa:</strong>\n\"Abbiamo buone sensazioni, ci siamo
+                allenati a Valencia per ritrovare la sintonia. Da tanto tempo non
+                navighiamo insieme… ci ricordiamo quasi tutto ma dobbiamo ritrovare
+                i vecchi automatismi.</p></li><li><p> Con Ed Baird cominciamo adesso a lavorare insieme
+                e dobbiamo trovare nuovi canali di comunicazione. Ma ci intendiamo
+                già e faremo progressi\".\n\nphoto credit | <a href=\"http://www.OUTSIDEIMAGES.CO.NZ\" target=\"_blank\">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a>\n</p></li>"
+      - number: '.03'
+        image:  '/public/images/2010/b3.jpg'
+        alt: ! 'LOUIS VUITTON TROPHY WSTALA MADDALENA, CONCLUSI GLI ALLENAMENTI '
+        caption: ! 'LOUIS VUITTON TROPHY WSTALA MADDALENA, CONCLUSI GLI ALLENAMENTI '
+        date: 20/05/10
+        details: ! '<li><p>Si sono concluse oggi le sessioni di allenamento svolte
+                in vista delle regate del Louis Vuitton Trophy.
+
+
+                Il Team Luna Rossa ha conclusa l''ultima regata di prova contro Team
+                Artemis (SWE). Domani è in programma la cerimonia di apertura a partire
+                dalle ore 18.45, in cui è previsto l''alza bandiera con la Marina
+                Militare e successivamente la conferenza stampa con i dieci skipper
+                in rappresentanza dei team partecipanti.
+
+
+                Sabato 22 maggio avranno inizio le prime regate, il formato dell''evento
+                prevede quale prima selezione un round robin tutti-contro-tutti, solo
+                i primi otto classificati passeranno alla seconda fase di selezione,
+                dalla quale verranno fuori i team ammessi ai quarti di finale, per
+                poi arrivare alla semifinale e finale, al meglio delle cinque regate.</p></li><li><p>
+
+
+                <strong>Antonio Marrai, Team manager di Luna Rossa: </strong>
+
+                “Sono soddisfatto di quello che hanno fatto negli allenamenti. E’
+                stato tempo impiegato bene. Abbiamo cercato di ritrovare il team:
+                in queste regate l’amalgama è molto importante, e siamo qui per capire
+                se possiamo puntare a esperienze più importanti dopo questo evento.
+                Ed Baird (timoniere di Luna Rossa) è una persona intelligente, che
+                sa capire le persone e sta lavorando molto bene”.
+
+
+                photo credit | <a href="http://www.OUTSIDEIMAGES.CO.NZ" target="_blank">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a></p></li>'
+      - number: '.04'
+        image:  '/public/images/2010/b4.jpg'
+        alt: LOUIS VUITTON TROPHY WSTALA MADDALENA, PRONTI A REGATARE
+        caption: LOUIS VUITTON TROPHY WSTALA MADDALENA, PRONTI A REGATARE
+        date: 21/05/10
+        details: ! '<li><p>Avrà inizio domani alle ore 10 la prima prova del Louis
+                Vuitton Trophy de La Maddalena.
+
+
+                Il Team Luna Rossa, cui skipper è Ed Baird, regaterà contro All4One
+                nel secondo volo a bordo dell''imbarcazione messa a disposizione da
+                Bmw Oracle racing, USA 98.
+
+
+                photo credit | <a href="http://www.OUTSIDEIMAGES.CO.NZ" target="_blank">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a></p></li>'
+      - number: '.05'
+        image:  '/public/images/2010/b5.jpg'
+        alt: LOUIS VUITTON TROPHY WSTALA MADDALENA, NO WIND NO RACE
+        caption: LOUIS VUITTON TROPHY WSTALA MADDALENA, NO WIND NO RACE
+        date: 22/05/10
+        details: ! '<li><p>La giornata di oggi è stata caratterizzata da un vento
+                moderato che nel tardo pomeriggio è andato via via scemando, costringendo
+                il Comitato di regata ad annullare le prove del secondo volo.
+
+
+                Il Team Luna Rossa, dopo una lunga attesa, è rientrato a terra alle
+                15 costretto al rinvio della regata contro Team All4One.
+
+
+                Nella giornata di domani - domenica 23 maggio - è previsto il derby
+                italiano Luna Rossa contro Mascalzone Latino. Il Team di Patrizio
+                Bertelli regaterà a bordo di ITA 99 ed entrerà da lato sinistro  della
+                linea di partenza con la bandiera blu.
+
+
+                In caso si riescano a svolgere tutti e tre i voli di giornata si terrà
+                anche il volo di recupero rinviato oggi: Luna Rossa vs All4One.
+
+
+                photo credit | <a href="http://www.OUTSIDEIMAGES.CO.NZ" target="_blank">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a></p></li>'
+      - number: 
+        image: 
+        alt: LOUIS VUITTON TROPHY WSTALA MADDALENA, LUNA ROSSA VS MASCALZONE LATINO
+                AUDI TEAM (ITA)
+        caption: LOUIS VUITTON TROPHY WSTALA MADDALENA, LUNA ROSSA VS MASCALZONE LATINO
+                AUDI TEAM (ITA)
+        date: 23/05/10
+        details: ! '<li><p><strong>Vento:</strong> 6/8 nodi
+
+                <strong>Percorso:</strong> a bastone di 1.3 miglia (2 giri) – partenza
+                ore 15
+
+                Luna Rossa regata su ITA 99, Mascalzone Latino Audi Team su ITA 90
+
+
+                Luna Rossa entra dalla parte sinistra della linea con la bandiera
+                blu e riesce a smarcarsi da Mascalzone Latino, entrato con bandiera
+                gialla. Le due barche partono divise, Mascalzone sceglie la sinistra,
+                Luna Rossa la destra del campo di regata. La scelta tattica paga e
+                Luna Rossa gira la prima boa di bolina in vantaggio di 16''''. In
+                poppa Luna Rossa è davanti di 60 metri, sceglie per l''ammainata dello
+                spinnaker la boa di sinistra, anticipando il timoniere Gavin Brady
+                (NZL) e il suo equipaggio di 17''''. La seconda bolina vede inizialmente
+                un allungo di Luna Rossa, distanziata di 120 mt dall''avversario,
+                e successivamente un rapido riavvicinamento dei Mascalzoni, in ritardo
+                alla boa di soli 8''''. L''ultimo lato del percorso è decisivo per
+                la vittoria del match, di nuovo le barche si dividono e Mascalzone
+                sceglie di navigare in poppa sulla sinistra, costringendo, data la
+                vicinanza, a far continuare Luna Rossa sulla destra. Passato in vantaggio,
+                Mascalzone Latino stramba e va all''incrocio, tagliando per primo
+                il traguardo con appena 5'''' di vantaggio.
+
+
+                <span style="color: #ff0000;">&gt;</span> <a href="http://www.lunarossachallenge.com/sailing-season/louis-vuitton-trophy-wsta/risultati/">Leggi
+                le altre notizie</a>
+
+
+                photo credit | <a href="http://www.OUTSIDEIMAGES.CO.NZ" target="_blank">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a></p></li>'
+  team-lv:
     template: 'team'
     css_class: 'team'
     page_mood: 'white'
@@ -674,7 +819,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
         popup_alt: 'Ed Baird'
         popup_title: 'Ed<br>Baird'
         popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
-  gallery:
+  gallery-lv:
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
@@ -695,7 +840,98 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
         alt: 'Thumb Gallery'
       - src: '/public/images/2010/gallery/07.jpg'
         alt: 'Thumb Gallery'
-  adv:
+  adv-lv:
+    template: 'adv'
+    css_class: 'adv'
+    page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ycpa.it'
+    alt_img: 'yacht club'
+  audi-med-cup:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
+    seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
+    seo_image: '/public/images/2010/intro.jpg'
+    image: '/public/images/2010/intro.jpg'
+    crop: 'top center'
+    title: 'Sailing season<span> 2010</span>'
+    subtitle: 'Audi med cup'
+    description: 'Louis Vuitton Trophy WSTA è'
+  bullettins-au:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "LOUIS VUITTON TROPHY WSTA<span> 2010</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: '/public/images/2010/b1.jpg'
+        alt: LOUIS VUITTON TROPHY WSTALA MADDALENA, PRIMI ALLENAMENTI PER IL TEAM LUNA ROSSA
+        caption: LOUIS VUITTON TROPHY WSTALA MADDALENA, PRIMI ALLENAMENTI PER IL TEAM LUNA ROSSA
+        date: 18/05/10
+        details: ! '<li><p>Sono iniziati oggi i primi allenamenti del Team Luna Rossa
+                a bordo delle imbarcazioni classe Coppa America messe a disposizione
+                dall''organizzazione del Louis Vuitton Trophy.
+
+
+                “Abbiamo navigato con dieci-dodici nodi nel corso della mattinata,
+                poi con quasi venti nodi – ha dichiarato Max Sirena - Siamo soddisfatti
+                perché ci siamo potuti allenare con un range di condizioni piuttosto
+                vario, anche se abbiamo perso un po’ di tempo a causa di qualche piccolo
+                problema a bordo delle barche”. Per Sirena, reduce dalla vittoria
+                nella 34ma Coppa America, quello sugli ACC è stato un ritorno alle
+                origini: “Gli ACC sono barche lente, ma navigarci è sempre emozionante:
+                sono barche belle, ideali per il match race”.</li><li><p>
+
+
+                Gli allenamenti riprenderanno domani mentre la conferenza stampa di
+                presentazione è in programma per venerdi. Le regate del Round Robin,
+                invece, avranno inizio sabato.
+
+
+                photo credit | <a href="http://www.OUTSIDEIMAGES.CO.NZ" target="_blank">Paul
+                Todd/OUTSIDEIMAGES.CO.NZ</a></p></li>'
+
+  team-au:
+    template: 'team'
+    css_class: 'team'
+    page_mood: 'white'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'Team'
+    members:
+      - name: 'Ed Baird'
+        role: 'Skipper and Helmsman'
+        image: '/public/images/team/ed.jpg'
+        alt: 'Team'
+        popup_image: '/public/images/team/ed.jpg'
+        popup_alt: 'Ed Baird'
+        popup_title: 'Ed<br>Baird'
+        popup_description: '<p>Nato il 22 novembre 1975<br />Rover Italia</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p><h3>Precedenti partecipazioni in coppa america:</h3><p>fjdsaòkfjasò</p>'
+  gallery-au:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'LOUIS VUITTON TROPHY WSTA<span> 2010</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/2010/gallery/01.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/02.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/03.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/04.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/05.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/06.jpg'
+        alt: 'Thumb Gallery'
+      - src: '/public/images/2010/gallery/07.jpg'
+        alt: 'Thumb Gallery'
+  adv-au:
     template: 'adv'
     css_class: 'adv'
     page_mood: 'white'
@@ -735,7 +971,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     subtitle: 'bollettini'
     items:
       - number: '.01'
-        image: '/public/images/placeholder/bollettini.jpg'
+        image: '/public/images/placeholder/bollettini.png'
         alt: 'bollettini'
         caption: "Luna Rossa vince l'extreme sailing series 2011"
         date: '11/12/2011'
@@ -777,8 +1013,40 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/2011/gallery/01.jpg'
-        alt: 'Thumb Gallery'
+      - src: '/public/images/gallery/2011/01.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/02.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/03.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/04.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/05.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/06.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/07.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/08.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/09.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/10.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/11.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/12.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/13.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/14.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/15.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/16.jpg'
+        alt: 'Sailing Season 2011 '
+      - src: '/public/images/gallery/2011/17.jpg'
+        alt: 'Sailing Season 2011 '
   adv:
     template: 'adv'
     css_class: 'adv'
@@ -793,6 +1061,41 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     css_class: 'hp'
     page_mood: 'white'
     title: 'Sailing Season'
-    year: '2000'
+    year: '2013'
     image: '/public/images/covers/2013.jpg'
     crop: 'bottom center'
+  intro:
+    template: 'intro2013'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: 'Sailing season 2011 - Extreme sailing series'
+    seo_description: 'Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.'
+    seo_image: '/public/images/2011/intro.jpg'
+    image: '/public/images/bg-team.jpg'
+    title: 'Prefazione di Sir Peter Blake'
+    subtitle: 'al libro “Luna Rossa” sulla 30^ America’s Cup (2000)'
+    description: "La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.
+Questo non è uno sport per deboli di cuore. Non è impresa da prendere alla leggera o per capriccio. E’ una lotta tra velisti di Yacht Club sparsi nel mondo che vogliono disperatamente la stessa cosa: mettere le mani sulla Coppa.
+Il prestigio per il vincitore vale più di qualsiasi altro riconoscimento sportivo. E’ proprio vincere l’invincibile e fare l’impossibile che affascina uomini di mare, sognatori e miliardari. Ma la vittoria non arriva facilmente. 
+Anzi, il più delle volte non arriva affatto. L’unico modo per vincere è continuare a partecipare, continuare a tornare, una volta dopo l’altra, con l’intimo convincimento di potercela fare.
+Esitare dopo il primo tentativo non fa parte delle regole del gioco. 
+Ci vogliono persone straordinarie, con una motivazione ferrea, grande esperienza, attenzione per i particolari e dedizione incondizionata. E’ un gioco in cui, per quanto tu ti possa impegnare, per quanto tu possa essere motivato, per quanto tu possa essere disposto a spendere, la vittoria non è mai garantita. 
+Per alcuni diventa una specie di droga. 
+E’ un gioco che puoi arrivare a odiare profondamente, salvo poi scoprire che non puoi farne a meno, finché non vinci. 
+Poi avviene la metamorfosi, o almeno è quanto è successo a me. L’aver fatto parte di un equipaggio che è riuscito a conquistare una volta la coppa America e a difenderla con successo mi ha liberato da quella terribile stretta alla bocca dello stomaco. Sono appagato. Sono guarito. Dormo bene la notte e faccio altri sogni. Nuove passioni stanno nascendo in me. Ma sia ben chiaro: gareggiare per la coppa America è un gioco di passione, di sogni, dove in ogni momento di veglia (e di sonno) si ha sempre un solo e unico pensiero, quello di vincere, ma la vittoria è incerta fino a quando non la ottieni.
+La delusione e il disappunto fanno male anche quando sono gli altri a soffrirne, figuriamoci quando li sperimenti sulla tua pelle. 
+Continui a chiederti “come?” e “perché?” per intere settimane, fino a quando non raggiungi la determinazione di doverci riprovare per non ripetere lo stesso errore, per fare meglio di prima, per essere migliore del resto del mondo, per essere il Migliore. E allora l’ansia si trasforma di nuovo in sogno e passione. Il pensiero di vincere non ti abbandona mai, ma è meglio lasciarlo da parte e concentrarsi su un nuovo obiettivo: essere il migliore, in tutti gli aspetti della nuova sfida. 
+Nulla può essere lasciato al caso, nemmeno il più piccolo dettaglio. Ma questo non succede solo perché sei tu a volerlo. Ci vuole un team di persone eccezionali, che condividano lo stesso sogno e la stessa passione e che non abbiano paura neppure del pronostico più sfavorevole. E’ la difficoltà della sfida che mette in moto l’adrenalina nelle vene infiacchite dalla delusione patita in precedenza. 
+E’ la difficoltà di vincere che rende la Coppa America ciò che è. 
+Non è un gioco per ammiragli da salotto. 
+Non è un gioco per chi non è disposto a tornare. 
+Non è un gioco per chi è debole di cuore. 
+E’ il gioco per chi non ha paura di contrapporsi a quanto di meglio il resto del mondo ha da offrire. 
+E’ un gioco dove vincere è quasi impossibile, quasi, ma non del tutto. 
+Ed ecco perché vale la pena di battersi. E’ la difficoltà che da un significato a qualsiasi lotta. 
+E’ l’essenza stessa della vita. 
+Agli uomini del team Prada, le cui avventure sono narrate in questo libro, voglio dire: ho ammirato la vostra sportività, la vostra tenacia e il vostro entusiasmo per la vita. Avete dato un’immagine molto positiva del vostro paese. I vostri connazionali saranno fieri di voi. 
+Questa volta non avete vinto, ma di sicuro non avete perso. Perdi quando ti viene a mancare il coraggio per tornare. Non vincere fa parte del processo di apprendimento che porta al successo. 
+Per la sfida del 2011, vi auguro grande fortuna. Perché è anche una questione di fortuna. Ma non sarà facile.
+Le cose belle non lo sono mai.<BR>
+Peter Blake"

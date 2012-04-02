@@ -109,6 +109,42 @@ a{
   @include single-transition(color, 1s, ease-in-out, 0)
 }
 
+// grey-element
+.grey{
+  #navbar a{
+    color:#686868;
+  }
+  .next-page{
+    @include sprite-sprite(a-grey-next);
+  }
+  .prev-page{
+    @include sprite-sprite(a-grey-prev);
+  }
+  &.intro .text-content .description{
+    color:#686868;
+  }
+  &.step{
+    header{
+      .title{
+        border-bottom:1px solid #686868;
+      }
+      .title, .subtitle {
+        color:#686868;
+      }
+    }
+    .wrap-sharing .fb a{
+      @include sprite-sprite(facebook);
+    }
+    .wrap-sharing .tw a{
+      @include sprite-sprite(twitter);
+    }
+    .wrap-sharing .title{
+      border-right:1px solid #686868;
+      color:#686868;
+    }
+  }
+}
+
 // white-element
 .white{
   #navbar a{
@@ -145,41 +181,6 @@ a{
   }
 }
 
-// grey-element
-.grey{
-  #navbar a{
-    color:#686868;
-  }
-  .next-page{
-    @include sprite-sprite(a-grey-next);
-  }
-  .prev-page{
-    @include sprite-sprite(a-grey-prev);
-  }
-  &.intro .text-content .description{
-    color:#686868;
-  }
-  &.step{
-    header{
-      .title{
-        border-bottom:1px solid #686868;
-      }
-      .title, .subtitle {
-        color:#686868;
-      }
-    }
-    .wrap-sharing .fb a{
-      @include sprite-sprite(facebook);
-    }
-    .wrap-sharing .tw a{
-      @include sprite-sprite(twitter);
-    }
-    .wrap-sharing .title{
-      border-right:1px solid #686868;
-      color:#686868;
-    }
-  }
-}
 
 // esempio fullscreen
 // #y-2010 {
@@ -243,7 +244,6 @@ a{
         margin-right:35px;
         a{
           padding:0 3px 1px;
-          color:#fff;
           font:{
             size:1.3em;
           }
