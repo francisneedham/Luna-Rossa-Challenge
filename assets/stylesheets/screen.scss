@@ -289,6 +289,7 @@ a{
     > h1{
       color:#fff;
       text-transform:uppercase;
+      display: inline;
       font:{
         family:"ProximaNovaSemiBold";
         size:6em;
@@ -332,7 +333,7 @@ a{
   }
   &.hp-home{
     .blake{
-      width:450px;
+      width:700px;
       float:right;
       .subtitle{
       padding-top:10px;
@@ -347,7 +348,13 @@ a{
       line-height:1em;
       color:white;
       font:{
-        size:1.4em;
+        size:1.6em;
+      }
+      }
+      .prefazione{
+        margin-top:20px;
+      font:{
+        size:1.3em;
       }
       }
       > a{
