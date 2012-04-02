@@ -1,1 +1,0 @@
- class window.Home2013Page extends window.Page

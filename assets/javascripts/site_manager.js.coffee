@@ -81,7 +81,11 @@ window.SiteManager = class
     if content?
       el = ($ @mustache(content.template, content))
       parent.append el
-      view = new window[capitalize(content.template) + 'Page'](el, content)
+
+      viewClass = window[capitalize(content.template) + 'Page']
+      viewClass = Page unless viewClass
+
+      view = new viewClass(el, content)
       content.view = view
 
   buildPageCurrentYear: (parent, content, page) =>
@@ -94,7 +98,10 @@ window.SiteManager = class
     else
       el = parent.find(".step.#{@currentContent()['css_class']}")
 
-    view = new window[capitalize(content.template) + 'Page'](el, content)
+      viewClass = window[capitalize(content.template) + 'Page']
+      viewClass = Page unless viewClass
+
+      view = new viewClass(el, content)
     content.view = view
 
   createSharrre: ->
