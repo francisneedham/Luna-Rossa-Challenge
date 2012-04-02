@@ -23,9 +23,9 @@
     crop: 'center center'
     title: 'Sailing season<span> 2000</span>'
     subtitle: "30^ America's cup"
-    description: 'Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
-L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia; ci vogliono tutte le 9 regate previste dal regolamento per vincere la Louis Vuitton Cup ed avere così il diritto di affrontare i neozelandesi nel Match finale.
-È la prima volta che uno skipper italiano partecipa al Match finale della Coppa America, ed è la prima volta che questa si disputa senza una barca americana.'
+    description: 'The Luna Rossa Team writes a page in history by defeating 10 opponents, with a record of 38 wins over 49 races.
+The last is U.S.’s Paul Cayard with his green and grey boat; it takes all the rule’s 9 races to win the Louis Vuitton Cup series and gain the right to challenge Team New Zealand.
+It is the first time that an Italian skipper races the America’s Cup final Match, and the first time there is no American yacht in the Cups’ finals.'
 
   gallery:
     page_mood: 'grey'
@@ -84,7 +84,7 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     image: '/public/images/gallery/2003/06_big.jpg'
     title: 'Sailing season<span> 2003</span>'
     subtitle: "31^ America's cup"
-    description: '"Another beautiful day in the Hauraki Gulf". Ancora qui. Di nuovo qui. Tre barche in acqua: due Luna Rossa e Young America. Tre mesi a disposizione per riprendere confidenza con il Golfo di Hauraki. A fine estate (australe) si torna in Italia per continuare il lungo processo di apprendimento e miglioramento in mare e a terra.'
+    description: 'Three boats on the water: two Luna Rossa and Young America. Three months of time to regain confidence with the Hauraki Gulf. At the end of the (Austral) Summer, it’s back to Italy to continue the long process of training and improvement at sea and ashore.'
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -220,11 +220,11 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     crop: 'center right'
     title: 'Sailing season<span> 2007</span>'
     subtitle: "32^ America's cup"
-    description: 'Viene lanciata ufficialmente la sfida attraverso lo Yacht Club Italiano, il più antico club velico del Mediterraneo, fondato nel 1879 a Genova.
-I due partner di Luna Rossa Challenge 2007 sono il Gruppo Prada e il Gruppo Telecom Italia.
-Presente a Valencia gia’ dal febbraio 2004, il Team Luna Rossa è stato il primo consorzio a insediarsi nella sede prescelta per la 32^ America’s Cup, iniziando nel maggio dello stesso anno gli allenamenti in mare con ITA 74 e ITA 80.
-Mantenendo integro lo storico nucleo originario del Team, viene promossa una lunga fase di rinnovamento inserendo in tutti i settori elementi di grande valore e puntando con decisione sulle tecnologie più all’avanguardia.
-Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, shore team, meteo, performance, boat builders, veleria, logistica, amministrazione e management) sono impegnate circa 150 persone in rappresentanza di 18 nazioni.'
+    description: 'The challenge is launched through the Yacht Club Italiano, the oldest sailing club in the Mediterranean, established in 1879 in Genoa, Italy.
+The two partners in Luna Rossa Challenge 2007 are the Prada Group and the Telecom Italia Group.
+In February 2004, the Luna Rossa Team is the first to set up its base in Valencia, where it starts training in May with ITA 74 and ITA 80.
+While the original historic core of the Team remains, new top level talents are included in all departments. Innovative technology is also introduced.
+The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weather team, performance team, boat builders, sail loft, logistics, administration and management) now includes about 150 people from 18 different countries.'
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -266,7 +266,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     page_mood: 'white'
     image: '/public/images/placeholder/bg_adv_07.jpg'
     link_img: '/public/images/placeholder/link_adv_it.png'
-    link_href: 'http://www.ycpa.it'
+    link_href: 'http://www.yci.it'
     alt_img: 'yacht club'
 
 2009:
@@ -280,7 +280,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     crop: 'bottom center'
     intro1_testo: 'louis vuitton pacific series'
     intro1: '/it/2009/intro-louis-vuitton-pacific-series'
-    intro2_testo: 'regate stp 65'
+    intro2_testo: 'stp 65'
     intro2: '/it/2009/stp-65-2009'
   intro-louis-vuitton-pacific-series:
     template: 'intro'
@@ -293,11 +293,11 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     crop: 'bottom center'
     title: 'Sailing season<span> 2009</span>'
     subtitle: 'Louis Vuitton Pacific Series'
-    description: 'La  “Louis  Vuitton Pacific Series” è congiuntamente  organizzata dal Governo della Nuova Zelanda,  Emirates  Team  New Zealand,  il  Royal New Zealand Yacht Squadron (RNZYS)  e la città  di  Auckland.
+    description: 'The Louis Vuitton Pacific Series is jointly organized by the Government of New Zealand, Emirates Team New Zealand, the Royal New Zealand Yacht Squadron (RNZYS) and the City of Auckland.
 
-La  competizione  si  terrà a Auckland, Nuova Zelanda dal 30  Gennaio al  14  Febbraio 2009.
+The competition will take place in Auckland from January 30th to February 14th 2009.
 
-Tutti i team  partecipanti  regateranno a bordo di  quattro imbarcazioni appartenenti rispettivamente ad  Emirates  Team  New Zealand (due) e a BMW Oracle  Racing  (due).'
+All the participating teams will race on four boats respectively belonging to Emirates Team New Zealand (two) and to BMW Oracle (two).'
   gallery-lvt:
     page_mood: 'white'
     template: 'gallery'
@@ -353,13 +353,15 @@ Tutti i team  partecipanti  regateranno a bordo di  quattro imbarcazioni apparte
     image: '/public/images/2009/intro_stp.jpg'
     crop: 'bottom center'
     title: 'Sailing season<span> 2009</span>'
-    subtitle: 'Regate stp 65'
-    description: "Nell’ottobre 2009, l’STP65’ Luna Rossa vince la Middle Sea Race nella classe ORC.Archiviato il secondo posto in classifica generale alla regata del Fastnet, conquistando i trofei Arambalza Cup – al miglior yacht non britannico – e il Kees van Dam Memorial Trophy – assegnato al secondo classificato in IRC –, l’STP 65′ Luna Rossa partecipa al campionato mondiale Maxi, a Porto Cervo, dal 6 al 12 settembre.L’equipaggio vede il ritorno a bordo in qualità di skipper del brasiliano Robert Scheidt, reduce dalla vittoria nel campionato europeo Star."
+    subtitle: 'Stp 65'
+    description: "In October 2009, the STP65′ Luna Rossa wins the Middle Sea Race in the ORC class.
+After the overall 2nd place in the Fastnet race, winning the Arambalza Cup – assigned to the best non-British yacht – and the Kess van Dam Memorial Trophy – assigned to the second classified in IRC -, the STP 65′ Luna Rossa participates in the Maxi World Championship in Porto Cervo, from September 6th to September 12th.
+The Brazilian skipper Robert Scheidt, who had just won the Star European Championship, joined the crew again."
   gallery-stp:
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: 'Regate stp 65<span> 2009</span>'
+    title: 'Stp 65<span> 2009</span>'
     subtitle: 'photo gallery'
     images:
       - src: '/public/images/gallery/2009_stp65/01.jpg'
@@ -410,13 +412,13 @@ Tutti i team  partecipanti  regateranno a bordo di  quattro imbarcazioni apparte
     crop: 'top center'
     title: 'Sailing season<span> 2010</span>'
     subtitle: 'LOUIS VUITTON TROPHY WSTA'
-    description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series. Dieci teams hanno gareggiato per 15 giorni nel Waitemata Harbour di Auckland in duelli match races vinti da Emirates Team New Zealand.
+    description: 'The Team Luna Rossa announces its participation to the races of the Louis Vuitton Trophy WSTA which will take place from May 22nd to June 6th in La Maddalena.
 
-Il Team Luna Rossa partecipa alle regate del Louis Vuitton Trophy WSTA che si terranno a La Maddalena dal 22 Maggio al 6 Giugno 2010.
+Luna Rossa’s afterguard will include helmsman Ed Baird, tactician Torben Grael and strategist Robert Scheidt.
 
-Il pozzetto vede Ed Baird al timone, Torben Grael alla tattica e Robert Scheidt in qualità di stratega.
+The Team Luna Rossa has also foreseen to participate in the Louis Vuitton Trophy WSTA rounds of Dubai (13th – 28th November) and Hong Kong (9th – 24th of January 2011).
 
-E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del Louis Vuitton Trophy WSTA che si terranno a Hong Kong (9 – 24 Gennaio 2011).'
+The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
   
   gallery-lv:
     page_mood: 'white'
@@ -468,11 +470,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
     crop: 'top center'
     title: 'Sailing season<span> 2010</span>'
     subtitle: 'Audi med cup'
-    description: 'Dopo la stagione di regate 2009 nella classe STP 65′ – con risultati tra cui 1º classificato nella categoria ORC alla Middle Sea Race, 1º classificato alla Palma Vela e 2º classificato assoluto categoria IRC alla Fastnet Race – il Team Luna Rossa si appresta ad affrontare la stagione velica 2010 partecipando alla Med Cup, circuito di 5 eventi – ognuno di 5 prove – in 4 paesi (Portogallo, Spagna, Francia e Italia) riservato alle imbarcazioni classe TP 52′.
-
-L’imbarcazione “Luna Rossa” è un progetto di Rolf Vroljik che aveva già partecipato al circuito lo scorso anno e che durante l’inverno ha subito profonde modifiche , concordate con il progettista e realizzate dai tecnici del Team, al fine di ottimizzarne le performance e aggiornarla al regolamento di stazza 2010.
-
-L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori della 33º edizione dell’America’s Cup con Oracle, che avevano già fatto parte del Team Luna Rossa in precedenti sfide, tra cui il navigatore Matteo Plazzi, il pitman Simone de Mari e il responsabile dello sviluppo del rigging Max Sirena.'
+    description: 'Following a successful 2009 racing season in the STP 65′ class, with results such as 1st in the ORC category in the Middle Sea Race, 1st in Palma Vela and 2nd overall in the IRC category in the Fastnet Race, the Team Luna Rossa is currently preparing its upcoming 2010 sailing season, in which it will participate in the TP52′ class international circuit, the Med Cup. The five events circuit will take place in four different countries (Portugal, Spain, France, Italy), and each event will consist of five races.The TP52′ “Luna Rossa” is a Rolf Vroljik design that already participated in the Med Cup last year; subsequently, during the winter, in order to optimize its performance and to comply with the 2010 Class rule, she underwent significant modifications and developments, carried out by the Team’s technical department under the designer’s supervision.The crew will include top class sailors, some of whom recent winners of the 33rd edition of the America’s Cup with BMW Oracle and also past members of Team Luna Rossa. Among these are navigator Matteo Plazzi, pitman Simone de Mari and the responsible for the rigging development Max Sirena.'
 
   gallery-au:
     page_mood: 'white'
@@ -521,9 +519,11 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
     image: '/public/images/2011/intro.jpg'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Extreme sailing series'
-    description: 'Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.
-L’equipaggio è composto da 4 persone e le imbarcazioni – catamarani di 40′ (circa 12 m) ultraleggeri – sono capaci di sviluppare velocità di oltre 25 nodi, dando vita a regate di flotta spettacolari, con duelli che spesso si risolvono a pochi metri dalla linea d’arrivo.
-Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht Club Punta Ala.'  
+    description: 'The Extreme Sailing Series is one of the most challenging and spectacular circuits in world-class professional sailing; its 9 international events calendar spans over the entire year 2011, from February to December.
+
+The ultra-light Extreme 40’ catamarans (about 12 meters long) have a crew of four and can reach 25 knots of speed; each event provides spectacular fleet racing in which duels are often won at just a few meters from the finishing line.
+
+Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta Ala burgee.'  
   team:
     template: 'team'
     css_class: 'team'
@@ -538,63 +538,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_patrizio_bertelli.jpg
         popup_alt: patrizio bertelli
         popup_title: patrizio bertelli
-        popup_description: ! '<p>Patrizio Bertelli, Presidente di Luna Rossa Challenge
-                2013, è nato ad Arezzo nel 1946 da una famiglia di lunghe tradizioni
-                forensi. Studia Ingegneria a Bologna e nel 1968 crea ad Arezzo una
-                piccola società produttrice di cinture e borse che pone le basi per
-                lo sviluppo delle sue future attività imprenditoriali.</p><p></p><p>Nel
-                1977 conosce Miuccia Prada, che successivamente diventerà sua moglie,
-                e con lei stipula un accordo per la produzione e la distribuzione
-                di articoli di pelletteria con marchio “Prada”; è l’inizio di un sodalizio
-                il cui successo è esemplificato dalla storia stessa del Gruppo PRADA.</p><p></p><p>La
-                capacità di Patrizio Bertelli di intuire e anticipare i mutamenti
-                sociali, del costume e del mercato, e di coglierne le aspirazioni,
-                lo spingono sin da questi primi anni a rivisitare l’immagine del brand
-                su basi completamente nuove, senza alterarne il DNA ma coniugando
-                il know-how, la storia e la tradizione quasi centenaria del marchio
-                con un approccio fortemente innovativo, applicato a ogni fase del
-                processo. Viene anche cambiato il metodo di lavoro, reimpostato con
-                un controllo preciso di tutta la filiera, un modello di business successivamente
-                seguito da tutto il settore.</p><p></p><p>Qualità senza compromessi
-                – applicata a ogni fase del processo - e innovazione, nel rispetto
-                di una tradizione centenaria e dell’anima artigianale delle sue produzioni,
-                sono i valori di riferimento che hanno sempre guidato Patrizio Bertelli
-                e Miuccia Prada nello sviluppo.</p><p></p><p>Negli anni ’80 e ‘90
-                Prada conosce una forte crescita con e il lancio di nuove linee di
-                prodotto - abbigliamento Prada donna nel 1988 e della linea Prada
-                Uomo nel 1993 - ,e la creazione di un nuovo marchio, Miu Miu, nel
-                1993. All’inizio del 1997 viene introdotto il naturale complemento
-                della collezione Prada, dedicato al tempo libero e allo sport, contrassegnato
-                con l’ormai inequivocabile “linea rossa”.</p><p></p><p>Parallelamente
-                Prada sviluppa anche un piano di espansione a livello internazionale
-                con l’apertura di negozi diretti nei punti più esclusivi delle principali
-                metropoli mondiali, nonché nelle località turistiche più prestigiose,
-                per giungere, al 31 Gennaio 2012, a gestire direttamente un totale
-                di 388 negozi a livello di Gruppo e una distribuzione in 70 paesi.</p><p></p><p>Prada
-                si svilupperà anche su linee esterne, con l’acquisizione dei marchi
-                di calzature di lusso Church’s e Car Shoe, e in nuovi settori merceologici:
-                eyewear, profumi e anche telefonia mobile, lanciando, nel 2007, in
-                collaborazione con LG Electronics, il primo telefono cellulare “touch
-                screen” della storia.</p><p></p><p>Nell’ottobre del 2000 l’Università
-                degli Studi di Firenze gli conferisce la laurea Honoris Causa in economia
-                aziendale e, nel 2006, la rivista americana Time inserisce Patrizio
-                Bertelli e Miuccia Prada tra le 100 coppie più influenti al mondo.</p><p></p><p>Dal
-                24 Giugno del 2011, il 20% del capitale di Prada SpA è quotato alla
-                borsa di Hong Kong (Hong Kong Stock Exchange), che ha riconosciuto
-                alla società una valutazione iniziale di 9.3 miliardi di Euro.</p><p></p><p>Alla
-                sua attività imprenditoriale Patrizio Bertelli coniuga interessi culturali
-                che condivide con la moglie. Da tali interessi è nata la “Fondazione
-                Prada” che ha la finalità di organizzare e patrocinare mostre di arte
-                contemporanea e altre attività culturali, legate soprattutto al cinema,
-                alla filosofia ed all’architettura, che hanno ricevuto unanimi consensi
-                a livello internazionale.</p><p></p><p>Appassionato velista sin da
-                ragazzo, nel 1997 lancia la sua prima sfida all’ America’s Cup (2000),
-                vincendo la Louis Vuitton Cup. A questa seguiranno le sfide del 2003,
-                del 2007 – in cui sarà finalista della Louis Vuitton Cup - e del 2013,
-                che lo porteranno a essere uno degli europei che maggiormente hanno
-                segnato la storia dell’America’s Cup. </p><p></p><p>Yachtsman completo,
-                e non solo regatante, trascorre le vacanze estive navigando su l’“Ulisse”,
-                la barca di famiglia, ed è anche un appassionato di barche d’epoca.</p>'
+        popup_description: ! ''
       - name: massimiliano sirena
         role: ! ' SKIPPER / PITMAN'
         image: massimiliano_sirena.jpg
@@ -602,11 +546,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_massimiliano_sirena.jpg
         popup_alt: massimiliano sirena
         popup_title: massimiliano sirena
-        popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
-                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
-                Challenge (2000)</p><p></p><p>Campionati mondiali</p><p>Artemis, TP
-                52 (2007)</p>
+        popup_description: 
       - name: paul campbell-james
         role: TIMONIERE/RANDISTA
         image: paul_campbell-james.jpg
@@ -614,12 +554,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_paul_campbell-james.jpg
         popup_alt: paul campbell-james
         popup_title: paul campbell-james
-        popup_description: <p>Nato a Brighton, Inghilterra – 4 Aprile 1983</p><p></p><p>Extreme
-                40:</p><p>1° European Series (2010)</p><p>2° Extreme Sailing Series
-                Asia (2009)</p><p>JPMorgan X40 Cowes (2008)</p><p>Team Blue Cowes
-                (2007)</p><p></p><p>49er:</p><p>ISAF World Cup Series Silver Medal
-                (2009 )</p><p></p><p>Match Racing:</p><p>Student Match Race World
-                Champion</p>
+        popup_description: 
       - name: alister richardson
         role: TATTICO
         image: alister_richardson.jpg
@@ -627,13 +562,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_alister_richardson.jpg
         popup_alt: alister richardson
         popup_title: alister richardson
-        popup_description: <p>Nato a Nottingham, Inghilterra – 7 Maggio 1979</p><p></p><p>Extreme
-                40:</p><p>X40 boat captain Mainsheet trimmer/ Tactician on “Oman Muscat
-                the Wave” (2010)</p><p>X40 Overall series winners (2010)</p><p>1st
-                X40 Round island race Cowes, England (2010)</p><p>2nd Overall X40
-                Asia Extreme Sailing Series (2009)</p><p>Helmsman & boat captain Team
-                Aqua (2008)</p><p>1st Volkswagen King of Cowes (2007)</p><p>Volvo
-                Extreme 40 – Helmsman & boat captain (2006)</p>
+        popup_description: 
       - name: ! 'manuel modena '
         role: CREW
         image: manuel_modena.jpg
@@ -641,13 +570,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_manuel_modena.jpg
         popup_alt: ! 'manuel modena '
         popup_title: ! 'manuel modena '
-        popup_description: <p>Nato il 22 novembre 1975 a Rovereto in Italia</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p></p><p>Olimpiadi:</p><p>Team
-                olimpico Atene (2000-2004)</p><p></p><p>Campionati Mondiali:</p><p>1°
-                Melges 24 (2005)</p><p></p><p>Regate Internazionali:</p><p>1° Asso99
-                (2004)</p><p>Luna Rossa, Fastnet (2009)</p><p>Luna Rossa, Middle Sea
-                Race (2009)</p><p>Luna Rossa, Audi Med Cup (2010)</p><p>Louis Vuitton
-                Trophy – La Maddalena (2010)</p>
+        popup_description: 
       - name: giulio giovanella
         role: ! ' CREW'
         image: giulio_giovanella.jpg
@@ -655,28 +578,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_giulio_giovanella.jpg
         popup_alt: giulio giovanella
         popup_title: giulio giovanella
-        popup_description: <p>Nato il 16 febbraio 1982 a Trieste (ITA)</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Mascalzone Latino (2007)</p><p></p><p>Match
-                Race:</p><p>1° classificato al Campionato italiano Match race under
-                20 – Salerno 2001</p><p>1° classificato su Mascalzone Latino Youth
-                Team Nation’s Cup 2004</p><p>1° classificato al Campionato italiano
-                match race under 25 San Vito lo Capo 2005</p><p>3° classificato su
-                Mascalzone Latino Nation’s cup 2006</p><p></p><p>RC44:</p><p>1º classificato
-                Dubai RC44 Cup su Hiroshi-Citta’ di Milano 2008</p><p>1º classificato
-                Cagliari RC44 Cup su Hiroshi –Citta’ di Milano 2008</p><p>4º classificato
-                Austria RC44 Cup su Hiroshi –Citta’ di Milano 2008</p><p>2º classificato
-                Giraglia su Esimit Europa 2008</p><p>1º classificato RC44 Malcesine
-                Slam Cup su Hiroshi- Citta’ di Milano 2008</p><p>2°classificato RC44
-                Friuli Venezia Giulia Cup su Hiroshi- Citta’ di Milano 2008</p><p></p><p>Altura:</p><p>2°
-                classificato al Campionato Mondiale IMS (Corinthian) su Cherokee,
-                2004</p><p>2° classificato al Campionato Mondiale IMS (Corinthian)
-                su Cherokee, 2004</p><p>5° Louis Vuitton Pacific Series Auckland (AC)
-                2009</p><p>1° Hublot Palma Vela Palma de Maiorca (stp 65) 2009</p><p>4°
-                Trofeo Pirelli Portofino (stp65) 2009</p><p>3° in tempo reale alla
-                Giraglia Rolex Cup (stp 65) 2009</p><p>2° Cowes Week (stp65) 2009</p><p>2°
-                Rolex Fastnet race (stp65) 2009</p><p>3° Mondiale Maxi Yacht Rolex
-                Cup (stp 65) 2009</p><p>1° Rolex Middle Sea race in classe ORC, 3°
-                in IRC (stp65) 2009</p>
+        popup_description: 
       - name: antonio marrai
         role: ! ' TEAM MANAGER'
         image: antonio_marrai.jpg
@@ -684,10 +586,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_antonio_marrai.jpg
         popup_alt: antonio marrai
         popup_title: antonio marrai
-        popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
-                Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p></p><p>Campionati
-                mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>
+        popup_description: 
       - name: benjamin durham
         role: COACH
         image: benjamin_durham.jpg
@@ -695,11 +594,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_benjamin_durham.jpg
         popup_alt: benjamin durham
         popup_title: benjamin durham
-        popup_description: <p>Nato il 26 gennaio 1977 in Australia</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Young Australia (2000)</p><p>One
-                World (2003)</p><p>Luna Rossa Challenge (2007)</p><p></p><p>Luna Rossa</p><p>STP
-                65′ (2009)</p><p>Louis Vuitton Trophy – La Maddalena (2010)</p><p>Audi
-                Med Cup (2010)</p>
+        popup_description: 
       - name: gianni tognozzi
         role: ! ' SHORE TEAM'
         image: gianni_tognozzi.jpg
@@ -707,9 +602,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_gianni_tognozzi.jpg
         popup_alt: gianni tognozzi
         popup_title: gianni tognozzi
-        popup_description: <p>STP 65, Luna Rossa (2009)</p><p></p><p>Partecipazioni
-                in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa
-                Challenge (2003)</p><p>Prada Challenge (2000)</p>
+        popup_description: 
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
@@ -717,7 +610,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_image: big_nicola_davanzo.jpg
         popup_alt: nicola davanzo
         popup_title: nicola davanzo
-        popup_description: <p>Triestino, da anni appassionato di vela, si occupa professionalmente di marketing e comunicazione nel settore nautico. Ha acquisito un’esperienza professionale specifica iniziando la propria attività in seno a diversi uffici stampa e comunicazione, partecipando alla 32^ America's Cup e, successivamente, ai circuiti di regate Farr 40, Farr 30 e RC 44. Dal 2010 collabora attivamente con il team Luna Rossa.</p>
+        popup_description: 
 
   gallery:
     page_mood: 'white'
@@ -777,7 +670,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     year: '2013'
     image: '/public/images/covers/2013.jpg'
     crop: 'bottom center'
-    text: "Prefazione di Sir Peter Blake al libro “Luna Rossa” sulla 30^ America’s Cup (2000)"
-    text2: "La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.Questo non è uno sport per deboli di cuore. Non è impresa da prendere alla leggera o per capriccio..."
-    follow: 'Seguici su LUNAROSSACHALLENGE2013.it'
-    read: 'Leggi tutto'
+    text: " Foreword by Sir Peter Blake to the book “Luna Rossa” – 30th America’s Cup (2000)"
+    text2: "The America’s Cup is an elusive trophy, and has rarely changed hands in the last 150 years.This is not a sport for the faint hearted. It is not a quest to take lightly or on a whim. It is a fight between sailors from yacht clubs all over the world that desperately want the same thing: get their hands on the Cup..."
+    follow: 'Follow us on LUNAROSSACHALLENGE2013.com'
+    read: 'Read more'
