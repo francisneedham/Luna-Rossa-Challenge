@@ -522,7 +522,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     subtitle: 'Team'
     members:
       - name: patrizio bertelli
-        role: TEAM PRINCIPAL / OWNER
+        role: TEAM PRINCIPAL
         image: patrizio_bertelli.jpg
         alt: patrizio bertelli
         popup_image: big_patrizio_bertelli.jpg
@@ -585,6 +585,18 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
                 segnato la storia dell’America’s Cup. </p><p></p><p>Yachtsman completo,
                 e non solo regatante, trascorre le vacanze estive navigando su l’“Ulisse”,
                 la barca di famiglia, ed è anche un appassionato di barche d’epoca.</p>'
+      - name: massimiliano sirena
+        role: ! ' PITMAN'
+        image: massimiliano_sirena.jpg
+        alt: massimiliano sirena
+        popup_image: big_massimiliano_sirena.jpg
+        popup_alt: massimiliano sirena
+        popup_title: massimiliano sirena
+        popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p></p><p>Precedenti
+                partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
+                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
+                Challenge (2000)</p><p></p><p>Campionati mondiali</p><p>Artemis, TP
+                52 (2007)</p>
       - name: paul campbell-james
         role: TIMONIERE/RANDISTA
         image: paul_campbell-james.jpg
@@ -688,18 +700,6 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_description: <p>STP 65, Luna Rossa (2009)</p><p></p><p>Partecipazioni
                 in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa
                 Challenge (2003)</p><p>Prada Challenge (2000)</p>
-      - name: massimiliano sirena
-        role: ! ' PITMAN'
-        image: massimiliano_sirena.jpg
-        alt: massimiliano sirena
-        popup_image: big_massimiliano_sirena.jpg
-        popup_alt: massimiliano sirena
-        popup_title: massimiliano sirena
-        popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p></p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
-                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
-                Challenge (2000)</p><p></p><p>Campionati mondiali</p><p>Artemis, TP
-                52 (2007)</p>
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
