@@ -1,1 +1,0 @@
- class window.HomePage extends window.Page

@@ -1,1 +1,0 @@
- class window.AdvPage extends window.Page

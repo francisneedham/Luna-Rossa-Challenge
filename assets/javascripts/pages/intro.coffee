@@ -1,1 +1,0 @@
- class window.IntroPage extends window.Page
