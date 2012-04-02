@@ -43,10 +43,6 @@ class window.GalleryPage extends window.Page
     @is_updating = false
     @current_detail_index = 0
 
-    @setWrapperWidth()
-    @addRightBorder()
-    @setGalleryWidth()
-
     @img.attr 'id', "#{@img.attr 'id'}_#{scopes}"
     @img_id = @img.attr 'id'
     @canvas.attr 'id', "#{@canvas.attr 'id'}_#{scopes}"
@@ -55,6 +51,12 @@ class window.GalleryPage extends window.Page
     @keymasterScope = "gallery_#{scopes++}"
     @addKeyControl()
 
+  entering: ->
+    
+    @setWrapperWidth()
+    @adjustLastItem()
+    @setGalleryWidth()
+    
     if @is_mobi
 
       @gc.show()
@@ -65,29 +67,12 @@ class window.GalleryPage extends window.Page
         zooming: false
       }
 
-  entering: ->
-    
-    @setWrapperWidth()
-    @addRightBorder()
-    @setGalleryWidth()
-
     @startUpdating()
     @setInteractions()
-    @gc.css {top: @gc.height()}
+    @gc.css {top: @gc.height() + 10}
     @loadFirstBigImage()
   
   entered: ->
-    
-    ###
-    @setWrapperWidth()
-    @addRightBorder()
-    @setGalleryWidth()
-
-    @startUpdating()
-    @setInteractions()
-    @gc.css {top: @gc.height()}
-    @loadFirstBigImage()
-    ###
 
   leaving: ->
 
@@ -109,19 +94,22 @@ class window.GalleryPage extends window.Page
       @w_width = @w.width()
       @wrap.css {width: "#{@w_width}px"}
 
-  addRightBorder: ->
+  adjustLastItem: ->
 
     item = $ @items[@items.length - 1]
     bl = item.css 'border-left-width'
     bc = item.css 'border-left-color'
     item.css {'border-right': "#{bl} solid #{bc}"}
+    item.css {'margin-right': "0"}
 
   setGalleryWidth: ->
 
     item = $ @items[0]
     iw = parseInt(item.css 'width')
     bw = parseInt(item.css 'border-left-width')
-    @gc_width =  @items.length * iw + (@items.length + 1) * bw
+    mw = parseInt(item.css 'margin-right')
+    
+    @gc_width =  @items.length * iw + (@items.length + 1) * bw + (@items.length - 1) * (bw + mw)
     @gc.css {width: "#{@gc_width}px"}
 
   ##############
@@ -199,7 +187,7 @@ class window.GalleryPage extends window.Page
   hideGallery: (big_url) ->
 
     #@stopUpdating()
-    @gc.stop().animate {top: @gc.height()}, {duration: 600, easing: 'easeInOutCubic', complete: (=> @loadBigImage big_url)}
+    @gc.stop().animate {top: @gc.height() + 10}, {duration: 600, easing: 'easeInOutCubic', complete: (=> @loadBigImage big_url)}
     @close.show()
     @title.hide()
     @navbar.hide()
@@ -219,7 +207,7 @@ class window.GalleryPage extends window.Page
       unless @is_ie or @is_mobi
         @img.stop().animate {opacity: 0}, {duration: 600, easing: 'easeInOutCubic'}
     else
-      @gc.css {top: @gc.height()}
+      @gc.css {top: @gc.height() + 10}
       @gc.css {left: 0}
       unless @is_ie or @is_mobi
         @img.css {opacity: 0}
