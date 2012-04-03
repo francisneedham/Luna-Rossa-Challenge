@@ -279,9 +279,9 @@ The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weath
     image: '/public/images/gallery/2009_lvps/02_big.jpg'
     crop: 'bottom center'
     intro1_testo: 'louis vuitton pacific series'
-    intro1: '/it/2009/intro-louis-vuitton-pacific-series'
+    intro1: '/en/2009/intro-louis-vuitton-pacific-series'
     intro2_testo: 'stp 65'
-    intro2: '/it/2009/stp-65-2009'
+    intro2: '/en/2009/stp-65-2009'
   intro-louis-vuitton-pacific-series:
     template: 'intro'
     css_class: 'intro'
@@ -398,9 +398,9 @@ The Brazilian skipper Robert Scheidt, who had just won the Star European Champio
     image: '/public/images/covers/2010.jpg'
     crop: 'center center'
     intro1_testo: 'louis vuitton Trophy Wsta'
-    intro1: '/it/2010/intro-louis-vuitton-trophy-wsta'
+    intro1: '/en/2010/intro-louis-vuitton-trophy-wsta'
     intro2_testo: 'Audi Med Cup'
-    intro2: '/it/2010/audi-med-cup'
+    intro2: '/en/2010/audi-med-cup'
   intro-louis-vuitton-trophy-wsta:
     template: 'intro'
     css_class: 'intro'
@@ -419,7 +419,7 @@ Luna Rossa’s afterguard will include helmsman Ed Baird, tactician Torben Grael
 The Team Luna Rossa has also foreseen to participate in the Louis Vuitton Trophy WSTA rounds of Dubai (13th – 28th November) and Hong Kong (9th – 24th of January 2011).
 
 The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
-  
+
   gallery-lv:
     page_mood: 'white'
     template: 'gallery'
@@ -523,7 +523,7 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
 
 The ultra-light Extreme 40’ catamarans (about 12 meters long) have a crew of four and can reach 25 knots of speed; each event provides spectacular fleet racing in which duels are often won at just a few meters from the finishing line.
 
-Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta Ala burgee.'  
+Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta Ala burgee.'
   team:
     template: 'team'
     css_class: 'team'
@@ -546,7 +546,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_massimiliano_sirena.jpg
         popup_alt: massimiliano sirena
         popup_title: massimiliano sirena
-        popup_description: 
+        popup_description:
       - name: paul campbell-james
         role: TIMONIERE/RANDISTA
         image: paul_campbell-james.jpg
@@ -554,7 +554,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_paul_campbell-james.jpg
         popup_alt: paul campbell-james
         popup_title: paul campbell-james
-        popup_description: 
+        popup_description:
       - name: alister richardson
         role: TATTICO
         image: alister_richardson.jpg
@@ -562,7 +562,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_alister_richardson.jpg
         popup_alt: alister richardson
         popup_title: alister richardson
-        popup_description: 
+        popup_description:
       - name: ! 'manuel modena '
         role: CREW
         image: manuel_modena.jpg
@@ -570,7 +570,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_manuel_modena.jpg
         popup_alt: ! 'manuel modena '
         popup_title: ! 'manuel modena '
-        popup_description: 
+        popup_description:
       - name: giulio giovanella
         role: ! ' CREW'
         image: giulio_giovanella.jpg
@@ -578,7 +578,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_giulio_giovanella.jpg
         popup_alt: giulio giovanella
         popup_title: giulio giovanella
-        popup_description: 
+        popup_description:
       - name: antonio marrai
         role: ! ' TEAM MANAGER'
         image: antonio_marrai.jpg
@@ -586,7 +586,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_antonio_marrai.jpg
         popup_alt: antonio marrai
         popup_title: antonio marrai
-        popup_description: 
+        popup_description:
       - name: benjamin durham
         role: COACH
         image: benjamin_durham.jpg
@@ -594,7 +594,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_benjamin_durham.jpg
         popup_alt: benjamin durham
         popup_title: benjamin durham
-        popup_description: 
+        popup_description:
       - name: gianni tognozzi
         role: ! ' SHORE TEAM'
         image: gianni_tognozzi.jpg
@@ -602,7 +602,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_gianni_tognozzi.jpg
         popup_alt: gianni tognozzi
         popup_title: gianni tognozzi
-        popup_description: 
+        popup_description:
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
@@ -610,7 +610,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_nicola_davanzo.jpg
         popup_alt: nicola davanzo
         popup_title: nicola davanzo
-        popup_description: 
+        popup_description:
 
   gallery:
     page_mood: 'white'
