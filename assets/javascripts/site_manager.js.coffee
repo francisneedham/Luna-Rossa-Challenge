@@ -79,14 +79,21 @@ window.SiteManager = class
 
   buildPage: (parent, content, page) =>
     if content?
+      id = @newId()
       el = ($ @mustache(content.template, content))
+      el.attr({id: id})
       parent.append el
+
+      content.id = id
 
       viewClass = window[capitalize(content.template) + 'Page']
       viewClass = Page unless viewClass
 
       view = new viewClass(el, content)
       content.view = view
+
+  newId: ->
+    'page_' + Math.round(Math.random() * 100) + '_' + (new Date()).getTime()
 
   buildPageCurrentYear: (parent, content, page) =>
     if page != @currentPage
@@ -102,6 +109,11 @@ window.SiteManager = class
       viewClass = Page unless viewClass
 
       view = new viewClass(el, content)
+
+    id = @newId()
+    el.attr({id: id})
+
+    content.id = id
     content.view = view
 
   createSharrre: ->
@@ -241,7 +253,7 @@ window.SiteManager = class
       @gotoPage(page)
 
   currentEl: (page = @currentPage, year = @currentYear) =>
-    ($ "#y-#{year} .#{@currentContent(page, year)['css_class']}")
+    ($ "##{@currentContent(page, year).id}")
 
   currentContent: (page = @currentPage, year = @currentYear) =>
     @data[year][page]
