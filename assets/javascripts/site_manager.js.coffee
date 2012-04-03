@@ -105,10 +105,10 @@ window.SiteManager = class
     else
       el = parent.find(".step.#{@currentContent()['css_class']}")
 
-      viewClass = window[capitalize(content.template) + 'Page']
-      viewClass = Page unless viewClass
+    viewClass = window[capitalize(content.template) + 'Page']
+    viewClass = Page unless viewClass
 
-      view = new viewClass(el, content)
+    view = new viewClass(el, content)
 
     id = @newId()
     el.attr({id: id})

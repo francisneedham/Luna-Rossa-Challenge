@@ -16,10 +16,10 @@ class window.GalleryPage extends window.Page
 
     #console.log @el
     #console.log @data
-    
+
     @is_ie = $.browser.msie
     @is_mobi = if navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) then true else false
-    
+
     @w = $ window
     @h = $ '#header'
     @f = $ '#footer'
@@ -47,16 +47,15 @@ class window.GalleryPage extends window.Page
     @img_id = @img.attr 'id'
     @canvas.attr 'id', "#{@canvas.attr 'id'}_#{scopes}"
     @canvas_id = @canvas.attr 'id'
-    
+
     @keymasterScope = "gallery_#{scopes++}"
     @addKeyControl()
 
   entering: ->
-    
     @setWrapperWidth()
     @adjustLastItem()
     @setGalleryWidth()
-    
+
     if @is_mobi
 
       @gc.show()
@@ -71,7 +70,7 @@ class window.GalleryPage extends window.Page
     @setInteractions()
     @gc.css {top: @gc.height() + 10}
     @loadFirstBigImage()
-  
+
   entered: ->
 
   leaving: ->
@@ -79,11 +78,11 @@ class window.GalleryPage extends window.Page
     #@showGallery false
     @stopUpdating()
     @resetInteractions()
-    
+
   left: ->
-  
+
     @showGallery false
-  
+
   ########
   # LAYOUT
   ########
@@ -108,7 +107,7 @@ class window.GalleryPage extends window.Page
     iw = parseInt(item.css 'width')
     bw = parseInt(item.css 'border-left-width')
     mw = parseInt(item.css 'margin-right')
-    
+
     @gc_width =  @items.length * iw + (@items.length + 1) * bw + (@items.length - 1) * (bw + mw)
     @gc.css {width: "#{@gc_width}px"}
 
@@ -162,23 +161,23 @@ class window.GalleryPage extends window.Page
     e.preventDefault()
     dir = parseInt(@$(e.target).attr 'data-dir')
     @changeDetail dir
-    
+
   addKeyControl: ->
-    
+
     unless @is_mobi
       key('right', @keymasterScope, (=> @changeDetail 1))
       key('left', @keymasterScope, (=> @changeDetail -1))
       key('esc', @keymasterScope, (=> @showGallery true))
-  
+
   setKeyControl: ->
-  
+
     unless @is_mobi
       key.setScope(@keymasterScope)
-  
+
   resetKeyControl: ->
-  
+
     unless @is_mobi
-      key.setScope('navigation')  
+      key.setScope('navigation')
 
   #####################
   # SWAP GALLERY/DETAIL
@@ -217,9 +216,9 @@ class window.GalleryPage extends window.Page
     @section_arrows.show()
     @detail_arrows.hide().css {opacity: 0}
     @resetKeyControl()
-    
+
   changeDetail: (dir) ->
-  
+
     new_index =  @current_detail_index + dir
     if new_index < 0 then new_index = @data.images.length - 1
     else if new_index is @data.images.length then new_index = 0
@@ -228,7 +227,7 @@ class window.GalleryPage extends window.Page
       @canvas.show()
     big_url = (@data.images[new_index].src).replace /.jpg/, "_big.jpg"
     @loadBigImage (big_url)
-  
+
   loadFirstBigImage: ->
 
     @loader.show()
@@ -342,11 +341,11 @@ class window.GalleryPage extends window.Page
       @is_updating = false
 
   onMouseMove: (e) =>
-    
+
     if @is_ie
       @mouseX = e.clientX
       @mouseY = e.clientY
-    else      
+    else
       @mouseX = e.pageX
       @mouseY = e.pageY
 
