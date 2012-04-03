@@ -51,9 +51,13 @@ window.SiteManager = class
 
   buildSiteCallback: =>
     _.each @yearsList, @buildYear
+    @hideLastNext()
     @createSharrre()
     @hideLoader()
     @resize()
+
+  hideLastNext: =>
+    ($ '.section-arrow  .next-page').last().hide()
 
   buildYear: (year) =>
     content = @data[year]
