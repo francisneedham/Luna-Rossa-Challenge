@@ -17,8 +17,9 @@
     css_class: 'intro'
     page_mood: 'white'
     seo_title: "Sailing season 2000 - 30^ America's cup"
-    seo_description: "Sailing season 2000 - 30^ America's cup"
-    seo_image: '/public/images/2000/intro.jpg'
+    seo_description: "Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
+L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia;"
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2000/04_big.jpg'
     image: '/public/images/gallery/2000/04_big.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2000</span>'
@@ -78,8 +79,8 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     css_class: 'intro'
     page_mood: 'white'
     seo_title: "Sailing season 2003 - 31^ America's cup"
-    seo_description: "Sailing season 2003 - 31^ America's cup"
-    seo_image: '/public/images/2003/intro.jpg'
+    seo_description: '"Another beautiful day in the Hauraki Gulf". Ancora qui. Di nuovo qui. Tre barche in acqua: due Luna Rossa e Young America.'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2003/06_big.jpg'
     cover: top center
     image: '/public/images/gallery/2003/06_big.jpg'
     title: 'Sailing season<span> 2003</span>'
@@ -214,8 +215,9 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     css_class: 'intro'
     page_mood: 'white'
     seo_title: 'Sailing season 2007'
-    seo_description: 'Sailing season 2007'
-    seo_image: '/public/images/2007/intro.jpg'
+    seo_description: 'Viene lanciata ufficialmente la sfida attraverso lo Yacht Club Italiano, il più antico club velico del Mediterraneo, fondato nel 1879 a Genova.
+I due partner di Luna Rossa Challenge 2007 sono il Gruppo Prada e il Gruppo Telecom Italia.'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/2007/intro.jpg'
     image: '/public/images/2007/intro.jpg'
     crop: 'center right'
     title: 'Sailing season<span> 2007</span>'
@@ -288,7 +290,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     page_mood: 'white'
     seo_title: 'Sailing season 2009 - Louis Vuitton Pacific Series'
     seo_description: 'La  “Louis  Vuitton Pacific Series” è congiuntamente  organizzata dal Governo della Nuova Zelanda,  Emirates  Team  New Zealand'
-    seo_image: '/public/images/2009/intro.jpg'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/2009/intro.jpg'
     image: '/public/images/2009/intro.jpg'
     crop: 'bottom center'
     title: 'Sailing season<span> 2009</span>'
@@ -348,8 +350,8 @@ Tutti i team  partecipanti  regateranno a bordo di  quattro imbarcazioni apparte
     css_class: 'intro'
     page_mood: 'white'
     seo_title: 'Sailing season 2009 - Regate stp 65'
-    seo_description: 'Nell’ottobre 2009, l’STP65’ Luna Rossa vince la Middle Sea Race'
-    seo_image: '/public/images/2009/intro.jpg'
+    seo_description: 'Nell’ottobre 2009, l’STP65’ Luna Rossa vince la Middle Sea Race nella classe ORC.'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/2009/intro_stp.jpg'
     image: '/public/images/2009/intro_stp.jpg'
     crop: 'bottom center'
     title: 'Sailing season<span> 2009</span>'
@@ -405,7 +407,7 @@ Tutti i team  partecipanti  regateranno a bordo di  quattro imbarcazioni apparte
     page_mood: 'white'
     seo_title: 'Sailing season 2010 - LOUIS VUITTON TROPHY WSTA'
     seo_description: 'Louis Vuitton Trophy WSTA è un circuito di regate internazionale creato sulla base dell enorme popolarità conquistata nel 2009 dal Louis Vuitton Pacific Series.'
-    seo_image: '/public/images/2010/intro.jpg'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/2010/intro.jpg'
     image: '/public/images/2010/intro.jpg'
     crop: 'top center'
     title: 'Sailing season<span> 2010</span>'
@@ -462,8 +464,8 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
     css_class: 'intro'
     page_mood: 'white'
     seo_title: 'Sailing season 2010 - Audi med cup'
-    seo_description: 'Dopo la stagione di regate 2009 nella classe STP 65′ – con risultati tra cui 1º classificato'
-    seo_image: '/public/images/2010/intro.jpg'
+    seo_description: 'Dopo la stagione di regate 2009 nella classe STP 65′il Team Luna Rossa si appresta ad affrontare la stagione velica 2010 partecipando alla Med Cup'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/2010/intro.jpg'
     image: '/public/images/2010/intro.jpg'
     crop: 'top center'
     title: 'Sailing season<span> 2010</span>'
@@ -517,7 +519,7 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
     page_mood: 'white'
     seo_title: 'Sailing season 2011 - Extreme sailing series'
     seo_description: 'Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.'
-    seo_image: '/public/images/2011/intro.jpg'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/2011/intro.jpg'
     image: '/public/images/2011/intro.jpg'
     title: 'Sailing season<span> 2011</span>'
     subtitle: 'Extreme sailing series'
