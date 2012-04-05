@@ -36,6 +36,10 @@ window.SiteManager = class
 
     @activeYear(@currentYear)
 
+    id = @newId()
+    @currentContent().id = id
+    ($ ".step").attr(id: id)
+
   getTemplate: (template) ->
     if template in @templates
       @templates[template]
@@ -85,7 +89,7 @@ window.SiteManager = class
     if content?
       id = @newId()
       el = ($ @mustache(content.template, content))
-      el.attr({id: id})
+      el.attr(id: id)
       parent.append el
 
       content.id = id
@@ -105,9 +109,9 @@ window.SiteManager = class
       if _.indexOf(@pagesList(), page) > _.indexOf(@pagesList(), @currentPage)
         parent.append el
       else
-        parent.find(".step.#{@currentContent()['css_class']}").before(el)
+        parent.find("##{@currentContent().id}").before(el)
     else
-      el = parent.find(".step.#{@currentContent()['css_class']}")
+      el = parent.find("##{@currentContent().id}")
 
     viewClass = window[capitalize(content.template) + 'Page']
     viewClass = Page unless viewClass
@@ -115,7 +119,7 @@ window.SiteManager = class
     view = new viewClass(el, content)
 
     id = @newId()
-    el.attr({id: id})
+    el.attr(id: id)
 
     content.id = id
     content.view = view
@@ -159,7 +163,7 @@ window.SiteManager = class
       left = _.indexOf(@pagesList(), @currentPage) * @width
 
       content = @currentContent()
-      ($ '#wrapper').removeClass().addClass(content['page_mood'])
+      ($ '#wrapper').removeClass().addClass(content.page_mood)
 
       if not @previousContent? or content != @previousContent
         @previousContent?.view?.leaving?()
