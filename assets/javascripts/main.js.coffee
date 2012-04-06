@@ -9,11 +9,11 @@ $ ->
   History.Adapter.bind w, 'statechange', ->
     State = History.getState()
 
-    urlParts = State.url.replace(/^(https?:\/\/.+?)?\/.{2}\//, '').split('/')
+    urlParts = State.url.replace(/^(https?:\/\/.+?)?\/(.{2}\/)?/, '').split('/')
 
     manager.goto urlParts[0], urlParts[1]
 
-  ($ '#navbar a, .next-page, .prev-page').live 'click', (ev) ->
+  ($ '#navbar a, .next-page, .prev-page, .logo').live 'click', (ev) ->
     ev.preventDefault()
     url = ($ this).attr('href')
     History.pushState({}, null, url)

@@ -200,6 +200,7 @@ window.SiteManager = class
 
   gotoYear: (year) =>
     year = year.toString()
+    year = @yearsList[0] unless year in @yearsList
     if year != @currentYear
       @activeYear(year)
 
