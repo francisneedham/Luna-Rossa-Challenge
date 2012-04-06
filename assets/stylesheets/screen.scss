@@ -112,7 +112,7 @@ a{
 // grey-element
 .grey{
   #navbar a{
-    color:#686868;
+    color:#686868!important;
   }
   .next-page{
     @include sprite-sprite(a-grey-next);
@@ -148,7 +148,7 @@ a{
 // white-element
 .white{
   #navbar a{
-    color:#fff;
+    color:#fff!important;
   }
   .next-page{
     @include sprite-sprite(a-white-next);
