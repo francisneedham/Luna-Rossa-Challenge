@@ -22,7 +22,7 @@
     image: '/public/images/gallery/2000/04_big.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2000</span>'
-    subtitle: "30^ America's cup"
+    subtitle: "30<sup>th</sup> America's cup"
     description: 'The Luna Rossa Team writes a page in history by defeating 10 opponents, with a record of 38 wins over 49 races.
 The last is U.S.’s Paul Cayard with his green and grey boat; it takes all the rule’s 9 races to win the Louis Vuitton Cup series and gain the right to challenge Team New Zealand.
 It is the first time that an Italian skipper races the America’s Cup final Match, and the first time there is no American yacht in the Cups’ finals.'
@@ -77,13 +77,13 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
-    seo_title: "Sailing season 2003 - 31^ America's cup"
+    seo_title: "Sailing season 2003 - 31th America's cup"
     seo_description: 'Three boats on the water: two Luna Rossa and Young America. Three months of time to regain confidence with the Hauraki Gulf.'
     seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2003/06_big.jpg'
     cover: top center
     image: '/public/images/gallery/2003/06_big.jpg'
     title: 'Sailing season<span> 2003</span>'
-    subtitle: "31^ America's cup"
+    subtitle: "31<sup>th</sup> America's cup"
     description: 'Three boats on the water: two Luna Rossa and Young America. Three months of time to regain confidence with the Hauraki Gulf. At the end of the (Austral) Summer, it’s back to Italy to continue the long process of training and improvement at sea and ashore.'
   gallery:
     page_mood: 'white'
@@ -219,7 +219,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     image: '/public/images/2007/intro.jpg'
     crop: 'center right'
     title: 'Sailing season<span> 2007</span>'
-    subtitle: "32^ America's cup"
+    subtitle: "32<sup>th</sup> America's cup"
     description: 'The challenge is launched through the Yacht Club Italiano, the oldest sailing club in the Mediterranean, established in 1879 in Genoa, Italy.
 The two partners in Luna Rossa Challenge 2007 are the Prada Group and the Telecom Italia Group.
 In February 2004, the Luna Rossa Team is the first to set up its base in Valencia, where it starts training in May with ITA 74 and ITA 80.
@@ -532,45 +532,122 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
     subtitle: 'Team'
     members:
       - name: patrizio bertelli
-        role: TEAM PRINCIPAL
+        role: TEAM PRINCIPAL / OWNER
         image: patrizio_bertelli.jpg
         alt: patrizio bertelli
         popup_image: big_patrizio_bertelli.jpg
         popup_alt: patrizio bertelli
         popup_title: patrizio bertelli
-        popup_description: ! ''
+        popup_description: ! '<p>Patrizio Bertelli, Team Principal of Luna Rossa Challenge
+                2013, was born in Arezzo, Italy, in 1946, to a family of lawyers.
+                He studies Engineering in Bologna, and in 1968 he establishes a small
+                company producing belts and bags in Arezzo, which later serves as
+                a basis for the development of his future business.</p><p></p><p>In
+                1977, he meets Miuccia Prada, whom he will later marry, and they sign
+                an agreement for the production and marketing of leather goods under
+                the “Prada” brand; this marks the beginning of an association whose
+                success is expressed by the history of the PRADA Group.</p><p></p><p>Ever
+                since the early years, Patrizio Bertelli''s ability to foresee and
+                anticipate social, lifestyle and market changes, and to seize consumers''
+                aspirations, prompts him to review the brand''s image on a totally
+                new basis, without altering its DNA but rather by combining the brand''s
+                know-how, history and century-old heritage with an extremely innovative
+                approach, that is implemented in all process phases. The working method
+                is also revisited, by means of implementing tight control over the
+                whole value chain, a business model later adopted throughout the industry.</p><p></p><p>Uncompromising
+                quality - in all process steps - and innovation, in keeping with the
+                brand''s century-old heritage and with the artisan soul of its production,
+                are the core values that always inspired Patrizio Bertelli and Miuccia
+                Prada in their development.</p><p></p><p>In the 1980s and 1990s, Prada
+                experiences a strong growth thanks to the introduction of new product
+                categories - Prada Women''s ready-to-wear in 1988 and Prada Men in
+                1993 - and the establishment of a new brand, Miu Miu, in 1993. In
+                early 1997 the natural extension of the Prada collection, i.e. leisure
+                time and sport products, is added, characterised by the now unmistakable
+                "red stripe".</p><p></p><p>At the same time, Prada also embarks in
+                an international expansion plan by opening directly operated stores
+                in the most exclusive locations of the main world cities and of prestigious
+                tourist resorts, until, as of January 31st, 2012, the Group reaches
+                a total of 388 directly operated stores in 70 different countries
+                worldwide.</p><p></p><p>Prada also grows by acquiring the luxury footwear
+                brands Church’s and Car Shoe, and by adding new product categories:
+                eyewear, fragrances and mobile phones - in 2007, in collaboration
+                with LG Electronics, the brand launches the first touch-screen mobile
+                phone ever.</p><p></p><p>In October 2000 he receives a Honoris Causa
+                degree in Business Administration from the Università degli Studi
+                di Firenze and in 2006, the US magazine Time includes Patrizio Bertelli
+                and Miuccia Prada among the 100 most influential couples in the world.</p><p></p><p>Since
+                June 24th, 2011, 20% of Prada SpA''s shares are listed on the Hong
+                Kong Stock Exchange, with an initial valuation of the company equal
+                to 9.3 billion Euros.</p><p></p><p>Patrizio Bertelli combines his
+                business activity with cultural interests that he shares with his
+                wife. Those interests prompted the establishment of the “Fondazione
+                Prada”, that organises and supports contemporary art exhibitions and
+                other cultural endeavours, mainly in the fields of cinema, philosophy
+                and architecture, rewarded by unanimous international acclaim.</p><p></p><p>A
+                passionate sailor, in 1997 he launches his first challenge to the
+                America’s Cup (2000 edition) and wins the Louis Vuitton Cup. He challenges
+                again for the 2003 and 2007 editions, reaching the Louis Vuitton Cup
+                final in the latter. He is one of the European personalities who left
+                a very deep mark in the history of the America’s Cup.</p><p></p><p>An
+                accomplished yachtsman, Patrizio Bertelli loves sailing and not just
+                racing; he spends his summer holidays cruising on the “Ulisse”, the
+                family yacht, and he is also passionate about vintage boats.</p>'
       - name: massimiliano sirena
-        role: ! ' SKIPPER / PITMAN'
+        role: ! ' PITMAN'
         image: massimiliano_sirena.jpg
         alt: massimiliano sirena
         popup_image: big_massimiliano_sirena.jpg
         popup_alt: massimiliano sirena
         popup_title: massimiliano sirena
-        popup_description:
+        popup_description: ! "<p>Born in Italy the 4th of Dicember 1971</p><p>America’s
+                cup partecipations:</p><p>Winner with Bmw Oracle racing(2010)</p><p>Luna
+                Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada\n
+                Challenge (2000)</p><p>World championship </p><p>Artemis,
+                TP52 (2007)</p>"
       - name: paul campbell-james
-        role: TIMONIERE/RANDISTA
+        role: helmsman/mainsail trimmer
         image: paul_campbell-james.jpg
         alt: paul campbell-james
         popup_image: big_paul_campbell-james.jpg
         popup_alt: paul campbell-james
         popup_title: paul campbell-james
-        popup_description:
+        popup_description: ! "<p>Born in Brighton, England – 4th of April 1983</p><p>Extreme\n
+                40:</p><p>1° European Series (2010)</p><p>2° Extreme
+                Sailing SeriesAsia (2009)</p><p>JPMorgan X40 Cowes
+                (2008)</p><p>Team Blue Cowes(2007)</p><p>49er:</p><p>ISAF
+                World Cup Series Silver Medal(2009 )</p><p>Match
+                Racing:</p><p>Student Match Race WorldChampion</p>"
       - name: alister richardson
-        role: TATTICO
+        role: TACTITIAN
         image: alister_richardson.jpg
         alt: alister richardson
         popup_image: big_alister_richardson.jpg
         popup_alt: alister richardson
         popup_title: alister richardson
-        popup_description:
+        popup_description: ! "<p>Born in Nottingham, England – 7th of Mayo 1979</p><p>Extreme\n
+                40:</p><p>X40 boat captain Mainsheet trimmer/ Tactician
+                on “Oman Muscatthe Wave” (2010)</p><p>X40 Overall
+                series winners (2010)</p><p>1stX40 Round island
+                race Cowes, England (2010)</p><p>2nd Overall X40Asia
+                Extreme Sailing Series (2009)</p><p>Helmsman & boat captain Team\n
+                Aqua (2008)</p><p>1st Volkswagen King of Cowes (2007)</p><p>Volvo\n
+                Extreme 40 – Helmsman & boat captain (2006)</p>"
       - name: ! 'manuel modena '
         role: CREW
         image: manuel_modena.jpg
         alt: ! 'manuel modena '
-        popup_image: big_manuel_modena.jpg
+        popup_image: big_manuel_modena_.jpg
         popup_alt: ! 'manuel modena '
         popup_title: ! 'manuel modena '
-        popup_description:
+        popup_description: ! "<p>Born the 22th of November 1975 in Rovereto, Italy</p><p>America’s
+                cup partecipations:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team\n
+                olimpico Atene (2000-2004)</p><p>Campionati Mondiali:</p><p>1°\n
+                Melges 24 (2005)</p><p>International races:</p><p>1°
+                Asso99(2004)</p><p>Luna Rossa, Fastnet (2009)</p><p>Luna
+                Rossa, Middle SeaRace (2009)</p><p>Luna Rossa, Audi
+                Med Cup (2010)</p><p>Louis VuittonTrophy – La Maddalena
+                (2010)</p>"
       - name: giulio giovanella
         role: ! ' CREW'
         image: giulio_giovanella.jpg
@@ -578,7 +655,30 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_giulio_giovanella.jpg
         popup_alt: giulio giovanella
         popup_title: giulio giovanella
-        popup_description:
+        popup_description: ! "<p>Born the 16th of February 1982 in Trieste, Italy</p><p>America’s
+                cup partecipations:</p><p>Mascalzone Latino (2007)</p><p>MatchRace:</p><p>1st
+                place at Italian Championship Match race under20
+                – Salerno 2001</p><p>1st place at Mascalzone Latino YouthTeam
+                Nation’s Cup 2004</p><p>1st place at Italian Championshipmatch
+                race under 25 San Vito lo Capo 2005</p><p>3rd place onMascalzone
+                Latino Nation’s cup 2006</p><p>RC44:</p><p>1st placeDubai
+                RC44 Cup su Hiroshi-Citta’ di Milano 2008</p><p>1st placeCagliari
+                RC44 Cup su Hiroshi –Citta’ di Milano 2008</p><p>4th placeAustria
+                RC44 Cup su Hiroshi –Citta’ di Milano 2008</p><p>2nd placeGiraglia
+                su Esimit Europa 2008</p><p>1st place RC44 MalcesineSlam
+                Cup su Hiroshi- Citta’ di Milano 2008</p><p>2nd place RC44Friuli
+                Venezia Giulia Cup su Hiroshi- Citta’ di Milano 2008</p><p>Altura:</p><p>2nd\n
+                place al Campionato Mondiale IMS (Corinthian) su Cherokee,\n
+                2004</p><p>2nd place al Campionato Mondiale IMS (Corinthian)\n
+                on Cherokee, 2004</p><p>5th Louis Vuitton Pacific
+                Series Auckland (AC)2009</p><p>1st Hublot Palma
+                Vela Palma de Maiorca (stp 65) 2009</p><p>4thTrofeo
+                Pirelli Portofino (stp65) 2009</p><p>3rd in tempo reale allaGiraglia
+                Rolex Cup (stp 65) 2009</p><p>2nd Cowes Week (stp65) 2009</p><p>2nd\n
+                Rolex Fastnet race (stp65) 2009</p><p>3rd Mondiale
+                Maxi Yacht RolexCup (stp 65) 2009</p><p>1st Rolex
+                Middle Sea race in classe ORC, 3rdin IRC (stp65)
+                2009</p>"
       - name: antonio marrai
         role: ! ' TEAM MANAGER'
         image: antonio_marrai.jpg
@@ -586,7 +686,10 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_antonio_marrai.jpg
         popup_alt: antonio marrai
         popup_title: antonio marrai
-        popup_description:
+        popup_description: ! "<p>Born in Seravezza (ITA) the  24th of August 1953</p><p>America's
+                cup partecipations:</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra
+                (1987)</p><p>World Championships</p><p>1°Mondiale Maxi, Longobarda
+                (1989)</p><p>12 Metri (1984-1985)</p>"
       - name: benjamin durham
         role: COACH
         image: benjamin_durham.jpg
@@ -594,7 +697,11 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_benjamin_durham.jpg
         popup_alt: benjamin durham
         popup_title: benjamin durham
-        popup_description:
+        popup_description: ! "<p>Born the 26th of January 1977 in Australia</p><p>America's
+                cup partecipations:</p><p>Young Australia (2000)</p><p>OneWorld
+                (2003)</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa</p><p>STP\n
+                65′ (2009)</p><p>Louis Vuitton Trophy – La Maddalena
+                (2010)</p><p>AudiMed Cup (2010)</p>"
       - name: gianni tognozzi
         role: ! ' SHORE TEAM'
         image: gianni_tognozzi.jpg
@@ -602,7 +709,9 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_gianni_tognozzi.jpg
         popup_alt: gianni tognozzi
         popup_title: gianni tognozzi
-        popup_description:
+        popup_description: ! "<p>STP 65, Luna Rossa (2009)</p><p>America’s cup partecipations:</p><p>Luna
+                Rossa Challenge (2007)</p><p>Luna RossaChallenge
+                (2003)</p><p>Prada Challenge (2000)</p>"
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
@@ -610,8 +719,13 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_image: big_nicola_davanzo.jpg
         popup_alt: nicola davanzo
         popup_title: nicola davanzo
-        popup_description:
-
+        popup_description: "<p>From Trieste, Italy, a passionate sailor since many
+                years, he is professionally involved in marketing and communication
+                in the yachting industry. He acquired his specific professional experience
+                in several press and communication offices, then he was involved in
+                the 32nd America's Cup and, later, in the Farr 40, Farr 30 and RC
+                44 circuits. Since 2010 he has been actively collaborating with Team
+                Luna Rossa.</p>"
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -666,12 +780,16 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
     template: 'home2013'
     css_class: 'hp'
     page_mood: 'white'
-    title: "34^ America's Cup"
+    title: "34<sup>th</sup> America's Cup"
     year: '2013'
     image: '/public/images/covers/2013.jpg'
     crop: 'bottom center'
     text: " Foreword by Sir Peter Blake to the book “Luna Rossa” – 30th America’s Cup (2000)"
-    text2: "The America’s Cup is an elusive trophy, and has rarely changed hands in the last 150 years.This is not a sport for the faint hearted. It is not a quest to take lightly or on a whim. It is a fight between sailors from yacht clubs all over the world that desperately want the same thing: get their hands on the Cup..."
+    text2: "The America’s Cup is an elusive trophy and has rarely changed hands in the last 150 years.This is not a sport for the faint hearted. It is not a quest to take lightly or on a whim. It is a fight between sailors from yacht clubs all over the world that desperately want the same thing: get their hands on the Cup..."
     follow: 'Follow us on LUNAROSSACHALLENGE2013.com'
     read: 'Read more'
     link: 'blake.en'
+    aclink: 'http://www.americascup.com/en/Teams/Luna-Rossa-Challenge-2013/Latest/'
+    seo_title: "Luna Rossa challenge 2013 - 34th America's Cup"
+    seo_description: 'The America’s Cup is an elusive trophy and has rarely changed hands in the last 150 years.'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/covers/2013.jpg'
