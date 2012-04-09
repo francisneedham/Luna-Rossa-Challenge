@@ -223,7 +223,7 @@ a{
   position:absolute;
   width:100%;
   z-index:999;
-  h1{
+    h1{
     position:absolute;
     top:44px;
     left:0;
@@ -295,6 +295,9 @@ a{
         family:"ProximaNovaSemiBold";
         size:6em;
       }
+    sup{
+    font-size:0.3em;    
+    vertical-align: super;}
     }
     .year{
       display:block;
@@ -439,6 +442,9 @@ a{
       font:{
         size:1.8em;
       }
+      sup{
+    font-size:0.5em;    
+    vertical-align: super;}
     }
     &.fixed-header{
       position:fixed;
