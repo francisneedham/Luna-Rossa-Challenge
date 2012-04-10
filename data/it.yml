@@ -4,7 +4,7 @@
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    title: 'Sailing Season'
+    title: "30^ America's cup"
     year: '2000'
     image: '/public/images/covers/2000.jpg'
     crop: 'bottom center'
@@ -70,7 +70,7 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    title: 'Sailing Season'
+    title: "31^ America's cup"
     year: '2003'
     image: '/public/images/covers/2003.jpg'
     crop: bottom center
@@ -206,7 +206,7 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     template: 'home'
     css_class: 'hp'
     page_mood: 'grey'
-    title: 'Sailing Season'
+    title: "32^ America's cup"
     year: '2007'
     image: '/public/images/covers/2007.jpg'
     crop: center center
@@ -720,7 +720,6 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
         popup_alt: nicola davanzo
         popup_title: nicola davanzo
         popup_description: <p>Triestino, da anni appassionato di vela, si occupa professionalmente di marketing e comunicazione nel settore nautico. Ha acquisito un’esperienza professionale specifica iniziando la propria attività in seno a diversi uffici stampa e comunicazione, partecipando alla 32^ America's Cup e, successivamente, ai circuiti di regate Farr 40, Farr 30 e RC 44. Dal 2010 collabora attivamente con il team Luna Rossa.</p>
-
   gallery:
     page_mood: 'white'
     template: 'gallery'

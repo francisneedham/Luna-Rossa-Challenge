@@ -4,7 +4,7 @@
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    title: 'Sailing Season'
+    title: "30<sup>th</sup> America's cup"
     year: '2000'
     image: '/public/images/covers/2000.jpg'
     crop: 'bottom center'
@@ -69,7 +69,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    title: 'Sailing Season'
+    title: "31th America's cup"
     year: '2003'
     image: '/public/images/covers/2003.jpg'
     crop: bottom center
@@ -205,7 +205,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     template: 'home'
     css_class: 'hp'
     page_mood: 'grey'
-    title: 'Sailing Season'
+    title: "32<sup>th</sup> America's cup"
     year: '2007'
     image: '/public/images/covers/2007.jpg'
     crop: center center
