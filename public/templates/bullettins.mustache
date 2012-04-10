@@ -1,20 +1,35 @@
-<script type="text/javascript">
-function insertNthChar(string,chr,nth) {
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script type="text/javascript" src="/public/javascripts/jquery.columnizer.min.js"></script>
+      <script>
+    $(function(){
+      $('.pippo').columnize({
+        width : 300,
+        height : 300
+      });
+    });
+  </script>
+<style>
+    .column *{ padding: 5px; }
+    .pippo { clear:both;}
+  </style>
+ <!--<script>
+ function insertNthChar(string,chr,nth) {
   var output = '';
   string=string.replace( /\s\s+/g, " " );
   for (var i=0, i1=0; i<string.length; i++, i1++) {
     if (i!=0){
-      if (string.substr(i,3)=='<p>')
+      if (string.substr(i-2,3)=='<p>')
       { i1-=3;}
-      if (string.substr(i,4)=='</p>')
-      { i1-=4; i1+50;}
-      if (string.substr(i,4)=='<li>')
+      if (string.substr(i-3,4)=='</p>')
+      { i1-=4; i1+=50;}
+      if (string.substr(i-3,4)=='<li>')
       { i1-=4;}
-      if (string.substr(i,5)=='</li>')
+      if (string.substr(i-4,5)=='</li>')
       { i1-=5;}
     }
-    if (i1>0 && i1%nth == 0)
+    if (i1>0 && i1>=nth)
     {
+      i1-=nth;
       var conInd=i, enStar;
       var part, ch;
       ch=string.charAt(i);
@@ -52,7 +67,7 @@ function insertNthChar(string,chr,nth) {
   }
   return output;
 }
-</script>
+</script> -->
 <section class="step bollettini {{page_mood}}">
   <div class="aux">
     <header class="section-title">
@@ -81,11 +96,13 @@ function insertNthChar(string,chr,nth) {
                   </a>
                 </article>
                 <ul class="detail">
-                <script>           
-  var code="{{{details}}}";
-  document.write(insertNthChar(code, '</p></li><li><p>', 450))
-</script>
-                  
+                  <li class="pippo" style="width:900px;">
+                    {{{details}}}
+                  <!-- <script>
+                  var code="{{{details}}}";
+                  document.write(insertNthChar(code, '</p></li><li><p>', 750))
+                  </script>  -->                  
+                  </li>
                 </ul>
               </li>
               {{/items}}
@@ -100,6 +117,7 @@ function insertNthChar(string,chr,nth) {
         </div>
        </div>
        <!-- fine bollettini -->
+
      </div>
      <menu class="section-arrow">
        <li><a href="{{prev}}" class="prev-page">previous page</a></li>
