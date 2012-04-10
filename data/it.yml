@@ -27,7 +27,49 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     description: 'Il team Luna Rossa scrive un pezzo di storia sconfiggendo 10 avversari, con un record di 38 vittorie su 49 regate disputate.
 L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e grigia; ci vogliono tutte le 9 regate previste dal regolamento per vincere la Louis Vuitton Cup ed avere così il diritto di affrontare i neozelandesi nel Match finale.
 È la prima volta che uno skipper italiano partecipa al Match finale della Coppa America, ed è la prima volta che questa si disputa senza una barca americana.'
-
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2000</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 1
+        caption: Round Robin 1
+        date: 28/10/1999
+        details: <p><img src=/public/images/archive/2000_1.gif></p></li><li style=border-left:none;>
+      - number: '.02'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 2
+        caption: Round Robin 2
+        date: 20/11/99
+        details: <p><img src=/public/images/archive/2000_2.gif></p></li><li style=border-left:none;>
+      - number: '.03'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 3
+        caption: Round Robin 3
+        date: 15/12/99
+        details: <p><img src=/public/images/archive/2000_3.gif></p></li><li style=border-left:none;>
+      - number: '.04'
+        image: /public/images/placeholder/bollettini.png
+        alt: Semifinali
+        caption: Semifinali
+        date: 14/01/00
+        details: <p><img src=/public/images/archive/2000_4.gif></p></li><li style=border-left:none;>
+      - number: '.05'
+        image: /public/images/placeholder/bollettini.png
+        alt: Finali
+        caption: Finali
+        date: 25/02/00
+        details: <p><img src=/public/images/archive/2000_5.gif></p></li><li style=border-left:none;>
+      - number: '.06'
+        image: /public/images/placeholder/bollettini.png
+        alt: Coppa America
+        caption: Coppa America
+        date: 02/03/00
+        details: <p><img src=/public/images/archive/2000_6.gif></p></li><li style=border-left:none;>
   gallery:
     page_mood: 'grey'
     template: 'gallery'
@@ -86,6 +128,61 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     title: 'Sailing season<span> 2003</span>'
     subtitle: "31^ America's cup"
     description: '"Another beautiful day in the Hauraki Gulf". Ancora qui. Di nuovo qui. Tre barche in acqua: due Luna Rossa e Young America. Tre mesi a disposizione per riprendere confidenza con il Golfo di Hauraki. A fine estate (australe) si torna in Italia per continuare il lungo processo di apprendimento e miglioramento in mare e a terra.'
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2003</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 1
+        caption:  Round Robin 1
+        date: 23/10/2002
+        details: <p><img src=/public/images/archive/2003_1.gif></p></li><li style=border-left:none;>
+      - number: '.02'
+        image: /public/images/placeholder/bollettini.png
+        alt: Round Robin 2
+        caption: Round Robin 2
+        date: 03/11/02
+        details: <p><img src=/public/images/archive/2003_2.gif></p></li><li style=border-left:none;>
+      - number: '.03'
+        image: /public/images/placeholder/bollettini.png
+        alt: Quarti di finale
+        caption: Quarti di finale
+        date: 18/11/02
+        details: <p><img src=/public/images/archive/2003_3.gif></p></li><li style=border-left:none;>
+      - number: '.04'
+        image: /public/images/placeholder/bollettini.png
+        alt: Repechage quarti
+        caption: Repechage quarti
+        date: 30/11/02
+        details: <p><img src=/public/images/archive/2003_4.gif></p></li><li style=border-left:none;>
+      - number: '.05'
+        image: /public/images/placeholder/bollettini.png
+        alt: Semifinali
+        caption: Semifinali
+        date: 17/12/02
+        details: <p><img src=/public/images/archive/2003_5.gif></p></li><li style=border-left:none;>
+      - number: '.06'
+        image: /public/images/placeholder/bollettini.png
+        alt: Repechage semifinali
+        caption: Repechage semifinali
+        date: 23/12/02
+        details: <p><img src=/public/images/archive/2003_6.gif></p></li><li style=border-left:none;>
+      - number: '.07'
+        image: /public/images/placeholder/bollettini.png
+        alt: Finali
+        caption: Finali
+        date: 19/01/03
+        details: <p><img src=/public/images/archive/2003_7.gif></p></li><li style=border-left:none;>
+      - number: '.08'
+        image: /public/images/placeholder/bollettini.png
+        alt: Coppa America
+        caption: Coppa America
+        date: 02/03/03
+        details: <p><img src=/public/images/archive/2003_8.gif></p></li><li style=border-left:none;>
   gallery:
     page_mood: 'white'
     template: 'gallery'
@@ -227,6 +324,127 @@ I due partner di Luna Rossa Challenge 2007 sono il Gruppo Prada e il Gruppo Tele
 Presente a Valencia gia’ dal febbraio 2004, il Team Luna Rossa è stato il primo consorzio a insediarsi nella sede prescelta per la 32^ America’s Cup, iniziando nel maggio dello stesso anno gli allenamenti in mare con ITA 74 e ITA 80.
 Mantenendo integro lo storico nucleo originario del Team, viene promossa una lunga fase di rinnovamento inserendo in tutti i settori elementi di grande valore e puntando con decisione sulle tecnologie più all’avanguardia.
 Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, shore team, meteo, performance, boat builders, veleria, logistica, amministrazione e management) sono impegnate circa 150 persone in rappresentanza di 18 nazioni.'
+  bullettins:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2007</span>"
+    subtitle: 'bollettini'
+    items:
+      - number: '.01'
+        image: /public/images/placeholder/bollettini.png
+        alt: 'ACT 1'
+        caption: 'ACT 1'
+        date: 07/09/2004
+        details: <p><img src=/public/images/archive/2007_1.gif></p></li><li style=border-left:none;>
+      - number: '.02'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 2
+        caption: ACT 2
+        date: 12/10/04
+        details: <p><img src=/public/images/archive/2007_2.gif></p></li><li style=border-left:none;>
+      - number: '.03'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 3
+        caption: ACT 3
+        date: 17/10/04
+        details: <p><img src=/public/images/archive/2007_3.gif></p></li><li style=border-left:none;>
+      - number: '.04'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 4
+        caption: ACT 4
+        date: 21/06/05
+        details: <p><img src=/public/images/archive/2007_4.gif></p></li><li style=border-left:none;>
+      - number: '.05'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 5
+        caption: ACT 5
+        date: 26/06/05
+        details: <p><img src=/public/images/archive/2007_5.gif></p></li><li style=border-left:none;>
+      - number: '.06'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 6
+        caption: ACT 6
+        date: 31/08/05
+        details: <p><img src=/public/images/archive/2007_6.gif></p></li><li style=border-left:none;>
+      - number: '.07'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 7
+        caption: ACT 7
+        date: 04/09/05
+        details: <p><img src=/public/images/archive/2007_7.gif></p></li><li style=border-left:none;>
+      - number: '.08'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 8
+        caption: ACT 8
+        date: 05/10/05
+        details: <p><img src=/public/images/archive/2007_8.gif></p></li><li style=border-left:none;>
+      - number: '.09'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 9
+        caption: ACT 9
+        date: 09/10/05
+        details: <p><img src=/public/images/archive/2007_9.gif></p></li><li style=border-left:none;>
+      - number: '.10'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 10
+        caption: ACT 10
+        date: 18/05/06
+        details: <p><img src=/public/images/archive/2007_10.gif></p></li><li style=border-left:none;>
+      - number: '.11'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 11
+        caption: ACT 11
+        date: 21/05/06
+        details: <p><img src=/public/images/archive/2007_11.gif></p></li><li style=border-left:none;>
+      - number: '.12'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 12
+        caption: ACT 12
+        date: 03/07/06
+        details: <p><img src=/public/images/archive/2007_12.gif></p></li><li style=border-left:none;>
+      - number: '.13'
+        image: /public/images/placeholder/bollettini.png
+        alt: ACT 13
+        caption: ACT 13
+        date: 03/04/07
+        details: <p><img src=/public/images/archive/2007_13.gif></p></li><li style=border-left:none;>
+      - number: '.14'
+        image: /public/images/placeholder/bollettini.png
+        alt: LOUIS VUITTON RANKING SUMMARY BOARD
+        caption: LOUIS VUITTON RANKING SUMMARY BOARD
+        date: 07/04/07
+        details: <p><img src=/public/images/archive/2007_14.gif></p></li><li style=border-left:none;>
+      - number: '.15'
+        image: /public/images/placeholder/bollettini.png
+        alt: ROUND ROBIN 1
+        caption: ROUND ROBIN 1
+        date: 28/04/07
+        details: <p><img src=/public/images/archive/2007_15.gif></p></li><li style=border-left:none;>
+      - number: '.16'
+        image: /public/images/placeholder/bollettini.png
+        alt: ROUND ROBIN 2
+        caption: ROUND ROBIN 2
+        date: 09/05/07
+        details: <p><img src=/public/images/archive/2007_16.gif></p></li><li style=border-left:none;></li>
+      - number: '.17'
+        image: /public/images/placeholder/bollettini.png
+        alt: SEMIFINALI
+        caption: SEMIFINALI
+        date: 24/05/07
+        details: <p><img src=/public/images/archive/2007_17.gif></p></li><li style=border-left:none;>
+      - number: '.18'
+        image: /public/images/placeholder/bollettini.png
+        alt: FINALE
+        caption: FINALE
+        date: 12/06/07
+        details: <p><img src=/public/images/archive/2007_18.gif></p></li><li style=border-left:none;>
+      - number: '.19'
+        image: /public/images/placeholder/bollettini.png
+        alt: AMERICA'S CUP
+        caption: AMERICA'S CUP
+        date: 04/07/07
+        details: <p><img src=/public/images/archive/2007_19.gif></p></li><li style=border-left:none;>
   gallery:
     page_mood: 'white'
     template: 'gallery'
