@@ -1,18 +1,11 @@
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!-- script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
       <script type="text/javascript" src="/public/javascripts/jquery.columnizer.min.js"></script>
-      <script>
-    $(function(){
-      $('.pippo').columnize({
-        width : 300,
-        height : 300
-      });
-    });
-  </script>
+    
 <style>
     .column *{ padding: 5px; }
     .pippo { clear:both;}
   </style>
- <!--<script>
+ <script>
  function insertNthChar(string,chr,nth) {
   var output = '';
   string=string.replace( /\s\s+/g, " " );
@@ -96,7 +89,7 @@
                   </a>
                 </article>
                 <ul class="detail">
-                  <li class="pippo" style="width:900px;">
+                  <li class="pippo">
                     {{{details}}}
                   <!-- <script>
                   var code="{{{details}}}";
@@ -117,7 +110,6 @@
         </div>
        </div>
        <!-- fine bollettini -->
-
      </div>
      <menu class="section-arrow">
        <li><a href="{{prev}}" class="prev-page">previous page</a></li>
