@@ -1,7 +1,18 @@
 <script type="text/javascript">
 function insertNthChar(string,chr,nth) {
   var output = '';
+  string=string.replace( /\s\s+/g, " " );
   for (var i=0, i1=0; i<string.length; i++, i1++) {
+    if (i1!=0){
+      if (string.substr(i1,3)=='<p>')
+      { i1+=3; i+=3; }
+      if (string.substr(i1,4)=='</p>')
+      { i1+=4; i+=4; }
+      if (string.substr(i1,4)=='<li>')
+      { i1+=4; i+=4; }
+      if (string.substr(i1,5)=='</li>')
+      { i1+=5; i+=5; }
+    }
     if (i1>0 && i1%nth == 0)
     {
       var conInd=i, enStar;
@@ -20,7 +31,7 @@ function insertNthChar(string,chr,nth) {
 //        if (k.search('<p>')  != 1  || k.search('</p>')  != 1 || k.search('<li>')  != 1 || k.search('</li>')  != 1)
         p = k.search('<p>') + k.search('</p>') + k.search('<li>') + k.search('</li>');
         if (p!=-4)
-          conInd = p + 3 + k1 - 1;
+          conInd = p + 3 + k1-1;
       }
       if (conInd == i)
       { 
@@ -31,12 +42,12 @@ function insertNthChar(string,chr,nth) {
       }
       if (conInd!=i)
       {
-        output = output.substr(0,conInd-1) + chr + output.substr(conInd, i-conInd+1);
-        i=conInd;
+        output = output.substr(0,output.length-i+conInd) + chr + output.substr(output.length-i+conInd+1, i-conInd);
       }
       else
         output += chr;
     }
+//    else
     output += string.charAt(i);
   }
   return output;
@@ -70,8 +81,7 @@ function insertNthChar(string,chr,nth) {
                   </a>
                 </article>
                 <ul class="detail">
-                <script>
-             
+                <script>           
   var code="{{{details}}}";
   document.write(insertNthChar(code, '</p></li><li><p>', 600))
 </script>

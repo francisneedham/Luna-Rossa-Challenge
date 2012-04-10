@@ -511,7 +511,7 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
     page_mood: 'white'
     image: '/public/images/covers/2011.jpg'
     crop: 'top center'
-    title: 'Sailing Season'
+    title: 'Sailing Season 2011'
     year: '2011'
   intro:
     template: 'intro'
