@@ -69,7 +69,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    title: "31th America's cup"
+    title: "31<sup>th</sup> America's cup"
     year: '2003'
     image: '/public/images/covers/2003.jpg'
     crop: bottom center
