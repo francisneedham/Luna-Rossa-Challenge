@@ -511,7 +511,7 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
     page_mood: 'white'
     image: '/public/images/covers/2011.jpg'
     crop: 'top center'
-    title: 'Sailing Season 2011'
+    title: 'Sailing Season'
     year: '2011'
   intro:
     template: 'intro'
@@ -526,6 +526,7 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
     description: 'Le “Extreme Sailing Series” si svolgono, da Febbraio a Dicembre, su un calendario internazionale di 9 prove e rappresentano uno dei più impegnativi e spettacolari circuiti della vela professionistica mondiale.
 L’equipaggio è composto da 4 persone e le imbarcazioni – catamarani di 40′ (circa 12 m) ultraleggeri – sono capaci di sviluppare velocità di oltre 25 nodi, dando vita a regate di flotta spettacolari, con duelli che spesso si risolvono a pochi metri dalla linea d’arrivo.
 Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht Club Punta Ala.'
+
   team:
     template: 'team'
     css_class: 'team'
