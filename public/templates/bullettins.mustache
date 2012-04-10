@@ -1,3 +1,47 @@
+<script type="text/javascript">
+function insertNthChar(string,chr,nth) {
+  var output = '';
+  for (var i=0, i1=0; i<string.length; i++, i1++) {
+    if (i1>0 && i1%nth == 0)
+    {
+      var conInd=i, enStar;
+      var part, ch;
+      ch=string.charAt(i);
+      if (chr.search(ch)!=-1)
+      {
+        var k, k1,p;
+        if (ch=='>')
+        { k = string.substr(i-4,5); k1=i-4; }
+        else if (ch=='<')
+        { k = string.substr(i,5); k1=i; }
+        else
+        { k = string.substr(i-3, 6); k1=i-3; }
+//        alert(k);
+//        if (k.search('<p>')  != 1  || k.search('</p>')  != 1 || k.search('<li>')  != 1 || k.search('</li>')  != 1)
+        p = k.search('<p>') + k.search('</p>') + k.search('<li>') + k.search('</li>');
+        if (p!=-4)
+          conInd = p + 3 + k1 - 1;
+      }
+      if (conInd == i)
+      { 
+        while ((string.charAt(conInd)>='a' && string.charAt(conInd)<='z') || (string.charAt(conInd)>='A' && string.charAt(conInd)<='Z'))
+        {
+          conInd--;
+        }
+      }
+      if (conInd!=i)
+      {
+        output = output.substr(0,conInd-1) + chr + output.substr(conInd, i-conInd+1);
+        i=conInd;
+      }
+      else
+        output += chr;
+    }
+    output += string.charAt(i);
+  }
+  return output;
+}
+</script>
 <section class="step bollettini {{page_mood}}">
   <div class="aux">
     <header class="section-title">
@@ -27,7 +71,11 @@
                 </article>
                 <ul class="detail">
                 <script>
-                  {{{details}}}
+             
+  var code="{{{details}}}";
+  document.write(insertNthChar(code, '</p></li><li><p>', 600))
+</script>
+                  
                 </ul>
               </li>
               {{/items}}
