@@ -24,6 +24,15 @@ class RedMoon
           @data[name][year]['bullettins']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
         end
 
+        if @data[name][year].key? 'bullettins-lv'
+          @data[name][year]['bullettins-lv']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
+        end
+
+        if @data[name][year].key? 'bullettins-au'
+          @data[name][year]['bullettins-au']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
+        end
+
+
       end
     end
 
