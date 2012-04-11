@@ -2400,7 +2400,7 @@ for the Prada Group since 1999. </ p>"
     page_mood: 'white'
     image: '/public/images/covers/2011.jpg'
     crop: 'top center'
-    title: 'Sailing Season 2011'
+    title: 'Sailing Season'
     year: '2011'
   intro:
     template: 'intro'
