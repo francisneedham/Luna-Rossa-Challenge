@@ -1009,10 +1009,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_ed_baird.jpg
         popup_alt: ed baird
         popup_title: ed baird
-        popup_description: <p>Nato il 17 maggio del 1958  in Florida, Stati Uniti</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore Alinghi, timoniere
-                (2007)</p><p>Young America, timoniere (2000)</p><p>Vincitore con Team
-                New Zealand, secondo timoniere (1995)</p>
+        popup_description: "<p>Born the 17 of May 1958  in Florida,USA</p><p>Previous America's cup</p>
+                <p>Winner with Alinghi, trimmer
+                        (2007)</p><p>Young America, trimmer (2000)</p><p>Winner with Team
+                        New Zealand, second trimmer (1995)</p>"
       - name: torben grael
         role: tactician
         image: torben_grael.jpg
@@ -1020,30 +1020,30 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_torben_grael.jpg
         popup_alt: torben grael
         popup_title: torben grael
-        popup_description: <p>Precedenti partecipazioni in Coppa America:</p><p>Luna
-                Rossa (2009)</p><p>Luna Rossa (2007)</p><p>Luna Rossa (2003)</p><p>Luna
-                Rossa (2000)</p><p>5 medaglie Olimpiche:</p><p>Medaglia d’oro in Star
-                – Atene (2004)</p><p>Medaglia di bronzo in Star – Sydney (2000)</p><p>Medaglia
-                d’oro in Star – Atlanta (1996)</p><p>Medaglia di bronzo in Star –
-                Seoul (1988)</p><p>Medaglia d’argento in Soling – Los Angeles (1984)</p><p>Volvo
-                Ocean Race – Giro del mondo:</p><p>Vincitore con Ericsson 4 (2008-09)</p><p>3°
-                posto con Brasil 1 (2005-06)</p><p>6 titoli mondiali</p><p>Star, Cleveland
-                – USA (1990)</p><p>Snipe, La Rochelle – France (1987)</p><p>Snipe
-                O Porto – Portugal (1983)</p><p>Snipe Jr, San Diego – USA (1978)</p><p>One
-                Tonner, Skovshoved – Denmark (1992)</p><p>12 Metre, Saint Tropez –
-                France (1999)</p><p>12 titoli Internazionali</p><p>Star Europeans
-                Cascais – Portugal (2003)</p><p>Star Europeans Marseille – France
-                (2001)</p><p>Star Europeans Balathon – Hungary (1991)</p><p>Star Europeans
-                Palermo – Italy (1990)</p><p>Star Europeans Travemunde – Germany (1989)</p><p>Star
-                South Americans Rio de Janeiro – Brazil (2004)</p><p>Star South Americans
-                Rio de Janeiro – Brazil (2002)</p><p>Star South Americans Buzios –
-                Brazil (1996)</p><p>Star South Americans Rio de Janeiro – Brazil (1995)</p><p>Star
-                South Americans Rio de Janeiro – Brazil (1991)</p><p>Soling Pan Americans
-                Caracas – Venezuela (1983)</p><p>Soling North Americans Sarnia – Canada
-                (1981)</p><p>45 Titoli Nazionali in Brasile:</p><p>Star 7th District
-                – 10 vittorie</p><p>Star Nationals – 8 vittorie</p><p>Soling – 7 vittorie</p><p>Snipe
-                - 7 vittorie</p><p>Match Race – 4 vittorie</p><p>Laser - 2 vittorie</p><p>Finn
-                – 3 vittorie</p><p>IMS – 2 vittorie</p><p>IOR - 2 vittorie</p>
+        popup_description: "<p> Previous America's Cup </ p> Luna
+                        Red (2009) </ p> Luna Rossa (2007) </ p> Luna Rossa (2003) </ p> Luna
+                        Red (2000) </ p> 5 Olympic medals: </ p> gold medal in the Star
+                        - Athens (2004) </ p> bronze medal in the Star - Sydney (2000) </ p> Medal
+                        Gold on Star - Atlanta (1996) </ p> bronze medal in the Star -
+                        Seoul (1988) </ p> silver medal in the Soling - Los Angeles (1984) </ p> Volvo
+                        Ocean Race - Around the World: </ p> Winner with Ericsson 4 (2008-09) </ p> 3 °
+                        place with Brasil 1 (2005-06) </ p> 6 world titles </ p> Star, Cleveland
+                        - USA (1990) </ p> Snipe, La Rochelle - France (1987) </ p> Snipe
+                        O Porto - Portugal (1983) </ p> Snipe Jr, San Diego - USA (1978) </ p> One
+                        Tonner, Skovshoved - Denmark (1992) </ p> 12 Metre, Saint Tropez -
+                        France (1999) </ p> 12 International titles </ p> Star Europeans
+                        Cascais - Portugal (2003) </ p> Star Europeans Marseille - France
+                        (2001) </ p> Star Balathon Europeans - Hungary (1991) </ p> Star Europeans
+                        Palermo - Italy (1990) </ p> Star Travemunde Europeans - Germany (1989) </ p> Star
+                        South Americans Rio de Janeiro - Brazil (2004) </ p> Star South Americans
+                        Rio de Janeiro - Brazil (2002) </ p> Star Buzios South Americans -
+                        Brazil (1996) </ p> Star South Americans Rio de Janeiro - Brazil (1995) </ p> Star
+                        South Americans Rio de Janeiro - Brazil (1991) </ p> Soling Pan Americans
+                        Caracas - Venezuela (1983) </ p> Soling North Americans Sarnia - Canada
+                        (1981) </ p> 45 National Titles in Brazil: </ p> Star 7th District
+                        - 10 wins </ p> Star Nationals - 8 wins </ p> Soling - 7 wins </ p> Snipe
+                        - 7 wins </ p> Match Race - 4 wins </ p> Laser - 2 wins </ p> Finn
+                        - 3 wins </ p> IMS - 2 wins </ p> IOR - 2 wins </ p>"
       - name: robert scheidt
         role: strategist
         image: robert_scheidt.jpg
@@ -1051,11 +1051,11 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_robert_scheidt.jpg
         popup_alt: robert scheidt
         popup_title: robert scheidt
-        popup_description: <p>Nato il 15 aprile 1973 in Brasile.</p><p>Argento Classe
-                Star a Pechino, 2008</p><p>Oro Classe Laser ad Atlanta, 1996 e ad
-                Atene, 2004</p><p>Argento Classe Laser a Sydney, 2000</p><p>Campione
-                del mondo Classe Star 2007</p><p>Campione del mondo Classe Laser:</p><p>1995,
-                1996, 1997, 2000, 2001, 2002, 2004, 2005</p>
+        popup_description: "<p> Born the 15th of April 1973 in Brasil. </ p> Silver Class
+                 Star in Beijing, 2008 </ p> Gold Class Laser Atlanta, in 1996 and
+                 Athens, 2004 </ p> Sydney Silver Laser Class, 2000 </ p> Champion
+                 World Class Star 2007 </ p> Laser Class World Champion: </ p> 1995,
+                 1996, 1997, 2000, 2001, 2002, 2004, 2005 </ p>"
       - name: matteo plazzi
         role: navigator
         image: matteo_plazzi_s.jpg
@@ -1063,9 +1063,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_matteo_plazzi_s.jpg
         popup_alt: matteo plazzi
         popup_title: matteo plazzi
-        popup_description: <p>Precedenti partecipazioni in Coppa America:</p><p>Vincitore
-                con Bmw Oracle Racing (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada
-                Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p>
+        popup_description: "<p> Previous America's Cup </ p> Winner
+with BMW Oracle Racing (2010) </ p> Luna Rossa Challenge (2007) </ p> Prada
+Challenge (2003) </ p> Prada Challenge (2000) </ p> Azzurra (1987) </ p>"
       - name: ! 'massimiliano sirena '
         role: runners and head of the technical and sailing programme
         image: massimiliano_sirena.jpg
@@ -1073,10 +1073,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_massimiliano_sirena.jpg
         popup_alt: ! 'massimiliano sirena '
         popup_title: ! 'massimiliano sirena '
-        popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
-                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
-                Challenge (2000)</p><p>Campionati mondiali</p><p>Artemis, TP 52 (2007)</p>
+        popup_description: "<p>Born the Dec. 4, 1971 in Italy. </ p> Previous America's Cup: </ p> Winner with BMW Oracle Racing
+                 (2010) </ p> Luna Rossa Challenge (2007) </ p> Prada Challenge (2003) </ p> Prada
+                 Challenge (2000) </ p> World championships </ p> Artemis, TP 52 (2007) </ p>
+"
       - name: claudio celon
         role: trimmer
         image: claudio_celon.jpg
@@ -1084,10 +1084,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_claudio_celon.jpg
         popup_alt: claudio celon
         popup_title: claudio celon
-        popup_description: <p>Nato il 19 aprile 1961 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
-                (2007)</p><p>Tre partecipazioni in team olimpici, Volvo Ocean Race
-                su Amer Sports One</p>
+        popup_description: "<p> Born the 19th of April 1961 in Italy </ p> Past participations
+America's Cup: </ p> Italy (1985) </ p> Prada Challenge (2000) </ p> Alinghi
+(2007) </ p> Three participations in the Olympic Team, Volvo Ocean Race
+on Amer Sports One </ p>"
       - name: ! 'francesco rapetti '
         role: mastman
         image: francesco_rapetti_.jpg
@@ -1095,12 +1095,12 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_francesco_rapetti_.jpg
         popup_alt: ! 'francesco rapetti '
         popup_title: ! 'francesco rapetti '
-        popup_description: <p>Nato il 10 ottobre del 1965 a Rapallo, Italia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Alinghi (2010)</p><p>Vincitore
-                con Alinghi (2007)</p><p>Vincitore con Alinghi (2003)</p><p>Il Moro
-                di Venezia (1992)</p><p>Campionati Mondiali:</p><p>1° Brava-Q8 (2001)</p><p>1°
-                Abracadabra 50′ (1991)</p><p>Passage to Venice (1991)</p><p>Regate
-                Internazionali</p><p>2° Admiral’s Cup 1991-1993</p>
+        popup_description: "<p> Born the October 10th, 1965 in Rapallo, Italy </ p> Previous
+participations in America's Cup: </ p> Alinghi (2010) </ p> Winner
+Alinghi (2007) </ p> Winner Alinghi (2003) </ p> The Moor
+Venice (1992) </ p> World championships: </ p> 1, Brava Q8-(2001) </ p> 1,
+Abracadabra 50 '(1991) </ p> Passage to Venice (1991) </ p>
+International Regattas </ p> 2 ° Admiral's Cup 1991-1993 </ p>"
       - name: manuel modena
         role: traveller
         image: manuel_modena.jpg
@@ -1108,11 +1108,11 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_manuel_modena.jpg
         popup_alt: manuel modena
         popup_title: manuel modena
-        popup_description: <p>Nato il 22 novembre 1975 a Rovereto in Italia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team
-                olimpico Atene (2000-2004)</p><p>Campionati Mondiali:</p><p>1° Melges
-                24 (2005)</p><p>Regate Internazionali:</p><p>1° Asso99 (2004)</p><p>Luna
-                Rossa, Fastnet (2009)</p><p>Luna Rossa, Middle Sea Race (2009)</p>
+        popup_description: "<p>Born the 22 of November 1975 in Rovereto Italy</p><p>Previous
+        participations in America's Cup:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team
+                        olimpico Atene (2000-2004)</p><p>World championships:</p><p>1° Melges
+                        24 (2005)</p><p>International regattas:</p><p>1° Asso99 (2004)</p><p>Luna
+                        Rossa, Fastnet (2009)</p><p>Luna Rossa, Middle Sea Race (2009)</p>"
       - name: simone de mari
         role: pitman
         image: simone_de_mari.jpg
@@ -1120,9 +1120,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_simone_de_mari.jpg
         popup_alt: simone de mari
         popup_title: simone de mari
-        popup_description: <p>Precedenti partecipazioni in Coppa America:</p><p>Vincitore
-                con BMW Oracle Racing (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada
-                Challenge (2003)</p><p>Prada Challenge (2000)</p>
+        popup_description: "<p>Previous America's cup</p><p>Winner
+                        with BMW Oracle Racing (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada
+                        Challenge (2003)</p><p>Prada Challenge (2000)</p>"
       - name: romolo ranieri
         role: grinder
         image: romolo_ranieri.jpg
@@ -1138,10 +1138,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_lorenzo_mazza.jpg
         popup_alt: lorenzo mazza
         popup_title: lorenzo mazza
-        popup_description: <p>Nato il 22 Febbraio del 1962 a Firenze (ITA).</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Alinghi (2010)</p><p>Alinghi
-                (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
-                Moro di Venezia (1992)</p><p>Italia (1987)</p><p>Azzurra (1983)</p>
+        popup_description: "<p>Born the 22 of February 1962 in Firenze (ITA).</p><p>Previous
+        participations in America's Cup:</p><p>Alinghi (2010)</p><p>Alinghi
+                        (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
+                        Moro di Venezia (1992)</p><p>Italia (1987)</p><p>Azzurra (1983)</p>"
       - name: claudio celon
         role: trimmer
         image: claudio_celon.jpg
@@ -1149,10 +1149,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_claudio_celon.jpg
         popup_alt: claudio celon
         popup_title: claudio celon
-        popup_description: <p>Nato il 19 aprile 1961 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
-                (2007)</p><p>Tre partecipazioni in team olimpici, Volvo Ocean Race
-                su Amer Sports One</p>
+        popup_description: "<p>Born the 19 of April 1961 in Italy</p><p>Previous
+        participations in America's Cup:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
+                        (2007)</p><p>Three partecipations in olimpic teams, Ocean Race
+                        on Amer Sports One</p>"
       - name: benjamin durham
         role: mainsail trimmer
         image: benjamin_durham.jpg
@@ -1160,33 +1160,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_benjamin_durham.jpg
         popup_alt: benjamin durham
         popup_title: benjamin durham
-        popup_description: <p>Nato il 26 gennaio 1977 in Australia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Young Australia (2000)</p><p>One
-                World (2003)</p><p>Luna Rossa Challenge (2007)</p>
-      - name: francesco rapetti
-        role: mastman
-        image: francesco_rapetti.jpg
-        alt: francesco rapetti
-        popup_image: big_francesco_rapetti.jpg
-        popup_alt: francesco rapetti
-        popup_title: francesco rapetti
-        popup_description: <p>Nato il 10 ottobre del 1965 a Rapallo, Italia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Alinghi (2010)</p><p>Vincitore
-                con Alinghi (2007)</p><p>Vincitore con Alinghi (2003)</p><p>Il Moro
-                di Venezia (1992)</p><p>Campionati Mondiali:</p><p>1° Brava-Q8 (2001)</p><p>1°
-                Abracadabra 50′ (1991)</p><p>Passage to Venice (1991)</p><p>Regate
-                Internazionali</p><p>2° Admiral’s Cup 1991-1993</p>
-      - name: ! 'simone de mari '
-        role: pitman
-        image: simone_de_mari_.jpg
-        alt: ! 'simone de mari '
-        popup_image: big_simone_de_mari_.jpg
-        popup_alt: ! 'simone de mari '
-        popup_title: ! 'simone de mari '
-        popup_description: <p>Nato il 5 giugno del 1973 a Rapallo, Italia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore con BMW Oracle Racing
-                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
-                Challenge (2000)</p>
+        popup_description: "<p>Born the 26 of January 1977 in Australia</p><p>Previous
+                participations in America's Cup:</p><p>Young Australia (2000)</p><p>One
+                        World (2003)</p><p>Luna Rossa Challenge (2007)</p>"
       - name: rodney ardern
         role: grinder
         image: rodney_ardern.jpg
@@ -1202,9 +1178,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_emanuele_marino.jpg
         popup_alt: emanuele marino
         popup_title: emanuele marino
-        popup_description: <p>Nato il 5 maggio 1972 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Prada Challenge (2003)</p><p>Luna Rossa Challenge
-                (2007)</p>
+        popup_description: "<p>Born the 5 maggio 1972 in Italia</p><p>PPrevious
+        participations in America's Cup:</p><p>Prada Challenge (2003)</p><p>Luna Rossa Challenge
+                        (2007)</p>"
       - name: will mc carthy
         role: grinder
         image: will_mc_carthy.jpg
@@ -1220,8 +1196,8 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_marco_montis_.jpg
         popup_alt: ! 'marco montis '
         popup_title: ! 'marco montis '
-        popup_description: <p>Nato il 5 dicembre 1971 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Mascalzone Latino (2007)</p>
+        popup_description: "<p>Born the 5 of December 1971 in Italy</p><p>Previous
+                participations in America's Cup: </p><p>Mascalzone Latino (2007)</p>"
       - name: wade morgan
         role: grinder
         image: wade_morgan.jpg
@@ -1229,8 +1205,8 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_wade_morgan.jpg
         popup_alt: wade morgan
         popup_title: wade morgan
-        popup_description: <p>Nato il 5 marzo 1981 in Australia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Areva Challenge (2007)</p>
+        popup_description: "<p>Born the 5 of March 1981 in Australia</p><p>Previous
+                participations in America's Cup:</p><p>Areva Challenge (2007)</p>"
       - name: greg gendell
         role: mid bowman
         image: greg_gendell.jpg
@@ -1238,13 +1214,12 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_greg_gendell.jpg
         popup_alt: greg gendell
         popup_title: greg gendell
-        popup_description: <p>Nato il 30 Aprile del 1970 a Washington D.C. (USA).</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Stars and Stripes (2003)</p><p>Abracadabra
-                (2000)</p><p>Campionati mondiali</p><p>Mondiale Maxi (2008)</p><p>TP
-                52 Worlds (2008)</p><p>Swan 45 Worlds (2007)</p><p>IMS Worlds (2000)</p><p>Regate
-                internazionali</p><p>Withbread Around the World (1997-1998)</p><p>Regate
-                nazionali</p><p>Plurivincitore dei Campionati Americani e Nord Americani
-                (1997-1998)</p>
+        popup_description: "<p>Born the 30 of April del 1970 in Washington D.C. (USA).</p><p>Previous
+        participations in America's Cup:</p><p>Stars and Stripes (2003)</p><p>Abracadabra
+                        (2000)</p><p>World championships</p><p>Mondiale Maxi (2008)</p><p>TP
+                        52 Worlds (2008)</p><p>Swan 45 Worlds (2007)</p><p>IMS Worlds (2000)</p><p> International Regattas
+        </ p> Withbread Around the World (1997-1998) </ p> National Regattas
+        </ p>successful rider of the  American and North Americans Championships(1997-1998) </ p>"
       - name: ! 'antonio marrai '
         role: team manager
         image: antonio_marrai_.jpg
@@ -1252,10 +1227,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_antonio_marrai_.jpg
         popup_alt: ! 'antonio marrai '
         popup_title: ! 'antonio marrai '
-        popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
-                Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p>Campionati
-                mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>
+        popup_description: "<p> Born inSeravezza (ITA) on 24.08.1953 </ p> Previous
+participations in America's Cup: </ p> Luna Rossa Challenge (2007) </ p> Prada
+Challenge (2003) </ p> Prada Challenge (2000) </ p> Blue (1987) </ p> Championships
+world </ p> 1, Maxis, Lombard (1989) </ p> 12 Meters (1984-1985) </ p>"
       - name: luis saenz
         role: general counsel
         image: luis_saenz.jpg
@@ -1271,10 +1246,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_monique_galassi.jpg
         popup_alt: ! 'monique galassi '
         popup_title: ! 'monique galassi '
-        popup_description: <p>Nata in Francia è di nazionalità italo-americana.</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna
-                Rossa Challenge (2003)</p><p>Louis Vuitton Pacific Series (2009)</p><p>Lavora
-                per il Gruppo Prada dal 1999.</p>      
+        popup_description: "<p> Born in France has a Italian-American nationality. </ p> Previous
+participations in America's Cup: </ p> Luna Rossa Challenge (2007) </ p> Luna
+Rossa Challenge (2003) </ p> Louis Vuitton Pacific Series (2009) </ p> Work
+for the Prada Group since 1999. </ p>"     
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
@@ -2104,21 +2079,21 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_lorenzo_bressani.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato a Trieste il 28 giugno 1973.</p><p>7 TITOLI MONDIALI:</p><p>-
-                ILC 25, Malta (1999)</p><p>- IMS, Porto Cervo – ITA (1999)</p><p>-
-                J24, Medemblik – NED (2003)</p><p>- Maxi, Porto Cervo – ITA (2003)</p><p>-
-                IMS, Neustadt – GER (2005)</p><p>- Melges 24, Porto Cervo – ITA (2008)
-                e Tallin – ESTONIA (2010)</p><p>7 TITOLI EUROPEI:</p><p>- J 22, Porto
-                Rotondo – ITA (1999)</p><p>- Platu 25, Anzio – ITA (2002)</p><p>-
-                IMS, Punta Ala – ITA (2002) e (2004)</p><p>- J 24, Porto Rotondo –
-                ITA (2003)</p><p>- Farr 40, Porto Cervo – ITA (2007)</p><p>- Melges
-                24, Hyeres – FRA (2009)</p><p>13 TITOLI NAZIONALI:</p><p>- 470, Napoli
-                (1998)</p><p>- J22, Portoferraio (1999)</p><p>- Melges 24, Cagliari
-                (2009) e Alghero (2010)</p><p>- J24, Cala Galera (2000) e Rimini (2001)</p><p>-
-                Platu 25, Sanremo (2006)</p><p>- X 35, Calagalera (2007)</p><p>- Mumm
-                30 (2008)</p><p>- IMS, Poltu Quatu (1998), Genova (1999), Napoli (2001)
-                e Scarlino (2004)</p><p>Due volte vincitore della Ranking list Mondiale
-                Melges 24, nel 2007 e 2009.</p>
+        popup_description: '<p>Born inTrieste il 28 giugno 1973.</p><p>7 world titles:</p><p>-
+                        ILC 25, Malta (1999)</p><p>- IMS, Porto Cervo – ITA (1999)</p><p>-
+                        J24, Medemblik – NED (2003)</p><p>- Maxi, Porto Cervo – ITA (2003)</p><p>-
+                        IMS, Neustadt – GER (2005)</p><p>- Melges 24, Porto Cervo – ITA (2008)
+                        e Tallin – ESTONIA (2010)</p><p>7 european titles:</p><p>- J 22, Porto
+                        Rotondo – ITA (1999)</p><p>- Platu 25, Anzio – ITA (2002)</p><p>-
+                        IMS, Punta Ala – ITA (2002) e (2004)</p><p>- J 24, Porto Rotondo –
+                        ITA (2003)</p><p>- Farr 40, Porto Cervo – ITA (2007)</p><p>- Melges
+                        24, Hyeres – FRA (2009)</p><p>13 national titols:</p><p>- 470, Napoli
+                        (1998)</p><p>- J22, Portoferraio (1999)</p><p>- Melges 24, Cagliari
+                        (2009) e Alghero (2010)</p><p>- J24, Cala Galera (2000) e Rimini (2001)</p><p>-
+                        Platu 25, Sanremo (2006)</p><p>- X 35, Calagalera (2007)</p><p>- Mumm
+                        30 (2008)</p><p>- IMS, Poltu Quatu (1998), Genova (1999), Napoli (2001)
+                        e Scarlino (2004)</p><p>Two times winner in the ranking list "Mondiale
+                        Melges 24", in 2007 and 2009.</p>'
       - name: alberto bolzan
         role: HELMSMAN
         image: alberto_bolzan.jpg
@@ -2126,7 +2101,7 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_alberto_bolzan.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 14 Maggio 1982 in Italia.</p>
+        popup_description: <p>Born the 14 of May 1982 in Italy.</p>
       - name: ! 'robert scheidt '
         role: HELMSMAN
         image: robert_scheidt_.jpg
@@ -2134,10 +2109,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_robert_scheidt_.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 15 aprile 1973 in Brasile.</p><p>Argento Classe
-                Star a Pechino, 2008</p><p>Oro Classe Laser ad Atlanta, 1996 e ad
-                Atene, 2004</p><p>Argento Classe Laser a Sydney, 2000</p><p>Campione
-                del mondo Classe Star 2007</p><p>Campione del mondo Classe Laser:</p><p>1995,
+        popup_description: <p>Born the 15 of April 1973 in Brasil.</p><p>Silver Classe
+                Star, Pechino, 2008</p><p>Gold Classe Laser, Atlanta, 1996 and
+                Athene, 2004</p><p>Silver Classe Laser, Sydney, 2000</p><p>World champion
+                 Classe Star 2007</p><p>World champion Classe Laser:</p><p>1995,
                 1996, 1997, 2000, 2001, 2002, 2004, 2005</p>
       - name: torben grael
         role: TACTICIAN
@@ -2146,48 +2121,47 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_torben_grael.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 22 luglio del 1960 in Brasile.</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa (2009)</p><p>Luna
-                Rossa (2007)</p><p>Luna Rossa (2003)</p><p>Luna Rossa (2000)</p><p>5
-                medaglie Olimpiche:</p><p>Medaglia d’oro in Star – Atene (2004)</p><p>Medaglia
-                di bronzo in Star – Sydney (2000)</p><p>Medaglia d’oro in Star – Atlanta
-                (1996)</p><p>Medaglia di bronzo in Star – Seoul (1988)</p><p>Medaglia
-                d’argento in Soling – Los Angeles (1984)</p><p>Volvo Ocean Race –
-                Giro del mondo:</p><p>Vincitore con Ericsson 4 (2008-09)</p><p>3°
-                posto con Brasil 1 (2005-06)</p><p>6 titoli mondiali</p><p>Star, Cleveland
-                – USA (1990)</p><p>Snipe, La Rochelle – France (1987)</p><p>Snipe
-                O Porto – Portugal (1983)</p><p>Snipe Jr, San Diego – USA (1978)</p><p>One
-                Tonner, Skovshoved – Denmark (1992)</p><p>12 Metre, Saint Tropez –
-                France (1999)</p><p>12 titoli Internazionali</p><p>Star Europeans
-                Cascais – Portugal (2003)</p><p>Star Europeans Marseille – France
-                (2001)</p><p>Star Europeans Balathon – Hungary (1991)</p><p>Star Europeans
-                Palermo – Italy (1990)</p><p>Star Europeans Travemunde – Germany (1989)</p><p>Star
-                South Americans Rio de Janeiro – Brazil (2004)</p><p>Star South Americans
-                Rio de Janeiro – Brazil (2002)</p><p>Star South Americans Buzios –
-                Brazil (1996)</p><p>Star South Americans Rio de Janeiro – Brazil (1995)</p><p>Star
-                South Americans Rio de Janeiro – Brazil (1991)</p><p>Soling Pan Americans
-                Caracas – Venezuela (1983)</p><p>Soling North Americans Sarnia – Canada
-                (1981)</p><p>45 Titoli Nazionali in Brasile:</p><p>Star 7th District
-                – 10 vittorie</p><p>Star Nationals – 8 vittorie</p><p>Soling – 7 vittorie</p><p>Snipe
-                - 7 vittorie</p><p>Match Race – 4 vittorie</p><p>Laser - 2 vittorie</p><p>Finn
-                – 3 vittorie</p><p>IMS – 2 vittorie</p><p>IOR - 2 vittorie</p>
+        popup_description: "<p>Born the 22 luglio del 1960 in Brasil.</p><p>Previous America’s cup:</p><p>Luna Rossa (2009)</p><p>Luna
+                        Rossa (2007)</p><p>Luna Rossa (2003)</p><p>Luna Rossa (2000)</p><p>5 Olimpic
+                        medals :</p><p>gold medal in Star – Atene (2004)</p><p>bronze medal
+                        in Star – Sydney (2000)</p><p>Gold medal in Star – Atlanta
+                        (1996)</p><p>Bronze medal in Star – Seoul (1988)</p><p>Silver Medal
+                        din Soling – Los Angeles (1984)</p><p>Volvo Ocean Race –
+                        Workd tour:</p><p>Winner with Ericsson 4 (2008-09)</p><p>3°
+                        place with Brasil 1 (2005-06)</p><p>6 world championship</p><p>Star, Cleveland
+                        – USA (1990)</p><p>Snipe, La Rochelle – France (1987)</p><p>Snipe
+                        O Porto – Portugal (1983)</p><p>Snipe Jr, San Diego – USA (1978)</p><p>One
+                        Tonner, Skovshoved – Denmark (1992)</p><p>12 Metre, Saint Tropez –
+                        France (1999)</p><p>12 titoli Internazionali</p><p>Star Europeans
+                        Cascais – Portugal (2003)</p><p>Star Europeans Marseille – France
+                        (2001)</p><p>Star Europeans Balathon – Hungary (1991)</p><p>Star Europeans
+                        Palermo – Italy (1990)</p><p>Star Europeans Travemunde – Germany (1989)</p><p>Star
+                        South Americans Rio de Janeiro – Brazil (2004)</p><p>Star South Americans
+                        Rio de Janeiro – Brazil (2002)</p><p>Star South Americans Buzios –
+                        Brazil (1996)</p><p>Star South Americans Rio de Janeiro – Brazil (1995)</p><p>Star
+                        South Americans Rio de Janeiro – Brazil (1991)</p><p>Soling Pan Americans
+                        Caracas – Venezuela (1983)</p><p>Soling North Americans Sarnia – Canada
+                        (1981)</p><p>45 national titles in Brasil:</p><p>Star 7th District
+                        – 10 victories</p><p>Star Nationals – 8 victories</p><p>Soling – 7 victories</p><p>Snipe
+                        - 7 victories</p><p>Match Race – 4 victories</p><p>Laser - 2 victories</p><p>Finn
+                        – 3 victories</p><p>IMS – 2 victories</p><p>IOR - 2 victories</p>"
       - name: gabriele benussi
-        role: TATTICO
+        role: TACTICIAN
         image: gabriele_benussi.jpg
         alt: gabriele benussi
         popup_image: big_gabriele_benussi.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato a Trieste il 13.05.1970</p><p>4 CAMPIONATI MONDIALI</p><p>-
-                Quorter Ton, Baiona (1994)</p><p>- ILC 25 Malta – (1999)</p><p>- Maxi,
-                Porto Cervo (2000)</p><p>- GP42, Lanzarote (2009)</p><p>II° classificato:</p><p>-
-                J22 (1992)</p><p>- J24, Key Largo (2006)</p><p>2 CAMPIONATI EUROPEI</p><p>-
-                J 22, Porto Rotondo (1999)</p><p>- IMS, Punta Ala (2002)</p><p>12
-                CAMPIONATI ITALIANI</p><p>- Europa, Lago di Como (1991)</p><p>- J22,
-                Portoferraio (1999)</p><p>- J24, Cala Galera (2000)</p><p>- X35, Venezia
-                (2009), Scarlino (2008)</p><p>1° Giro d’Italia a Vela (‘93-’94-’95-’97-’98-’99-2007)</p><p>1°
-                X 35, Coppa del Re (2009)</p><p>1° Campionato Americano Melges 32,
-                Newport (2007) e Circuito Europeo (2008, 2009)</p>
+        popup_description: "<p>Born in Trieste the <p> 13.05.1970 </ p> 4 World championships </ p> -
+                 Quorter Ton, Bayonne (1994) </ p> - ILC 25 Malta - (1999) </ p> - Maxi
+                 Porto Cervo (2000) </ p> - GP42, Lanzarote (2009) </ p> II ° place: </ p> -
+                 J22 (1992) </ p> - J24, Key Largo (2006) </ p> 2 EUROPEAN CHAMPIONSHIPS </ p> -
+                 J 22, Porto Rotondo (1999) </ p> - IMS, Punta Ala (2002) </ p> 12
+                 ITALIAN CHAMPIONSHIPS </ p> - Europe, Lake Como (1991) </ p> - J22,
+                 Portoferraio (1999) </ p> - J24, Cala Galera (2000) </ p> - X35, Venice
+                 (2009), Scarborough (2008) </ p> 1, Tour of Italy Sailing ('93-'94-'95-'97-'98-'99-2007) </ p> <p > 1,
+                 X 35, the King's Cup (2009) </ p> 1, U.S. Melges 32 Championship,
+                 Newport (2007) and European Circuit (2008, 2009) </ p>"
       - name: matteo plazzi
         role: NAVIGATOR
         image: matteo_plazzi_s.jpg
@@ -2195,10 +2169,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_matteo_plazzi_s.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 14 novembre a Ravenna.</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Vincitore con Bmw Oracle Racing (2010)</p><p>Luna
-                Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge
-                (2000)</p><p>Azzurra (1987)</p>
+        popup_description: "<p>Born the 14 November in Ravenna.</p><p>Previous America’s cup:</p><p>Vincitore con Bmw Oracle Racing (2010)</p><p>Luna
+                                        Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge
+                                        (2000)</p><p>Azzurra (1987)</p>"
       - name: manuel modena
         role: RUNNERS
         image: manuel_modena.jpg
@@ -2206,11 +2179,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_manuel_modena.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 22 novembre 1975 a Rovereto in Italia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team
-                olimpico Atene (2000-2004)</p><p>Campionati Mondiali:</p><p>1° Melges
-                24 (2005)</p><p>Regate Internazionali:</p><p>1° Asso99 (2004)</p><p>Luna
-                Rossa, Fastnet (2009)</p><p>Luna Rossa, Middle Sea Race (2009)</p>
+        popup_description: "<p>Born the 22 november 1975 in Rovereto, Italy</p><p>Previous America’s cup:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team
+                        olimpico Atene (2000-2004)</p><p>World championships:</p><p>1° Melges
+                        24 (2005)</p><p>Regate Internazionali:</p><p>1° Asso99 (2004)</p><p>Luna
+                        Rossa, Fastnet (2009)</p><p>Luna Rossa, Middle Sea Race (2009)</p>"
       - name: benjamin durham
         role: MAINSAIL TRIMMER
         image: benjamin_durham.jpg
@@ -2218,9 +2190,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_benjamin_durham.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 26 gennaio 1977 in Australia</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Young Australia (2000)</p><p>One
-                World (2003)</p><p>Luna Rossa Challenge (2007)</p>
+        popup_description: "<p>Born the 26 of January 1977 in Australia</p><p>Previous
+        participations in America's Cup:</p><p>Young Australia (2000)</p><p>One
+                        World (2003)</p><p>Luna Rossa Challenge (2007)</p>"
       - name: ! 'claudio celon '
         role: TRIMMER
         image: claudio_celon_.jpg
@@ -2228,10 +2200,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_claudio_celon_.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 19 aprile 1961 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
-                (2007)</p><p>Tre partecipazioni in team olimpici, Volvo Ocean Race
-                su Amer Sports One</p>
+        popup_description: "<p>Born the 19 of April 1961 in Italia</p>Previous
+        participations in America's Cup:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
+                        (2007)</p><p>Tre partecipazioni in team olimpici, Volvo Ocean Race
+                        su Amer Sports One</p>"
       - name: lorenzo mazza
         role: TRIMMER
         image: lorenzo_mazza.jpg
@@ -2239,10 +2211,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_lorenzo_mazza.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 22 Febbraio del 1962 a Firenze (ITA).</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Alinghi (2010)</p><p>Alinghi
-                (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
-                Moro di Venezia (1992)</p><p>Italia (1987)</p><p>Azzurra (1983)</p>
+        popup_description: "<p>Born the 22 of February 1962 in Firenze (ITA).</p><p>Previous
+                participations in America's Cup:</p><p>Alinghi (2010)</p><p>Alinghi
+                        (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
+                        Moro di Venezia (1992)</p><p>Italia (1987)</p><p>Azzurra (1983)</p>"
       - name: emanuele marino
         role: GRINDER
         image: emanuele_marino.jpg
@@ -2250,9 +2222,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_emanuele_marino.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 5 maggio 1972 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Prada Challenge (2003)</p><p>Luna Rossa Challenge
-                (2007)</p>
+        popup_description: "<p>Born the 5 of May 1972 in Italy</p><p>Previous
+                participations in America's Cup:</p><p>Prada Challenge (2003)</p><p>Luna Rossa Challenge
+                        (2007)</p>"
       - name: ! 'romolo ranieri '
         role: GRINDER
         image: romolo_ranieri_.jpg
@@ -2268,8 +2240,8 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_marco_montis.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 5 dicembre 1971 in Italia</p><p>Precedenti partecipazioni
-                in Coppa America:</p><p>Mascalzone Latino (2007)</p>
+        popup_description: "<p>Born the 5 dicembre 1971 in Italia</p><p>Previous
+                        participations in America's Cup:</p><p>Mascalzone Latino (2007)</p>"
       - name: massimiliano sirena
         role: PITMAN
         image: massimiliano_sirena.jpg
@@ -2277,10 +2249,10 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_massimiliano_sirena.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
-                (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
-                Challenge (2000)</p><p>Campionati mondiali</p><p>Artemis, TP 52 (2007)</p>
+        popup_description: "<p>Born the 4 of December 1971 in Italy.</p><p>Previous
+                        participations in America's Cup:</p><p>Vincitore con Bmw Oracle racing
+                        (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
+                        Challenge (2000)</p><p>World championships</p><p>Artemis, TP 52 (2007)</p>"
       - name: ! 'giulio giovanella '
         role: PRODIERE
         image: giulio_giovanella_.jpg
@@ -2288,44 +2260,44 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_giulio_giovanella_.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 16 febbraio 1982 a Trieste (ITA)</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Mascalzone Latino (2007)</p><p>Campionati
-                Mondiali</p><p>8° classificato al Campionato Mondiale J22 2003</p><p>2°
-                classificato al Campionato Mondiale IMS (Corinthian) su Cherokee,
-                2004</p><p>9° classificato al Campionato Mondiale Mumm 30 Calvi Toronto
-                2004</p><p>5° classificato al Mondiale maxi con Tiketitan Portocervo
-                2006</p><p>Regate Internazionali</p><p>con Luna Rossa:</p><p>5° Louis
-                Vuitton Pacific Series  Auckland (AC)</p><p>1° Hublot Palma Vela Palma
-                de Maiorca (stp 65)</p><p>4° Trofeo Pirelli Portofino (stp65)</p><p>3°
-                in tempo reale alla Giraglia Rolex Cup (stp 65)</p><p>2° Cowes Week
-                (stp65)</p><p>2° Rolex  Fastnet race (stp65)</p><p>3° Mondiale Maxi
-                Yacht Rolex Cup (stp 65)</p><p>1° Rolex Middle Sea race in classe
-                ORC, 3° in IRC (stp65)</p><p>Con altre imbarcazioni:</p><p>1° classificato
-                su Team  New Zealand Omega Sea Master Cup 2002</p><p>3° classificato
-                su Principessa Super Open Uniflair 2002</p><p>3° classificato su Mumm30
-                Pro–Am Cup  Marsiglia 2002</p><p>2° classificato su Mascalzone Latino
-                Youth Team Nation’s Cup 2003</p><p>7° classificato su Breeze Campionato
-                Europeo Farr40 Hyeres 2003</p><p>1° classificato su Ammer Sport Too
-                Super Open Uniflair 2003</p><p>1° classificato su Mascalzone Latino
-                Youth Team Nation’s Cup 2004</p><p>3° classificato su Mascalzone Latino
-                Nation’s cup 2006</p><p>6° classificato al Campionato europeo Farr
-                40 Porto Cervo 2007</p><p>1º classificato Dubai RC44 Cup su Hiroshi-Citta’
-                di Milano 2008</p><p>1º classificato Cagliari RC44 Cup su Hiroshi
-                –Citta’ di Milano 2008</p><p>4º classificato Austria RC44 Cup su Hiroshi
-                –Citta’ di Milano 2008</p><p>2º classificato Giraglia su Esimit Europa
-                2008</p><p>1º classificato  RC44 Malcesine Slam Cup su Hiroshi- Citta’
-                di Milano 2008</p><p>2° classificato Palermo-Montecarlo</p><p>2° classificato
-                RC44 Friuli Venezia Giulia Cup su Hiroshi- Citta’ di Milano 2008</p><p>2°
-                classificato CNEV a Valencia su Luna Rossa (AC boat) 2008</p><p>3°
-                classificato Circuito RC44 2008</p><p>4° Audi Sailing Series Melges
-                32 su Pilot Italia 2009</p><p>8° Barcolana sul Vor 70 Telefonica Black
-                2009</p><p>Regate Nazionali</p><p>1° classificato al Campionato Italiano
-                Match race under 20 – Salerno 2001</p><p>2° classificato al Campionato
-                Italiano Meteor 2002</p><p>2° classificato al Campionato Italiano
-                J24 Potrto Rotondo 2003</p><p>1° classificato al Campionato Italiano
-                match race under 25 San Vito lo Capo 2005</p><p>3° classificato alla
-                tappa circuito Mumm30  Venezia 2007</p><p>1° classificato al Giro
-                d’Italia a vela su Riva del Garda  2007</p>
+        popup_description: "<p> the Born February 16, 1982 in Trieste (ITA) </ p> Background
+                Investments in America's Cup: </ p> Mascalzone Latino (2007) </ p> Championships
+                World </ p> 8 th place at the 2003 J22 World Championship </ p> 2 °
+                ranked IMS World Championship (Corinthian) of Cherokee,
+                2004 </ p> 9 th place in the Mumm 30 World Championship Calvi Toronto
+                2004 </ p> 5 th place in World Maxi with Tiketitan Portocervo
+                2006 </ p> International Regatta </ ​​p> with Luna Rossa: </ p> 5 ° Louis
+                Vuitton Pacific Series in Auckland (AC) </ p> 1, Hublot Palma Vela Palma
+                de Mallorca (STP 65) </ p> 4 ° Trofeo Pirelli Portofino (STP65) </ p> 3 °
+                in real time to the Giraglia Rolex Cup (STP 65) </ p> 2 ° Cowes Week
+                (STP65) </ p> 2 ° Rolex Fastnet Race (STP65) </ p> 3 ° Maxis
+                Yacht Rolex Cup (STP 65) </ p> 1, Rolex Middle Sea Race in class
+                ORC, IRC 3 ° (STP65) </ p> With other boats: </ p> 1 st place
+                Team New Zealand Omega Sea Master Cup 2002 </ p> 3 ° classified
+                Super Princess of Uniflair Open 2002 </ p> 3 ° place of Mumm30
+                Pro-Am Cup Marseille 2002 </ p> 2 ° place of Mascalzone Latino
+                Nation's Youth Team Cup 2003 </ p> 7 th place on Breeze Championship
+                European Farr40 Hyeres 2003 </ p> 1 st place of Ammer Sport Too
+                Super Open Uniflair 2003 </ p> 1 st place on Mascalzone Latino
+                Nation's Youth Team Cup 2004 </ p> 3 ° place of Mascalzone Latino
+                Nation's cup 2006 </ p> 6 th place in the European Championship Farr
+                40 Porto Cervo 2007 </ p> 1 Ranked Dubai RC44 Cup of Hiroshi-City '
+                Milan 2008 </ p> 1 Ranked Cagliari RC44 Cup of Hiroshi
+                -Citta 'di Milano 2008 </ p> Ranked # 4 RC44 Austria Cup of Hiroshi
+                -Citta 'di Milano 2008 </ p> 2 Ranked Giraglia Esimit Europe
+                2008 </ p> 1 Ranked RC44 Malcesine Slam Cup of Hiroshi-City '
+                Milan 2008 </ p> 2 ° classified Palermo-Montecarlo </ p> 2 ° classified
+                Friuli Venezia Giulia RC44 Cup of Hiroshi-Citta 'di Milano 2008 </ p> 2 °
+                classified CNEV of Luna Rossa in Valencia (AC boat) 2008 </ p> 3 °
+                classified RC 44 Circuit 2008 </ p> 4 ° Audi Sailing Series Melges
+                Italy 32 of 2009 Pilot </ p> 8 ° 70 Barcolana Vor on Telefonica Black
+                2009 </ p> Races National </ p> 1 st place in Italian Championship
+                Match race under 20 - Salerno 2001 </ p> 2 ° place in the Championship
+                Italian Meteor 2002 </ p> 2 ° place in Italian Championship
+                Potrto Round J24 2003 </ p> 1 st place in Italian Championship
+                match race under 25 San Vito lo Capo, 2005 </ p> # 3 ranked
+                stage circuit Mumm30 Venice 2007 </ p> 1 st place at the Giro
+                Sailing in Italy of Riva del Garda 2007 </ p>"
       - name: matteo auguadro
         role: PRODIERE
         image: matteo_auguadro.jpg
@@ -2333,9 +2305,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_matteo_auguadro.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato il 16 settembre 1976 a Premosello Chiovenda in
-                Italia.</p><p>Precedenti partecipazioni in Coppa America:</p><p>Mascalzone
-                Latino (2007)</p>
+        popup_description: "<p>Born the 16 settembre 1976 a Premosello Chiovenda in
+                        Italia.</p><p>Previous America's cup</p><p>Mascalzone
+                        Latino (2007)</p>"
       - name: antonio marrai
         role: TEAM MANAGER
         image: antonio_marrai.jpg
@@ -2343,10 +2315,9 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_antonio_marrai.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
-                Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p>Campionati
-                mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>
+        popup_description: "<p>Born inSeravezza (ITA) il 24.08.1953</p><p>Previous America's cup:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
+                        Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p>Campionati
+                        mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>"
       - name: ! 'gianni tognozzi '
         role: SHORE TEAM
         image: gianni_tognozzi_.jpg
@@ -2354,9 +2325,8 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_gianni_tognozzi_.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>STP 65, Luna Rossa (2009)</p><p>Partecipazioni in Coppa
-                America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa Challenge
-                (2003)</p><p>Prada Challenge (2000)</p>
+        popup_description: "<p>STP 65, Luna Rossa (2009)</p><p>Previous America's cup:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa Challenge
+                        (2003)</p><p>Prada Challenge (2000)</p>"
       - name: pablo di bernardo
         role: SHORE TEAM
         image: pablo_di_bernardo.jpg
@@ -2364,7 +2334,7 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_pablo_di_bernardo.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nato a Buenos Aires (ARG) il 17.02.1972</p><p>Boat builder
+        popup_description: <p>Born in Buenos Aires (ARG) the 17.02.1972</p><p>Boat builder
                 per:</p><p>- STP65 Luna Rossa (2009)</p><p>- TP52 Matador (2008)</p><p>-
                 VOR 70 Telefonica, Volvo Ocean Race (2007-2008)</p><p>- TP52 Bribon
                 e Matador (2007)</p>
@@ -2375,10 +2345,11 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
         popup_image: big_monique_galassi.jpg
         popup_alt: 
         popup_title: 
-        popup_description: <p>Nata in Francia è di nazionalità italo-americana.</p><p>Precedenti
-                partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna
-                Rossa Challenge (2003)</p><p>Louis Vuitton Pacific Series (2009)</p><p>Lavora
-                per il Gruppo Prada dal 1999.</p>
+        popup_description: "<p> Born in France has a Italian-American nationality. </ p> Previous
+participations in America's Cup: </ p> Luna Rossa Challenge (2007) </ p> Luna
+Rossa Challenge (2003) </ p> Louis Vuitton Pacific Series (2009) </ p> Work
+for the Prada Group since 1999. </ p>"     
+      - name: nicola davanzo
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
@@ -3934,7 +3905,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         popup_title: ! 'manuel modena '
         popup_description: ! "<p>Born the 22th of November 1975 in Rovereto, Italy</p><p>America’s
                 cup partecipations:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team\n
-                olimpico Atene (2000-2004)</p><p>Campionati Mondiali:</p><p>1°\n
+                olimpico Atene (2000-2004)</p><p>World championships:</p><p>1°\n
                 Melges 24 (2005)</p><p>International races:</p><p>1°
                 Asso99(2004)</p><p>Luna Rossa, Fastnet (2009)</p><p>Luna
                 Rossa, Middle SeaRace (2009)</p><p>Luna Rossa, Audi
