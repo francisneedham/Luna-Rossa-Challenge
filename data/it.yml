@@ -445,6 +445,265 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
         caption: AMERICA'S CUP
         date: 04/07/07
         details: <p><img src=/public/images/archive/2007_19.gif></p></li><li style=border-left:none;>
+  bullettins-lv:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "Sailing season<span> 2007</span>"
+    subtitle: 'Giornale della Coppa'
+    items:
+      - number: '01'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 18 aprile 2007
+        caption: Giornale della Coppa, 18 aprile 2007
+        date: 18/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070418.pdf"  target="_blank">Download PDF</a></p>
+      - number: '02'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 19 aprile 2007
+        caption: Giornale della Coppa, 19 aprile 2007
+        date: 19/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070419.pdf"  target="_blank">Download PDF</a></p>
+      - number: '03'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 20 aprile 2007
+        caption: Giornale della Coppa, 20 aprile 2007
+        date: 20/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070420.pdf"  target="_blank">Download PDF</a></p>
+      - number: '04'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 21 aprile 2007
+        caption: Giornale della Coppa, 21 aprile 2007
+        date: 21/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070421.pdf"  target="_blank">Download PDF</a></p>
+      - number: '05'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 22 aprile 2007
+        caption: Giornale della Coppa, 22 aprile 2007
+        date: 22/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070422.pdf"  target="_blank">Download PDF</a></p>
+      - number: '06'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 23 aprile 2007
+        caption: Giornale della Coppa, 23 aprile 2007
+        date: 23/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070423.pdf"  target="_blank">Download PDF</a></p>
+      - number: '07'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 24 aprile 2007
+        caption: Giornale della Coppa, 24 aprile 2007
+        date: 24/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070424.pdf"  target="_blank">Download PDF</a></p>
+      - number: '08'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 25 aprile 2007
+        caption: Giornale della Coppa, 25 aprile 2007
+        date: 25/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070425.pdf"  target="_blank">Download PDF</a></p>
+      - number: '09'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 26 aprile 2007
+        caption: Giornale della Coppa, 26 aprile 2007
+        date: 26/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070426.pdf"  target="_blank">Download PDF</a></p>
+      - number: '10'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 27 aprile 2007
+        caption: Giornale della Coppa, 27 aprile 2007
+        date: 27/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070427.pdf"  target="_blank">Download PDF</a></p>
+      - number: '11'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 28 aprile 2007
+        caption: Giornale della Coppa, 28 aprile 2007
+        date: 28/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070428.pdf"  target="_blank">Download PDF</a></p>
+      - number: '12'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 29 aprile 2007
+        caption: Giornale della Coppa, 29 aprile 2007
+        date: 29/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070429.pdf"  target="_blank">Download PDF</a></p>
+      - number: '13'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 30 aprile 2007
+        caption: Giornale della Coppa, 30 aprile 2007
+        date: 30/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070430.pdf"  target="_blank">Download PDF</a></p>
+      - number: '14'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 1 maggio 2007
+        caption: Giornale della Coppa, 1 maggio 2007
+        date: 01/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070501.pdf"  target="_blank">Download PDF</a></p>
+      - number: '15'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 2 maggio 2007
+        caption: Giornale della Coppa, 2 maggio 2007
+        date: 02/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070502.pdf"  target="_blank">Download PDF</a></p>
+      - number: '16'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 3 maggio 2007
+        caption: Giornale della Coppa, 3 maggio 2007
+        date: 03/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070503.pdf"  target="_blank">Download PDF</a></p>
+      - number: '17'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 4 maggio 2007
+        caption: Giornale della Coppa, 4 maggio 2007
+        date: 04/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070504.pdf"  target="_blank">Download PDF</a></p>
+      - number: '18'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 5 maggio 2007
+        caption: Giornale della Coppa, 5 maggio 2007
+        date: 05/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070505.pdf"  target="_blank">Download PDF</a></p>
+      - number: '19'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 6 maggio 2007
+        caption: Giornale della Coppa, 6 maggio 2007
+        date: 06/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070506.pdf"  target="_blank">Download PDF</a></p>
+      - number: '20'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 7 maggio 2007
+        caption: Giornale della Coppa, 7 maggio 2007
+        date: 07/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070507.pdf"  target="_blank">Download PDF</a></p>
+      - number: '21'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 8 maggio 2007
+        caption: Giornale della Coppa, 8 maggio 2007
+        date: 08/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070508.pdf"  target="_blank">Download PDF</a></p>
+      - number: '22'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 9 maggio 2007
+        caption: Giornale della Coppa, 9 maggio 2007
+        date: 09/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070509.pdf"  target="_blank">Download PDF</a></p>
+      - number: '23'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 10 maggio 2007
+        caption: Giornale della Coppa, 10 maggio 2007
+        date: 10/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070510.pdf"  target="_blank">Download PDF</a></p>
+      - number: '24'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 14 maggio 2007
+        caption: Giornale della Coppa, 14 maggio 2007
+        date: 14/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070514.pdf"  target="_blank">Download PDF</a></p>
+      - number: '25'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 15 maggio 2007
+        caption: Giornale della Coppa, 15 maggio 2007
+        date: 15/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070515.pdf"  target="_blank">Download PDF</a></p>
+      - number: '26'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 16 maggio 2007
+        caption: Giornale della Coppa, 16 maggio 2007
+        date: 16/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070516.pdf"  target="_blank">Download PDF</a></p>
+      - number: '27'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 17 maggio 2007
+        caption: Giornale della Coppa, 17 maggio 2007
+        date: 17/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070517.pdf"  target="_blank">Download PDF</a></p>
+      - number: '28'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 18 maggio 2007
+        caption: Giornale della Coppa, 18 maggio 2007
+        date: 18/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070518.pdf"  target="_blank">Download PDF</a></p>
+      - number: '29'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 19 maggio 2007
+        caption: Giornale della Coppa, 19 maggio 2007
+        date: 19/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070519.pdf"  target="_blank">Download PDF</a></p>
+      - number: '30'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 20 maggio 2007
+        caption: Giornale della Coppa, 20 maggio 2007
+        date: 20/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070520.pdf"  target="_blank">Download PDF</a></p>
+      - number: '31'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 21 maggio 2007
+        caption: Giornale della Coppa, 21 maggio 2007
+        date: 21/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070521.pdf"  target="_blank">Download PDF</a></p>
+      - number: '32'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 22 maggio 2007
+        caption: Giornale della Coppa, 22 maggio 2007
+        date: 22/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070522.pdf"  target="_blank">Download PDF</a></p>
+      - number: '33'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 23 maggio 2007
+        caption: Giornale della Coppa, 23 maggio 2007
+        date: 23/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070523.pdf"  target="_blank">Download PDF</a></p>
+      - number: '34'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 24 maggio 2007
+        caption: Giornale della Coppa, 24 maggio 2007
+        date: 24/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070524.pdf"  target="_blank">Download PDF</a></p>
+      - number: '35'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 31 maggio 2007
+        caption: Giornale della Coppa, 31 maggio 2007
+        date: 31/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070531.pdf"  target="_blank">Download PDF</a></p>
+      - number: '36'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 1 giugno 2007
+        caption: Giornale della Coppa, 1 giugno 2007
+        date: 01/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070601.pdf"  target="_blank">Download PDF</a></p>
+      - number: '37'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 2 giugno 2007
+        caption: Giornale della Coppa, 2 giugno 2007
+        date: 02/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070602.pdf"  target="_blank">Download PDF</a></p>
+      - number: '38'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 3 giugno 2007
+        caption: Giornale della Coppa, 3 giugno 2007
+        date: 03/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070603.pdf"  target="_blank">Download PDF</a></p>
+      - number: '39'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 4 giugno 2007
+        caption: Giornale della Coppa, 4 giugno 2007
+        date: 04/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070604.pdf"  target="_blank">Download PDF</a></p>
+      - number: '40'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 5 giugno 2007
+        caption: Giornale della Coppa, 5 giugno 2007
+        date: 05/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070605.pdf"  target="_blank">Download PDF</a></p>
+      - number: '41'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 6 giugno 2007
+        caption: Giornale della Coppa, 6 giugno 2007
+        date: 06/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070606.pdf"  target="_blank">Download PDF</a></p>
+      - number: '42'
+        image: /public/images/placeholder/bollettini.png
+        alt: Giornale della Coppa, 7 giugno 2007
+        caption: Giornale della Coppa, 7 giugno 2007
+        date: 07/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070607.pdf"  target="_blank">Download PDF</a></p>
   gallery:
     page_mood: 'white'
     template: 'gallery'

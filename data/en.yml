@@ -443,6 +443,265 @@ The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weath
         caption: AMERICA'S CUP
         date: 04/07/07
         details: <p><img src=/public/images/archive/2007_19.gif></p></li><li style=border-left:none;>
+  bullettins-lv:
+    template: 'bullettins'
+    css_class: 'bollettini'
+    page_mood: 'grey'
+    title: "32<sup>th</sup> America's cup"
+    subtitle: "The Cup's Journal"
+    items:
+      - number: '01'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 18/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070418.pdf"  target="_blank">Download PDF</a></p>
+      - number: '02'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 19/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070419.pdf"  target="_blank">Download PDF</a></p>
+      - number: '03'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 20/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070420.pdf"  target="_blank">Download PDF</a></p>
+      - number: '04'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 21/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070421.pdf"  target="_blank">Download PDF</a></p>
+      - number: '05'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 22/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070422.pdf"  target="_blank">Download PDF</a></p>
+      - number: '06'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 23/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070423.pdf"  target="_blank">Download PDF</a></p>
+      - number: '07'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 24/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070424.pdf"  target="_blank">Download PDF</a></p>
+      - number: '08'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 25/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070425.pdf"  target="_blank">Download PDF</a></p>
+      - number: '09'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 26/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070426.pdf"  target="_blank">Download PDF</a></p>
+      - number: '10'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 27/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070427.pdf"  target="_blank">Download PDF</a></p>
+      - number: '11'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 28/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070428.pdf"  target="_blank">Download PDF</a></p>
+      - number: '12'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 29/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070429.pdf"  target="_blank">Download PDF</a></p>
+      - number: '13'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 30/04/07
+        details: <p><a href="/public/pdf/lr_gdc_070430.pdf"  target="_blank">Download PDF</a></p>
+      - number: '14'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 01/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070501.pdf"  target="_blank">Download PDF</a></p>
+      - number: '15'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 02/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070502.pdf"  target="_blank">Download PDF</a></p>
+      - number: '16'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 03/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070503.pdf"  target="_blank">Download PDF</a></p>
+      - number: '17'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 04/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070504.pdf"  target="_blank">Download PDF</a></p>
+      - number: '18'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 05/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070505.pdf"  target="_blank">Download PDF</a></p>
+      - number: '19'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 06/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070506.pdf"  target="_blank">Download PDF</a></p>
+      - number: '20'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 07/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070507.pdf"  target="_blank">Download PDF</a></p>
+      - number: '21'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 08/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070508.pdf"  target="_blank">Download PDF</a></p>
+      - number: '22'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 09/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070509.pdf"  target="_blank">Download PDF</a></p>
+      - number: '23'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 10/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070510.pdf"  target="_blank">Download PDF</a></p>
+      - number: '24'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 14/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070514.pdf"  target="_blank">Download PDF</a></p>
+      - number: '25'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 15/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070515.pdf"  target="_blank">Download PDF</a></p>
+      - number: '26'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 16/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070516.pdf"  target="_blank">Download PDF</a></p>
+      - number: '27'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 17/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070517.pdf"  target="_blank">Download PDF</a></p>
+      - number: '28'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 18/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070518.pdf"  target="_blank">Download PDF</a></p>
+      - number: '29'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 19/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070519.pdf"  target="_blank">Download PDF</a></p>
+      - number: '30'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 20/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070520.pdf"  target="_blank">Download PDF</a></p>
+      - number: '31'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 21/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070521.pdf"  target="_blank">Download PDF</a></p>
+      - number: '32'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 22/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070522.pdf"  target="_blank">Download PDF</a></p>
+      - number: '33'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 23/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070523.pdf"  target="_blank">Download PDF</a></p>
+      - number: '34'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 24/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070524.pdf"  target="_blank">Download PDF</a></p>
+      - number: '35'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 31/05/07
+        details: <p><a href="/public/pdf/lr_gdc_070531.pdf"  target="_blank">Download PDF</a></p>
+      - number: '36'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 01/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070601.pdf"  target="_blank">Download PDF</a></p>
+      - number: '37'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 02/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070602.pdf"  target="_blank">Download PDF</a></p>
+      - number: '38'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 03/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070603.pdf"  target="_blank">Download PDF</a></p>
+      - number: '39'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 04/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070604.pdf"  target="_blank">Download PDF</a></p>
+      - number: '40'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 05/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070605.pdf"  target="_blank">Download PDF</a></p>
+      - number: '41'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 06/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070606.pdf"  target="_blank">Download PDF</a></p>
+      - number: '42'
+        image: /public/images/placeholder/bollettini.png
+        alt: The Cup's Journal
+        caption: The Cup's Journal
+        date: 07/06/07
+        details: <p><a href="/public/pdf/lr_gdc_070607.pdf"  target="_blank">Download PDF</a></p>
   gallery:
     page_mood: 'white'
     template: 'gallery'

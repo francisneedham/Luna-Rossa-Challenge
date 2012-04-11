@@ -681,6 +681,12 @@ a{
             float:left;
             border-left:1px solid #f3f3f3;
             text-align:left;
+            a{
+            color:#333;
+            }
+            a:hover{
+            color:#ccc;
+            }
             h3{
               color:#e52b38;
               line-height:1.2em;
