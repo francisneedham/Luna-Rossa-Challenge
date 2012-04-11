@@ -774,7 +774,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
                 Luna Rossa sulla destra. Passato in vantaggio, Mascalzone Latino stramba
                 e va all’incrocio, tagliando per primo il traguardo con appena 5”
                 di vantaggio.</p>
-      - number: 08
+      - number: '08'
         image: /public/images/2010/lv08.jpg
         alt: LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS AZZURRA (ITA)
         caption: LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS AZZURRA (ITA)
@@ -797,7 +797,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
                 per vincere e andiamo avanti. E’ da poco tempo che navighiamo in questa
                 formazione di equipaggio e tutti i team qui sono ad un livello altissimo,
                 abbiamo ancora sette regate e la volontà di fare meglio.”</p>
-      - number: 09
+      - number: '09'
         image: /public/images/2010/lv09.jpg
         alt: LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS SYNERGY (RUS)
         caption: LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS SYNERGY (RUS)
@@ -1098,7 +1098,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
         popup_image: big_romolo_ranieri.jpg
         popup_alt: romolo ranieri
         popup_title: romolo ranieri
-        popup_description: 
+        popup_description:
       - name: lorenzo mazza
         role: trimmer
         image: lorenzo_mazza.jpg
@@ -1162,7 +1162,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
         popup_image: big_rodney_ardern.jpg
         popup_alt: rodney ardern
         popup_title: rodney ardern
-        popup_description: 
+        popup_description:
       - name: emanuele marino
         role: grinder
         image: emanuele_marino.jpg
@@ -1180,7 +1180,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
         popup_image: big_will_mc_carthy.jpg
         popup_alt: will mc carthy
         popup_title: will mc carthy
-        popup_description: 
+        popup_description:
       - name: ! 'marco montis '
         role: grinder
         image: marco_montis_.jpg
@@ -1231,7 +1231,7 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
         popup_image: big_luis_saenz.jpg
         popup_alt: luis saenz
         popup_title: luis saenz
-        popup_description: 
+        popup_description:
       - name: ! 'monique galassi '
         role: logistics
         image: monique_galassi.jpg
@@ -1531,7 +1531,7 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 de Mari – mastman</p><p>Marco Montis – grinder</p><p>Emanuele Marino
                 – grinder</p><p>Manuel Modena – volanti</p><p>Benjamin Durham – randa</p><p>Giulio
                 Giovanella – prodiere</p>
-      - number: 08
+      - number: '08'
         image: /public/images/2010/au08.jpg
         alt: ! 'AUDI MED CUP
 
@@ -1560,7 +1560,7 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 classe nel 2005 e nel 2006, ma ora ci sono team davvero ottimi. Prada
                 è un nome importante nella vela mondiale, per cui per me è una grande
                 chance.”</p>'
-      - number: 09
+      - number: '09'
         image: /public/images/2010/au09.jpg
         alt: ! 'AUDI MED CUP
 
@@ -2147,8 +2147,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: lorenzo_bressani.jpg
         alt: lorenzo bressani
         popup_image: big_lorenzo_bressani.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato a Trieste il 28 giugno 1973.</p><p>7 TITOLI MONDIALI:</p><p>-
                 ILC 25, Malta (1999)</p><p>- IMS, Porto Cervo – ITA (1999)</p><p>-
                 J24, Medemblik – NED (2003)</p><p>- Maxi, Porto Cervo – ITA (2003)</p><p>-
@@ -2169,16 +2169,16 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: alberto_bolzan.jpg
         alt: alberto bolzan
         popup_image: big_alberto_bolzan.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 14 Maggio 1982 in Italia.</p>
       - name: ! 'robert scheidt '
         role: HELMSMAN
         image: robert_scheidt_.jpg
         alt: ! 'robert scheidt '
         popup_image: big_robert_scheidt_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 15 aprile 1973 in Brasile.</p><p>Argento Classe
                 Star a Pechino, 2008</p><p>Oro Classe Laser ad Atlanta, 1996 e ad
                 Atene, 2004</p><p>Argento Classe Laser a Sydney, 2000</p><p>Campione
@@ -2189,8 +2189,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: torben_grael.jpg
         alt: torben grael
         popup_image: big_torben_grael.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 22 luglio del 1960 in Brasile.</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Luna Rossa (2009)</p><p>Luna
                 Rossa (2007)</p><p>Luna Rossa (2003)</p><p>Luna Rossa (2000)</p><p>5
@@ -2221,8 +2221,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: gabriele_benussi.jpg
         alt: gabriele benussi
         popup_image: big_gabriele_benussi.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato a Trieste il 13.05.1970</p><p>4 CAMPIONATI MONDIALI</p><p>-
                 Quorter Ton, Baiona (1994)</p><p>- ILC 25 Malta – (1999)</p><p>- Maxi,
                 Porto Cervo (2000)</p><p>- GP42, Lanzarote (2009)</p><p>II° classificato:</p><p>-
@@ -2238,8 +2238,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: matteo_plazzi_s.jpg
         alt: matteo plazzi
         popup_image: big_matteo_plazzi_s.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 14 novembre a Ravenna.</p><p>Precedenti partecipazioni
                 in Coppa America:</p><p>Vincitore con Bmw Oracle Racing (2010)</p><p>Luna
                 Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge
@@ -2249,8 +2249,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: manuel_modena.jpg
         alt: manuel modena
         popup_image: big_manuel_modena.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 22 novembre 1975 a Rovereto in Italia</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team
                 olimpico Atene (2000-2004)</p><p>Campionati Mondiali:</p><p>1° Melges
@@ -2261,8 +2261,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: benjamin_durham.jpg
         alt: benjamin durham
         popup_image: big_benjamin_durham.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 26 gennaio 1977 in Australia</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Young Australia (2000)</p><p>One
                 World (2003)</p><p>Luna Rossa Challenge (2007)</p>
@@ -2271,8 +2271,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: claudio_celon_.jpg
         alt: ! 'claudio celon '
         popup_image: big_claudio_celon_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 19 aprile 1961 in Italia</p><p>Precedenti partecipazioni
                 in Coppa America:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
                 (2007)</p><p>Tre partecipazioni in team olimpici, Volvo Ocean Race
@@ -2282,8 +2282,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: lorenzo_mazza.jpg
         alt: lorenzo mazza
         popup_image: big_lorenzo_mazza.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 22 Febbraio del 1962 a Firenze (ITA).</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Alinghi (2010)</p><p>Alinghi
                 (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
@@ -2293,8 +2293,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: emanuele_marino.jpg
         alt: emanuele marino
         popup_image: big_emanuele_marino.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 5 maggio 1972 in Italia</p><p>Precedenti partecipazioni
                 in Coppa America:</p><p>Prada Challenge (2003)</p><p>Luna Rossa Challenge
                 (2007)</p>
@@ -2303,16 +2303,16 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: romolo_ranieri_.jpg
         alt: ! 'romolo ranieri '
         popup_image: big_romolo_ranieri_.jpg
-        popup_alt: 
-        popup_title: 
-        popup_description: 
+        popup_alt:
+        popup_title:
+        popup_description:
       - name: marco montis
         role: GRINDER
         image: marco_montis.jpg
         alt: marco montis
         popup_image: big_marco_montis.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 5 dicembre 1971 in Italia</p><p>Precedenti partecipazioni
                 in Coppa America:</p><p>Mascalzone Latino (2007)</p>
       - name: massimiliano sirena
@@ -2320,8 +2320,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: massimiliano_sirena.jpg
         alt: massimiliano sirena
         popup_image: big_massimiliano_sirena.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 4 Dicembre del 1971 in Italia.</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Vincitore con Bmw Oracle racing
                 (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
@@ -2331,8 +2331,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: giulio_giovanella_.jpg
         alt: ! 'giulio giovanella '
         popup_image: big_giulio_giovanella_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 16 febbraio 1982 a Trieste (ITA)</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Mascalzone Latino (2007)</p><p>Campionati
                 Mondiali</p><p>8° classificato al Campionato Mondiale J22 2003</p><p>2°
@@ -2376,8 +2376,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: matteo_auguadro.jpg
         alt: matteo auguadro
         popup_image: big_matteo_auguadro.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato il 16 settembre 1976 a Premosello Chiovenda in
                 Italia.</p><p>Precedenti partecipazioni in Coppa America:</p><p>Mascalzone
                 Latino (2007)</p>
@@ -2386,8 +2386,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: antonio_marrai.jpg
         alt: antonio marrai
         popup_image: big_antonio_marrai.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
                 Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p>Campionati
@@ -2397,8 +2397,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: gianni_tognozzi_.jpg
         alt: ! 'gianni tognozzi '
         popup_image: big_gianni_tognozzi_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>STP 65, Luna Rossa (2009)</p><p>Partecipazioni in Coppa
                 America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa Challenge
                 (2003)</p><p>Prada Challenge (2000)</p>
@@ -2407,8 +2407,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: pablo_di_bernardo.jpg
         alt: pablo di bernardo
         popup_image: big_pablo_di_bernardo.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nato a Buenos Aires (ARG) il 17.02.1972</p><p>Boat builder
                 per:</p><p>- STP65 Luna Rossa (2009)</p><p>- TP52 Matador (2008)</p><p>-
                 VOR 70 Telefonica, Volvo Ocean Race (2007-2008)</p><p>- TP52 Bribon
@@ -2418,8 +2418,8 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         image: monique_galassi.jpg
         alt: ! 'monique galassi '
         popup_image: big_monique_galassi.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Nata in Francia è di nazionalità italo-americana.</p><p>Precedenti
                 partecipazioni in Coppa America:</p><p>Luna Rossa Challenge (2007)</p><p>Luna
                 Rossa Challenge (2003)</p><p>Louis Vuitton Pacific Series (2009)</p><p>Lavora
@@ -2652,7 +2652,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
                 Muscat (208 punti)</p></li><li><p>8. Oman Air (188 punti)</p><p>9. Team Extreme
                 (140 punti)</p><p>10. Niceforyou (95 punti)</p><p>11. Team GAC Pindar
                 (62 punti)</p>'
-      - number: 08
+      - number: '08'
         image: /public/images/2011/b8.jpg
         alt: EXTREME SAILING SERIES ACT 1 – MUSCAT, OMAN
         caption: EXTREME SAILING SERIES ACT 1 – MUSCAT, OMAN
@@ -2673,7 +2673,7 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
                 (217 punti)</p><p>7. The Wave, Muscat (208 punti)</p><p>8. Oman Air
                 (188 punti)</p><p>9. Team Extreme (140 punti)</p><p>10. Niceforyou
                 (95 punti)</p><p>11. Team GAC Pindar (62 punti)</p>
-      - number: 09
+      - number: '09'
         image: /public/images/2011/b9.jpg
         alt: EXTREME SAILING SERIES ACT 2 – QINGDAO, CINA
         caption: EXTREME SAILING SERIES ACT 2 – QINGDAO, CINA

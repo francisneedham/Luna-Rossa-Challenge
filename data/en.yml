@@ -790,7 +790,7 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
                 sail downwind on the left side, forcing Luna Rossa to stay on the
                 right. At this point Mascalzone, now in front, gybes and crosses,
                 reaching the finish line with a 5” lead.</p>
-      - number: 08
+      - number: '08'
         image: /public/images/2010/lv08.jpg
         alt: LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS AZZURRA (ITA)
         caption: ! 'LOUIS VUITTON TROPHY WSTA
@@ -815,7 +815,7 @@ The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
                 water to win and move forward. This crew has not trained together
                 for along time and all of the teams here are at a very high level.
                 We still haveseven races to go and the will to do better.”</p>
-      - number: 09
+      - number: '09'
         image: /public/images/2010/lv09.jpg
         alt: LOUIS VUITTON TROPHY WSTA LA MADDALENA, LUNA ROSSA VS SYNERGY (RUS)
         caption: ! 'LOUIS VUITTON TROPHY WSTA
@@ -1130,7 +1130,7 @@ International Regattas </ p> 2 ° Admiral's Cup 1991-1993 </ p>"
         popup_image: big_romolo_ranieri.jpg
         popup_alt: romolo ranieri
         popup_title: romolo ranieri
-        popup_description: 
+        popup_description:
       - name: lorenzo mazza
         role: trimmer
         image: lorenzo_mazza.jpg
@@ -1170,7 +1170,7 @@ International Regattas </ p> 2 ° Admiral's Cup 1991-1993 </ p>"
         popup_image: big_rodney_ardern.jpg
         popup_alt: rodney ardern
         popup_title: rodney ardern
-        popup_description: 
+        popup_description:
       - name: emanuele marino
         role: grinder
         image: emanuele_marino.jpg
@@ -1188,7 +1188,7 @@ International Regattas </ p> 2 ° Admiral's Cup 1991-1993 </ p>"
         popup_image: big_will_mc_carthy.jpg
         popup_alt: will mc carthy
         popup_title: will mc carthy
-        popup_description: 
+        popup_description:
       - name: ! 'marco montis '
         role: grinder
         image: marco_montis_.jpg
@@ -1238,7 +1238,7 @@ world </ p> 1, Maxis, Lombard (1989) </ p> 12 Meters (1984-1985) </ p>"
         popup_image: big_luis_saenz.jpg
         popup_alt: luis saenz
         popup_title: luis saenz
-        popup_description: 
+        popup_description:
       - name: ! 'monique galassi '
         role: logistics
         image: monique_galassi.jpg
@@ -1249,7 +1249,7 @@ world </ p> 1, Maxis, Lombard (1989) </ p> 12 Meters (1984-1985) </ p>"
         popup_description: "<p> Born in France has a Italian-American nationality. </ p> Previous
 participations in America's Cup: </ p> Luna Rossa Challenge (2007) </ p> Luna
 Rossa Challenge (2003) </ p> Louis Vuitton Pacific Series (2009) </ p> Work
-for the Prada Group since 1999. </ p>"     
+for the Prada Group since 1999. </ p>"
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
@@ -1492,7 +1492,7 @@ for the Prada Group since 1999. </ p>"
                 – mastman</p><p>Marco Montis – grinder</p><p>Emanuele Marino – grinder</p><p>Manuel
                 Modena – runner</p><p>Benjamin Durham – mainsail trimmer</p><p>Giulio
                 Giovanella – bowman</p>
-      - number: 08
+      - number: '08'
         image: /public/images/2010/au08.jpg
         alt: ! 'AUDI MED CUP
 
@@ -1513,7 +1513,7 @@ for the Prada Group since 1999. </ p>"
                 where anything can happen. I like it. We look forward to having a
                 good week, a lot will depend on the wind conditions. </p></li><li><p>As of now it’s
                 looking pretty wet, but with some luck it will get better.”</p>'
-      - number: 09
+      - number: '09'
         image: /public/images/2010/au09.jpg
         alt: ! 'AUDI MED CUP
 
@@ -2077,8 +2077,8 @@ for the Prada Group since 1999. </ p>"
         image: lorenzo_bressani.jpg
         alt: lorenzo bressani
         popup_image: big_lorenzo_bressani.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: '<p>Born inTrieste il 28 giugno 1973.</p><p>7 world titles:</p><p>-
                         ILC 25, Malta (1999)</p><p>- IMS, Porto Cervo – ITA (1999)</p><p>-
                         J24, Medemblik – NED (2003)</p><p>- Maxi, Porto Cervo – ITA (2003)</p><p>-
@@ -2099,16 +2099,16 @@ for the Prada Group since 1999. </ p>"
         image: alberto_bolzan.jpg
         alt: alberto bolzan
         popup_image: big_alberto_bolzan.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Born the 14 of May 1982 in Italy.</p>
       - name: ! 'robert scheidt '
         role: HELMSMAN
         image: robert_scheidt_.jpg
         alt: ! 'robert scheidt '
         popup_image: big_robert_scheidt_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Born the 15 of April 1973 in Brasil.</p><p>Silver Classe
                 Star, Pechino, 2008</p><p>Gold Classe Laser, Atlanta, 1996 and
                 Athene, 2004</p><p>Silver Classe Laser, Sydney, 2000</p><p>World champion
@@ -2119,8 +2119,8 @@ for the Prada Group since 1999. </ p>"
         image: torben_grael.jpg
         alt: torben grael
         popup_image: big_torben_grael.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 22 luglio del 1960 in Brasil.</p><p>Previous America’s cup:</p><p>Luna Rossa (2009)</p><p>Luna
                         Rossa (2007)</p><p>Luna Rossa (2003)</p><p>Luna Rossa (2000)</p><p>5 Olimpic
                         medals :</p><p>gold medal in Star – Atene (2004)</p><p>bronze medal
@@ -2150,8 +2150,8 @@ for the Prada Group since 1999. </ p>"
         image: gabriele_benussi.jpg
         alt: gabriele benussi
         popup_image: big_gabriele_benussi.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born in Trieste the <p> 13.05.1970 </ p> 4 World championships </ p> -
                  Quorter Ton, Bayonne (1994) </ p> - ILC 25 Malta - (1999) </ p> - Maxi
                  Porto Cervo (2000) </ p> - GP42, Lanzarote (2009) </ p> II ° place: </ p> -
@@ -2167,8 +2167,8 @@ for the Prada Group since 1999. </ p>"
         image: matteo_plazzi_s.jpg
         alt: matteo plazzi
         popup_image: big_matteo_plazzi_s.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 14 November in Ravenna.</p><p>Previous America’s cup:</p><p>Vincitore con Bmw Oracle Racing (2010)</p><p>Luna
                                         Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge
                                         (2000)</p><p>Azzurra (1987)</p>"
@@ -2177,8 +2177,8 @@ for the Prada Group since 1999. </ p>"
         image: manuel_modena.jpg
         alt: manuel modena
         popup_image: big_manuel_modena.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 22 november 1975 in Rovereto, Italy</p><p>Previous America’s cup:</p><p>Luna Rossa Challenge (2007)</p><p>Olimpiadi:</p><p>Team
                         olimpico Atene (2000-2004)</p><p>World championships:</p><p>1° Melges
                         24 (2005)</p><p>Regate Internazionali:</p><p>1° Asso99 (2004)</p><p>Luna
@@ -2188,8 +2188,8 @@ for the Prada Group since 1999. </ p>"
         image: benjamin_durham.jpg
         alt: benjamin durham
         popup_image: big_benjamin_durham.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 26 of January 1977 in Australia</p><p>Previous
         participations in America's Cup:</p><p>Young Australia (2000)</p><p>One
                         World (2003)</p><p>Luna Rossa Challenge (2007)</p>"
@@ -2198,8 +2198,8 @@ for the Prada Group since 1999. </ p>"
         image: claudio_celon_.jpg
         alt: ! 'claudio celon '
         popup_image: big_claudio_celon_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 19 of April 1961 in Italia</p>Previous
         participations in America's Cup:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
                         (2007)</p><p>Tre partecipazioni in team olimpici, Volvo Ocean Race
@@ -2209,8 +2209,8 @@ for the Prada Group since 1999. </ p>"
         image: lorenzo_mazza.jpg
         alt: lorenzo mazza
         popup_image: big_lorenzo_mazza.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 22 of February 1962 in Firenze (ITA).</p><p>Previous
                 participations in America's Cup:</p><p>Alinghi (2010)</p><p>Alinghi
                         (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
@@ -2220,8 +2220,8 @@ for the Prada Group since 1999. </ p>"
         image: emanuele_marino.jpg
         alt: emanuele marino
         popup_image: big_emanuele_marino.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 5 of May 1972 in Italy</p><p>Previous
                 participations in America's Cup:</p><p>Prada Challenge (2003)</p><p>Luna Rossa Challenge
                         (2007)</p>"
@@ -2230,16 +2230,16 @@ for the Prada Group since 1999. </ p>"
         image: romolo_ranieri_.jpg
         alt: ! 'romolo ranieri '
         popup_image: big_romolo_ranieri_.jpg
-        popup_alt: 
-        popup_title: 
-        popup_description: 
+        popup_alt:
+        popup_title:
+        popup_description:
       - name: marco montis
         role: GRINDER
         image: marco_montis.jpg
         alt: marco montis
         popup_image: big_marco_montis.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 5 dicembre 1971 in Italia</p><p>Previous
                         participations in America's Cup:</p><p>Mascalzone Latino (2007)</p>"
       - name: massimiliano sirena
@@ -2247,8 +2247,8 @@ for the Prada Group since 1999. </ p>"
         image: massimiliano_sirena.jpg
         alt: massimiliano sirena
         popup_image: big_massimiliano_sirena.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 4 of December 1971 in Italy.</p><p>Previous
                         participations in America's Cup:</p><p>Vincitore con Bmw Oracle racing
                         (2010)</p><p>Luna Rossa Challenge (2007)</p><p>Prada Challenge (2003)</p><p>Prada
@@ -2258,8 +2258,8 @@ for the Prada Group since 1999. </ p>"
         image: giulio_giovanella_.jpg
         alt: ! 'giulio giovanella '
         popup_image: big_giulio_giovanella_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p> the Born February 16, 1982 in Trieste (ITA) </ p> Background
                 Investments in America's Cup: </ p> Mascalzone Latino (2007) </ p> Championships
                 World </ p> 8 th place at the 2003 J22 World Championship </ p> 2 °
@@ -2303,8 +2303,8 @@ for the Prada Group since 1999. </ p>"
         image: matteo_auguadro.jpg
         alt: matteo auguadro
         popup_image: big_matteo_auguadro.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born the 16 settembre 1976 a Premosello Chiovenda in
                         Italia.</p><p>Previous America's cup</p><p>Mascalzone
                         Latino (2007)</p>"
@@ -2313,8 +2313,8 @@ for the Prada Group since 1999. </ p>"
         image: antonio_marrai.jpg
         alt: antonio marrai
         popup_image: big_antonio_marrai.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>Born inSeravezza (ITA) il 24.08.1953</p><p>Previous America's cup:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
                         Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Azzurra (1987)</p><p>Campionati
                         mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>"
@@ -2323,8 +2323,8 @@ for the Prada Group since 1999. </ p>"
         image: gianni_tognozzi_.jpg
         alt: ! 'gianni tognozzi '
         popup_image: big_gianni_tognozzi_.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p>STP 65, Luna Rossa (2009)</p><p>Previous America's cup:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa Challenge
                         (2003)</p><p>Prada Challenge (2000)</p>"
       - name: pablo di bernardo
@@ -2332,8 +2332,8 @@ for the Prada Group since 1999. </ p>"
         image: pablo_di_bernardo.jpg
         alt: pablo di bernardo
         popup_image: big_pablo_di_bernardo.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: <p>Born in Buenos Aires (ARG) the 17.02.1972</p><p>Boat builder
                 per:</p><p>- STP65 Luna Rossa (2009)</p><p>- TP52 Matador (2008)</p><p>-
                 VOR 70 Telefonica, Volvo Ocean Race (2007-2008)</p><p>- TP52 Bribon
@@ -2343,12 +2343,12 @@ for the Prada Group since 1999. </ p>"
         image: monique_galassi.jpg
         alt: ! 'monique galassi '
         popup_image: big_monique_galassi.jpg
-        popup_alt: 
-        popup_title: 
+        popup_alt:
+        popup_title:
         popup_description: "<p> Born in France has a Italian-American nationality. </ p> Previous
 participations in America's Cup: </ p> Luna Rossa Challenge (2007) </ p> Luna
 Rossa Challenge (2003) </ p> Louis Vuitton Pacific Series (2009) </ p> Work
-for the Prada Group since 1999. </ p>"     
+for the Prada Group since 1999. </ p>"
       - name: nicola davanzo
       - name: nicola davanzo
         role: PRESS OFFICER
@@ -2585,7 +2585,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
                 The Wave, Muscat (208 points)</p><p>8. Oman Air (188 points)</p><p>9.
                 Team Extreme (140 points)</p><p>10. Niceforyou (95 points)</p><p>11.
                 Team GAC Pindar (62 points)</p>'
-      - number: 08
+      - number: '08'
         image: /public/images/2011/b8.jpg
         alt: EXTREME SAILING SERIES ACT 1 - MUSCAT, OMAN
         caption: EXTREME SAILING SERIES ACT 1 - MUSCAT, OMAN
@@ -2607,7 +2607,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
                 Wave, Muscat (208 points)</p><p>8. Oman Air (188 points)</p><p>9.
                 Team Extreme (140 points)</p><p>10. Niceforyou (95 points)</p><p>11.
                 Team GAC Pindar (62 points)</p>
-      - number: 09
+      - number: '09'
         image: /public/images/2011/b9.jpg
         alt: EXTREME SAILING SERIES ACT 2 – QINGDAO, CINA
         caption: EXTREME SAILING SERIES ACT 2 – QINGDAO, CINA

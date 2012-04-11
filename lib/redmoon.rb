@@ -17,8 +17,13 @@ class RedMoon
       @data[name] = {}
       unordered_data = YAML.load_file(File.expand_path(project_root + "/data/#{name}.yml"))
 
-      unordered_data.keys.sort{ |a,b| b<=>a }.each do |key|
-        @data[name][key] = unordered_data[key]
+      unordered_data.keys.sort{ |a,b| b<=>a }.each do |year|
+        @data[name][year] = unordered_data[year]
+
+        if @data[name][year].key? 'bullettins'
+          @data[name][year]['bullettins']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
+        end
+
       end
     end
 
