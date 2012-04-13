@@ -9,7 +9,7 @@ class RedMoon
     @project_root ||= File.expand_path(File.dirname(__FILE__) + '/..')
   end
 
-  def build_data
+  def build_data(static=false)
     @data = {}
 
     Dir.glob(project_root + '/data/*.yml').each do |name|
@@ -20,18 +20,27 @@ class RedMoon
       unordered_data.keys.sort{ |a,b| b<=>a }.each do |year|
         @data[name][year] = unordered_data[year]
 
-        if @data[name][year].key? 'bullettins'
-          @data[name][year]['bullettins']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
+        %w{ bullettins bullettins-lv bullettins-au }.each do |bullettins|
+          if @data[name][year].key? bullettins
+            @data[name][year][bullettins]['items'].sort!{ |a,b| b['number'] <=> a['number'] }
+
+            # if static
+            #   @data[name][year][bullettins]['items'].each do |item|
+            #     item['details'] = minify_html(item['details'])
+            #   end
+            # end
+          end
         end
 
-        if @data[name][year].key? 'bullettins-lv'
-          @data[name][year]['bullettins-lv']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
-        end
-
-        if @data[name][year].key? 'bullettins-au'
-          @data[name][year]['bullettins-au']['items'].sort!{ |a,b| b['number'] <=> a['number'] }
-        end
-
+        # if static
+        #   %w{ team team-lv team-au }.each do |team|
+        #     if @data[name][year].key? team
+        #       @data[name][year][team]['members'].each do |item|
+        #         item['popup_description'] = minify_html(item['popup_description'])
+        #       end
+        #     end
+        #   end
+        # end
 
       end
     end
@@ -204,9 +213,11 @@ class RedMoon
   end
 
   def compile
-    build_data
-
     clear_static
+
+    puts "Building data..."
+
+    build_data(true)
 
     compile_pages
     compile_assets
@@ -224,7 +235,10 @@ class RedMoon
     first_page = @data[first_locale][first_year].keys.first
 
     FileUtils.mkdir_p(project_root + "/static/")
-    File.open(project_root + "/static/index.html", 'w') do |f|
+
+    path = project_root + "/static/index.html"
+    puts "Compiling #{path}"
+    File.open(path, 'w') do |f|
       f.write render_page(first_locale, first_year, first_page)[2].join('')
     end
 
@@ -234,7 +248,11 @@ class RedMoon
       first_page = @data[locale][first_year].keys.first
 
       FileUtils.mkdir_p(project_root + "/static/#{locale}/")
-      File.open(project_root + "/static/#{locale}/index.html", 'w') do |f|
+
+      path = project_root + "/static/#{locale}/index.html"
+      puts "Compiling #{path}"
+
+      File.open(path, 'w') do |f|
         f.write render_page(locale, first_year, first_page)[2].join('')
       end
 
@@ -243,13 +261,21 @@ class RedMoon
         first_page = @data[locale][first_year].keys.first
 
         FileUtils.mkdir_p(project_root + "/static/#{locale}/#{year}/")
-        File.open(project_root + "/static/#{locale}/#{year}/index.html", 'w') do |f|
+
+        path = project_root + "/static/#{locale}/#{year}/index.html"
+        puts "Compiling #{path}"
+
+        File.open(path, 'w') do |f|
           f.write render_page(locale, year, first_page)[2].join('')
         end
 
         content.each do |page, content|
           FileUtils.mkdir_p(project_root + "/static/#{locale}/#{year}/#{page}/")
-          File.open(project_root + "/static/#{locale}/#{year}/#{page}/index.html", 'w') do |f|
+
+          path = project_root + "/static/#{locale}/#{year}/#{page}/index.html"
+          puts "Compiling #{path}"
+
+          File.open(path, 'w') do |f|
             f.write render_page(locale, year, page)[2].join('')
           end
         end
