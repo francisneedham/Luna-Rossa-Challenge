@@ -1,6 +1,5 @@
 2000:
   home:
-    # template: 'home-double'
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
@@ -8,10 +7,6 @@
     year: '2000'
     image: '/public/images/covers/2000.jpg'
     crop: 'bottom center'
-    # intro1_testo: 'Louis Vuitton cup'
-    # intro2_testo: 'intro2'
-    # intro1: '/it/2000/intro/'
-    # intro2: '/it/2000/intro2/'
   intro:
     template: 'intro'
     css_class: 'intro'
