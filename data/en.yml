@@ -23,6 +23,7 @@ The last is U.S.’s Paul Cayard with his green and grey boat; it takes all the 
 It is the first time that an Italian skipper races the America’s Cup final Match, and the first time there is no American yacht in the Cups’ finals.'
   bullettins:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "30<sup>th</sup> America's cup"
@@ -124,6 +125,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     description: 'Three boats on the water: two Luna Rossa and Young America. Three months of time to regain confidence with the Hauraki Gulf. At the end of the (Austral) Summer, it’s back to Italy to continue the long process of training and improvement at sea and ashore.'
   bullettins:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "31<sup>th</sup> America's cup"
@@ -319,6 +321,7 @@ While the original historic core of the Team remains, new top level talents are 
 The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weather team, performance team, boat builders, sail loft, logistics, administration and management) now includes about 150 people from 18 different countries.'
   bullettins:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "32<sup>th</sup> America's cup"
@@ -440,6 +443,7 @@ The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weath
         details: <p><img src=/public/images/archive/2007_19.gif></p></li><li style=border-left:none;>
   bullettins-lv:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "32<sup>th</sup> America's cup"
@@ -893,6 +897,7 @@ The Team Luna Rossa has also foreseen to participate in the Louis Vuitton Trophy
 The Team Luna Rossa will fly the Yacht Club Punta Ala burgee.'
   bullettins-lv:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: 'LOUIS VUITTON TROPHY WSTA'
@@ -1571,6 +1576,7 @@ for the Prada Group since 1999. </ p>"
     description: 'Following a successful 2009 racing season in the STP 65′ class, with results such as 1st in the ORC category in the Middle Sea Race, 1st in Palma Vela and 2nd overall in the IRC category in the Fastnet Race, the Team Luna Rossa is currently preparing its upcoming 2010 sailing season, in which it will participate in the TP52′ class international circuit, the Med Cup. The five events circuit will take place in four different countries (Portugal, Spain, France, Italy), and each event will consist of five races.The TP52′ “Luna Rossa” is a Rolf Vroljik design that already participated in the Med Cup last year; subsequently, during the winter, in order to optimize its performance and to comply with the 2010 Class rule, she underwent significant modifications and developments, carried out by the Team’s technical department under the designer’s supervision.The crew will include top class sailors, some of whom recent winners of the 33rd edition of the America’s Cup with BMW Oracle and also past members of Team Luna Rossa. Among these are navigator Matteo Plazzi, pitman Simone de Mari and the responsible for the rigging development Max Sirena.'
   bullettins-au:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: 'Audi med cup'
@@ -2673,6 +2679,7 @@ The ultra-light Extreme 40’ catamarans (about 12 meters long) have a crew of f
 Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta Ala burgee.'
   bullettins:
     template: 'bullettins'
+    bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
     title: 'Sailing season<span> 2011</span>'
@@ -2682,7 +2689,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b1.jpg
         alt: TEAM LUNA ROSSA PARTICIPATES IN THE 2011 EXTREME SAILING SERIES
         caption: TEAM LUNA ROSSA PARTICIPATES IN THE 2011 EXTREME SAILING SERIES
-        dates: 11/01/11
+        date: 11/01/11
         details: <p>Today Team Luna Rossa has started to prepare for the 2011 “Extreme
                 Sailing Series”, the championship designed for Extreme 40’ class catamarans.
                 The Extreme Sailing Series is one of the most challenging and spectacular
@@ -2703,7 +2710,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b2.jpg
         alt: EXTREME SAILING SERIES ACT 1, FIRST RACES IN OMAN TO START TOMORROW
         caption: EXTREME SAILING SERIES ACT 1, FIRST RACES IN OMAN TO START TOMORROW
-        dates: 19/02/11
+        date: 19/02/11
         details: <p>Following an initial training period,  Team Luna Rossa is ready
                 to start racing tomorrow in the first regattas of the Extreme Sailing
                 Series 2011 season.</p><p>The first practice races took place today
@@ -2722,7 +2729,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b3.jpg
         alt: EXTREME SAILING SERIES ACT 1, LUNA ROSSA AT ITS DEBUT
         caption: EXTREME SAILING SERIES ACT 1, LUNA ROSSA AT ITS DEBUT
-        dates: 20/02/11
+        date: 20/02/11
         details: ! '<p>Team Luna Rossa made its debut today in the first regattas
                 of the Extreme Sailing Series. The first six trials of the international
                 circuit of Extreme 40’ catamarans took place today in the gulf of
@@ -2745,7 +2752,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b4.jpg
         alt: EXTREME SAILING SERIES ACT 1, A DIFFICULT DAY
         caption: EXTREME SAILING SERIES ACT 1, A DIFFICULT DAY
-        dates: 21/02/11
+        date: 21/02/11
         details: ! '<p>Five more trials in Muscat today, with Luna Rossa losing one
                 position in the provisional ranking: the Italian team is now eighth.</p><p>The
                 results of today’s races are as follows: 6th– 8th– 11th– 8th– 3rd,
@@ -2767,7 +2774,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b5.jpg
         alt: EXTREME SAILING SERIES ACT 1, MOVING UP THE RANKING
         caption: EXTREME SAILING SERIES ACT 1, MOVING UP THE RANKING
-        dates: 22/02/11
+        date: 22/02/11
         details: ! '<p>Luna Rossa, with two wins in today’s races, moves up to 6th
                 place in the provisional ranking, with a total of 103 points.</p><p>Of
                 the six races scheduled, five were carried out with the usual fleet
@@ -2790,7 +2797,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b6.jpg
         alt: EXTREME SAILING SERIES ACT 1, EIGHT RACES, TWO WINS
         caption: EXTREME SAILING SERIES ACT 1, EIGHT RACES, TWO WINS
-        dates: 23/02/11
+        date: 23/02/11
         details: ! '<p>Today’s racing in the Gulf of Muscat included a total of 8
                 trials. The breeze built up without delay on the course set up along
                 the coast of Oman’s capital Muscat, where the eleven Extreme 40′ teams
@@ -2816,7 +2823,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b7.jpg
         alt: EXTREME SAILING SERIES ACT 1, LUNA ROSSA CLOSES RANKING FIFTH
         caption: EXTREME SAILING SERIES ACT 1, LUNA ROSSA CLOSES RANKING FIFTH
-        dates: 24/02/11
+        date: 24/02/11
         details: ! '<p>With the last seven races of today, the first event of the
                 Extreme Sailing Series international circuit has come to an end. Eleven
                 teams, representing nine different nations, have in the waters of
@@ -2843,7 +2850,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b8.jpg
         alt: EXTREME SAILING SERIES ACT 1 - MUSCAT, OMAN
         caption: EXTREME SAILING SERIES ACT 1 - MUSCAT, OMAN
-        dates: 07/03/11
+        date: 07/03/11
         details: <p>The first event of the Extreme Sailing Series international circuit
                 has come to an end. Eleven teams, representing nine different nations,
                 have in the waters of Oman from February 20th to 24th, in a total
@@ -2865,7 +2872,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b9.jpg
         alt: EXTREME SAILING SERIES ACT 2 – QINGDAO, CINA
         caption: EXTREME SAILING SERIES ACT 2 – QINGDAO, CINA
-        dates: 04/04/11
+        date: 04/04/11
         details: ! '<p>The second event of the Extreme Sailing Series, reserved to
                 the Extreme 40′ catamarans, to commence next April 13th 2011.</p><p>The
                 Luna Rossa crew will be as follows:</p><p>Massimiliano Sirena - Skipper</p><p>Paul
@@ -2884,7 +2891,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b10.jpg
         alt: EXTREME SAILING SERIES ACT 2, FIRST DAY OF RACING IN QINGDAO
         caption: EXTREME SAILING SERIES ACT 2, FIRST DAY OF RACING IN QINGDAO
-        dates: 13/04/11
+        date: 13/04/11
         details: ! '<p>First day of racing started today, in cold Qindgao, set on
                 the Chinese sea in front of Fushan Bay, and home of the 2010 Olympics
                 and  of the second event of the Extreme Sailing Series. Team Luna
@@ -2909,7 +2916,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b11.jpg
         alt: EXTREME SAILING SERIES ACT 2, LUNA ROSSA MOVING UP IN THE RANKING
         caption: EXTREME SAILING SERIES ACT 2, LUNA ROSSA MOVING UP IN THE RANKING
-        dates: 14/04/11
+        date: 14/04/11
         details: ! '<p>A positive outcome for Luna Rossa on this second day of racing
                 in the low temperatures of Qingdao where the second event of the Extreme
                 Sailing Series circuit is now in full swing.</p><p>Today Team Luna
@@ -2943,7 +2950,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
                 ROSSA STAYS UPRIGHT
         caption: EXTREME SAILING SERIES ACT 2, SUMMERSAULTS ON THE WATER IN QINGDAO,
                 LUNA ROSSA STAYS UPRIGHT
-        dates: 15/04/11
+        date: 15/04/11
         details: ! '<p>A dramatic was in store for many teams as they capsized and
                 overturned in Qingdao during the first series of“stadium racing” regattas
                 held in the inner waters of Fushan Bay, China.</p><p>The weather forecast
@@ -2974,7 +2981,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b13.jpg
         alt: EXTREME SAILING SERIES ACT 2, LUNA ROSSA TAKES THE LEAD
         caption: EXTREME SAILING SERIES ACT 2, LUNA ROSSA TAKES THE LEAD
-        dates: 16/04/11
+        date: 16/04/11
         details: ! '<p>A very positive day for Luna Rossa who, thanks to today’s excellent
                 results in Qingdao, leaps to the top of the provisional ranking.  The
                 scores that led to this result were respectively  2nd, 3rd , 1st 1st,
@@ -3003,7 +3010,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
                 EVENT
         caption: EXTREME SAILING SERIES ACT 2, LUNA ROSSA IS THE WINNER OF THE QINGDAO
                 EVENT
-        dates: 17/04/11
+        date: 17/04/11
         details: ! '<p>Luna Rossa’s Extreme 40’ team, led by syndicate owner Patrizio
                 Bertelli, was the winner of this second event in the Extreme Sailing
                 Series 2011 held in Qingdao, China.</p><p>The team, composed by Massimiliano
@@ -3048,7 +3055,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b15.jpg
         alt: EXTREME SAILING SERIES ACT 3, ROUTE TOWARDS ISTANBUL
         caption: EXTREME SAILING SERIES ACT 3, ROUTE TOWARDS ISTANBUL
-        dates: 19/05/11
+        date: 19/05/11
         details: ! '<p>After winning the Qingdao event in China, Luna Rossa moves
                 on to the third stop of the Extreme Sailing Series circuit. The event,
                 reserved to Extreme 40’ catamarans, will take place in Istanbul starting
@@ -3077,7 +3084,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b16.jpg
         alt: EXTREME SAILING SERIES ACT 3, PLACE OF HONOR FOR LUNA ROSSA
         caption: EXTREME SAILING SERIES ACT 3, PLACE OF HONOR FOR LUNA ROSSA
-        dates: 25/05/11
+        date: 25/05/11
         details: ! '<p>Luna Rossa places second in this first day of races  in the
                 third event of the Extreme Sailing Series circuit reserved to Extreme
                 40′ class catamarans.</p><p>It was a tough day for tacticians, with
@@ -3104,7 +3111,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b17.jpg
         alt: EXTREME SAILING SERIES ACT 3, UPS AND DOWNS ON THE BOSPHORUS
         caption: EXTREME SAILING SERIES ACT 3, UPS AND DOWNS ON THE BOSPHORUS
-        dates: 26/05/11
+        date: 26/05/11
         details: ! '<p>On the second day of racing on the waters of the Golden Horn
                 in Istanbul Luna Rossa loses two positions in the provisional ranking.
                 Artemis Racing remains at the lead of the provisional ranking, followed
@@ -3120,7 +3127,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b18.jpg
         alt: EXTREME SAILING SERIES ACT 3, DAY 3
         caption: EXTREME SAILING SERIES ACT 3, DAY 3
-        dates: 27/05/11
+        date: 27/05/11
         details: <p>General ranking after 22 races:</p><p>(click here to see
                 the single race results)</p><p>1. Groupe Edmond de Rothshild (171
                 points)</p><p>2. Artemis Racing (170 points)</p><p>3. Team New Zealand
@@ -3133,7 +3140,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b19.jpg
         alt: EXTREME SAILING SERIES ACT 3, TEN RACES IN ONE DAY
         caption: EXTREME SAILING SERIES ACT 3, TEN RACES IN ONE DAY
-        dates: 28/05/11
+        date: 28/05/11
         details: ! '<p>Luna Rossa slips and is now fifth in the provisional ranking
                 on the last but one day prior to the closing of this third Extreme
                 Sailing Series event.</p><p>In Istanbul today the Race Committee gave
@@ -3154,7 +3161,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b20.jpg
         alt: EXTREME SAILING SERIES ACT 3, AFTER 43 RACES LUNA ROSSA IS NOW 5TH
         caption: EXTREME SAILING SERIES ACT 3, AFTER 43 RACES LUNA ROSSA IS NOW 5TH
-        dates: 29/05/11
+        date: 29/05/11
         details: ! '<p>The Istanbul Extreme Sailing Series 2011 was record – setting
                 for the number of races held in any event of the circuit. The eleven
                 competing teams completed a total of 43 races.</p><p>Winner of this
@@ -3183,7 +3190,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b21.jpg
         alt: EXTREME SAILING SERIES ACT 4, A STARS AND STRIPES EVENT
         caption: EXTREME SAILING SERIES ACT 4, A STARS AND STRIPES EVENT
-        dates: 24/06/11
+        date: 24/06/11
         details: ! '<p>The fourth event in the Extreme Sailing Series, the circuit
                 reserved to the Extreme 40′ catamaran class, is ready to start in
                 the</p><p>The Luna Rossa crew will be as follows:</p><p>Massimiliano
@@ -3203,7 +3210,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b22.jpg
         alt: EXTREME SAILING SERIES ACT 4, LUNA ROSSA SCORES FIFTH ON DAY ONE
         caption: EXTREME SAILING SERIES ACT 4, LUNA ROSSA SCORES FIFTH ON DAY ONE
-        dates: 30/06/11
+        date: 30/06/11
         details: ! '<p>At the end of the first day of races Italian team Luna Rossa
                 starts its fourth event in the Extreme 40’ circuit with a fifth place
                 in the provisional ranking.</p><p>These are the split results of the
@@ -3234,7 +3241,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b23.jpg
         alt: EXTREME SAILING SERIES ACT 4, HIGH FIVE!
         caption: EXTREME SAILING SERIES ACT 4, HIGH FIVE!
-        dates: 01/07/11
+        date: 01/07/11
         details: ! '<p>Antonio Marrai (team manager): "This Boston event has not turned
                 out to be very favorable for our team, things didn’t go the way we
                 hoped today.”</p><p>A combination of unfortunate factors didn’t allow
@@ -3254,7 +3261,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b24.jpg
         alt: EXTREME SAILING SERIES ACT 4, 3rd DAY OF RACING
         caption: EXTREME SAILING SERIES ACT 4, 3rd DAY OF RACING
-        dates: 03/07/11
+        date: 03/07/11
         details: <p>General ranking after 22 races:</p><p>(to download the details click
                 here)</p><p>1. Artemis Racing (169 points)</p><p>2. The Wave, Muscat
                 (159 points)</p><p>3. Emirates Team New Zealand (158 points)</p><p>4.
@@ -3266,7 +3273,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b26.jpg
         alt: EXTREME SAILING SERIES ACT 4, LAST DAY OF RACING
         caption: EXTREME SAILING SERIES ACT 4, LAST DAY OF RACING
-        dates: 04/07/11
+        date: 04/07/11
         details: <p>General ranking after 37 races:</p><p>(to download the details click
                 here)</p><p>1. Emirates Team New Zealand (293 points)</p><p>2. Artemis
                 Racing (289 points)</p><p>3. The Wave, Muscat (269 points)</p><p>4.
@@ -3278,7 +3285,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b25.jpg
         alt: EXTREME SAILING SERIES ACT 4, 4th DAY OF RACING
         caption: EXTREME SAILING SERIES ACT 4, 4th DAY OF RACING
-        dates: 04/07/11
+        date: 04/07/11
         details: <p>General ranking after 30 races:</p><p>(to download the details click
                 here)</p><p>1. Artemis Racing (239 points)</p><p>2. Emirates Team
                 New Zealand (225 points)</p><p>3. The Wave, Muscat (222 points)</p><p>4.
@@ -3290,7 +3297,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b27.jpg
         alt: EXTREME SAILING SERIES ACT 5, ON THE ISLE OF WIGHT
         caption: EXTREME SAILING SERIES ACT 5, ON THE ISLE OF WIGHT
-        dates: 02/08/11
+        date: 02/08/11
         details: ! '<p>It’s the UK’s turn. The Extreme Sailing Series, now halfway
                 through the racing season,  will take off on August 5 with the 5th
                 event of the circuit dedicated to the Extreme 40’ class catamarans.
@@ -3319,7 +3326,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b28.jpg
         alt: EXTREME SAILING SERIES ACT 5, THE SOLENT KEEPS ITS PROMISE
         caption: EXTREME SAILING SERIES ACT 5, THE SOLENT KEEPS ITS PROMISE
-        dates: 06/08/11
+        date: 06/08/11
         details: ! "<p>A good start for the Italian team Luna Rossa, now second in
                 the provisional ranking thanks to the day's results: 4th, 2nd, 1st,
                 3rd.</p><p>Antonio Marrai - Team Manager: \"After two days of training
@@ -3352,7 +3359,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b29.jpg
         alt: EXTREME SAILING SERIES ACT 5, LUNA ROSSA TAKES THE LEAD
         caption: EXTREME SAILING SERIES ACT 5, LUNA ROSSA TAKES THE LEAD
-        dates: 07/08/11
+        date: 07/08/11
         details: ! "<p>In the wake of an excellent start the previous day, Luna Rossa
                 today leaps forward and takes the top of the provisional ranking thanks
                 to three wins.</p><p>The winds were strong all day, with westerly
@@ -3389,7 +3396,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b30.jpg
         alt: EXTREME SAILING SERIES ACT 5, DAY 3
         caption: EXTREME SAILING SERIES ACT 5, DAY 3
-        dates: 08/08/11
+        date: 08/08/11
         details: ! "<p>Another positive day in Cowes for Luna Rossa. With today's
                 performance (two third places and one win) the team maitains the leadership
                 of the provisional ranking while waiting for the decisions of the
@@ -3415,7 +3422,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b31.jpg
         alt: EXTREME SAILING SERIES ACT 5, FOURTH DAY IN COWES
         caption: EXTREME SAILING SERIES ACT 5, FOURTH DAY IN COWES
-        dates: 09/08/11
+        date: 09/08/11
         details: ! "<p>Antonio Marrai - Team Manager: \"Today was not a very positive
                 one for Luna Rossa; we had a bad start and were assigned two penalties.
                 \ In addition to this Gitana and Muscat also placed really well, and
@@ -3437,7 +3444,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b32.jpg
         alt: EXTREME SAILING SERIES ACT 5, EXTREME CONDITIONS PUT A STOP ON RACING
         caption: EXTREME SAILING SERIES ACT 5, EXTREME CONDITIONS PUT A STOP ON RACING
-        dates: 10/08/11
+        date: 10/08/11
         details: ! "<p>The extreme conditions of today, with big waves, wind over
                 25 knots, grounded even the most experienced crews. The Extreme Sailing
                 Series in Cowes was put on hold for the whole day, for the first time
@@ -3458,7 +3465,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
                 THE END
         caption: EXTREME SAILING SERIES ACT 5, LUNA ROSSA IS NOW SECOND, AT ONE DAY
                 FROM THE END
-        dates: 11/08/11
+        date: 11/08/11
         details: ! "<p>Luna Rossa today gains one position in the provisional ranking
                 after yesterday's forced stop to racing due to extreme  weather conditions.
                 The fleet resumed racing this afternoon at 16.30 hrs.</p><p>Once again
@@ -3479,7 +3486,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b34.jpg
         alt: EXTREME SAILING SERIES ACT 5, FAREWELL TO TRAPANI
         caption: EXTREME SAILING SERIES ACT 5, FAREWELL TO TRAPANI
-        dates: 12/08/11
+        date: 12/08/11
         details: ! "<p>Antonio Marrai - Team Manager: \"After yesterday's results,
                 that were certainly not our  best, Luna Rossa today came back with
                 a score  that allowed her to take home a well-deserved second place.
@@ -3510,7 +3517,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b35.jpg
         alt: EXTREME SAILING SERIES ACT 6, READY FOR ITALY
         caption: EXTREME SAILING SERIES ACT 6, READY FOR ITALY
-        dates: 11/09/11
+        date: 11/09/11
         details: <p>Following the first five events in the Extreme Sailing Series
                 circuit, Trapani now takes the scene from September 14 to 18 for Act
                 6th of the 2011 racing season.</p><p>Team Luna Rossa, currently second
@@ -3531,7 +3538,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b36.jpg
         alt: EXTREME SAILING SERIES ACT 6, MEANWHILE IN TRAPANI...
         caption: EXTREME SAILING SERIES ACT 6, MEANWHILE IN TRAPANI...
-        dates: 14/09/11
+        date: 14/09/11
         details: ! '<p>The Sicilian city of Trapani gave start today, for the second
                 year in a row, and following the successful Act of the 32nd America’s
                 Cup, to the Extreme Sailing Series races.</p><p> </p><p>Luna Rossa
@@ -3557,7 +3564,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b37.jpg
         alt: EXTREME SAILING SERIES ACT 6, SECOND DAY, SECOND PLACE
         caption: EXTREME SAILING SERIES ACT 6, SECOND DAY, SECOND PLACE
-        dates: 15/09/11
+        date: 15/09/11
         details: ! '<p>Two wins today and Luna Rossa now ranks second, after two days
                 of racing in Trapani. Team Alinghi leads the provisional scoreboard
                 at only two points from Luna Rossa.</p><p> </p><p>Today the races
@@ -3577,7 +3584,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b38.jpg
         alt: EXTREME SAILING SERIES ACT 6, STADIUM RACES TIME
         caption: EXTREME SAILING SERIES ACT 6, STADIUM RACES TIME
-        dates: 16/09/11
+        date: 16/09/11
         details: ! '<p>Strong winds and large crowds. It was the perfect stage for
                 spectacular entertainment Trapani’s third day of Extreme races were
                 more exciting than ever. The ranking changed constantly, but at the
@@ -3599,7 +3606,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b39.jpg
         alt: EXTREME SAILING SERIES ACT 6, OMAN RULE
         caption: EXTREME SAILING SERIES ACT 6, OMAN RULE
-        dates: 17/09/11
+        date: 17/09/11
         details: ! '<p>Another day in Trapani charged with adrenaline and excitement;
                 Team Luna Rossa finishes this last-but-one day of Extreme races in
                 Sicily in fifth position as result of the following partial  results:
@@ -3625,7 +3632,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b40.jpg
         alt: EXTREME SAILING SERIES ACT 6, LUNA ROSSA OVERALL LEADER
         caption: EXTREME SAILING SERIES ACT 6, LUNA ROSSA OVERALL LEADER
-        dates: 18/09/11
+        date: 18/09/11
         details: ! '<p>Team Luna Rossa, thanks to its fourth place in the Trapani
                 act, is now first in the provisional overall ranking of the Extreme
                 40′ Circuit.</p><p> </p><p>In this Sicilian event, after 34 races
@@ -3654,7 +3661,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b41.jpg
         alt: EXTREME SAILING SERIES ACT 7, LUNA ROSSA MOVES ON TO NICE
         caption: EXTREME SAILING SERIES ACT 7, LUNA ROSSA MOVES ON TO NICE
-        dates: 26/09/11
+        date: 26/09/11
         details: <p>The Extreme 40′ fleet is now directed towards Nice, France, where
                 the seventh event of the Extreme Sailing Series circuit will take
                 place September 28th to October 2nd .</p><p>After the sixth act of
@@ -3671,7 +3678,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b42.jpg
         alt: EXTREME SAILING SERIES ACT 7, KICKS OFF DAY
         caption: EXTREME SAILING SERIES ACT 7, KICKS OFF DAY
-        dates: 28/09/11
+        date: 28/09/11
         details: ! '<p>Red Bull Extreme Sailing opens the seventh act of the Extreme
                 Sailing Series in Nice and reaches the top of the provisional ranking.</p><p>Luna
                 Rossa today finished in 8th position after the following partial results:
@@ -3689,7 +3696,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b43.jpg
         alt: EXTREME SAILING SERIES ACT 7, LIGHT WINDS, LUNA ROSSA MOVES UP
         caption: EXTREME SAILING SERIES ACT 7, LIGHT WINDS, LUNA ROSSA MOVES UP
-        dates: 29/09/11
+        date: 29/09/11
         details: <p>In little over five knots of wind, and after eight, Luna Rossa
                 comes back into a third place in the provisional ranking.</p><p>Today
                 the Race Committee divided the trials in two sessions and gave start
@@ -3712,7 +3719,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b44.jpg
         alt: EXTREME SAILING SERIES ACT 7, DAY 3
         caption: EXTREME SAILING SERIES ACT 7, DAY 3
-        dates: 30/09/11
+        date: 30/09/11
         details: <p>Once again a day of light and shifty winds in Nice for this seventh
                 event in the Extreme Sailing Series.</p><p>Luna Rossa’s performance
                 experienced some highs and lows; the team has lost one position  and
@@ -3732,7 +3739,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b45.jpg
         alt: EXTREME SAILING SERIES ACT 7, “ONLY” 5 RACES
         caption: EXTREME SAILING SERIES ACT 7, “ONLY” 5 RACES
-        dates: 01/10/11
+        date: 01/10/11
         details: ! "<p>It was a long day while waiting for the wind. The Race Committee
                 gave start to four races in the morning and only one in the afternoon.</p><p>
                 </p><p>The Luna Rossa crew remains stable in 4th place, whereas Groupe
@@ -3752,7 +3759,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b46.jpg
         alt: EXTREME SAILING SERIES ACT 7, LUNA ROSSA FINISHES IN FOURTH PLACE
         caption: EXTREME SAILING SERIES ACT 7, LUNA ROSSA FINISHES IN FOURTH PLACE
-        dates: 02/10/11
+        date: 02/10/11
         details: ! "<p>The seventh act of the Extreme Sailing Series circuit, characterized
                 by light winds throughout the entire event, closes today with the
                 victory of Groupe Edmond de Rothschild, the French catamaran helmed
@@ -3773,7 +3780,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b47.jpg
         alt: EXTREME SAILING SERIES ACT 8, SPANISH MOVIDA
         caption: EXTREME SAILING SERIES ACT 8, SPANISH MOVIDA
-        dates: 11/10/11
+        date: 11/10/11
         details: <p>The Spanish movida is ready to welcome the eighth and second-last
                 event in the Extreme Sailing Series. Stadium-format racing will start
                 tomorrow in sunny Almeria in the south of Spain and hereby give the
@@ -3793,7 +3800,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b48.jpg
         alt: EXTREME SAILING SERIES ACT 8, HALFWAY
         caption: EXTREME SAILING SERIES ACT 8, HALFWAY
-        dates: 12/10/11
+        date: 12/10/11
         details: ! '<p>Today the second-last event in the Extreme Sailing Series started
                 off with four races in the waters of Almeria. The extremely light
                 winds provided the greatest challenge for all tacticians in their
@@ -3813,7 +3820,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b49.jpg
         alt: EXTREME SAILING SERIES ACT 8, SECOND DAY
         caption: EXTREME SAILING SERIES ACT 8, SECOND DAY
-        dates: 13/10/11
+        date: 13/10/11
         details: ! '<p>Today’s weather started out with a 6-knot breeze that, as the
                 day went on, decreased to less than four; on this second day of races
                 in Almeria the race committee gave start to five races in which Luna
@@ -3833,7 +3840,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b50.jpg
         alt: EXTREME SAILING SERIES ACT 8, IN A SHORT RANKING
         caption: EXTREME SAILING SERIES ACT 8, IN A SHORT RANKING
-        dates: 15/10/11
+        date: 15/10/11
         details: ! '<p>Five more races were completed today, three of which in stadium
                 format and two more outside of the port of Almeria, the small Spanish
                 town currently hosting the second last act of the Extreme Sailing
@@ -3862,7 +3869,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
                 THE LEADERSHIP OF THE CIRCUIT
         caption: EXTREME SAILING SERIES ACT 8, ALINGHI WINS THE EVENT, LUNA ROSSA
                 TAKES THE LEADERSHIP OF THE CIRCUIT
-        dates: 16/10/11
+        date: 16/10/11
         details: <p>And the winner is Alinghi.  This turn it was Ernesto Bertarelli’s
                 Swiss team to take the eighth event of the season with a total of
                 254 points after 32 races in medium light winds in the waters of Almeria,
@@ -3893,7 +3900,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b52.jpg
         alt: EXTREME SAILING SERIES ACT 9, READY FOR THE BIG FINAL
         caption: EXTREME SAILING SERIES ACT 9, READY FOR THE BIG FINAL
-        dates: 16/11/11
+        date: 16/11/11
         details: ! '<p>The last act of the Extreme Sailing Series circuit will take
                 place in Singapore from December 7th to December 11th. The big final
                 of the 2011 season will see Luna Rossa defending its position in the
@@ -3925,7 +3932,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b53.jpg
         alt: EXTREME SAILING SERIES ACT 9, FIRST DAY IN SINGAPORE
         caption: EXTREME SAILING SERIES ACT 9, FIRST DAY IN SINGAPORE
-        dates: 07/12/11
+        date: 07/12/11
         details: ! '<p>The last event in the 2011 of the Extreme Sailing Series took
                 off today in Singapore, in the stunning backdrop of the panoramic
                 wheel, the largest in the world, that dominates the city skyline.</p><p>
@@ -3950,7 +3957,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b54.jpg
         alt: EXTREME SAILING SERIES ACT 9, “TRICKY CONDITIONS”
         caption: EXTREME SAILING SERIES ACT 9, “TRICKY CONDITIONS”
-        dates: 08/12/11
+        date: 08/12/11
         details: <p>At the end of the second day the Austrian team Red Bull Extreme
                 Sailing maintains its leadership in the event ranking with a total
                 of 64 points. Team Luna Rossa gives way to Emirates Team New Zealand
@@ -3967,7 +3974,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b55.jpg
         alt: EXTREME SAILING SERIES ACT 9, MOVING FORWARD
         caption: EXTREME SAILING SERIES ACT 9, MOVING FORWARD
-        dates: 09/12/11
+        date: 09/12/11
         details: ! "<p>At two days from the end of the Extreme Sailing Series Luna
                 Rossa is the leader of the ranking for the circuit, and second in
                 the provisional ranking of this 9th Act.</p><p> </p><p>The day in
@@ -3990,7 +3997,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b56.jpg
         alt: EXTREME SAILING SERIES ACT 9, MORE TOMORROW...
         caption: EXTREME SAILING SERIES ACT 9, MORE TOMORROW...
-        dates: 10/12/11
+        date: 10/12/11
         details: ! "<p>Following a total of 25 races to date, Luna Rossa reaches the
                 top of the provisional ranking in Singapore with the following partial
                 results: 2 – 7 – 2 – 2 – 1 – 1 – 3 – 4 – 3 – 1 – 2.</p><p> </p><p>It
@@ -4015,7 +4022,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
         image: /public/images/2011/b57.jpg
         alt: LUNA ROSSA IS THE WINNER OF THE 2011 EXTREME SAILING SERIES
         caption: LUNA ROSSA IS THE WINNER OF THE 2011 EXTREME SAILING SERIES
-        dates: 11/12/11
+        date: 11/12/11
         details: <p>Today Team Luna Rossa won the last event of the Extreme Sailing
                 Series 2011circuit that took place in Singapore.</p><p> </p><p>The
                 Italian crew, composed by Max Sirena (skipper), Paul Campbell-James

@@ -728,10 +728,10 @@ a{
     height:17px;
     position:relative;
     .scroller{
-      background:url(/public/images/bg-scroller.png) left top repeat-x;
+      background:url(/public/images/bg-scroller-hover.png) left top repeat-x;
       position:absolute;
       height:40px;
-      border-right:1px solid #d7d7d7;
+      border-right:1px solid #e52b38;
       cursor:pointer;
       &:hover{
         background:url(/public/images/bg-scroller-hover.png) left top repeat-x;
@@ -742,7 +742,7 @@ a{
       }
       span{
         text-transform:uppercase;
-        color:#d7d7d7;
+        color:#e52b38;
         position:absolute;
         bottom:0;
         display:block;
