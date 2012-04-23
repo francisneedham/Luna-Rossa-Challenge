@@ -1401,17 +1401,6 @@ International Regattas </ p> 2 ° Admiral's Cup 1991-1993 </ p>"
         participations in America's Cup:</p><p>Alinghi (2010)</p><p>Alinghi
                         (2007)</p><p>Prada Challenge (2003)</p><p>Prada Challenge (2000)</p><p>Il
                         Moro di Venezia (1992)</p><p>Italia (1987)</p><p>Azzurra (1983)</p>"
-      - name: claudio celon
-        role: trimmer
-        image: claudio_celon.jpg
-        alt: claudio celon
-        popup_image: big_claudio_celon.jpg
-        popup_alt: claudio celon
-        popup_title: claudio celon
-        popup_description: "<p>Born the 19 of April 1961 in Italy</p><p>Previous
-        participations in America's Cup:</p><p>Italia (1985)</p><p>Prada Challenge (2000)</p><p>Alinghi
-                        (2007)</p><p>Three partecipations in olimpic teams, Ocean Race
-                        on Amer Sports One</p>"
       - name: benjamin durham
         role: mainsail trimmer
         image: benjamin_durham.jpg
@@ -2609,7 +2598,6 @@ for the Prada Group since 1999. </ p>"
 participations in America's Cup: </ p> Luna Rossa Challenge (2007) </ p> Luna
 Rossa Challenge (2003) </ p> Louis Vuitton Pacific Series (2009) </ p> Work
 for the Prada Group since 1999. </ p>"
-      - name: nicola davanzo
       - name: nicola davanzo
         role: PRESS OFFICER
         image: nicola_davanzo.jpg
