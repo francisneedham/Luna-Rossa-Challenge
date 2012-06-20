@@ -1381,9 +1381,9 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
                 World (2003)</p><p>Luna Rossa Challenge (2007)</p>
       - name: francesco rapetti
         role: mastman
-        image: francesco_rapetti.jpg
+        image: francesco_rapetti_.jpg
         alt: francesco rapetti
-        popup_image: big_francesco_rapetti.jpg
+        popup_image: big_francesco_rapetti_.jpg
         popup_alt: francesco rapetti
         popup_title: francesco rapetti
         popup_description: <p>Nato il 10 ottobre del 1965 a Rapallo, Italia</p><p>Precedenti
@@ -1394,9 +1394,9 @@ E’ inoltre prevista la partecipazione del Team Luna Rossa alle altre prove del
                 Internazionali</p><p>2° Admiral’s Cup 1991-1993</p>
       - name: ! 'simone de mari '
         role: pitman
-        image: simone_de_mari_.jpg
+        image: simone_de_mari.jpg
         alt: ! 'simone de mari '
-        popup_image: big_simone_de_mari_.jpg
+        popup_image: big_simone_de_mari.jpg
         popup_alt: ! 'simone de mari '
         popup_title: ! 'simone de mari '
         popup_description: <p>Nato il 5 giugno del 1973 a Rapallo, Italia</p><p>Precedenti
@@ -2423,9 +2423,9 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
         popup_description: <p>Nato il 14 Maggio 1982 in Italia.</p>
       - name: ! 'robert scheidt '
         role: HELMSMAN
-        image: robert_scheidt_.jpg
+        image: robert_scheidt.jpg
         alt: ! 'robert scheidt '
-        popup_image: big_robert_scheidt_.jpg
+        popup_image: big_robert_scheidt.jpg
         popup_alt:
         popup_title:
         popup_description: <p>Nato il 15 aprile 1973 in Brasile.</p><p>Argento Classe
@@ -2517,9 +2517,9 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 World (2003)</p><p>Luna Rossa Challenge (2007)</p>
       - name: ! 'claudio celon '
         role: TRIMMER
-        image: claudio_celon_.jpg
+        image: claudio_celon.jpg
         alt: ! 'claudio celon '
-        popup_image: big_claudio_celon_.jpg
+        popup_image: big_claudio_celon.jpg
         popup_alt:
         popup_title:
         popup_description: <p>Nato il 19 aprile 1961 in Italia</p><p>Precedenti partecipazioni
@@ -2549,17 +2549,17 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 (2007)</p>
       - name: ! 'romolo ranieri '
         role: GRINDER
-        image: romolo_ranieri_.jpg
+        image: romolo_ranieri.jpg
         alt: ! 'romolo ranieri '
-        popup_image: big_romolo_ranieri_.jpg
+        popup_image: big_romolo_ranieri.jpg
         popup_alt:
         popup_title:
         popup_description:
       - name: marco montis
         role: GRINDER
-        image: marco_montis.jpg
+        image: marco_montis_.jpg
         alt: marco montis
-        popup_image: big_marco_montis.jpg
+        popup_image: big_marco_montis_.jpg
         popup_alt:
         popup_title:
         popup_description: <p>Nato il 5 dicembre 1971 in Italia</p><p>Precedenti partecipazioni
@@ -2577,9 +2577,9 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 Challenge (2000)</p><p>Campionati mondiali</p><p>Artemis, TP 52 (2007)</p>
       - name: ! 'giulio giovanella '
         role: PRODIERE
-        image: giulio_giovanella_.jpg
+        image: giulio_giovanella.jpg
         alt: ! 'giulio giovanella '
-        popup_image: big_giulio_giovanella_.jpg
+        popup_image: big_giulio_giovanella.jpg
         popup_alt:
         popup_title:
         popup_description: <p>Nato il 16 febbraio 1982 a Trieste (ITA)</p><p>Precedenti
@@ -2632,9 +2632,9 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 Latino (2007)</p>
       - name: antonio marrai
         role: TEAM MANAGER
-        image: antonio_marrai.jpg
+        image: antonio_marrai_.jpg
         alt: antonio marrai
-        popup_image: big_antonio_marrai.jpg
+        popup_image: big_antonio_marrai_.jpg
         popup_alt:
         popup_title:
         popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p>Precedenti
@@ -2643,9 +2643,9 @@ L’equipaggio vedrà a bordo il ritorno di diversi velisti, recenti vincitori d
                 mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>
       - name: ! 'gianni tognozzi '
         role: SHORE TEAM
-        image: gianni_tognozzi_.jpg
+        image: gianni_tognozzi.jpg
         alt: ! 'gianni tognozzi '
-        popup_image: big_gianni_tognozzi_.jpg
+        popup_image: big_gianni_tognozzi.jpg
         popup_alt:
         popup_title:
         popup_description: <p>STP 65, Luna Rossa (2009)</p><p>Partecipazioni in Coppa
@@ -4320,9 +4320,9 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
                 in IRC (stp65) 2009</p>
       - name: antonio marrai
         role: ! ' TEAM MANAGER'
-        image: antonio_marrai.jpg
+        image: antonio_marrai_.jpg
         alt: antonio marrai
-        popup_image: big_antonio_marrai.jpg
+        popup_image: big_antonio_marrai_.jpg
         popup_alt: antonio marrai
         popup_title: antonio marrai
         popup_description: <p>Nato a Seravezza (ITA) il 24.08.1953</p><p>Precedenti

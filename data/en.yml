@@ -32,37 +32,37 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
       - number: '01'
         image: /public/images/placeholder/bollettini.png
         alt: Round Robin 1
-        caption: Round Robin 1
+        caption: Louis Vuitton Cup Round Robin 1
         date: 28/10/1999
         details: <p><img src=/public/images/archive/2000_1.gif></p></li><li style=border-left:none;>
       - number: '02'
         image: /public/images/placeholder/bollettini.png
         alt: Round Robin 2
-        caption: Round Robin 2
+        caption: Louis Vuitton Cup Round Robin 2
         date: 20/11/99
         details: <p><img src=/public/images/archive/2000_2.gif></p></li><li style=border-left:none;>
       - number: '03'
         image: /public/images/placeholder/bollettini.png
         alt: Round Robin 3
-        caption: Round Robin 3
+        caption: Louis Vuitton Cup Round Robin 3
         date: 15/12/99
         details: <p><img src=/public/images/archive/2000_3.gif></p></li><li style=border-left:none;>
       - number: '04'
         image: /public/images/placeholder/bollettini.png
         alt: Semifinali
-        caption: Semifinali
+        caption: Louis Vuitton Cup Semifinals
         date: 14/01/00
         details: <p><img src=/public/images/archive/2000_4.gif></p></li><li style=border-left:none;>
       - number: '05'
         image: /public/images/placeholder/bollettini.png
         alt: Finali
-        caption: Finali
+        caption: Louis Vuitton Cup Finals
         date: 25/02/00
         details: <p><img src=/public/images/archive/2000_5.gif></p></li><li style=border-left:none;>
       - number: '06'
         image: /public/images/placeholder/bollettini.png
         alt: Coppa America
-        caption: Coppa America
+        caption: "America's cup"
         date: 02/03/00
         details: <p><img src=/public/images/archive/2000_6.gif></p></li><li style=border-left:none;>
   gallery:
@@ -133,50 +133,50 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 1
-        caption:  Round Robin 1
+        alt: Louis Vuitton Cup Round Robin 1
+        caption:  Louis Vuitton Cup Round Robin 1
         date: 23/10/2002
         details: <p><img src=/public/images/archive/2003_1.gif></p></li><li style=border-left:none;>
       - number: '02'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 2
-        caption: Round Robin 2
+        alt: Louis Vuitton Cup Round Robin 2
+        caption: Louis Vuitton Cup Round Robin 2
         date: 03/11/02
         details: <p><img src=/public/images/archive/2003_2.gif></p></li><li style=border-left:none;>
       - number: '03'
         image: /public/images/placeholder/bollettini.png
-        alt: Quarti di finale
-        caption: Quarti di finale
+        alt: Louis Vuitton Cup quarter final
+        caption: Louis Vuitton Cup quarter final
         date: 18/11/02
         details: <p><img src=/public/images/archive/2003_3.gif></p></li><li style=border-left:none;>
       - number: '04'
         image: /public/images/placeholder/bollettini.png
-        alt: Repechage quarti
-        caption: Repechage quarti
+        alt: Louis Vuitton Cup quarters Repechage 
+        caption: Louis Vuitton Cup quarters Repechage 
         date: 30/11/02
         details: <p><img src=/public/images/archive/2003_4.gif></p></li><li style=border-left:none;>
       - number: '05'
         image: /public/images/placeholder/bollettini.png
-        alt: Semifinali
-        caption: Semifinali
+        alt: Louis Vuitton Cup Semifinals
+        caption: Louis Vuitton Cup Semifinals
         date: 17/12/02
         details: <p><img src=/public/images/archive/2003_5.gif></p></li><li style=border-left:none;>
       - number: '06'
         image: /public/images/placeholder/bollettini.png
-        alt: Repechage semifinali
-        caption: Repechage semifinali
+        alt: Louis Vuitton Cup Semifinals Repechage
+        caption: Louis Vuitton Cup Semifinals Repechage
         date: 23/12/02
         details: <p><img src=/public/images/archive/2003_6.gif></p></li><li style=border-left:none;>
       - number: '07'
         image: /public/images/placeholder/bollettini.png
-        alt: Finali
-        caption: Finali
+        alt: Louis Vuitton Cup Finals
+        caption: Louis Vuitton Cup Finals
         date: 19/01/03
         details: <p><img src=/public/images/archive/2003_7.gif></p></li><li style=border-left:none;>
       - number: '08'
         image: /public/images/placeholder/bollettini.png
-        alt: Coppa America
-        caption: Coppa America
+        alt: America's cup
+        caption: America's cup
         date: 02/03/03
         details: <p><img src=/public/images/archive/2003_8.gif></p></li><li style=border-left:none;>
   gallery:
@@ -413,26 +413,26 @@ The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weath
         details: <p><img src=/public/images/archive/2007_14.gif></p></li><li style=border-left:none;>
       - number: '15'
         image: /public/images/placeholder/bollettini.png
-        alt: ROUND ROBIN 1
-        caption: ROUND ROBIN 1
+        alt: Louis Vuitton Cup ROUND ROBIN 1
+        caption: Louis Vuitton Cup ROUND ROBIN 1
         date: 28/04/07
         details: <p><img src=/public/images/archive/2007_15.gif></p></li><li style=border-left:none;>
       - number: '16'
         image: /public/images/placeholder/bollettini.png
-        alt: ROUND ROBIN 2
-        caption: ROUND ROBIN 2
+        alt: Louis Vuitton Cup ROUND ROBIN 2
+        caption: Louis Vuitton Cup ROUND ROBIN 2
         date: 09/05/07
         details: <p><img src=/public/images/archive/2007_16.gif></p></li><li style=border-left:none;></li>
       - number: '17'
         image: /public/images/placeholder/bollettini.png
-        alt: SEMIFINALI
-        caption: SEMIFINALI
+        alt: Louis Vuitton Cup Semifinals
+        caption: Louis Vuitton Cup Semifinals
         date: 24/05/07
         details: <p><img src=/public/images/archive/2007_17.gif></p></li><li style=border-left:none;>
       - number: '18'
         image: /public/images/placeholder/bollettini.png
-        alt: FINALE
-        caption: FINALE
+        alt: Louis Vuitton Cup Finals
+        caption: Louis Vuitton Cup Finals
         date: 12/06/07
         details: <p><img src=/public/images/archive/2007_18.gif></p></li><li style=border-left:none;>
       - number: '19'
@@ -819,6 +819,15 @@ All the participating teams will race on four boats respectively belonging to Em
         alt: 'Sailing Season 2009_lvps '
       - src: '/public/images/gallery/2009_lvps/19.jpg'
         alt: 'Sailing Season 2009_lvps '
+  adv-lvt:
+    template: 'adv'
+    css_class: 'adv'
+    page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ycpa.it'
+    alt_img: 'yacht club'
+
   stp-65-2009:
     template: 'intro'
     css_class: 'intro'
@@ -864,6 +873,14 @@ The Brazilian skipper Robert Scheidt, who had just won the Star European Champio
         alt: 'Sailing Season 2009_stp65 '
       - src: '/public/images/gallery/2009_stp65/12.jpg'
         alt: 'Sailing Season 2009_stp65 '
+  adv-stp:
+    template: 'adv'
+    css_class: 'adv'
+    page_mood: 'white'
+    image: '/public/images/2010/bg-adv.jpg'
+    link_img: '/public/images/placeholder/link_adv.png'
+    link_href: 'http://www.ycpa.it'
+    alt_img: 'yacht club'
 2010:
   home:
     template: 'homeDouble'
@@ -2353,9 +2370,9 @@ for the Prada Group since 1999. </ p>"
         popup_description: <p>Born the 14 of May 1982 in Italy.</p>
       - name: ! 'robert scheidt '
         role: HELMSMAN
-        image: robert_scheidt_.jpg
+        image: robert_scheidt.jpg
         alt: ! 'robert scheidt '
-        popup_image: big_robert_scheidt_.jpg
+        popup_image: big_robert_scheidt.jpg
         popup_alt:
         popup_title:
         popup_description: <p>Born the 15 of April 1973 in Brasil.</p><p>Silver Classe
@@ -2444,9 +2461,9 @@ for the Prada Group since 1999. </ p>"
                         World (2003)</p><p>Luna Rossa Challenge (2007)</p>"
       - name: ! 'claudio celon '
         role: TRIMMER
-        image: claudio_celon_.jpg
+        image: claudio_celon.jpg
         alt: ! 'claudio celon '
-        popup_image: big_claudio_celon_.jpg
+        popup_image: big_claudio_celon.jpg
         popup_alt:
         popup_title:
         popup_description: "<p>Born the 19 of April 1961 in Italia</p>Previous
@@ -2476,17 +2493,17 @@ for the Prada Group since 1999. </ p>"
                         (2007)</p>"
       - name: ! 'romolo ranieri '
         role: GRINDER
-        image: romolo_ranieri_.jpg
+        image: romolo_ranieri.jpg
         alt: ! 'romolo ranieri '
-        popup_image: big_romolo_ranieri_.jpg
+        popup_image: big_romolo_ranieri.jpg
         popup_alt:
         popup_title:
         popup_description:
       - name: marco montis
         role: GRINDER
-        image: marco_montis.jpg
+        image: marco_montis_.jpg
         alt: marco montis
-        popup_image: big_marco_montis.jpg
+        popup_image: big_marco_montis_.jpg
         popup_alt:
         popup_title:
         popup_description: "<p>Born the 5 dicembre 1971 in Italia</p><p>Previous
@@ -2504,9 +2521,9 @@ for the Prada Group since 1999. </ p>"
                         Challenge (2000)</p><p>World championships</p><p>Artemis, TP 52 (2007)</p>"
       - name: ! 'giulio giovanella '
         role: PRODIERE
-        image: giulio_giovanella_.jpg
+        image: giulio_giovanella.jpg
         alt: ! 'giulio giovanella '
-        popup_image: big_giulio_giovanella_.jpg
+        popup_image: big_giulio_giovanella.jpg
         popup_alt:
         popup_title:
         popup_description: "<p> the Born February 16, 1982 in Trieste (ITA) </ p> Background
@@ -2559,9 +2576,9 @@ for the Prada Group since 1999. </ p>"
                         Latino (2007)</p>"
       - name: antonio marrai
         role: TEAM MANAGER
-        image: antonio_marrai.jpg
+        image: antonio_marrai_.jpg
         alt: antonio marrai
-        popup_image: big_antonio_marrai.jpg
+        popup_image: big_antonio_marrai_.jpg
         popup_alt:
         popup_title:
         popup_description: "<p>Born inSeravezza (ITA) il 24.08.1953</p><p>Previous America's cup:</p><p>Luna Rossa Challenge (2007)</p><p>Prada
@@ -2569,9 +2586,9 @@ for the Prada Group since 1999. </ p>"
                         mondiali</p><p>1°Mondiale Maxi, Longobarda (1989)</p><p>12 Metri (1984-1985)</p>"
       - name: ! 'gianni tognozzi '
         role: SHORE TEAM
-        image: gianni_tognozzi_.jpg
+        image: gianni_tognozzi.jpg
         alt: ! 'gianni tognozzi '
-        popup_image: big_gianni_tognozzi_.jpg
+        popup_image: big_gianni_tognozzi.jpg
         popup_alt:
         popup_title:
         popup_description: "<p>STP 65, Luna Rossa (2009)</p><p>Previous America's cup:</p><p>Luna Rossa Challenge (2007)</p><p>Luna Rossa Challenge
