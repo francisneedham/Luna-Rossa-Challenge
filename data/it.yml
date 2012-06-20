@@ -28,7 +28,7 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "Sailing season<span> 2000</span>"
-    subtitle: 'bollettini'
+    subtitle: 'risultati'
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
@@ -130,7 +130,7 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "Sailing season<span> 2003</span>"
-    subtitle: 'bollettini'
+    subtitle: 'risultati'
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
@@ -327,7 +327,7 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "Sailing season<span> 2007</span>"
-    subtitle: 'bollettini'
+    subtitle: 'risultati'
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png

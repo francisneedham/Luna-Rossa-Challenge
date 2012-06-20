@@ -27,7 +27,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "30<sup>th</sup> America's cup"
-    subtitle: 'bulletins'
+    subtitle: 'results'
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
@@ -129,7 +129,7 @@ It is the first time that an Italian skipper races the America’s Cup final Mat
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "31<sup>th</sup> America's cup"
-    subtitle: 'bulletins'
+    subtitle: 'results'
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
@@ -325,7 +325,7 @@ The Team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weath
     css_class: 'bollettini'
     page_mood: 'grey'
     title: "32<sup>th</sup> America's cup"
-    subtitle: 'bulletins'
+    subtitle: 'results'
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
