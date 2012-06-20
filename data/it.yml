@@ -32,32 +32,32 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 1
-        caption: Round Robin 1
+        alt: Louis Vuitton Cup Round Robin 1
+        caption: Louis Vuitton Cup Round Robin 1
         date: 28/10/1999
         details: <p><img src=/public/images/archive/2000_1.gif></p></li><li style=border-left:none;>
       - number: '02'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 2
-        caption: Round Robin 2
+        alt: Louis Vuitton Cup Round Robin 2
+        caption: Louis Vuitton Cup Round Robin 2
         date: 20/11/99
         details: <p><img src=/public/images/archive/2000_2.gif></p></li><li style=border-left:none;>
       - number: '03'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 3
-        caption: Round Robin 3
+        alt: Louis Vuitton Cup Round Robin 3
+        caption: Louis Vuitton Cup Round Robin 3
         date: 15/12/99
         details: <p><img src=/public/images/archive/2000_3.gif></p></li><li style=border-left:none;>
       - number: '04'
         image: /public/images/placeholder/bollettini.png
-        alt: Semifinali
-        caption: Semifinali
+        alt: Louis Vuitton Cup Semifinali
+        caption: Louis Vuitton Cup Semifinali
         date: 14/01/00
         details: <p><img src=/public/images/archive/2000_4.gif></p></li><li style=border-left:none;>
       - number: '05'
         image: /public/images/placeholder/bollettini.png
-        alt: Finali
-        caption: Finali
+        alt: Louis Vuitton Cup Finali
+        caption: Louis Vuitton Cup Finali
         date: 25/02/00
         details: <p><img src=/public/images/archive/2000_5.gif></p></li><li style=border-left:none;>
       - number: '06'
@@ -134,44 +134,44 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     items:
       - number: '01'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 1
-        caption:  Round Robin 1
+        alt: Louis Vuitton Cup Round Robin 1
+        caption:  Louis Vuitton Cup Round Robin 1
         date: 23/10/2002
         details: <p><img src=/public/images/archive/2003_1.gif></p></li><li style=border-left:none;>
       - number: '02'
         image: /public/images/placeholder/bollettini.png
-        alt: Round Robin 2
-        caption: Round Robin 2
+        alt: Louis Vuitton Cup Round Robin 2
+        caption: Louis Vuitton Cup Round Robin 2
         date: 03/11/02
         details: <p><img src=/public/images/archive/2003_2.gif></p></li><li style=border-left:none;>
       - number: '03'
         image: /public/images/placeholder/bollettini.png
-        alt: Quarti di finale
-        caption: Quarti di finale
+        alt: Louis Vuitton Cup Quarti di finale
+        caption: Louis Vuitton Cup Quarti di finale
         date: 18/11/02
         details: <p><img src=/public/images/archive/2003_3.gif></p></li><li style=border-left:none;>
       - number: '04'
         image: /public/images/placeholder/bollettini.png
-        alt: Repechage quarti
-        caption: Repechage quarti
+        alt: Louis Vuitton Cup Repechage quarti
+        caption: Louis Vuitton Cup Repechage quarti
         date: 30/11/02
         details: <p><img src=/public/images/archive/2003_4.gif></p></li><li style=border-left:none;>
       - number: '05'
         image: /public/images/placeholder/bollettini.png
-        alt: Semifinali
-        caption: Semifinali
+        alt: Louis Vuitton Cup Semifinali
+        caption: Louis Vuitton Cup Semifinali
         date: 17/12/02
         details: <p><img src=/public/images/archive/2003_5.gif></p></li><li style=border-left:none;>
       - number: '06'
         image: /public/images/placeholder/bollettini.png
-        alt: Repechage semifinali
-        caption: Repechage semifinali
+        alt: Louis Vuitton Cup Repechage semifinali
+        caption: Louis Vuitton Cup Repechage semifinali
         date: 23/12/02
         details: <p><img src=/public/images/archive/2003_6.gif></p></li><li style=border-left:none;>
       - number: '07'
         image: /public/images/placeholder/bollettini.png
-        alt: Finali
-        caption: Finali
+        alt: Louis Vuitton Cup Finali
+        caption: Louis Vuitton Cup Finali
         date: 19/01/03
         details: <p><img src=/public/images/archive/2003_7.gif></p></li><li style=border-left:none;>
       - number: '08'
@@ -415,26 +415,26 @@ Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, sho
         details: <p><img src=/public/images/archive/2007_14.gif></p></li><li style=border-left:none;>
       - number: '15'
         image: /public/images/placeholder/bollettini.png
-        alt: ROUND ROBIN 1
-        caption: ROUND ROBIN 1
+        alt: Louis Vuitton Cup ROUND ROBIN 1
+        caption: Louis Vuitton Cup ROUND ROBIN 1
         date: 28/04/07
         details: <p><img src=/public/images/archive/2007_15.gif></p></li><li style=border-left:none;>
       - number: '16'
         image: /public/images/placeholder/bollettini.png
-        alt: ROUND ROBIN 2
-        caption: ROUND ROBIN 2
+        alt: Louis Vuitton Cup ROUND ROBIN 2
+        caption: Louis Vuitton Cup ROUND ROBIN 2
         date: 09/05/07
         details: <p><img src=/public/images/archive/2007_16.gif></p></li><li style=border-left:none;></li>
       - number: '17'
         image: /public/images/placeholder/bollettini.png
-        alt: SEMIFINALI
-        caption: SEMIFINALI
+        alt: Louis Vuitton Cup SEMIFINALI
+        caption: Louis Vuitton Cup SEMIFINALI
         date: 24/05/07
         details: <p><img src=/public/images/archive/2007_17.gif></p></li><li style=border-left:none;>
       - number: '18'
         image: /public/images/placeholder/bollettini.png
-        alt: FINALE
-        caption: FINALE
+        alt: Louis Vuitton Cup FINALE
+        caption: Louis Vuitton Cup FINALE
         date: 12/06/07
         details: <p><img src=/public/images/archive/2007_18.gif></p></li><li style=border-left:none;>
       - number: '19'
