@@ -308,3 +308,6 @@ window.SiteManager = class
 
   isTouch: ->
     @touch ||= ($ 'html').hasClass('touch')
+
+  isPad: ->
+    (!!navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad)/))
