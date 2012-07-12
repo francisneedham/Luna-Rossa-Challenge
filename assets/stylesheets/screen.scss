@@ -150,6 +150,11 @@ a{
   #navbar a{
     color:#fff!important;
   }
+
+  #header #navbar ul li a{
+    color:#fff;
+  }
+
   .next-page{
     @include sprite-sprite(a-white-next);
   }
