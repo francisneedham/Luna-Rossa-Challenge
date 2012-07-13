@@ -41,7 +41,7 @@ window.SiteManager = class
     ($ ".step").attr(id: id)
 
   getTemplate: (template) ->
-    if template in @templates
+    if template of @templates
       @templates[template]
     else
       @templates[template] = extract("#tpl-#{template}")

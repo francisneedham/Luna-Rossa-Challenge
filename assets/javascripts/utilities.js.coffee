@@ -2,7 +2,12 @@
 w = window
 
 w.extract = (query) ->
-  content = ($ query).html()
+  domObj = ($ query)
+  content = domObj.html()
+
+  domObj.remove()
+  delete domObj
+
   content = $.trim(content)
   content = content.replace(/^\/\*/, '').replace(/\*\/$/, '')
   $.trim(content)

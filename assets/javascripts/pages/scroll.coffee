@@ -69,13 +69,14 @@ class window.ScrollPage extends Page
     })
 
   resize: (width, height) ->
-    @setupValues()
+    if (@$ '.scroll').length > 0
+      @setupValues()
 
-    scroller_width = (@$ '.oriz-scroll').width()
-    if @content_width <= scroller_width
-      (@$ '.scroll').hide()
-    else
-      (@$ '.scroll').show()
+      scroller_width = (@$ '.oriz-scroll').width()
+      if @content_width <= scroller_width
+        (@$ '.scroll').hide()
+      else
+        (@$ '.scroll').show()
 
   setupValues: =>
     container = (@$ '.scroll')
