@@ -337,6 +337,7 @@ class window.GalleryPage extends window.Page
     unless @is_mobi
       @w.bind 'mousemove', @onMouseMove
       @is_updating = true
+      @current_left = @gc.position().left
       @setUpdateTimeout()
 
   stopUpdating: ->
@@ -363,17 +364,17 @@ class window.GalleryPage extends window.Page
     window.clearTimeout @update_timeout
 
   updatePosition: =>
+    @clearUpdateTimeout()
 
-   @clearUpdateTimeout()
+    @setWrapperWidth()
+    posX = 2 * ((@mouseX / @w.width()) - .5)
+    current_amp = Math.max(0, parseInt @gc_width - @w.width())
+    current_vel = @vel_min + (1 - Math.abs(2 * ((Math.abs(@current_left) / current_amp) - .5))) * @vel_max
+    updated_left = @current_left - posX * current_vel
+    bounded_left = Math.max(- current_amp, Math.min(0, updated_left))
 
-   @setWrapperWidth()
-   posX = 2 * ((@mouseX / @w.width()) - .5)
-   current_left = @gc.position().left
-   current_amp = Math.max(0, parseInt @gc_width - @w.width())
-   current_vel = @vel_min + (1 - Math.abs(2 * ((Math.abs(current_left) / current_amp) - .5))) * @vel_max
-   updated_left = current_left - posX * current_vel
-   bounded_left = Math.max(- current_amp, Math.min(0, updated_left))
+    if @current_left != bounded_left
+      @gc.css {left: bounded_left}
+      @current_left = bounded_left
 
-   @gc.css {left: bounded_left}
-
-   if @is_updating then @setUpdateTimeout()
+    if @is_updating then @setUpdateTimeout()
