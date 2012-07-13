@@ -240,13 +240,17 @@ class window.GalleryPage extends window.Page
     if current_url? and current_url is big_url
       @onFirstBigImageLoaded()
     else
-      @img.load @onFirstBigImageLoaded
+      @img.unbind('load.big').bind('load.big', @onFirstBigImageLoaded)
       #@img.error @onBigImageLoadingError
       @img.attr 'src', big_url
 
   onFirstBigImageLoaded : =>
-
+    if @is_mobi
+      @img.stop().css(opacity: 1)
+      window.setTimeout @onFirstBigImageEntered, 600
+    else
     @img.stop().animate {opacity: 1}, {duration: 600, easing: 'easeInOutCubic', complete: @onFirstBigImageEntered}
+
     @localResize()
     @loader.hide()
 
@@ -256,7 +260,6 @@ class window.GalleryPage extends window.Page
     @showGallery true
 
   loadBigImage: (big_url) ->
-
     @loader.show()
     if @is_ie or @is_mobi
       @img.css {opacity: "0"}
@@ -267,13 +270,15 @@ class window.GalleryPage extends window.Page
     if @img.attr('src') is big_url
       @onBigImageLoaded()
     else
-      @img.load @onBigImageLoaded
+      @img.unbind('load.big').bind('load.big', @onBigImageLoaded)
       #@img.error @onBigImageLoadingError
       @img.attr 'src', big_url
 
   onBigImageLoaded: =>
-
-    @img.stop().animate {opacity: 1}, {duration: 600, easing: 'easeInOutCubic', complete: @createBlurCanvas}
+    if @is_mobi
+      @img.stop().css(opacity: 1)
+    else
+      @img.stop().animate {opacity: 1}, {duration: 600, easing: 'easeInOutCubic', complete: @createBlurCanvas}
     @localResize()
     @loader.hide()
 
