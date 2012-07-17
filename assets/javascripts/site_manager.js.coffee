@@ -166,24 +166,24 @@ window.SiteManager = class
       ($ '#wrapper').removeClass().addClass(content.page_mood)
 
       if not @previousContent? or content != @previousContent
-        @previousContent?.view?.leaving?()
-        content.view?.entering?()
+        @previousContent?.view?.spawnLeaving()
+        content.view?.spawnEntering()
 
       if skipAnimation
         ($ '#years-list').scrollTop(top)
         ($ "#y-#{@currentYear}").scrollLeft(left)
 
         if not @previousContent? or content != @previousContent
-          @previousContent?.view?.left?()
-          content.view?.entered?()
+          @previousContent?.view?.spawnLeft()
+          content.view?.spawnEntered()
 
         @previousContent = content
       else
         animationOptions = _.clone(@animationOptions)
         animationOptions.complete = =>
           if not @previousContent? or content != @previousContent
-            @previousContent?.view?.left?()
-            content.view?.entered?()
+            @previousContent?.view?.spawnLeft()
+            content.view?.spawnEntered()
 
           @previousContent = content
           callback()
