@@ -14,3 +14,21 @@ w.extract = (query) ->
 
 w.capitalize = (string) ->
   string.replace /^./, (firstChar) -> firstChar.toUpperCase()
+
+w.imagesLoaded = (dom, callback) ->
+  images = dom.find('img')
+  imagesToLoad = images.length
+
+  for image in images
+    imagesToLoad-- if image.complete
+
+  loadedFn = ->
+    imagesToLoad--
+    if imagesToLoad == 0
+      callback()
+
+  if imagesToLoad
+    images.load loadedFn
+    images.bind('error', loadedFn)
+  else
+    callback()

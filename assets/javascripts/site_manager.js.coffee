@@ -54,8 +54,9 @@ window.SiteManager = class
     window.setTimeout(@buildSiteCallback, 50)
 
   buildSiteCallback: =>
-    _.each @yearsList, @buildYear
-    @hideLastNext()
+    # _.each @yearsList, @buildYear
+    @buildYear @currentYear
+    # @hideLastNext()
     @createSharrre()
     @hideLoader()
     @resize()
@@ -63,14 +64,14 @@ window.SiteManager = class
   hideLastNext: =>
     ($ '.section-arrow  .next-page').last().hide()
 
-  buildYear: (year) =>
+  buildYear: (year, callback) =>
     content = @data[year]
     if content?
       if year != @currentYear
         firstPage = content['home']
 
         container = ($ '<div class="container" />')
-        el = ($ '<li class="single-year" />').attr(id: "y-#{year}").append(container)
+        el = ($ '<li class="single-year" />').attr(id: "y-#{year}").append(container).hide()
 
         _.each content, (content, page) =>
           @buildPage(container, content, page)
@@ -84,6 +85,10 @@ window.SiteManager = class
         el = ($ "#y-#{year}").find('.container')
         _.each content, (content, page) =>
           @buildPageCurrentYear(el, content, page)
+
+      imagesLoaded el, ->
+        ($ "#y-#{year}").show()
+        callback?(year)
 
   buildPage: (parent, content, page) =>
     if content?
@@ -159,7 +164,9 @@ window.SiteManager = class
 
   position: (skipAnimation, callback) =>
     if @yearsList
-      top = _.indexOf(@yearsList, @currentYear) * @height
+      indexOfCurrentYear = $("#y-#{@currentYear}").index(".single-year")
+
+      top = indexOfCurrentYear * @height
       left = _.indexOf(@pagesList(), @currentPage) * @width
 
       content = @currentContent()
@@ -198,25 +205,37 @@ window.SiteManager = class
     ($ "#navbar .active").removeClass('active')
     ($ "#link-#{year}").addClass('active')
 
+
+  gotoYearCallback: (year) =>
+    @hideLoader()
+    @activeYear(year)
+
+    if @currentPage != @pagesList()[0]
+      left = (_.indexOf(@pagesList(), @currentPage) - 1) * @width
+
+      if @currentPage != @pagesList()[1]
+        home = @currentEl(@pagesList()[0])
+        home.toggleClass('moved', true).css(left: left)
+
+      ($ "#y-#{@currentYear}").animate({scrollLeft: left}, @animationOptions)
+
+    @currentYear = year
+    @currentPage = @pagesList()[0]
+
+    @position(false, @yearScrolled)
+
   gotoYear: (year) =>
     year = year.toString()
     year = @yearsList[0] unless year in @yearsList
+
     if year != @currentYear
-      @activeYear(year)
-
-      if @currentPage != @pagesList()[0]
-        left = (_.indexOf(@pagesList(), @currentPage) - 1) * @width
-
-        if @currentPage != @pagesList()[1]
-          home = @currentEl(@pagesList()[0])
-          home.toggleClass('moved', true).css(left: left)
-
-        ($ "#y-#{@currentYear}").animate({scrollLeft: left}, @animationOptions)
-
-      @currentYear = year
-      @currentPage = @pagesList()[0]
-
-      @position(false, @yearScrolled)
+      if $("#y-#{year}").length == 0
+        @showLoader()
+        @buildYear(year, =>
+          @position(true)
+          @gotoYearCallback(year))
+      else
+        @gotoYearCallback(year)
 
   gotoPage: (page) =>
     if page != @currentPage

@@ -66,14 +66,12 @@ class window.Page
     @resize?(new_width, new_height)
 
   spawnEntering: ->
-    @el.append @dom
     @entering?()
 
   spawnEntered: ->
     @entered?()
 
   spawnLeft: ->
-    @dom = @$('.aux').detach()
     @left?()
 
   spawnLeaving: ->
