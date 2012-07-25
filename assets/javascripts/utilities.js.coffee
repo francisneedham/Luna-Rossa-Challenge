@@ -6,7 +6,7 @@ w.extract = (query) ->
   content = domObj.html()
 
   domObj.remove()
-  delete domObj
+  # delete domObj
 
   content = $.trim(content)
   content = content.replace(/^\/\*/, '').replace(/\*\/$/, '')

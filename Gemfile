@@ -7,7 +7,6 @@ gem "sprockets-sass"
 gem 'compass'
 gem 'mustache'
 gem 'json'
-gem 'unicorn'
 gem 'capistrano'
 
 group :develpment, :test do
