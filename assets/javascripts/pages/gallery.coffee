@@ -378,3 +378,7 @@ class window.GalleryPage extends window.Page
       @current_left = bounded_left
 
     if @is_updating then @setUpdateTimeout()
+
+  dispose: =>
+    @showGallery false
+    @stopUpdating()

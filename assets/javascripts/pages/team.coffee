@@ -39,3 +39,6 @@ class window.TeamPage extends window.ScrollPage
   clickClose: (ev) =>
     ev.preventDefault()
     @closeAllItems()
+
+  dispose: =>
+    @unbind()

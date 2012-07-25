@@ -54,3 +54,6 @@
     else
       callback?()
 
+  dispose: =>
+    @unbind()
+

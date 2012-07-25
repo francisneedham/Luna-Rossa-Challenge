@@ -88,6 +88,9 @@ class window.ScrollPage extends Page
     @position = 0
     @render()
 
+  dispose: =>
+    @unbind()
+
   # EVENTS
 
   scrollerMouseUp: (ev) =>
