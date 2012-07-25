@@ -15,7 +15,7 @@
 //
 //= require lib/keymaster
 //
-//= require mustache
+//= require lib/mustache
 //= require utilities
 //
 //= require pages/page
