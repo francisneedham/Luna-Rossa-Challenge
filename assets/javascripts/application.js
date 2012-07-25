@@ -1,4 +1,4 @@
-//= require lib/underscore
+//= require lib/lodash
 //= require lib/jquery
 //= require lib/easing
 //= require lib/Raf
