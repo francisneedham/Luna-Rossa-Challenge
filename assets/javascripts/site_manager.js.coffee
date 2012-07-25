@@ -193,13 +193,24 @@ window.SiteManager = class
             content.view?.spawnEntered()
 
           @previousContent = content
-          callback()
+          @positioningEnd(callback)
 
         if top != ($ '#years-list').scrollTop()
           ($ '#years-list').animate({scrollTop: top}, animationOptions)
 
         if left != ($ "#y-#{@currentYear}").scrollLeft()
           ($ "#y-#{@currentYear}").animate({scrollLeft: left}, animationOptions)
+
+  positioningEnd: (callback) =>
+    for year, pages of @data
+      if year != @currentYear
+        for page, content of pages
+          if content.view?
+            content.view.spawnDispose()
+            delete content.view
+
+    ($ '.single-year').not("#y-#{@currentYear}").remove()
+    callback?()
 
   activeYear: (year) =>
     ($ "#navbar .active").removeClass('active')
@@ -229,7 +240,7 @@ window.SiteManager = class
     year = @yearsList[0] unless year in @yearsList
 
     if year != @currentYear
-      if $("#y-#{year}").length == 0
+      if ($ "#y-#{year}").length == 0
         @showLoader()
         @buildYear(year, =>
           @position(true)

@@ -76,3 +76,6 @@ class window.Page
 
   spawnLeaving: ->
     @leaving?()
+
+  spawnDispose: ->
+    @dispose?()
