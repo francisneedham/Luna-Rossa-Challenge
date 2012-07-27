@@ -54,7 +54,6 @@ window.SiteManager = class
     window.setTimeout(@buildSiteCallback, 50)
 
   buildSiteCallback: =>
-    # _.each @yearsList, @buildYear
     @buildYear @currentYear
     @createSharrre()
     @hideLoader()
@@ -85,7 +84,7 @@ window.SiteManager = class
         _.each content, (content, page) =>
           @buildPageCurrentYear(el, content, page)
 
-      if @yearsList.indexOf(year) == @yearsList.length - 1
+      if _.indexOf(@yearsList, year) == @yearsList.length - 1
         @hideLastNext()
 
       imagesLoaded el, ->
