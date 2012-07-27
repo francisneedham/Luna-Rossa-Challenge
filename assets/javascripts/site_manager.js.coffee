@@ -56,7 +56,6 @@ window.SiteManager = class
   buildSiteCallback: =>
     # _.each @yearsList, @buildYear
     @buildYear @currentYear
-    # @hideLastNext()
     @createSharrre()
     @hideLoader()
     @resize()
@@ -85,6 +84,9 @@ window.SiteManager = class
         el = ($ "#y-#{year}").find('.container')
         _.each content, (content, page) =>
           @buildPageCurrentYear(el, content, page)
+
+      if @yearsList.indexOf(year) == @yearsList.length - 1
+        @hideLastNext()
 
       imagesLoaded el, ->
         ($ "#y-#{year}").show()
