@@ -20,12 +20,12 @@ w.imagesLoaded = (dom, callback) ->
   imagesToLoad = images.length
 
   for image in images
-    imagesToLoad-- if image.complete
+    imagesToLoad-- if image.complete or not image.src
 
   loadedFn = ->
     imagesToLoad--
     if imagesToLoad == 0
-      callback()
+      window.setTimeout(callback, 25)
 
   if imagesToLoad
     images.load loadedFn
