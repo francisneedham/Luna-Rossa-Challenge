@@ -244,7 +244,8 @@ window.SiteManager = class
       if ($ "#y-#{year}").length == 0
         @showLoader()
         @buildYear(year, =>
-          @position(true)
+          @resize()
+          # @position(true)
           @gotoYearCallback(year))
       else
         @gotoYearCallback(year)
