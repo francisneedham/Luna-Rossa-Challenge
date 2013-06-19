@@ -118,8 +118,8 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     page_mood: 'white'
     seo_title: "Sailing season 2001"
     seo_description: "Gennaio 2001, Auckland, Nuova Zelanda. Tre barche in acqua"
-    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2001/LunaRossa_2001_0034.JPG'
-    image: '/public/images/gallery/2001/LunaRossa_2001_0034.JPG'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2001/LunaRossa_2001_0034.jpg'
+    image: '/public/images/gallery/2001/LunaRossa_2001_0034.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2001</span>'
     subtitle: "TRAINING FOR AMERICA's CUP - AMERICA's CUP JUBILEE"
@@ -132,21 +132,21 @@ Agosto 2001, Cowes, Inghilterra. Ai primi di agosto si parte per Cowes, in Inghi
     title: 'Sailing season<span> 2001</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0030.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0030.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0031.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0031.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0032.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0032.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0033.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0033.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0034.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0034.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0035.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0035.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0036.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0036.jpg'
         alt: 'Sailing Season 2001 '
-      - src: '/public/images/gallery/2001/LunaRossa_2001_0037.JPG'
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0037.jpg'
         alt: 'Sailing Season 2001 '
 
 2002:
@@ -164,8 +164,8 @@ Agosto 2001, Cowes, Inghilterra. Ai primi di agosto si parte per Cowes, in Inghi
     page_mood: 'white'
     seo_title: "SAILING SEASON 2002"
     seo_description: "Agosto 2002, partenza per la Nuova Zelanda."
-    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2002/LunaRossa_2002_0025.JPG'
-    image: '/public/images/gallery/2002/LunaRossa_2002_0025.JPG'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2002/LunaRossa_2002_0025.jpg'
+    image: '/public/images/gallery/2002/LunaRossa_2002_0025.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2002</span>'
     subtitle: "AUCKLAND: NUOVE LUNE E ROUND ROBIN"
@@ -181,23 +181,23 @@ Nella fase successiva Luna Rossa ITA 74 vince quattro regate a zero e accede all
     title: 'Sailing season<span> 2002</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0021.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0021.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0022.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0022.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0023.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0023.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0024.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0024.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0025.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0025.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0026.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0026.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0027.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0027.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0028.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0028.jpg'
         alt: 'Sailing Season 2002'
-      - src: '/public/images/gallery/2002/LunaRossa_2002_0029.JPG'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0029.jpg'
         alt: 'Sailing Season 2002'
 
 
@@ -409,8 +409,8 @@ Nella fase successiva Luna Rossa ITA 74 vince quattro regate a zero e accede all
     page_mood: 'white'
     seo_title: "SAILING SEASON 2004"
     seo_description: "19 Agosto 2004 . Viene lanciata ufficialmente la sfida attraverso lo Yacht Club Italiano"
-    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2004/LunaRossa_2004_0015.JPG'
-    image: '/public/images/gallery/2004/LunaRossa_2004_0015.JPG'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2004/LunaRossa_2004_0015.jpg'
+    image: '/public/images/gallery/2004/LunaRossa_2004_0015.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2004</span>'
     subtitle: "INIZIA L'AVVENTURA DELLA 32^ AMERICA'S CUP"
@@ -428,17 +428,17 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     title: 'Sailing season<span> 2004</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/gallery/2004/LunaRossa_2004_0015.JPG'
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0015.jpg'
         alt: 'Sailing Season 2004 '
-      - src: '/public/images/gallery/2004/LunaRossa_2004_0016.JPG'
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0016.jpg'
         alt: 'Sailing Season 2004 '
-      - src: '/public/images/gallery/2004/LunaRossa_2004_0017.JPG'
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0017.jpg'
         alt: 'Sailing Season 2004 '
-      - src: '/public/images/gallery/2004/LunaRossa_2004_0018.JPG'
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0018.jpg'
         alt: 'Sailing Season 2004 '
-      - src: '/public/images/gallery/2004/LunaRossa_2004_0019.JPG'
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0019.jpg'
         alt: 'Sailing Season 2004 '
-      - src: '/public/images/gallery/2004/LunaRossa_2004_0020.JPG'
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0020.jpg'
         alt: 'Sailing Season 2004 '
 
 2005:
@@ -456,8 +456,8 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     page_mood: 'white'
     seo_title: "SAILING SEASON 2005"
     seo_description: "Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione..."
-    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2005/LunaRossa_2005_0009.JPG'
-    image: '/public/images/gallery/2005/LunaRossa_2005_0009.JPG'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2005/LunaRossa_2005_0009.jpg'
+    image: '/public/images/gallery/2005/LunaRossa_2005_0009.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2005</span>'
     subtitle: "VALENCIA, MARSIGLIA, MALMö E TRAPANI: LOUIS VUITTON ACTS"
@@ -471,19 +471,19 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     title: 'Sailing season<span> 2005</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0008.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0008.jpg'
         alt: 'Sailing Season 2005 '
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0009.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0009.jpg'
         alt: 'Sailing Season 2005 '
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0010.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0010.jpg'
         alt: 'Sailing Season 2005 '
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0011.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0011.jpg'
         alt: 'Sailing Season 2005 '
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0012.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0012.jpg'
         alt: 'Sailing Season 2005 '
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0013.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0013.jpg'
         alt: 'Sailing Season 2005 '
-      - src: '/public/images/gallery/2005/LunaRossa_2005_0014.JPG'
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0014.jpg'
         alt: 'Sailing Season 2005 '
 
 2006:
@@ -501,8 +501,8 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     page_mood: 'white'
     seo_title: "SAILING SEASON 2006"
     seo_description: "Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione..."
-    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2006/LunaRossa_2006_0003.JPG'
-    image: '/public/images/gallery/2006/LunaRossa_2006_0003.JPG'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2006/LunaRossa_2006_0003.jpg'
+    image: '/public/images/gallery/2006/LunaRossa_2006_0003.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2006</span>'
     subtitle: "VALENCIA, MARSIGLIA, MALMö E TRAPANI: LOUIS VUITTON ACTS"
@@ -516,19 +516,19 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     title: 'Sailing season<span> 2006</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0001.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0001.jpg'
         alt: 'Sailing Season 2006 '
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0002.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0002.jpg'
         alt: 'Sailing Season 2006 '
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0003.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0003.jpg'
         alt: 'Sailing Season 2006 '
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0004.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0004.jpg'
         alt: 'Sailing Season 2006 '
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0005.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0005.jpg'
         alt: 'Sailing Season 2006 '
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0006.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0006.jpg'
         alt: 'Sailing Season 2006 '
-      - src: '/public/images/gallery/2006/LunaRossa_2006_0007.JPG'
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0007.jpg'
         alt: 'Sailing Season 2006 '
 
 2008:
@@ -546,8 +546,8 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     page_mood: 'white'
     seo_title: "SAILING SEASON 2008"
     seo_description: "Dicembre 2008. Una nuova imbarcazione Luna Rossa, classe STP65', è varata a Valencia...."
-    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2008/LunaRossa_2008_0016.JPG'
-    image: '/public/images/gallery/2008/LunaRossa_2008_0016.JPG'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2008/LunaRossa_2008_0016.jpg'
+    image: '/public/images/gallery/2008/LunaRossa_2008_0016.jpg'
     crop: 'center center'
     title: 'Sailing season<span> 2008</span>'
     subtitle: "IL VARO DI LUNA ROSSA STP65"
@@ -559,19 +559,19 @@ Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e T
     title: 'Sailing season<span> 2008</span>'
     subtitle: 'photo gallery'
     images:
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0011.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0011.jpg'
         alt: 'Sailing Season 2008 '
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0012.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0012.jpg'
         alt: 'Sailing Season 2008 '
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0013.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0013.jpg'
         alt: 'Sailing Season 2008 '
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0014.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0014.jpg'
         alt: 'Sailing Season 2008 '
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0015.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0015.jpg'
         alt: 'Sailing Season 2008 '
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0016.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0016.jpg'
         alt: 'Sailing Season 2008 '
-      - src: '/public/images/gallery/2008/LunaRossa_2008_0017.JPG'
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0017.jpg'
         alt: 'Sailing Season 2008 '
 2007:
   home:
