@@ -1,0 +1,18 @@
+2012:
+  home:
+    template: 'home2013'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "34^ America's Cup"
+    year: '2012'
+    image: '/public/images/covers/2012.jpg'
+    crop: 'bottom center'
+    text: "Prefazione di Sir Peter Blake al libro “Luna Rossa” sulla 30^ America’s Cup (2000)"
+    text2: "La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.Questo non è uno sport per deboli di cuore. Non è impresa da prendere alla leggera o per capriccio..."
+    follow: 'Seguici su LUNAROSSACHALLENGE2013.it'
+    read: 'Leggi tutto'
+    link: 'blake'
+    aclink: 'http://www.lunarossachallenge2013.it/'
+    seo_title: "Luna Rossa challenge 2013 - 34t^ America's Cup"
+    seo_description: 'La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/covers/2012.jpg'

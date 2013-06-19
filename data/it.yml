@@ -103,6 +103,104 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
         alt: 'Sailing Season 2000 '
       - src: '/public/images/gallery/2000/15.jpg'
         alt: 'Sailing Season 2000 '
+2001:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "SAILING SEASON"
+    year: '2001'
+    image: '/public/images/covers/2001.jpg'
+    crop: 'bottom center'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "Sailing season 2001"
+    seo_description: "Gennaio 2001, Auckland, Nuova Zelanda. Tre barche in acqua"
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2001/LunaRossa_2001_0034.JPG'
+    image: '/public/images/gallery/2001/LunaRossa_2001_0034.JPG'
+    crop: 'center center'
+    title: 'Sailing season<span> 2001</span>'
+    subtitle: "TRAINING FOR AMERICA's CUP - AMERICA's CUP JUBILEE"
+    description: "Gennaio 2001, Auckland, Nuova Zelanda. Tre barche in acqua: due Luna Rossa e Young America. Tre mesi a disposizione per riprendere confidenza con il Golfo di Hauraki. A fine estate (australe) si torna in Italia per continuare il lungo processo di apprendimento e miglioramento in mare e a terra. 
+Agosto 2001, Cowes, Inghilterra. Ai primi di agosto si parte per Cowes, in Inghilterra, per partecipare alla America's Cup Jubilee e celebrare i primi 150 anni di storia della Coppa America."
+  gallery:
+    page_mood: 'grey'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Sailing season<span> 2001</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0030.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0031.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0032.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0033.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0034.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0035.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0036.JPG'
+        alt: 'Sailing Season 2001 '
+      - src: '/public/images/gallery/2001/LunaRossa_2001_0037.JPG'
+        alt: 'Sailing Season 2001 '
+
+2002:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "SAILING SEASON"
+    year: '2002'
+    image: '/public/images/covers/2002.jpg'
+    crop: 'bottom center'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "SAILING SEASON 2002"
+    seo_description: "Agosto 2002, partenza per la Nuova Zelanda."
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2002/LunaRossa_2002_0025.JPG'
+    image: '/public/images/gallery/2002/LunaRossa_2002_0025.JPG'
+    crop: 'center center'
+    title: 'Sailing season<span> 2002</span>'
+    subtitle: "AUCKLAND: NUOVE LUNE E ROUND ROBIN"
+    description: "Agosto 2002, partenza per la Nuova Zelanda. Resta poco più di un mese per acclimatarsi e mettere a punto le due nuove Luna Rossa - ITA 74 e ITA 80 - prima dell'inizio delle regate. 
+Settembre 2002, Auckland, Nuova Zelanda. Il primo Round Robin inizia il 1° Ottobre. Il team chiude la serie con quattro vittorie e quattro sconfitte. Insoddisfatti, si decide di apportare sostanziali modifiche a scafo e appendici. Una nuova prua è disegnata, costruita e installata a tempo di record su ITA 74 assieme alla nuova chiglia già prevista dal piano di sviluppo. 
+Nel secondo Round Robin ITA 74 ottiene sette vittorie in otto regate disputate, qualificandosi ai quarti di finale. 
+Luna Rossa modifica nuovamente la prua di ITA 74, ottimizza albero e appendici e si presenta al via con un'imbarcazione sostanzialmente nuova. 
+Nella fase successiva Luna Rossa ITA 74 vince quattro regate a zero e accede alle semifinali contro One World dalla quale verrà però sconfitta."
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Sailing season<span> 2002</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0021.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0022.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0023.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0024.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0025.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0026.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0027.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0028.JPG'
+        alt: 'Sailing Season 2002'
+      - src: '/public/images/gallery/2002/LunaRossa_2002_0029.JPG'
+        alt: 'Sailing Season 2002'
+
+
 2003:
   home:
     template: 'home'
@@ -295,6 +393,186 @@ L’ultimo della serie è l’americano Paul Cayard con la sua barca verde e gri
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
+
+2004:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "SAILING SEASON"
+    year: '2004'
+    image: '/public/images/covers/2004.jpg'
+    crop: 'bottom center'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "SAILING SEASON 2004"
+    seo_description: "19 Agosto 2004 . Viene lanciata ufficialmente la sfida attraverso lo Yacht Club Italiano"
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2004/LunaRossa_2004_0015.JPG'
+    image: '/public/images/gallery/2004/LunaRossa_2004_0015.JPG'
+    crop: 'center center'
+    title: 'Sailing season<span> 2004</span>'
+    subtitle: "INIZIA L'AVVENTURA DELLA 32^ AMERICA'S CUP"
+    description: "19 Agosto 2004 . Viene lanciata ufficialmente la sfida attraverso lo Yacht Club Italiano, il più antico club velico del Mediterraneo, fondato nel 1879 a Genova. 
+I due partner di Luna Rossa Challenge 2007 sono il Gruppo PRADA e il Gruppo Telecom Italia. Presente a Valencia gia' dal febbraio 2004, il team Luna Rossa è stato il primo consorzio a insediarsi nella sede prescelta per la 32^ America's Cup, iniziando nel maggio dello stesso anno gli allenamenti in mare con ITA 74 e ITA 80. 
+Mantenendo integro lo storico nucleo originario del team, viene promossa una lunga fase di rinnovamento inserendo in tutti i settori elementi di grande valore e puntando con decisione sulle tecnologie più all’avanguardia. 
+Nei diversi reparti di Luna Rossa Challenge 2007 (sailing team, design team, shore team, meteo, performance, boat builders, veleria, logistica, amministrazione e management) sono impegnate circa 110 persone in rappresentanza di 18 nazioni. 
+<br>Ottobre 2004 - Aprile 2007 
+Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione per gli sfidanti. 
+Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e Trapani. "
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Sailing season<span> 2004</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0015.JPG'
+        alt: 'Sailing Season 2004 '
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0016.JPG'
+        alt: 'Sailing Season 2004 '
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0017.JPG'
+        alt: 'Sailing Season 2004 '
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0018.JPG'
+        alt: 'Sailing Season 2004 '
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0019.JPG'
+        alt: 'Sailing Season 2004 '
+      - src: '/public/images/gallery/2004/LunaRossa_2004_0020.JPG'
+        alt: 'Sailing Season 2004 '
+
+2005:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "SAILING SEASON"
+    year: '2005'
+    image: '/public/images/covers/2005.jpg'
+    crop: 'bottom center'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "SAILING SEASON 2005"
+    seo_description: "Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione..."
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2005/LunaRossa_2005_0009.JPG'
+    image: '/public/images/gallery/2005/LunaRossa_2005_0009.JPG'
+    crop: 'center center'
+    title: 'Sailing season<span> 2005</span>'
+    subtitle: "VALENCIA, MARSIGLIA, MALMö E TRAPANI: LOUIS VUITTON ACTS"
+    description: "Ottobre 2004 - Aprile 2007 <br>
+Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione per gli sfidanti. 
+Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e Trapani. "
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Sailing season<span> 2005</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0008.JPG'
+        alt: 'Sailing Season 2005 '
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0009.JPG'
+        alt: 'Sailing Season 2005 '
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0010.JPG'
+        alt: 'Sailing Season 2005 '
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0011.JPG'
+        alt: 'Sailing Season 2005 '
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0012.JPG'
+        alt: 'Sailing Season 2005 '
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0013.JPG'
+        alt: 'Sailing Season 2005 '
+      - src: '/public/images/gallery/2005/LunaRossa_2005_0014.JPG'
+        alt: 'Sailing Season 2005 '
+
+2006:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "SAILING SEASON"
+    year: '2006'
+    image: '/public/images/covers/2006.jpg'
+    crop: 'bottom center'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "SAILING SEASON 2006"
+    seo_description: "Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione..."
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2006/LunaRossa_2006_0003.JPG'
+    image: '/public/images/gallery/2006/LunaRossa_2006_0003.JPG'
+    crop: 'center center'
+    title: 'Sailing season<span> 2006</span>'
+    subtitle: "VALENCIA, MARSIGLIA, MALMö E TRAPANI: LOUIS VUITTON ACTS"
+    description: "Ottobre 2004 - Aprile 2007 <br>
+Il team Luna Rossa partecipa ai Louis Vuitton Acts previsti nel nuovo formato di selezione per gli sfidanti. 
+Questi si svolgeranno in diverse città europee: Valencia, Marsiglia, Malmö e Trapani. "
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Sailing season<span> 2006</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0001.JPG'
+        alt: 'Sailing Season 2006 '
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0002.JPG'
+        alt: 'Sailing Season 2006 '
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0003.JPG'
+        alt: 'Sailing Season 2006 '
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0004.JPG'
+        alt: 'Sailing Season 2006 '
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0005.JPG'
+        alt: 'Sailing Season 2006 '
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0006.JPG'
+        alt: 'Sailing Season 2006 '
+      - src: '/public/images/gallery/2006/LunaRossa_2006_0007.JPG'
+        alt: 'Sailing Season 2006 '
+
+2008:
+  home:
+    template: 'home'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "SAILING SEASON"
+    year: '2008'
+    image: '/public/images/covers/2008.jpg'
+    crop: 'bottom center'
+  intro:
+    template: 'intro'
+    css_class: 'intro'
+    page_mood: 'white'
+    seo_title: "SAILING SEASON 2008"
+    seo_description: "Dicembre 2008. Una nuova imbarcazione Luna Rossa, classe STP65', è varata a Valencia...."
+    seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2008/LunaRossa_2008_0016.JPG'
+    image: '/public/images/gallery/2008/LunaRossa_2008_0016.JPG'
+    crop: 'center center'
+    title: 'Sailing season<span> 2008</span>'
+    subtitle: "IL VARO DI LUNA ROSSA STP65"
+    description: "Dicembre 2008. Una nuova imbarcazione Luna Rossa, classe STP65', è varata a Valencia. Parteciperà alle più importanti regate internazionali della stagione 2009 con un nuovo gruppo di velisti. "
+  gallery:
+    page_mood: 'white'
+    template: 'gallery'
+    css_class: 'gallery'
+    title: 'Sailing season<span> 2008</span>'
+    subtitle: 'photo gallery'
+    images:
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0011.JPG'
+        alt: 'Sailing Season 2008 '
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0012.JPG'
+        alt: 'Sailing Season 2008 '
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0013.JPG'
+        alt: 'Sailing Season 2008 '
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0014.JPG'
+        alt: 'Sailing Season 2008 '
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0015.JPG'
+        alt: 'Sailing Season 2008 '
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0016.JPG'
+        alt: 'Sailing Season 2008 '
+      - src: '/public/images/gallery/2008/LunaRossa_2008_0017.JPG'
+        alt: 'Sailing Season 2008 '
 2007:
   home:
     template: 'home'
@@ -4408,6 +4686,26 @@ Il Team Luna Rossa è sponsorizzato da Prada e regata con il guidone dello Yacht
     link_img: '/public/images/placeholder/link_adv.png'
     link_href: 'http://www.ycpa.it'
     alt_img: 'yacht club'
+
+2012:
+  home:
+    template: 'home2013'
+    css_class: 'hp'
+    page_mood: 'white'
+    title: "34^ America's Cup"
+    year: '2012'
+    image: '/public/images/covers/2012.jpg'
+    crop: 'bottom center'
+    text: "Prefazione di Sir Peter Blake al libro “Luna Rossa” sulla 30^ America’s Cup (2000)"
+    text2: "La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.Questo non è uno sport per deboli di cuore. Non è impresa da prendere alla leggera o per capriccio..."
+    follow: 'Seguici su LUNAROSSACHALLENGE2013.it'
+    read: 'Leggi tutto'
+    link: 'blake'
+    aclink: 'http://www.lunarossachallenge2013.it/'
+    seo_title: "Luna Rossa challenge 2013 - 34t^ America's Cup"
+    seo_description: 'La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.'
+    seo_image: 'http://www.lunarossachallenge.com/public/images/covers/2012.jpg'
+
 2013:
   home:
     template: 'home2013'
