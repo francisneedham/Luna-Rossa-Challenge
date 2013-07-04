@@ -63,12 +63,29 @@ pageTracker._trackPageview();
       </nav>
       <a href="http://www.prada.com/" target="_blank" class="logo-prada"><span></span></a>
       <p>&#169; Copyright Luna Rossa Challenge 2013 srl - P. IVA 01500090533</p>
-      <p style="margin-left:20px;"><a href="/public/info_{{locale}}.html" target="_blank" style="color:White;text-transform:uppercase;">Company info</a> | <a href="/public/privacy_{{locale}}.html" style="color:White;text-transform:uppercase;" target="_blank" >Privacy terms</a></p>
+      <p style="margin-left:20px;"><a href="/public/info_{{locale}}.html" id="termslink" target="_blank" style="color:White;text-transform:uppercase;"><script>
+        locale = "{{locale}}"
+        if( locale == "it") {
+          document.write("Termini e condizioni generali")
+        }
+        else {
+          document.write("General Terms and Conditions")
+          }
+</script></a> | <a href="/public/privacy_{{locale}}.html" style="color:White;text-transform:uppercase;" target="_blank" id="privacylink"><script>
+        locale = "{{locale}}"
+        if( locale == "it") {
+          document.write("Informativa Privacy")
+        }
+        else {
+          document.write("Privacy Policy")
+          }
+</script></a></p>
     </footer>
     <script id="site-data" async="true" defer>/*{{{ json}}}*/</script>
     {{#templates}}
     <script id="tpl-{{name}}" async="true" defer>/*{{{ content}}}*/</script>
     {{/templates}}
     <script src="/assets/javascripts/application.js" async="true" defer></script>
+    
   </body>
 </html>
