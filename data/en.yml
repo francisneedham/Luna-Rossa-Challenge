@@ -2946,7 +2946,7 @@ for the Prada Group since 1999. </ p>"
     page_mood: 'white'
     image: '/public/images/covers/2011.jpg'
     crop: 'top center'
-    title: 'Sailing Season'
+    title: 'Extreme sailing series'
     year: '2011'
   intro:
     template: 'intro'
@@ -2956,8 +2956,8 @@ for the Prada Group since 1999. </ p>"
     seo_description: 'The Extreme Sailing Series is one of the most challenging and spectacular circuits in world-class professional sailing;'
     seo_image: 'http://www.lunarossachallenge.com/public/images/2011/intro.jpg'
     image: '/public/images/2011/intro.jpg'
-    title: 'Sailing season<span> 2011</span>'
-    subtitle: 'Extreme sailing series'
+    title: 'Extreme sailing series'
+    subtitle: 'Sailing season<span> 2011</span>'
     description: 'The Extreme Sailing Series is one of the most challenging and spectacular circuits in world-class professional sailing; its 9 international events calendar spans over the entire year 2011, from February to December.
 
 The ultra-light Extreme 40’ catamarans (about 12 meters long) have a crew of four and can reach 25 knots of speed; each event provides spectacular fleet racing in which duels are often won at just a few meters from the finishing line.
@@ -2968,7 +2968,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
     bulletlink: 'drag for<br>more bullettins'
     css_class: 'bollettini'
     page_mood: 'grey'
-    title: 'Sailing season<span> 2011</span>'
+    title: 'Extreme sailing series'
     subtitle: 'bulletins'
     items:
       - number: '01'
@@ -4541,7 +4541,7 @@ Team Luna Rossa will be sponsored by Prada and it will fly the Yacht Club Punta 
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: 'Sailing season<span> 2011</span>'
+    title: 'Extreme sailing series'
     subtitle: 'photo gallery'
     images:
       - src: '/public/images/gallery/2011/01.jpg'
@@ -4789,6 +4789,8 @@ At the end of the circuit Luna Rossa Piranha won the trophies for the Overall Am
             of Valencia to host the 32nd America’s Cup. This is his sixth America’s Cup campaign,
             the second with Luna Rossa. Previously, he was General Counsel for Team Dennis
             Conner and Spanish Challenge, where he also served as the Syndicate’s representative.</p>
+        - name : Sailing team
+          image: team.jpg
         - name: massimiliano sirena
           role: Skipper
           image: massimiliano_sirena.jpg
@@ -5036,6 +5038,8 @@ At the end of the circuit Luna Rossa Piranha won the trophies for the Overall Am
             has won several gold medals in Laser and Finn international regattas and has been
             gold medallist  in the European and World Finn championships in 2011. This is
             his first America’s Cup campaign.</p>
+        - name : Design team
+          image: team.jpg
         - name: gwénolé bernard
           role: Designer
           image: gwenole_bernard.jpg
@@ -5205,6 +5209,8 @@ At the end of the circuit Luna Rossa Piranha won the trophies for the Overall Am
             & Stripes 1987 and 1988, Alinghi 2003 and 2007), he started his professional career
             in North Sails back in 1977, and was involved in as many as eight America’s Cup
             campaigns as a sail designer.</p>
+        - name : Shore team
+          image: team.jpg
         - name: giuseppe acquafredda
           role: Rigger
           image: giuseppe_acquafredda.jpg
@@ -5782,6 +5788,8 @@ At the end of the circuit Luna Rossa Piranha won the trophies for the Overall Am
             editions of the America’s Cup. He recently participated in the international TP52
             and Mini Maxi circuits. He is a passionate sailor, as well as an active windsurfer
             and kiteboarder.</p>
+        - name : Communications / PR
+          image: team.jpg
         - name: mariana arnaut
           role: Hospitality
           image: mariana_arnaut.jpg
@@ -6349,6 +6357,8 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
             of Valencia to host the 32nd America’s Cup. This is his sixth America’s Cup campaign,
             the second with Luna Rossa. Previously, he was General Counsel for Team Dennis
             Conner and Spanish Challenge, where he also served as the Syndicate’s representative.</p>
+        - name : Sailing team
+          image: team.jpg
         - name: massimiliano sirena
           role: Skipper
           image: massimiliano_sirena.jpg
@@ -6596,6 +6606,8 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
             has won several gold medals in Laser and Finn international regattas and has been
             gold medallist  in the European and World Finn championships in 2011. This is
             his first America’s Cup campaign.</p>
+        - name : Design team
+          image: team.jpg
         - name: gwénolé bernard
           role: Designer
           image: gwenole_bernard.jpg
@@ -6765,6 +6777,8 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
             & Stripes 1987 and 1988, Alinghi 2003 and 2007), he started his professional career
             in North Sails back in 1977, and was involved in as many as eight America’s Cup
             campaigns as a sail designer.</p>
+        - name : Shore team
+          image: team.jpg
         - name: giuseppe acquafredda
           role: Rigger
           image: giuseppe_acquafredda.jpg
@@ -7342,6 +7356,8 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
             editions of the America’s Cup. He recently participated in the international TP52
             and Mini Maxi circuits. He is a passionate sailor, as well as an active windsurfer
             and kiteboarder.</p>
+        - name : Communications / PR
+          image: team.jpg
         - name: mariana arnaut
           role: Hospitality
           image: mariana_arnaut.jpg
