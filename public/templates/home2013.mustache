@@ -1,18 +1,31 @@
-<section class="step hp {{page_mood}} hp-home">
+<section class="step intro {{page_mood}}">
   <div class="aux" style="background-image:url({{image}});background-position:{{crop}}; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{{image}}', sizingMethod='scale');
   -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{{image}}', sizingMethod='scale')';">
-    <hgroup class="text-intro">
-      <h1>{{{title}}}</h1>
-      <span class="year">
-        <div class="wrap-link-ac">
-          <a target="_blank" href="{{aclink}}" style="border-bottom:3px solid Red">{{follow}}</a>
-        </div>
-      </span>
-      <div class="blake">
-        <p>"{{text2}}"</p>
-        <p class="prefazione">{{text}}</p>
-        <a href="/public/{{link}}.html" target="_blank" style="border-bottom:3px solid Red">{{read}}</a>
+    <header class="section-title">
+      <hgroup>
+        <h1 class="title">{{{title}}}</h1>
+        <h2 class="subtitle">{{{subtitle}}}</h2>
+      </hgroup>
+      <div class="text-content">
+        <p class="description">
+          {{{text2}}}
+        </p>
+        <p class="description" style="font-style:italic;"><br>
+        {{{text}}}
+        </p>
+        <p class="description"><br>
+        <a href="/public/{{{link}}}.html" target="_blank" style="color:White;">
+        {{{read}}}
+        </a>
+        </p>
       </div>
-    </div>
-  </hgroup>
+      <nav class="wrap-sharing"></nav>
+    </header>
+    <menu class="section-arrow">
+      <li><a href="{{prev}}" class="prev-page">previous page</a></li>
+      <li><a href="{{next}}" class="next-page">next page</a></li>
+    </menu>
+  </div>
 </section>
+
+
