@@ -158,6 +158,9 @@ window.SiteManager = class
     ($ '.section-title').css
       top: (@height * 0.23)
 
+    ($ '.anchorteam').css
+      top: (@height * 0.25)
+
     ($ '.section-arrow').css
       bottom: (@height * 0.11)
 

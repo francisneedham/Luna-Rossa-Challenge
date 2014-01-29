@@ -52,7 +52,12 @@ class window.ScrollPage extends Page
 
   moving: (pageX) =>
     @position = Math.max(0, Math.min(@getPositionFromMouse(pageX), 100))
+    console.log @position
     @render()
+
+  movingz: (pageX) =>
+    @position = pageX
+    @renderf()
 
   getPositionFromMouse: (left) ->
     ((left - @scrollbar_left + @moving_offset) / @scrollbar_width) * 100
@@ -60,6 +65,18 @@ class window.ScrollPage extends Page
   render: (callback) =>
     scroll_position = @position * @scrollbar_width / 100
     content_position = @position * (@content_width - ($ '.oriz-scroll').width()) / 100
+
+    (@$ '.scroller').stop().animate({left: scroll_position}, { duration: 30, easing: 'easeOutSine' })
+    (@$ '.oriz-scroll').stop().animate({scrollLeft: content_position}, {
+      duration: 400,
+      easing: 'easeOutSine',
+      complete: callback
+    })
+
+
+  renderf: (callback) =>
+    scroll_position = @position * @scrollbar_width / 100
+    content_position = @position * (@content_width) / 100
 
     (@$ '.scroller').stop().animate({left: scroll_position}, { duration: 30, easing: 'easeOutSine' })
     (@$ '.oriz-scroll').stop().animate({scrollLeft: content_position}, {

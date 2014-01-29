@@ -1,0 +1,57 @@
+<section class="step team white {{page_mood}}">
+  <div class="aux">
+      <div class="anchorteam">
+
+        <a href="#" id="man">Management</a>
+        <a href="#" id="steam">Sailing Team</a>
+        <a href="#" id="dteam">Design Team</a>
+        <a href="#" id="shteam">Shore Team</a>
+        <a href="#" id="cpr">Communications / PR</a>
+      </div>
+    <header class="section-title">
+
+      <hgroup>
+        <h1 class="title">{{{title}}}</h1>
+        <h2 class="subtitle">{{subtitle}}</h2>
+      </hgroup>
+    </header>
+    <div class="content challenge">
+
+       <div class="wrap-oriz-scroll">
+          <div class="oriz-scroll">
+            <ul class="wrap-items">
+              {{#members}}
+              <li class="item" id="{{id}}">
+                <article class="player">
+                  <a href="#">
+                    <h2>
+                      <figure>
+                        <img src="/public/images/team/{{image}}"  onerror="ImgErrorT(this);" alt="{{team}}">
+                      </figure>
+                      <figcaption>
+                        <span class="name">{{name}}</span>
+                        <span class="role">{{role}}</span>
+                      </figcaption>
+                    </h2>
+                  </a>
+                </article>
+              </li>
+              {{/members}}
+            </ul>
+          </div>
+        <div class="wrap-scroll">
+          <div class="scroll">
+            <div class="scroller" style="width:105px;">
+              <span>{{{teamlink}}}</span>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!-- fine bollettini -->
+     </div>
+    <menu class="section-arrow">
+      <li><a href="{{prev}}" class="prev-page">previous page</a></li>
+      <li><a href="{{next}}" class="next-page">next page</a></li>
+    </menu>
+  </div>
+</section>

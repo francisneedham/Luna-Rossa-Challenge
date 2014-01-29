@@ -4614,7 +4614,7 @@ At the end of the circuit Luna Rossa Piranha won the trophies for the Overall Am
 
 
   team:
-      template: 'team'
+      template: 'teambis'
       css_class: 'team'
       teamlink: 'drag for more'
       page_mood: 'white'
@@ -6182,7 +6182,7 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
     seo_image: 'http://www.lunarossachallenge.com/public/images/covers/2013.jpg'
 
   team:
-      template: 'team'
+      template: 'teambis'
       css_class: 'team'
       teamlink: 'drag for more'
       page_mood: 'white'

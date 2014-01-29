@@ -4716,7 +4716,7 @@ A conclusione del circuito, Luna Rossa Piranha ha vinto i trofei per il titolo M
 
 
   team:
-      template: 'team'
+      template: 'teambis'
       css_class: 'team'
       teamlink: 'scorri per altri membri'
       page_mood: 'white'
@@ -6492,7 +6492,7 @@ A conclusione del circuito, Luna Rossa Piranha ha vinto i trofei per il titolo M
     seo_image: 'http://www.lunarossachallenge.com/public/images/covers/2013.jpg'
 
   team:
-      template: 'team'
+      template: 'teambis'
       css_class: 'team'
       teamlink: 'scorri per altri membri'
       page_mood: 'white'
@@ -6500,6 +6500,7 @@ A conclusione del circuito, Luna Rossa Piranha ha vinto i trofei per il titolo M
       subtitle: 'Team'
       members:
         - name : Management
+          id : management
           image: team.jpg
         - name: patrizio bertelli
           role: Team Principal

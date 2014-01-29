@@ -2,3 +2,16 @@
 *= require screen.scss
 *
 */
+
+.anchorteam {
+position: absolute;
+left: 50px;
+}
+
+.anchorteam > a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 14px;
+}
