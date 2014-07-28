@@ -11,7 +11,7 @@
     template: 'intro'
     css_class: 'intro'
     page_mood: 'white'
-    seo_title: "Sailing season 2000 - 30^ America's cup"
+    seo_title: "Sailing season 2000 - 30th America's cup"
     seo_description: "The Luna Rossa Team writes a page in history by defeating 10 opponents, with a record of 38 wins over 49 races."
     seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2000/04_big.jpg'
     image: '/public/images/gallery/2000/04_big.jpg'
@@ -401,7 +401,7 @@ In the following phase, Luna Rossa ITA 74 wins all four regattas and qualifies t
     template: 'home'
     css_class: 'hp'
     page_mood: 'white'
-    title: "THE CHALLENGE FOR 32^ AMERICA'S CUP"
+    title: "THE CHALLENGE FOR 32th AMERICA'S CUP"
     year: '2004'
     image: '/public/images/covers/2004.jpg'
     crop: 'bottom center'
@@ -414,7 +414,7 @@ In the following phase, Luna Rossa ITA 74 wins all four regattas and qualifies t
     seo_image: 'http://www.lunarossachallenge.com/public/images/gallery/2004/LunaRossa_2004_0015.jpg'
     image: '/public/images/gallery/2004/LunaRossa_2004_0015_big.jpg'
     crop: 'center center'
-    title: "THE CHALLENGE IS LAUNCHED FOR 32^ AMERICA'S CUP"
+    title: "THE CHALLENGE IS LAUNCHED FOR 32th AMERICA'S CUP"
     subtitle: 'Sailing season<span> 2004</span>'
     description: "19 August 2004. The challenge is launched through the Yacht Club Italiano, the oldest sailing club in the Mediterranean, established in 1879 in Genoa, Italy. 
 The two partners in Luna Rossa Challenge 2007 are the Prada Group and the Telecom Italia Group. 
@@ -425,7 +425,7 @@ The team Luna Rossa Challenge 2007 (sailing team, design team, shore team, weath
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: "THE CHALLENGE IS LAUNCHED FOR 32^ AMERICA'S CUP"
+    title: "THE CHALLENGE IS LAUNCHED FOR 32th AMERICA'S CUP"
     subtitle: 'photo gallery'
     images:
       - src: '/public/images/gallery/2004/LunaRossa_2004_0015.jpg'
@@ -6160,13 +6160,13 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
     page_mood: 'white'
     image: '/public/images/covers/2013.jpg'
     crop: 'bottom center'
-    title: "34^ America's Cup"
+    title: "34th America's Cup"
     year: '2013'
   intro:
     template: 'home2013'
     css_class: 'hp'
     page_mood: 'white'
-    title: "34^ America's Cup"
+    title: "34th America's Cup"
     subtitle: "Sailing season 2013"
     year: '2013'
     image: '/public/images/covers/2013_2.jpg'
@@ -6177,7 +6177,7 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
     read: 'Read more'
     link: 'blake'
     aclink: 'http://www.lunarossachallenge2013.it/'
-    seo_title: "Luna Rossa challenge 2013 - 34t^ America's Cup"
+    seo_title: "Luna Rossa challenge 2013 - 34tth America's Cup"
     seo_description: 'La Coppa America è un trofeo molto ambito, ma che di rado ha cambiato mano in 150 anni.'
     seo_image: 'http://www.lunarossachallenge.com/public/images/covers/2013.jpg'
 
@@ -6186,7 +6186,7 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
       css_class: 'team'
       teamlink: 'drag for more'
       page_mood: 'white'
-      title: "34^ America's Cup"
+      title: "34th America's Cup"
       subtitle: 'Team'
       members:
         - name : Management
@@ -7433,7 +7433,7 @@ During the prize giving ceremony, Luna Rossa Piranha received from the hands of 
     bulletlink: 'drag for more'
     css_class: 'bollettini'
     page_mood: 'grey'
-    title: "34^ America's Cup"
+    title: "34th America's Cup"
     subtitle: 'bulletins'
 
     items:
@@ -7774,133 +7774,133 @@ To see the recording click on the link below:</p>
     page_mood: 'white'
     template: 'gallery'
     css_class: 'gallery'
-    title: "34^ America's Cup"
+    title: "34th America's Cup"
     subtitle: 'photo gallery'
     images:
     - src: /public/images/gallery/2013/lr-1.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-2.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-6.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-7.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-8.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-9.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-10.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-11.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-12.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-13.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-14.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-15.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-16.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-17.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-19.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-20.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-21.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-22.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-23.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-24.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-25.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-26.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-27.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-28.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-29.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-30.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-33.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-34.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-36.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-39.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-40.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-41.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-42.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-43.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-44.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-45.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-47.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-49.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-50.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-51.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-52.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-53.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-54.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-56.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-57.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-58.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-59.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-60.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-61.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-62.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-64.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-65.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-66.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-67.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-68.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-69.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-70.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-71.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-74.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-75.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-76.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
     - src: /public/images/gallery/2013/lr-77.jpg
-      alt: 34^ America's Cup
+      alt: 34th America's Cup
   adv:
     template: 'adv'
     css_class: 'adv'
